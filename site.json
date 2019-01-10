@@ -1,0 +1,72 @@
+{
+    "id": "95f2b045-cfdb-4e35-b29b-e7f71c859987",
+    "title": "hax the web",
+    "author": "",
+    "description": "Documentation and learning about how we HAX the web",
+    "license": "by-sa",
+    "metadata": {
+        "siteName": "haxtheweb",
+        "image": "assets\/banner.jpg",
+        "theme": "lrnapp-book",
+        "icon": "lrn:network",
+        "domain": "https:\/\/haxtheweb.surge.sh",
+        "hexCode": "#aeff00",
+        "created": 1547138719,
+        "updated": 1547141854,
+        "cssVariable": "--simple-colors-lime-background5"
+    },
+    "items": [
+        {
+            "id": "item-welcome",
+            "indent": 0,
+            "location": "pages\/welcome\/index.html",
+            "order": 0,
+            "parent": null,
+            "title": "Welcome to the new web",
+            "description": "",
+            "metadata": {
+                "created": 1547138349,
+                "updated": 1547164088
+            }
+        },
+        {
+            "id": "item-what-is-it",
+            "indent": 0,
+            "location": "pages\/what-is-it\/index.html",
+            "order": 1,
+            "parent": null,
+            "title": "What is HAX?",
+            "description": "HAX - Headless Authoring eXperience\nHAX is a decoupled authoring experience built in web components. Web components is a standard way of developers creating new HTML tags. It's a layer below tradition",
+            "metadata": {
+                "created": 1547138892,
+                "updated": 1547146044
+            }
+        },
+        {
+            "id": "item-why-hax",
+            "indent": 0,
+            "location": "pages\/why-hax\/index.html",
+            "order": 2,
+            "parent": null,
+            "title": "Why HAX?",
+            "description": "\nCross platform\nBecause we've adopted the web component\n\n\n\n\n\n standard in the development of both HAX (authoring system) and HAXCMS (content management), everything we create and compile via our open ",
+            "metadata": {
+                "created": 1547138892,
+                "updated": 1547157865
+            }
+        },
+        {
+            "id": "item-integrations",
+            "indent": 0,
+            "location": "pages\/item-integrations\/index.html",
+            "order": 3,
+            "parent": null,
+            "title": "Integrations",
+            "description": "",
+            "metadata": {
+                "created": 1547138892,
+                "updated": 1547141854
+            }
+        }
+    ]
+}
