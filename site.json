@@ -12,7 +12,7 @@
         "domain": "https:\/\/haxtheweb.surge.sh",
         "hexCode": "#aeff00",
         "created": 1547138719,
-        "updated": 1547217230,
+        "updated": 1547237002,
         "cssVariable": "--simple-colors-lime-background5"
     },
     "items": [
@@ -26,7 +26,7 @@
             "description": "",
             "metadata": {
                 "created": 1547138349,
-                "updated": 1547217230
+                "updated": 1547237002
             }
         },
         {
@@ -39,7 +39,7 @@
             "description": "",
             "metadata": {
                 "created": 1547138892,
-                "updated": 1547217230
+                "updated": 1547237002
             }
         },
         {
@@ -52,7 +52,7 @@
             "description": "",
             "metadata": {
                 "created": 1547138892,
-                "updated": 1547217230
+                "updated": 1547237002
             }
         },
         {
@@ -65,178 +65,7 @@
             "description": "",
             "metadata": {
                 "created": 1547138892,
-                "updated": 1547217230
-            }
-        },
-        {
-            "id": "item-bbbc9b89-2628-4ab0-435c-60c48fb1769f",
-            "indent": "0",
-            "location": "",
-            "order": "0",
-            "parent": "",
-            "title": "haxtheweb",
-            "description": "",
-            "metadata": {
-                "siteName": "haxtheweb",
-                "image": null,
-                "created": 1547217358,
-                "updated": 1547217358
-            }
-        },
-        {
-            "id": "item-856bdac7-a33a-4d28-9b28-aa079655aa10",
-            "indent": "0",
-            "location": "",
-            "order": "0",
-            "parent": "",
-            "title": "haxtheweb",
-            "description": "",
-            "metadata": {
-                "siteName": "haxtheweb",
-                "image": null,
-                "created": 1547217367,
-                "updated": 1547217367
-            }
-        },
-        {
-            "id": "item-e10785e2-8e5a-38dc-6149-5b58c4e80028",
-            "indent": "0",
-            "location": "pages\/whateverthings\/index.html",
-            "order": "0",
-            "parent": "",
-            "title": "haxtheweb",
-            "description": "",
-            "metadata": {
-                "siteName": "haxtheweb",
-                "image": null,
-                "created": 1547217428,
-                "updated": 1547217428
-            }
-        },
-        {
-            "id": "item-cc7ed584-4844-c099-742d-2ed295db5e78",
-            "indent": "0",
-            "location": "",
-            "order": "0",
-            "parent": "",
-            "title": "New item",
-            "description": "",
-            "metadata": {
-                "siteName": "haxtheweb",
-                "created": 1547217758,
-                "updated": 1547217758
-            }
-        },
-        {
-            "id": "item-79f6c253-b423-7efc-b734-89ddba1b4ea5",
-            "indent": "0",
-            "location": "",
-            "order": "0",
-            "parent": "",
-            "title": "New itemdsfsddsfdfsdfsdfsdfsdfsdfs",
-            "description": "",
-            "metadata": {
-                "siteName": "haxtheweb",
-                "created": 1547225679,
-                "updated": 1547225679
-            }
-        },
-        {
-            "id": "item-6e5f87b9-a7d9-d4c6-ff53-aa71067983eb",
-            "indent": "0",
-            "location": "pages\/item-6e5f87b9-a7d9-d4c6-ff53-aa71067983eb\/index.html",
-            "order": "0",
-            "parent": null,
-            "title": "New itemdssss",
-            "description": "",
-            "metadata": {
-                "siteName": "haxtheweb",
-                "created": 1547225826,
-                "updated": 1547225826
-            }
-        },
-        {
-            "id": "item-bfd71dfd-5e25-9f7d-925b-37188c1fc62f",
-            "indent": "0",
-            "location": "pages\/item-bfd71dfd-5e25-9f7d-925b-37188c1fc62f\/index.html",
-            "order": "0",
-            "parent": null,
-            "title": "New item",
-            "description": "",
-            "metadata": {
-                "siteName": "haxtheweb",
-                "created": 1547225877,
-                "updated": 1547225877
-            }
-        },
-        {
-            "id": "stuff",
-            "indent": "0",
-            "location": "pages\/stuff\/index.html",
-            "order": "0",
-            "parent": null,
-            "title": "STUFF",
-            "description": "",
-            "metadata": {
-                "siteName": "haxtheweb",
-                "created": 1547225931,
-                "updated": 1547225931
-            }
-        },
-        {
-            "id": "item-5b233318-0acf-f402-5a93-8353a3d286ec",
-            "indent": "0",
-            "location": "pages\/item-5b233318-0acf-f402-5a93-8353a3d286ec\/index.html",
-            "order": "0",
-            "parent": null,
-            "title": "New item",
-            "description": "",
-            "metadata": {
-                "siteName": "haxtheweb",
-                "created": 1547225958,
-                "updated": 1547225958
-            }
-        },
-        {
-            "id": "item-89398479-3e05-339d-586b-38f1864a43bd",
-            "indent": "0",
-            "location": "pages\/item-89398479-3e05-339d-586b-38f1864a43bd\/index.html",
-            "order": "0",
-            "parent": null,
-            "title": "New item",
-            "description": "",
-            "metadata": {
-                "siteName": "haxtheweb",
-                "created": 1547225961,
-                "updated": 1547225961
-            }
-        },
-        {
-            "id": "item-0e51a6c9-9f4e-4fb5-f7a3-50637404efe3",
-            "indent": "0",
-            "location": "pages\/item-0e51a6c9-9f4e-4fb5-f7a3-50637404efe3\/index.html",
-            "order": "0",
-            "parent": null,
-            "title": "New item",
-            "description": "",
-            "metadata": {
-                "siteName": "haxtheweb",
-                "created": 1547225964,
-                "updated": 1547225964
-            }
-        },
-        {
-            "id": "item-164f2f00-db66-3da2-5be1-52eab98bc3c2",
-            "indent": "0",
-            "location": "pages\/item-164f2f00-db66-3da2-5be1-52eab98bc3c2\/index.html",
-            "order": "0",
-            "parent": null,
-            "title": "New item",
-            "description": "",
-            "metadata": {
-                "siteName": "haxtheweb",
-                "created": 1547226294,
-                "updated": 1547226294
+                "updated": 1547237002
             }
         }
     ]
