@@ -65,10 +65,10 @@
             "order": 3,
             "parent": null,
             "title": "Integrations",
-            "description": "",
+            "description": "HAX provides plenty of ways to integrate into the platforms you already use! Here's a list of currently supported ones with links off to their associated plugins\nHAXCMS (duh)\n\n\n\nBackdropCMS\n\n\n\nDrupal ",
             "metadata": {
                 "created": 1547138892,
-                "updated": 1547689038,
+                "updated": 1547689103,
                 "status": "available"
             }
         },
