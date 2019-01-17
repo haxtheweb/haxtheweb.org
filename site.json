@@ -7,12 +7,12 @@
     "metadata": {
         "siteName": "haxtheweb",
         "image": "assets\/banner.jpg",
-        "theme": "outline-player",
+        "theme": "lrnapp-book",
         "icon": "lrn:network",
         "domain": "https:\/\/haxtheweb.surge.sh",
         "hexCode": "#aeff00",
         "created": 1547138719,
-        "updated": 1547237002,
+        "updated": 1547689038,
         "cssVariable": "--simple-colors-lime-background5"
     },
     "items": [
@@ -23,10 +23,11 @@
             "order": 0,
             "parent": null,
             "title": "Welcome to the new web",
-            "description": "HAX is short for Headless Authoring Experience\n\n",
+            "description": "",
             "metadata": {
                 "created": 1547138349,
-                "updated": 1547237533
+                "updated": 1547689038,
+                "status": "available"
             }
         },
         {
@@ -39,7 +40,8 @@
             "description": "",
             "metadata": {
                 "created": 1547138892,
-                "updated": 1547237002
+                "updated": 1547689038,
+                "status": "loading"
             }
         },
         {
@@ -52,34 +54,37 @@
             "description": "",
             "metadata": {
                 "created": 1547138892,
-                "updated": 1547237002
+                "updated": 1547689038,
+                "status": "available"
             }
         },
         {
             "id": "item-integrations",
             "indent": 0,
-            "location": "pages\/item-integrations\/index.html",
+            "location": "pages\/integrations\/index.html",
             "order": 3,
             "parent": null,
             "title": "Integrations",
             "description": "",
             "metadata": {
                 "created": 1547138892,
-                "updated": 1547237002
+                "updated": 1547689038,
+                "status": "available"
             }
         },
         {
             "id": "item-5a94a341-6afb-0b73-47dc-10675dc686dc",
-            "indent": "0",
+            "indent": 0,
             "location": "pages\/item-5a94a341-6afb-0b73-47dc-10675dc686dc\/index.html",
             "order": "0",
             "parent": null,
             "title": "How to get involved",
-            "description": "My great new content!\n",
+            "description": "",
             "metadata": {
                 "siteName": "haxtheweb",
                 "created": 1547239352,
-                "updated": 1547687579
+                "updated": 1547689038,
+                "status": "available"
             }
         }
     ]
