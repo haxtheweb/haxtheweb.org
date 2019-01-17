@@ -7,7 +7,7 @@
     "metadata": {
         "siteName": "haxtheweb",
         "image": "assets\/banner.jpg",
-        "theme": "lrnapp-book",
+        "theme": "outline-player",
         "icon": "lrn:network",
         "domain": "https:\/\/haxtheweb.surge.sh",
         "hexCode": "#aeff00",
@@ -75,11 +75,11 @@
             "order": "0",
             "parent": null,
             "title": "How to get involved",
-            "description": "My great new content!\n\n",
+            "description": "My great new content!\n",
             "metadata": {
                 "siteName": "haxtheweb",
                 "created": 1547239352,
-                "updated": 1547239420
+                "updated": 1547687579
             }
         }
     ]
