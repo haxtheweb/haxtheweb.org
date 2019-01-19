@@ -150,11 +150,11 @@
             "order": "0",
             "parent": null,
             "title": "haxme",
-            "description": "",
+            "description": "My great new content!\n",
             "metadata": {
                 "siteName": "haxtheweb",
                 "created": 1547917327,
-                "updated": 1547917327
+                "updated": 1547917371
             }
         }
     ]
