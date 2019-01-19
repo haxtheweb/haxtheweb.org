@@ -142,6 +142,20 @@
                 "created": 1547917006,
                 "updated": 1547917006
             }
+        },
+        {
+            "id": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
+            "indent": "0",
+            "location": "pages\/hax\/is\/some\/place\/else\/index.html",
+            "order": "0",
+            "parent": null,
+            "title": "haxme",
+            "description": "",
+            "metadata": {
+                "siteName": "haxtheweb",
+                "created": 1547917327,
+                "updated": 1547917327
+            }
         }
     ]
 }
