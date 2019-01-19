@@ -100,6 +100,20 @@
                 "created": 1547916891,
                 "updated": 1547916891
             }
+        },
+        {
+            "id": "item-19e6d600-f756-0631-af5e-1ecf97a5224c",
+            "indent": "0",
+            "location": "hax-projects",
+            "order": "0",
+            "parent": null,
+            "title": "HAX projects",
+            "description": "",
+            "metadata": {
+                "siteName": "haxtheweb",
+                "created": 1547916907,
+                "updated": 1547916907
+            }
         }
     ]
 }
