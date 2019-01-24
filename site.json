@@ -12,164 +12,21 @@
         "domain": "https:\/\/haxtheweb.surge.sh",
         "hexCode": "#aeff00",
         "created": 1547138719,
-        "updated": 1548363263,
+        "updated": 1548363335,
         "cssVariable": "--simple-colors-lime-background5"
     },
     "items": [
         {
-            "id": "item-welcome",
+            "id": "item-45b6ebc8-044d-f529-12fe-adb49ffe562c",
             "indent": 0,
-            "location": "pages\/welcome\/index.html",
-            "order": 0,
-            "parent": null,
-            "title": "Some new page",
-            "description": "",
-            "metadata": {
-                "created": 1548363263,
-                "updated": 1548363263
-            }
-        },
-        {
-            "id": "item-4b121143-2ba6-90b4-1367-b7e0bfe20b71",
-            "indent": 1,
             "location": "",
             "order": 0,
-            "parent": "item-3679ff76-d969-43da-b13f-b0e911dfaee9",
-            "title": "With content under it\n",
-            "description": "",
-            "metadata": {
-                "created": 1548363263,
-                "updated": 1548363263
-            }
-        },
-        {
-            "id": "item-c85d1e49-2608-ad93-d2f0-9fbedb9bd195",
-            "indent": 2,
-            "location": "",
-            "order": 0,
-            "parent": "item-b968f65d-9711-453f-b91e-50fc16513b1a",
-            "title": "but I buess we'll see",
-            "description": "",
-            "metadata": {
-                "created": 1548363263,
-                "updated": 1548363263
-            }
-        },
-        {
-            "id": "item-c9498537-7bf1-8e8e-063c-9fd680341c53",
-            "indent": 1,
-            "location": "",
-            "order": 1,
-            "parent": "item-3679ff76-d969-43da-b13f-b0e911dfaee9",
-            "title": "if that actually happens",
-            "description": "",
-            "metadata": {
-                "created": 1548363263,
-                "updated": 1548363263
-            }
-        },
-        {
-            "id": "item-welcome",
-            "indent": 0,
-            "location": "pages\/welcome\/index.html",
-            "order": 1,
             "parent": null,
-            "title": "Welcome to the new web",
+            "title": "",
             "description": "",
             "metadata": {
-                "created": 1548363263,
-                "updated": 1548363263
-            }
-        },
-        {
-            "id": "item-what-is-it",
-            "indent": 0,
-            "location": "pages\/what-is-it\/index.html",
-            "order": 2,
-            "parent": null,
-            "title": "What is HAX?",
-            "description": "",
-            "metadata": {
-                "created": 1548363263,
-                "updated": 1548363263
-            }
-        },
-        {
-            "id": "item-why-hax",
-            "indent": 0,
-            "location": "pages\/why-hax\/index.html",
-            "order": 3,
-            "parent": null,
-            "title": "Why HAX?",
-            "description": "",
-            "metadata": {
-                "created": 1548363263,
-                "updated": 1548363263
-            }
-        },
-        {
-            "id": "item-integrations",
-            "indent": 0,
-            "location": "pages\/integrations\/index.html",
-            "order": 4,
-            "parent": null,
-            "title": "Integrations",
-            "description": "",
-            "metadata": {
-                "created": 1548363263,
-                "updated": 1548363263
-            }
-        },
-        {
-            "id": "item-5a94a341-6afb-0b73-47dc-10675dc686dc",
-            "indent": 0,
-            "location": "pages\/item-5a94a341-6afb-0b73-47dc-10675dc686dc\/index.html",
-            "order": 5,
-            "parent": null,
-            "title": "How to get involved",
-            "description": "",
-            "metadata": {
-                "created": 1548363263,
-                "updated": 1548363263
-            }
-        },
-        {
-            "id": "item-19e6d600-f756-0631-af5e-1ecf97a5224c",
-            "indent": 0,
-            "location": "pages\/item-19e6d600-f756-0631-af5e-1ecf97a5224c\/index.html",
-            "order": 6,
-            "parent": null,
-            "title": "HAX projects",
-            "description": "",
-            "metadata": {
-                "created": 1548363263,
-                "updated": 1548363263
-            }
-        },
-        {
-            "id": "item-98f38e87-b4cb-224d-eaa2-7a79a1e1d977",
-            "indent": 0,
-            "location": "haxdesktop",
-            "order": 7,
-            "parent": null,
-            "title": "HAXdesktop",
-            "description": "",
-            "metadata": {
-                "created": 1548363263,
-                "updated": 1548363263
-            }
-        },
-        {
-            "id": "item-527986f2-4825-3bf8-e939-0290eac811a4",
-            "indent": 0,
-            "location": "pages\/item-527986f2-4825-3bf8-e939-0290eac811a4\/index.html",
-            "order": 8,
-            "parent": null,
-            "title": "HAXcms",
-            "description": "",
-            "metadata": {
-                "created": 1548363263,
-                "updated": 1548363263
+                "created": 1548363335,
+                "updated": 1548363335
             }
         }
     ]
