@@ -12,7 +12,7 @@
         "domain": "https:\/\/haxtheweb.surge.sh",
         "hexCode": "#aeff00",
         "created": 1547138719,
-        "updated": 1547689038,
+        "updated": 1548362960,
         "cssVariable": "--simple-colors-lime-background5"
     },
     "items": [
@@ -25,9 +25,8 @@
             "title": "Welcome to the new web",
             "description": "",
             "metadata": {
-                "created": 1547138349,
-                "updated": 1547689038,
-                "status": "available"
+                "created": 1548362960,
+                "updated": 1548362960
             }
         },
         {
@@ -37,11 +36,10 @@
             "order": 1,
             "parent": null,
             "title": "What is HAX?",
-            "description": "HAX - Headless Authoring eXperience\nHAX is a decoupled authoring experience built in web components. Web components is a standard way of developers creating new HTML tags. It's a layer below tradition",
+            "description": "",
             "metadata": {
-                "created": 1547138892,
-                "updated": 1548282579,
-                "status": "loading"
+                "created": 1548362960,
+                "updated": 1548362960
             }
         },
         {
@@ -53,9 +51,8 @@
             "title": "Why HAX?",
             "description": "",
             "metadata": {
-                "created": 1547138892,
-                "updated": 1547689038,
-                "status": "available"
+                "created": 1548362960,
+                "updated": 1548362960
             }
         },
         {
@@ -65,96 +62,88 @@
             "order": 3,
             "parent": null,
             "title": "Integrations",
-            "description": "HAX provides plenty of ways to integrate into the platforms you already use! Here's a list of currently supported ones with links off to their associated plugins\nHAXCMS (duh)\n\n\n\nBackdropCMS\n\n\n\nDrupal ",
+            "description": "",
             "metadata": {
-                "created": 1547138892,
-                "updated": 1547689103,
-                "status": "available"
+                "created": 1548362960,
+                "updated": 1548362960
             }
         },
         {
             "id": "item-5a94a341-6afb-0b73-47dc-10675dc686dc",
             "indent": 0,
             "location": "pages\/item-5a94a341-6afb-0b73-47dc-10675dc686dc\/index.html",
-            "order": "0",
+            "order": 4,
             "parent": null,
             "title": "How to get involved",
             "description": "",
             "metadata": {
-                "siteName": "haxtheweb",
-                "created": 1547239352,
-                "updated": 1547689038,
-                "status": "available"
+                "created": 1548362960,
+                "updated": 1548362960
             }
         },
         {
             "id": "item-bcfbbf87-0ab2-2513-68ed-ee3486e5d349",
-            "indent": "0",
+            "indent": 1,
             "location": "pages\/item-bcfbbf87-0ab2-2513-68ed-ee3486e5d349\/index.html",
-            "order": "0",
-            "parent": null,
+            "order": 0,
+            "parent": "item-d1251f59-94f3-4cf7-9e1d-afc853d0e965",
             "title": "HAX projects (folder)",
             "description": "",
             "metadata": {
-                "siteName": "haxtheweb",
-                "created": 1547916891,
-                "updated": 1547916891
+                "created": 1548362960,
+                "updated": 1548362960
             }
         },
         {
             "id": "item-19e6d600-f756-0631-af5e-1ecf97a5224c",
-            "indent": "0",
-            "location": "hax-projects",
-            "order": "0",
+            "indent": 0,
+            "location": "pages\/item-19e6d600-f756-0631-af5e-1ecf97a5224c\/index.html",
+            "order": 5,
             "parent": null,
             "title": "HAX projects",
             "description": "",
             "metadata": {
-                "siteName": "haxtheweb",
-                "created": 1547916907,
-                "updated": 1547916907
+                "created": 1548362960,
+                "updated": 1548362960
             }
         },
         {
             "id": "item-98f38e87-b4cb-224d-eaa2-7a79a1e1d977",
-            "indent": "0",
+            "indent": 0,
             "location": "haxdesktop",
-            "order": "0",
+            "order": 6,
             "parent": null,
             "title": "HAXdesktop",
             "description": "",
             "metadata": {
-                "siteName": "haxtheweb",
-                "created": 1547916927,
-                "updated": 1547916927
+                "created": 1548362960,
+                "updated": 1548362960
             }
         },
         {
             "id": "item-527986f2-4825-3bf8-e939-0290eac811a4",
-            "indent": "0",
-            "location": "pages\/hax\/hax-cms\/index.html",
-            "order": "0",
+            "indent": 0,
+            "location": "pages\/item-527986f2-4825-3bf8-e939-0290eac811a4\/index.html",
+            "order": 7,
             "parent": null,
             "title": "HAXcms",
             "description": "",
             "metadata": {
-                "siteName": "haxtheweb",
-                "created": 1547917006,
-                "updated": 1547917006
+                "created": 1548362960,
+                "updated": 1548362960
             }
         },
         {
             "id": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
-            "indent": "0",
+            "indent": 0,
             "location": "pages\/hax\/is\/some\/place\/else\/index.html",
-            "order": "0",
+            "order": 8,
             "parent": null,
             "title": "haxme",
-            "description": "My great new content!\n",
+            "description": "",
             "metadata": {
-                "siteName": "haxtheweb",
-                "created": 1547917327,
-                "updated": 1547917371
+                "created": 1548362960,
+                "updated": 1548362960
             }
         }
     ]
