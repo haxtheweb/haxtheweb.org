@@ -12,7 +12,7 @@
         "domain": "https:\/\/haxtheweb.surge.sh",
         "hexCode": "#aeff00",
         "created": 1547138719,
-        "updated": 1548364548,
+        "updated": 1548364957,
         "cssVariable": "--simple-colors-lime-background5"
     },
     "items": [
@@ -25,21 +25,8 @@
             "title": "Welcome to the new web",
             "description": "",
             "metadata": {
-                "created": 1548364548,
-                "updated": 1548364548
-            }
-        },
-        {
-            "id": "item-what-is-it",
-            "indent": 1,
-            "location": "pages\/what-is-it\/index.html",
-            "order": 0,
-            "parent": "item-020323f4-f1cc-43e2-9fa4-85aa3ff8f6c6",
-            "title": "What is HAX?",
-            "description": "",
-            "metadata": {
-                "created": 1548364548,
-                "updated": 1548364548
+                "created": 1548364957,
+                "updated": 1548364957
             }
         },
         {
@@ -51,8 +38,8 @@
             "title": "Why HAX?",
             "description": "",
             "metadata": {
-                "created": 1548364548,
-                "updated": 1548364548
+                "created": 1548364957,
+                "updated": 1548364957
             }
         },
         {
@@ -64,8 +51,8 @@
             "title": "Integrations",
             "description": "",
             "metadata": {
-                "created": 1548364548,
-                "updated": 1548364548
+                "created": 1548364957,
+                "updated": 1548364957
             }
         },
         {
@@ -77,8 +64,8 @@
             "title": "How to get involved",
             "description": "",
             "metadata": {
-                "created": 1548364548,
-                "updated": 1548364548
+                "created": 1548364957,
+                "updated": 1548364957
             }
         },
         {
@@ -90,47 +77,47 @@
             "title": "HAX projects (folder)",
             "description": "",
             "metadata": {
-                "created": 1548364548,
-                "updated": 1548364548
+                "created": 1548364957,
+                "updated": 1548364957
             }
         },
         {
             "id": "item-98f38e87-b4cb-224d-eaa2-7a79a1e1d977",
-            "indent": 0,
+            "indent": 1,
             "location": "haxdesktop",
-            "order": 5,
-            "parent": null,
+            "order": 0,
+            "parent": "item-bcfbbf87-0ab2-2513-68ed-ee3486e5d349",
             "title": "HAXdesktop",
             "description": "",
             "metadata": {
-                "created": 1548364548,
-                "updated": 1548364548
+                "created": 1548364957,
+                "updated": 1548364957
             }
         },
         {
             "id": "item-527986f2-4825-3bf8-e939-0290eac811a4",
-            "indent": 0,
+            "indent": 1,
             "location": "pages\/item-527986f2-4825-3bf8-e939-0290eac811a4\/index.html",
-            "order": 6,
-            "parent": null,
+            "order": 1,
+            "parent": "item-bcfbbf87-0ab2-2513-68ed-ee3486e5d349",
             "title": "HAXcms",
             "description": "",
             "metadata": {
-                "created": 1548364548,
-                "updated": 1548364548
+                "created": 1548364957,
+                "updated": 1548364957
             }
         },
         {
             "id": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
-            "indent": 0,
+            "indent": 1,
             "location": "pages\/hax\/is\/some\/place\/else\/index.html",
-            "order": 7,
-            "parent": null,
+            "order": 2,
+            "parent": "item-bcfbbf87-0ab2-2513-68ed-ee3486e5d349",
             "title": "haxme",
             "description": "",
             "metadata": {
-                "created": 1548364548,
-                "updated": 1548364548
+                "created": 1548364957,
+                "updated": 1548364957
             }
         }
     ]
