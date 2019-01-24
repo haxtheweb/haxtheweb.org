@@ -1,7 +1,7 @@
 {
     "id": "95f2b045-cfdb-4e35-b29b-e7f71c859987",
-    "title": "hax the web",
-    "author": "",
+    "title": "HAX-the-web",
+    "author": "elmsln",
     "description": "Documentation and learning about how we HAX the web",
     "license": "by-sa",
     "metadata": {
@@ -9,7 +9,7 @@
         "image": "assets\/banner.jpg",
         "theme": "outline-player",
         "icon": "lrn:network",
-        "domain": "https:\/\/haxtheweb.surge.sh",
+        "domain": "https:\/\/haxtheweb.org",
         "hexCode": "#aeff00",
         "created": 1547138719,
         "updated": 1548365207,
