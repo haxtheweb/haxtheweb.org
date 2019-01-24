@@ -7,12 +7,12 @@
     "metadata": {
         "siteName": "haxtheweb",
         "image": "assets\/banner.jpg",
-        "theme": "lrnapp-book",
+        "theme": "outline-player",
         "icon": "lrn:network",
         "domain": "https:\/\/haxtheweb.surge.sh",
         "hexCode": "#aeff00",
         "created": 1547138719,
-        "updated": 1548364090,
+        "updated": 1548364130,
         "cssVariable": "--simple-colors-lime-background5"
     },
     "items": [
@@ -25,8 +25,8 @@
             "title": "Welcome to the new web",
             "description": "",
             "metadata": {
-                "created": 1548363375,
-                "updated": 1548363375
+                "created": 1548364130,
+                "updated": 1548364130
             }
         },
         {
@@ -38,8 +38,8 @@
             "title": "What is HAX?",
             "description": "",
             "metadata": {
-                "created": 1548363375,
-                "updated": 1548363375
+                "created": 1548364130,
+                "updated": 1548364130
             }
         },
         {
@@ -51,8 +51,8 @@
             "title": "Why HAX?",
             "description": "",
             "metadata": {
-                "created": 1548363375,
-                "updated": 1548363375
+                "created": 1548364130,
+                "updated": 1548364130
             }
         },
         {
@@ -64,8 +64,8 @@
             "title": "Integrations",
             "description": "",
             "metadata": {
-                "created": 1548363375,
-                "updated": 1548363375
+                "created": 1548364130,
+                "updated": 1548364130
             }
         },
         {
@@ -77,8 +77,8 @@
             "title": "How to get involved",
             "description": "",
             "metadata": {
-                "created": 1548363375,
-                "updated": 1548363375
+                "created": 1548364130,
+                "updated": 1548364130
             }
         },
         {
@@ -90,112 +90,60 @@
             "title": "HAX projects (folder)",
             "description": "",
             "metadata": {
-                "created": 1548363375,
-                "updated": 1548363375
+                "created": 1548364130,
+                "updated": 1548364130
             }
         },
         {
             "id": "item-19e6d600-f756-0631-af5e-1ecf97a5224c",
-            "indent": 0,
+            "indent": 1,
             "location": "pages\/item-19e6d600-f756-0631-af5e-1ecf97a5224c\/index.html",
-            "order": 6,
-            "parent": null,
+            "order": 0,
+            "parent": "item-d3ce82fe-1593-4d12-8114-445c98efa212",
             "title": "HAX projects",
             "description": "",
             "metadata": {
-                "created": 1548363375,
-                "updated": 1548363375
+                "created": 1548364130,
+                "updated": 1548364130
             }
         },
         {
             "id": "item-98f38e87-b4cb-224d-eaa2-7a79a1e1d977",
             "indent": 0,
             "location": "haxdesktop",
-            "order": 7,
+            "order": 6,
             "parent": null,
             "title": "HAXdesktop",
             "description": "",
             "metadata": {
-                "created": 1548363375,
-                "updated": 1548363375
+                "created": 1548364130,
+                "updated": 1548364130
             }
         },
         {
             "id": "item-527986f2-4825-3bf8-e939-0290eac811a4",
             "indent": 0,
             "location": "pages\/item-527986f2-4825-3bf8-e939-0290eac811a4\/index.html",
-            "order": 8,
+            "order": 7,
             "parent": null,
             "title": "HAXcms",
             "description": "",
             "metadata": {
-                "created": 1548363375,
-                "updated": 1548363375
+                "created": 1548364130,
+                "updated": 1548364130
             }
         },
         {
             "id": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "indent": 0,
             "location": "pages\/hax\/is\/some\/place\/else\/index.html",
-            "order": 9,
+            "order": 8,
             "parent": null,
             "title": "haxme",
             "description": "",
             "metadata": {
-                "created": 1548363375,
-                "updated": 1548363375
-            }
-        },
-        {
-            "id": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
-            "indent": 1,
-            "location": "pages\/hax\/is\/some\/place\/else\/index.html",
-            "order": 0,
-            "parent": "item-151f8053-06d0-4ae8-a5c7-2d68e57041c2",
-            "title": "stuff",
-            "description": "",
-            "metadata": {
-                "created": 1548363375,
-                "updated": 1548363375
-            }
-        },
-        {
-            "id": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
-            "indent": 2,
-            "location": "pages\/hax\/is\/some\/place\/else\/index.html",
-            "order": 0,
-            "parent": "item-01fd47ba-0a0e-4564-bd38-25a71280d4ee",
-            "title": "things",
-            "description": "",
-            "metadata": {
-                "created": 1548363375,
-                "updated": 1548363375
-            }
-        },
-        {
-            "id": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
-            "indent": 3,
-            "location": "pages\/hax\/is\/some\/place\/else\/index.html",
-            "order": 0,
-            "parent": "item-ec42118f-ab66-4577-9617-e9bba6d54aef",
-            "title": "thing",
-            "description": "",
-            "metadata": {
-                "created": 1548363375,
-                "updated": 1548363375
-            }
-        },
-        {
-            "id": "item-c33948b4-ab00-5650-b8e5-97dea16a1880",
-            "indent": 4,
-            "location": "",
-            "order": 0,
-            "parent": "item-ec42118f-ab66-4577-9617-e9bba6d54aef",
-            "title": "\n",
-            "description": "",
-            "metadata": {
-                "created": 1548363375,
-                "updated": 1548363375
+                "created": 1548364130,
+                "updated": 1548364130
             }
         }
     ]
