@@ -72,10 +72,10 @@
             "order": 1,
             "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "title": "Drupal",
-            "description": "",
+            "description": "\nGetting HAX setup in BackdropCMS\nGo to the HAX project page on drupal.org\n\nBe aware that the Drupal 8 version of HAX does not\n\n require the web components module while Drupal 6 and 7 do\n\n\nDownload th",
             "metadata": {
                 "created": 1548421146,
-                "updated": 1548421146
+                "updated": 1548450558
             }
         },
         {
