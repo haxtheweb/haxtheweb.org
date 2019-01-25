@@ -72,10 +72,10 @@
             "order": 1,
             "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "title": "Drupal",
-            "description": "\nGetting HAX setup in BackdropCMS\nGo to the HAX project page on drupal.org\n\n\n\n\n\nBe aware that the Drupal 8 version of HAX does not\n\n\n\n\n\n require the web components module while Drupal 6 and 7 do\n\n\n\n\n\n",
+            "description": "\nGetting HAX setup in Drupal CMS\nHAX works with Drupal 8, 7 and all the way back to 6 (mostly to prove a point). While the install routines are largely the same make sure you follow the directions for",
             "metadata": {
                 "created": 1548421146,
-                "updated": 1548450591
+                "updated": 1548450740
             }
         },
         {
