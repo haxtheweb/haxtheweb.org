@@ -1,1 +1,127 @@
-<p>My great new content!</p>
+<p>Let's see what goes into the element called <a href="https://www.npmjs.com/package/@lrnwebcomponents/example-hax-element"><b>@lrnwebcomponents/example-hax-element</b>
+</a>
+<b> </b>
+in order to learn how we can wire anything up to HAXeditor.</p>
+<h2><span style="font-weight: normal;">@lrnwebcomponents/example-hax-element/</span>example-hax-element.js</h2>
+<code-sample copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content">// import the reference to HAXWiring to use in your element
+import { HAXWiring } from "@lrnwebcomponents/hax-body-behaviors/lib/HAXWiring.js";
+
+
+// connectedCallback is a life cycle hook in the web component specification
+// we tie into it so that when this element is appended to the DOM
+// it can tell HAX it exists
+connectedCallback() {
+// establish the wiring
+this.HAXWiring = new HAXWiring();
+// call setup which will ensure that it is setup when hax-store is ready
+this.HAXWiring.setup(
+  {
+      canScale: true,
+      canPosition: true,
+      canEditSource: false,
+      gizmo: {
+        title: "Example hax-element",
+        description:
+          "Provide an example to pick apart of a working HAX element",
+        icon: "icons:android",
+        color: "green",
+        groups: ["Hax"],
+        handles: [
+          {
+            type: "todo:read-the-docs-for-usage"
+          }
+        ],
+        meta: {
+          author: "You",
+          owner: "Your Company"
+        }
+      },
+      settings: {
+        quick: [],
+        configure: [
+          {
+            property: "title",
+            description: "",
+            inputMethod: "textfield",
+            required: false,
+            icon: "icons:android"
+          },
+          {
+            property: "available",
+            description: "",
+            inputMethod: "boolean",
+            required: false,
+            icon: "icons:android"
+          }
+        ],
+        advanced: []
+      }
+    },
+    'example-hax-element',
+    this
+  );
+}
+
+  </template>
+</code-sample>
+<h2>Understanding HAXschema</h2>
+<p>HAXschema, the JSON blob that you see as the first property passed into <b>HAXWiring.setup </b>
+is a standard way of sending data about the element in question to HAX so that it understands how to communicate with it. This is broken into two major groupings of settings and some basic Booleans.</p>
+<code-sample style="" copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content">// can this item be scaled in the UI, will it have a slider for % width
+    canScale: true,
+// can you position the item left or center justified
+    canPosition: true,
+// can you edit the raw source of this element (future)
+    canEditSource: false,
+</template>
+</code-sample>
+<p>After these Booleans we get into the "Gizmo" section. A Gizmo is what internal to the code base we're calling a custom element as it is represented in HAX interfaces like the <b>Make</b>
+ area. The reason for this is so that the word element isn't everywhere or else it would get too confusing. A Gizmo describes the way HAX should reference this item in interfaces.</p>
+<p></p>
+<code-sample copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content">gizmo: {
+    // title to display
+    title: "Example hax-element",
+    // description
+    description:
+        "Provide an example to pick apart of a working HAX element",
+    // icon to represent this in selection displays
+    icon: "icons:android",
+    // color to tint this when in displays
+    color: "green",
+    // grouping data for filtering in displays (future)
+    groups: ["Hax"],
+    // handlers allow HAX to stitch together sources of information with gizmos to render that information
+    // example: Youtube supplies a source value that points to a url of the video
+    // if the user picks a video from youtube, things that match
+    // 'video' as a type and then match on any 1 additional field
+    // will be presented to the user as the way to render the video
+    // in the case of YouTube this presents a video-player or QR code
+    // in default implementations with these tags.
+    // This is because the match is on source, which the key of source
+    // in the handles block =&gt; points to the property to insert into
+    // it is an array of objects so you can map to multiple types
+    // type is a reserved key and can be anything so long as
+    // a source of data is looking for something matching that "type"
+    handles: [
+    {
+        // what it can present
+        type: "video",
+        // the property coming from the app on the left =&gt; property in the element on the right
+        source: "source",
+        // this pulls the title off the API and sticks it in the caption field of the element
+        title: "caption",
+        // fallback matches
+        caption: "caption",
+        description: "caption",
+        // ability to pull color across though this would be rare from an API
+        color: "primaryColor"
+    }
+    ],
+    // any metadata you wish to ship along
+    meta: {
+        author: "You",
+        owner: "Your Company"
+    }
+},</template>
+</code-sample>
+<p> </p>

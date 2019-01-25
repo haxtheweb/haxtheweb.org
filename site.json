@@ -179,10 +179,10 @@
             "order": 0,
             "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
             "title": "hello-world HAX element",
-            "description": "",
+            "description": "Let's see what goes into the element called @lrnwebcomponents\/example-hax-element\n\n\u00a0\nin order to learn how we can wire anything up to HAXeditor.\n@lrnwebcomponents\/example-hax-element\/example-hax-elem",
             "metadata": {
                 "created": 1548421146,
-                "updated": 1548421146
+                "updated": 1548448780
             }
         },
         {
