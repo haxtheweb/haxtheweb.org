@@ -49,10 +49,10 @@
             "order": 0,
             "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "title": "BackdropCMS",
-            "description": "",
+            "description": "\nGetting HAX setup in BackdropCMS\nSearch for HAX on BackdropCMS.org\n\u00a0or from within your Backdrop site\nFollow the instructions in the Web components module README\n\u00a0for building\nDon't worry, HAX requ",
             "metadata": {
                 "created": 1548421146,
-                "updated": 1548421146,
+                "updated": 1548450251,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-25_14-04-31.png",
