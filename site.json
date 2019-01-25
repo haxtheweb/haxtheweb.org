@@ -12,8 +12,16 @@
         "domain": "https:\/\/haxtheweb.org",
         "hexCode": "#aeff00",
         "created": 1547138719,
-        "updated": 1548421146,
-        "cssVariable": "--simple-colors-lime-background5"
+        "updated": 1548451737,
+        "cssVariable": "--simple-colors-lime-background5",
+        "publishing": {
+            "git": {
+                "vendor": "github",
+                "branch": "gh-pages",
+                "url": "git@github.com:elmsln\/haxtheweb.org.git",
+                "cdn": "haxtheweb.org"
+            }
+        }
     },
     "items": [
         {
@@ -23,10 +31,36 @@
             "order": 0,
             "parent": null,
             "title": "Welcome to the new web",
-            "description": "HAX is short for Headless Authoring Experience\nIt is a next generation WYSIWYG that's built in Web components and can talk to any web component \/ HTML tag in it's body area so long as it emits HAXsche",
+            "description": "",
             "metadata": {
-                "created": 1548421146,
-                "updated": 1548449491
+                "created": 1548451737,
+                "updated": 1548451737
+            }
+        },
+        {
+            "id": "item-asd7dab5-8208-65e3-c3e4-267f233f60553",
+            "indent": 1,
+            "location": "pages\/what-is-it\/index.html",
+            "order": 0,
+            "parent": "item-welcome",
+            "title": "What is it",
+            "description": "",
+            "metadata": {
+                "created": 1548451737,
+                "updated": 1548451737
+            }
+        },
+        {
+            "id": "item-add7dab5-8208-sadd-1234-262fa3c4dj553",
+            "indent": 1,
+            "location": "pages\/why-hax\/index.html",
+            "order": 1,
+            "parent": "item-welcome",
+            "title": "Why",
+            "description": "",
+            "metadata": {
+                "created": 1548451737,
+                "updated": 1548451737
             }
         },
         {
@@ -36,10 +70,10 @@
             "order": 1,
             "parent": null,
             "title": "Integrations",
-            "description": "HAX provides plenty of ways to integrate into the platforms you already use! Here's a list of currently supported ones with links off to their associated plugins\nHAXcms (duh, it's powering this websit",
+            "description": "",
             "metadata": {
-                "created": 1548421146,
-                "updated": 1548450829
+                "created": 1548451737,
+                "updated": 1548451737
             }
         },
         {
@@ -49,20 +83,10 @@
             "order": 0,
             "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "title": "BackdropCMS",
-            "description": "\nGetting HAX setup in BackdropCMS\nSearch for HAX on BackdropCMS.org\n\u00a0or from within your Backdrop site\nFollow the instructions in the Web components module README\n\u00a0for building\nDon't worry, HAX requ",
+            "description": "",
             "metadata": {
-                "created": 1548421146,
-                "updated": 1548450251,
-                "files": [
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-25_14-04-31.png",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-25_14-04-31.png",
-                        "url": "files\/2019-01-25_14-04-31.png",
-                        "type": "image\/png",
-                        "name": "2019-01-25_14-04-31.png",
-                        "size": 107808
-                    }
-                ]
+                "created": 1548451737,
+                "updated": 1548451737
             }
         },
         {
@@ -72,10 +96,10 @@
             "order": 1,
             "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "title": "Drupal",
-            "description": "\nGetting HAX setup in Drupal CMS\nHAX works with Drupal 8, 7 and all the way back to 6 (mostly to prove a point). While the install routines are largely the same make sure you follow the directions for",
+            "description": "",
             "metadata": {
-                "created": 1548421146,
-                "updated": 1548450740
+                "created": 1548451737,
+                "updated": 1548451737
             }
         },
         {
@@ -87,47 +111,21 @@
             "title": "GravCMS",
             "description": "",
             "metadata": {
-                "created": 1548421146,
-                "updated": 1548421146
-            }
-        },
-        {
-            "id": "item-asd7dab5-8208-65e3-c3e4-267f233f60553",
-            "indent": 0,
-            "location": "pages\/what-is-it\/index.html",
-            "order": 2,
-            "parent": null,
-            "title": "What is it",
-            "description": "",
-            "metadata": {
-                "created": 1548421146,
-                "updated": 1548421146
-            }
-        },
-        {
-            "id": "item-add7dab5-8208-sadd-1234-262fa3c4dj553",
-            "indent": 0,
-            "location": "pages\/why-hax\/index.html",
-            "order": 3,
-            "parent": null,
-            "title": "Why",
-            "description": "",
-            "metadata": {
-                "created": 1548421146,
-                "updated": 1548421146
+                "created": 1548451737,
+                "updated": 1548451737
             }
         },
         {
             "id": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
             "indent": 0,
             "location": "pages\/solutions\/index.html",
-            "order": 4,
+            "order": 2,
             "parent": null,
             "title": "Solutions",
             "description": "",
             "metadata": {
-                "created": 1548421146,
-                "updated": 1548421146
+                "created": 1548451737,
+                "updated": 1548451737
             }
         },
         {
@@ -139,8 +137,8 @@
             "title": "HAXcms",
             "description": "",
             "metadata": {
-                "created": 1548421146,
-                "updated": 1548421146
+                "created": 1548451737,
+                "updated": 1548451737
             }
         },
         {
@@ -152,21 +150,21 @@
             "title": "HAXdesktop",
             "description": "",
             "metadata": {
-                "created": 1548421146,
-                "updated": 1548421146
+                "created": 1548451737,
+                "updated": 1548451737
             }
         },
         {
             "id": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
             "indent": 0,
             "location": "pages\/documentation\/index.html",
-            "order": 5,
+            "order": 3,
             "parent": null,
             "title": "Documentation",
             "description": "",
             "metadata": {
-                "created": 1548421146,
-                "updated": 1548421146
+                "created": 1548451737,
+                "updated": 1548451737
             }
         },
         {
@@ -178,8 +176,8 @@
             "title": "Development",
             "description": "",
             "metadata": {
-                "created": 1548421146,
-                "updated": 1548421146
+                "created": 1548451737,
+                "updated": 1548451737
             }
         },
         {
@@ -189,10 +187,10 @@
             "order": 0,
             "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
             "title": "hello-world HAX element",
-            "description": "Let's see what goes into the element called @lrnwebcomponents\/example-hax-element\n\n\u00a0\nin order to learn how we can wire anything up to HAXeditor.\n@lrnwebcomponents\/example-hax-element\/example-hax-elem",
+            "description": "",
             "metadata": {
-                "created": 1548421146,
-                "updated": 1548448780
+                "created": 1548451737,
+                "updated": 1548451737
             }
         },
         {
@@ -204,8 +202,8 @@
             "title": "Core concepts",
             "description": "",
             "metadata": {
-                "created": 1548421146,
-                "updated": 1548421146
+                "created": 1548451737,
+                "updated": 1548451737
             }
         },
         {
@@ -217,8 +215,8 @@
             "title": "HAX Schema",
             "description": "",
             "metadata": {
-                "created": 1548421146,
-                "updated": 1548421146
+                "created": 1548451737,
+                "updated": 1548451737
             }
         },
         {
@@ -230,8 +228,8 @@
             "title": "HAX AppStore specification",
             "description": "",
             "metadata": {
-                "created": 1548421146,
-                "updated": 1548421146
+                "created": 1548451737,
+                "updated": 1548451737
             }
         },
         {
@@ -243,8 +241,8 @@
             "title": "JSON Outline Schema",
             "description": "",
             "metadata": {
-                "created": 1548421146,
-                "updated": 1548421146
+                "created": 1548451737,
+                "updated": 1548451737
             }
         },
         {
@@ -256,8 +254,8 @@
             "title": "Related technologies",
             "description": "",
             "metadata": {
-                "created": 1548421146,
-                "updated": 1548421146
+                "created": 1548451737,
+                "updated": 1548451737
             }
         },
         {
@@ -269,8 +267,8 @@
             "title": "JSON Schema",
             "description": "",
             "metadata": {
-                "created": 1548421146,
-                "updated": 1548421146
+                "created": 1548451737,
+                "updated": 1548451737
             }
         }
     ]
