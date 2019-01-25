@@ -32,10 +32,10 @@
             "order": 0,
             "parent": null,
             "title": "Welcome",
-            "description": "",
+            "description": "HAX is short for Headless Authoring Experience\nIt is a next generation WYSIWYG that's built in Web components and can talk to any web component \/ HTML tag in it's body area so long as it emits HAXsche",
             "metadata": {
                 "created": 1548451772,
-                "updated": 1548451772
+                "updated": 1548453603
             }
         },
         {
