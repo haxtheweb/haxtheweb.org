@@ -12,7 +12,7 @@
         "domain": "https:\/\/haxtheweb.org",
         "hexCode": "#aeff00",
         "created": 1547138719,
-        "updated": 1548376226,
+        "updated": 1548395995,
         "cssVariable": "--simple-colors-lime-background5"
     },
     "items": [
@@ -25,8 +25,8 @@
             "title": "Welcome to the new web",
             "description": "",
             "metadata": {
-                "created": 1548376226,
-                "updated": 1548376226
+                "created": 1548395995,
+                "updated": 1548395995
             }
         },
         {
@@ -38,8 +38,47 @@
             "title": "Integrations",
             "description": "",
             "metadata": {
-                "created": 1548376226,
-                "updated": 1548376226
+                "created": 1548395995,
+                "updated": 1548395995
+            }
+        },
+        {
+            "id": "item-4824986b-1897-568d-fdd9-4b882ea6ee1f",
+            "indent": 1,
+            "location": "pages\/backdropcms\/index.html",
+            "order": 0,
+            "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
+            "title": "BackdropCMS",
+            "description": "",
+            "metadata": {
+                "created": 1548395995,
+                "updated": 1548395995
+            }
+        },
+        {
+            "id": "item-ca8c6ba8-c012-8ace-343a-3701f20609e9",
+            "indent": 1,
+            "location": "pages\/drupal\/index.html",
+            "order": 1,
+            "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
+            "title": "Drupal",
+            "description": "",
+            "metadata": {
+                "created": 1548395995,
+                "updated": 1548395995
+            }
+        },
+        {
+            "id": "item-897a9839-4ca3-a336-4795-afca7b6de0ee",
+            "indent": 1,
+            "location": "pages\/gravcms\/index.html",
+            "order": 2,
+            "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
+            "title": "GravCMS",
+            "description": "",
+            "metadata": {
+                "created": 1548395995,
+                "updated": 1548395995
             }
         },
         {
@@ -51,8 +90,8 @@
             "title": "What is it",
             "description": "",
             "metadata": {
-                "created": 1548376226,
-                "updated": 1548376226
+                "created": 1548395995,
+                "updated": 1548395995
             }
         },
         {
@@ -64,21 +103,164 @@
             "title": "Why",
             "description": "",
             "metadata": {
-                "created": 1548376226,
-                "updated": 1548376226
+                "created": 1548395995,
+                "updated": 1548395995
+            }
+        },
+        {
+            "id": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
+            "indent": 0,
+            "location": "pages\/solutions\/index.html",
+            "order": 4,
+            "parent": null,
+            "title": "Solutions",
+            "description": "",
+            "metadata": {
+                "created": 1548395995,
+                "updated": 1548395995
             }
         },
         {
             "id": "item-apo7dab5-13dd-sadd-1234-262fa3c4dj553",
-            "indent": 0,
+            "indent": 1,
             "location": "pages\/what-is-haxcms\/index.html",
-            "order": 4,
-            "parent": null,
+            "order": 0,
+            "parent": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
             "title": "HAXcms",
             "description": "",
             "metadata": {
-                "created": 1548376226,
-                "updated": 1548376226
+                "created": 1548395995,
+                "updated": 1548395995
+            }
+        },
+        {
+            "id": "item-36ed4f6a-7eb8-9414-d5b0-6c2914e9f5d9",
+            "indent": 1,
+            "location": "pages\/haxdesktop\/index.html",
+            "order": 1,
+            "parent": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
+            "title": "HAXdesktop",
+            "description": "",
+            "metadata": {
+                "created": 1548395995,
+                "updated": 1548395995
+            }
+        },
+        {
+            "id": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
+            "indent": 0,
+            "location": "pages\/documentation\/index.html",
+            "order": 5,
+            "parent": null,
+            "title": "Documentation",
+            "description": "",
+            "metadata": {
+                "created": 1548395995,
+                "updated": 1548395995
+            }
+        },
+        {
+            "id": "item-534ed4c7-2468-366f-5410-adc169efcebc",
+            "indent": 1,
+            "location": "pages\/development\/index.html",
+            "order": 0,
+            "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
+            "title": "Development",
+            "description": "",
+            "metadata": {
+                "created": 1548395995,
+                "updated": 1548395995
+            }
+        },
+        {
+            "id": "item-39074718-758f-d51b-1dc5-15cfbb79e44c",
+            "indent": 2,
+            "location": "pages\/hello-world-hax-element\/index.html",
+            "order": 0,
+            "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
+            "title": "hello-world HAX element",
+            "description": "",
+            "metadata": {
+                "created": 1548395995,
+                "updated": 1548395995
+            }
+        },
+        {
+            "id": "item-275a0928-60ab-b7ce-c2b6-d0e35826498b",
+            "indent": 1,
+            "location": "pages\/core-concepts\/index.html",
+            "order": 1,
+            "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
+            "title": "Core concepts",
+            "description": "",
+            "metadata": {
+                "created": 1548395995,
+                "updated": 1548395995
+            }
+        },
+        {
+            "id": "item-f1c8e3a4-eddb-806a-8a3a-206c1e33f7a9",
+            "indent": 2,
+            "location": "pages\/hax-schema\/index.html",
+            "order": 0,
+            "parent": "item-275a0928-60ab-b7ce-c2b6-d0e35826498b",
+            "title": "HAX Schema",
+            "description": "",
+            "metadata": {
+                "created": 1548395995,
+                "updated": 1548395995
+            }
+        },
+        {
+            "id": "item-4de60a5f-98ab-a602-edfc-0cf024e83755",
+            "indent": 2,
+            "location": "pages\/hax-appstore-specification\/index.html",
+            "order": 1,
+            "parent": "item-275a0928-60ab-b7ce-c2b6-d0e35826498b",
+            "title": "HAX AppStore specification",
+            "description": "",
+            "metadata": {
+                "created": 1548395995,
+                "updated": 1548395995
+            }
+        },
+        {
+            "id": "item-00876651-2a57-1ff8-373a-2c09430f05f7",
+            "indent": 2,
+            "location": "pages\/json-outline-schema\/index.html",
+            "order": 2,
+            "parent": "item-275a0928-60ab-b7ce-c2b6-d0e35826498b",
+            "title": "JSON Outline Schema",
+            "description": "",
+            "metadata": {
+                "created": 1548395995,
+                "updated": 1548395995
+            }
+        },
+        {
+            "id": "item-0e4cc53c-944f-658a-5440-eacc5a1c0358",
+            "indent": 1,
+            "location": "pages\/related-technologies\/index.html",
+            "order": 2,
+            "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
+            "title": "Related technologies",
+            "description": "",
+            "metadata": {
+                "created": 1548395995,
+                "updated": 1548395995
+            }
+        },
+        {
+            "id": "item-8d1d336d-bd7d-826f-db21-b9a8b6ed07aa",
+            "indent": 2,
+            "location": "pages\/json-schema\/index.html",
+            "order": 0,
+            "parent": "item-0e4cc53c-944f-658a-5440-eacc5a1c0358",
+            "title": "JSON Schema",
+            "description": "",
+            "metadata": {
+                "created": 1548395995,
+                "updated": 1548395995
             }
         }
     ]
