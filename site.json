@@ -12,7 +12,7 @@
         "domain": "https:\/\/haxtheweb.org",
         "hexCode": "#aeff00",
         "created": 1547138719,
-        "updated": 1548375543,
+        "updated": 1548375672,
         "cssVariable": "--simple-colors-lime-background5"
     },
     "items": [
@@ -25,8 +25,8 @@
             "title": "Welcome to the new web",
             "description": "",
             "metadata": {
-                "created": 1548375543,
-                "updated": 1548375543
+                "created": 1548375672,
+                "updated": 1548375672
             }
         },
         {
@@ -38,8 +38,8 @@
             "title": "Integrations",
             "description": "",
             "metadata": {
-                "created": 1548375543,
-                "updated": 1548375543
+                "created": 1548375672,
+                "updated": 1548375672
             }
         },
         {
@@ -51,8 +51,8 @@
             "title": "What is it",
             "description": "",
             "metadata": {
-                "created": 1548375543,
-                "updated": 1548375543
+                "created": 1548375672,
+                "updated": 1548375672
             }
         },
         {
@@ -64,8 +64,8 @@
             "title": "Why",
             "description": "",
             "metadata": {
-                "created": 1548375543,
-                "updated": 1548375543
+                "created": 1548375672,
+                "updated": 1548375672
             }
         },
         {
@@ -77,47 +77,47 @@
             "title": "HAXcms",
             "description": "",
             "metadata": {
-                "created": 1548375543,
-                "updated": 1548375543
+                "created": 1548375672,
+                "updated": 1548375672
             }
         },
         {
             "id": "item-525e315c-bb64-3152-455d-0675cecf1574",
             "indent": 0,
-            "location": "",
+            "location": "pages\/things\/index.html",
             "order": 5,
             "parent": null,
             "title": "Things",
             "description": "",
             "metadata": {
-                "created": 1548375543,
-                "updated": 1548375543
+                "created": 1548375672,
+                "updated": 1548375672
             }
         },
         {
             "id": "item-051d6f56-3253-99eb-24e6-973a9e37cea0",
             "indent": 1,
-            "location": "",
+            "location": "pages\/and\/index.html",
             "order": 0,
             "parent": "item-525e315c-bb64-3152-455d-0675cecf1574",
             "title": "and",
             "description": "",
             "metadata": {
-                "created": 1548375543,
-                "updated": 1548375543
+                "created": 1548375672,
+                "updated": 1548375672
             }
         },
         {
             "id": "item-52160b50-8a3e-2147-4bf9-00b7e1a81775",
             "indent": 2,
-            "location": "",
+            "location": "pages\/stuff\/index.html",
             "order": 0,
             "parent": "item-051d6f56-3253-99eb-24e6-973a9e37cea0",
             "title": "stuff",
             "description": "",
             "metadata": {
-                "created": 1548375543,
-                "updated": 1548375543
+                "created": 1548375672,
+                "updated": 1548375672
             }
         }
     ]
