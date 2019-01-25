@@ -12,7 +12,7 @@
         "domain": "https:\/\/haxtheweb.org",
         "hexCode": "#aeff00",
         "created": 1547138719,
-        "updated": 1548451737,
+        "updated": 1548451772,
         "cssVariable": "--simple-colors-lime-background5",
         "publishing": {
             "git": {
@@ -30,11 +30,11 @@
             "location": "pages\/welcome\/index.html",
             "order": 0,
             "parent": null,
-            "title": "Welcome to the new web",
-            "description": "HAX is short for Headless Authoring Experience\nIt is a next generation WYSIWYG that's built in Web components and can talk to any web component \/ HTML tag in it's body area so long as it emits HAXsche",
+            "title": "Welcome",
+            "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451754
+                "created": 1548451772,
+                "updated": 1548451772
             }
         },
         {
@@ -43,11 +43,11 @@
             "location": "pages\/what-is-it\/index.html",
             "order": 0,
             "parent": "item-welcome",
-            "title": "What is it",
+            "title": "What is HAX",
             "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451737
+                "created": 1548451772,
+                "updated": 1548451772
             }
         },
         {
@@ -56,11 +56,11 @@
             "location": "pages\/why-hax\/index.html",
             "order": 1,
             "parent": "item-welcome",
-            "title": "Why",
+            "title": "Why Headless",
             "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451737
+                "created": 1548451772,
+                "updated": 1548451772
             }
         },
         {
@@ -72,8 +72,8 @@
             "title": "Integrations",
             "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451737
+                "created": 1548451772,
+                "updated": 1548451772
             }
         },
         {
@@ -85,8 +85,8 @@
             "title": "BackdropCMS",
             "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451737
+                "created": 1548451772,
+                "updated": 1548451772
             }
         },
         {
@@ -98,8 +98,8 @@
             "title": "Drupal",
             "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451737
+                "created": 1548451772,
+                "updated": 1548451772
             }
         },
         {
@@ -111,8 +111,8 @@
             "title": "GravCMS",
             "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451737
+                "created": 1548451772,
+                "updated": 1548451772
             }
         },
         {
@@ -124,8 +124,8 @@
             "title": "Solutions",
             "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451737
+                "created": 1548451772,
+                "updated": 1548451772
             }
         },
         {
@@ -137,8 +137,8 @@
             "title": "HAXcms",
             "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451737
+                "created": 1548451772,
+                "updated": 1548451772
             }
         },
         {
@@ -150,8 +150,8 @@
             "title": "HAXdesktop",
             "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451737
+                "created": 1548451772,
+                "updated": 1548451772
             }
         },
         {
@@ -163,8 +163,8 @@
             "title": "Documentation",
             "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451737
+                "created": 1548451772,
+                "updated": 1548451772
             }
         },
         {
@@ -176,8 +176,8 @@
             "title": "Development",
             "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451737
+                "created": 1548451772,
+                "updated": 1548451772
             }
         },
         {
@@ -189,8 +189,8 @@
             "title": "hello-world HAX element",
             "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451737
+                "created": 1548451772,
+                "updated": 1548451772
             }
         },
         {
@@ -202,8 +202,8 @@
             "title": "Core concepts",
             "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451737
+                "created": 1548451772,
+                "updated": 1548451772
             }
         },
         {
@@ -215,8 +215,8 @@
             "title": "HAX Schema",
             "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451737
+                "created": 1548451772,
+                "updated": 1548451772
             }
         },
         {
@@ -228,8 +228,8 @@
             "title": "HAX AppStore specification",
             "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451737
+                "created": 1548451772,
+                "updated": 1548451772
             }
         },
         {
@@ -241,8 +241,8 @@
             "title": "JSON Outline Schema",
             "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451737
+                "created": 1548451772,
+                "updated": 1548451772
             }
         },
         {
@@ -254,8 +254,8 @@
             "title": "Related technologies",
             "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451737
+                "created": 1548451772,
+                "updated": 1548451772
             }
         },
         {
@@ -267,8 +267,8 @@
             "title": "JSON Schema",
             "description": "",
             "metadata": {
-                "created": 1548451737,
-                "updated": 1548451737
+                "created": 1548451772,
+                "updated": 1548451772
             }
         }
     ]
