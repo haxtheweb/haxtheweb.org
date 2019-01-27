@@ -123,10 +123,10 @@
             "order": 2,
             "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "title": "GravCMS",
-            "description": "",
+            "description": "There's two plugins needed to run HAX on GravCMS - The web components and HAX plugins.\nWeb components plugin\n\u00a0- provides the build routine and installation instructions\nHAX plugin\n\u00a0- editor capabili",
             "metadata": {
                 "created": 1548454097,
-                "updated": 1548454097,
+                "updated": 1548603858,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-25_14-05-59.png",
