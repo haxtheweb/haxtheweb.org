@@ -354,10 +354,10 @@
             "order": 1,
             "parent": "item-06233713-d866-3351-81da-841d3931144c",
             "title": "Make",
-            "description": "",
+            "description": "Make allows you to create things using the Gizmos that the editor knows about. Make typically will involve media pieces but could also just be a treatment to text you'd like to apply. Some examples of",
             "metadata": {
                 "created": 1548606135,
-                "updated": 1548606135,
+                "updated": 1548608366,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_09-23-59.png",
