@@ -227,10 +227,10 @@
             "order": 1,
             "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
             "title": "HAX schema",
-            "description": "",
+            "description": "Understanding HAXschema\nHAXschema, the JSON blob that you see as the first property passed into HAXWiring.setup \n\n\nis a standard way of sending data about the element in question to HAX so that it und",
             "metadata": {
                 "created": 1548606135,
-                "updated": 1548606135,
+                "updated": 1548610052,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_10-10-39.png",
