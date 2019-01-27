@@ -276,10 +276,10 @@
             "order": 2,
             "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
             "title": "Related technologies",
-            "description": "",
+            "description": "There are several technologies you should learn about if your going to understand how HAX is built (and how to extend it)\nJSON Schema\nLearn more about JSON Schema\n\n\n\n on the official website for that ",
             "metadata": {
                 "created": 1548454097,
-                "updated": 1548454097
+                "updated": 1548604994
             }
         }
     ]
