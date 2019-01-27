@@ -281,19 +281,6 @@
                 "created": 1548454097,
                 "updated": 1548454097
             }
-        },
-        {
-            "id": "item-8d1d336d-bd7d-826f-db21-b9a8b6ed07aa",
-            "indent": 2,
-            "location": "pages\/json-schema\/index.html",
-            "order": 0,
-            "parent": "item-0e4cc53c-944f-658a-5440-eacc5a1c0358",
-            "title": "JSON Schema",
-            "description": "Learn more about JSON Schema\n\n\n on the official website for that standard. JSON Schema provides a way of describing the data contained in a JSON blob so that a form can be built to modify those values",
-            "metadata": {
-                "created": 1548454097,
-                "updated": 1548604301
-            }
         }
     ]
 }
