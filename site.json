@@ -175,10 +175,10 @@
             "order": 4,
             "parent": null,
             "title": "Documentation",
-            "description": "",
+            "description": "HAX may seem complex, but it's built on a series of standards that will never\n\n break. As a result of the complexity of these standards, there are things you should know prior to digging into HAXedito",
             "metadata": {
                 "created": 1548454097,
-                "updated": 1548454097
+                "updated": 1548589321
             }
         },
         {
