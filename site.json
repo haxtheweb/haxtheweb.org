@@ -230,7 +230,17 @@
             "description": "",
             "metadata": {
                 "created": 1548606135,
-                "updated": 1548606135
+                "updated": 1548606135,
+                "files": [
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_10-10-39.png",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-27_10-10-39.png",
+                        "url": "files\/2019-01-27_10-10-39.png",
+                        "type": "image\/png",
+                        "name": "2019-01-27_10-10-39.png",
+                        "size": 36049
+                    }
+                ]
             }
         },
         {
