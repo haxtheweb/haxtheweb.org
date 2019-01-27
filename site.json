@@ -239,6 +239,14 @@
                         "type": "image\/png",
                         "name": "2019-01-27_10-10-39.png",
                         "size": 36049
+                    },
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_10-10-58.png",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-27_10-10-58.png",
+                        "url": "files\/2019-01-27_10-10-58.png",
+                        "type": "image\/png",
+                        "name": "2019-01-27_10-10-58.png",
+                        "size": 19304
                     }
                 ]
             }
