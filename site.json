@@ -331,10 +331,10 @@
             "order": 0,
             "parent": "item-06233713-d866-3351-81da-841d3931144c",
             "title": "Add",
-            "description": "",
+            "description": "Add\n is how you add new assets to HAX from remote places. If you paste a URL, you can hit configure item\n\n and have it added. HAX will see if it has any way of guessing what the link is (for example a",
             "metadata": {
                 "created": 1548606135,
-                "updated": 1548606135,
+                "updated": 1548606564,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_09-23-33.png",
