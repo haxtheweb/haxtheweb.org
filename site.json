@@ -260,19 +260,6 @@
             }
         },
         {
-            "id": "item-00876651-2a57-1ff8-373a-2c09430f05f7",
-            "indent": 2,
-            "location": "pages\/json-outline-schema\/index.html",
-            "order": 2,
-            "parent": "item-275a0928-60ab-b7ce-c2b6-d0e35826498b",
-            "title": "JSON Outline Schema",
-            "description": "",
-            "metadata": {
-                "created": 1548605864,
-                "updated": 1548605864
-            }
-        },
-        {
             "id": "item-0e4cc53c-944f-658a-5440-eacc5a1c0358",
             "indent": 1,
             "location": "pages\/related-technologies\/index.html",
