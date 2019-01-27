@@ -1,39 +1,36 @@
-<h3 class="hax-active">HAX - Headless Authoring eXperience</h3>
+<h3>HAX - Headless Authoring eXperience</h3>
 <p>HAX is a decoupled authoring experience built in web components. Web components is a standard way of developers creating new HTML tags. It's a layer below traditional libraries and frameworks that gives us low-level property and tag capabilities that have standard life-cycles.</p>
 <p>This means that developers can fundamentally change the way HTML operates while expressing it in a highly semantic tag structure.</p>
 <h3>Let's understand through a silly example</h3>
-<code>< meme-maker <div>  alt="mother of god shades GIF"</div>
-
-<div>  image-url="https://media2.giphy.com/media/3cB7aOM6347PW/giphy.gif"</div>
-
-<div>  top-text="Web components"</div>
-
-<div>  bottom-text="It's "the" platform"</div>
-
-<div>  style="width: 50%;"></div>
-
-<div>< /meme-maker ></div>
-
-</code>
-<meme-maker alt="mother of god shades GIF" image-url="https://media2.giphy.com/media/3cB7aOM6347PW/giphy.gif" top-text="Web components" bottom-text="It's &quot;the&quot; platform" style="width: 50%;"></meme-maker>
+<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 75%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">&lt; meme-maker 
+  alt="mother of god shades GIF"
+  image-url="https://media2.giphy.com/media/3cB7aOM6347PW/giphy.gif"
+  top-text="Web components"
+  bottom-text="It's "the" platform"
+  style="width: 50%;"&gt;
+&lt; /meme-maker &gt;</template>
+</code-sample>
+<meme-maker alt="mother of god shades GIF" image-url="https://media2.giphy.com/media/3cB7aOM6347PW/giphy.gif" top-text="Web components" bottom-text="It's &quot;the&quot; platform" style="width: 50%; margin: 0px auto; display: block;"></meme-maker>
 <h4 class="hax-active">How HAX leverages this</h4>
 <p>HAX leverages this capability to express advanced functionality through a single tag in order to build itself. Ultimately, HAX is made up of dozens of complex new web component tags. In the end though. It shows up on the interface like <i style="font-weight: bold;"></i>
 
+
 . A single tag that cascades and unpacks a unique interface experience.</p>
-<p>HAX also doesn't understand what it's editing though! It hasn't been built to say, understand the meme-maker tag above. It's been built to edit <i>things</i>
+<p>HAX also doesn't understand what it's editing though! It hasn't been built to say, understand the meme-maker tag above. It's been built to edit<i>things</i>
+
 
  in a very general sense. If it's a custom element / DOM object, it could theoretically edit it... if it knew the directions. These directions are emitted from HAX capable elements when the editor sets itself up. The critical implication of this: <br/></p>
-<p></p>
-<ul><li>Elements created by HAX can work anywhere with or without HAX</li>
+<ul><li>Elements created by HAX can work anywhere with or without HAXHAX can be extended to understand how to modify just about any element</li>
 
-<li>HAX can be extended to understand how to modify just about any element</li>
 
 <li>these definitions are limited by the develop more or less creating the rules of the experience</li>
 
+
 <li><b>the content produced can operate anywhere with or without hax after the fact</b>
+
 
 </li>
 
+
 </ul>
-<p></p>
 <p>HAX then gets integrated into other platforms by effectively managing the "body" / blob area that makes up the page. The visual assets produced that work with HAX can then be used anywhere in any website. This frees up your team to focus more on what they need to design and think less about the platforms that used to constrain them!</p>
