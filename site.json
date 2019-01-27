@@ -12,7 +12,7 @@
         "domain": "https:\/\/haxtheweb.org",
         "hexCode": "#aeff00",
         "created": 1547138719,
-        "updated": 1548454097,
+        "updated": 1548605864,
         "cssVariable": "--simple-colors-lime-background5",
         "publishing": {
             "git": {
@@ -32,10 +32,10 @@
             "order": 0,
             "parent": null,
             "title": "Try hax",
-            "description": "Oh, so this is a bit embarrassing.. .you already are.\nhuh?\nWell, you can't ACTUALLY update this site (now that'd be just silly) but you CAN play with HAX right now in the bottom right corner.\nWhen you",
+            "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548454377
+                "created": 1548605864,
+                "updated": 1548605864
             }
         },
         {
@@ -45,10 +45,10 @@
             "order": 1,
             "parent": null,
             "title": "Welcome",
-            "description": "HAX is short for Headless Authoring Experience\n(please excuse the mess, We're updating... everything right now)\nIt is a next generation WYSIWYG that's built in Web components and can talk to any web c",
+            "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548605657
+                "created": 1548605864,
+                "updated": 1548605864
             }
         },
         {
@@ -58,10 +58,10 @@
             "order": 0,
             "parent": "item-welcome",
             "title": "What is HAX",
-            "description": "HAX - Headless Authoring eXperience\nHAX is a decoupled authoring experience built in web components. Web components is a standard way of developers creating new HTML tags. It's a layer below tradition",
+            "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548605594
+                "created": 1548605864,
+                "updated": 1548605864
             }
         },
         {
@@ -73,8 +73,8 @@
             "title": "Why Headless",
             "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548454097
+                "created": 1548605864,
+                "updated": 1548605864
             }
         },
         {
@@ -86,8 +86,8 @@
             "title": "Integrations",
             "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548454097
+                "created": 1548605864,
+                "updated": 1548605864
             }
         },
         {
@@ -99,8 +99,8 @@
             "title": "BackdropCMS",
             "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548454097
+                "created": 1548605864,
+                "updated": 1548605864
             }
         },
         {
@@ -110,10 +110,10 @@
             "order": 1,
             "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "title": "Drupal",
-            "description": "Getting HAX setup in Drupal CMS\nHAX works with Drupal 8, 7 and all the way back to 6 (mostly to prove a point). While the install routines are largely the same make sure you follow the directions for ",
+            "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548605788
+                "created": 1548605864,
+                "updated": 1548605864
             }
         },
         {
@@ -123,20 +123,10 @@
             "order": 2,
             "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "title": "GravCMS",
-            "description": "There's two plugins needed to run HAX on GravCMS - The web components and HAX plugins.\nWeb components plugin\n\u00a0- provides the build routine and installation instructions\nHAX plugin\n\u00a0- editor capabili",
+            "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548603858,
-                "files": [
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-25_14-05-59.png",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-25_14-05-59.png",
-                        "url": "files\/2019-01-25_14-05-59.png",
-                        "type": "image\/png",
-                        "name": "2019-01-25_14-05-59.png",
-                        "size": 135194
-                    }
-                ]
+                "created": 1548605864,
+                "updated": 1548605864
             }
         },
         {
@@ -146,36 +136,49 @@
             "order": 3,
             "parent": null,
             "title": "Solutions",
-            "description": "Modularity is key to HAX success. Here are some of the solutions that HAX provides which leverage the HAXeditor interface:\n\"HAX\" \/ HAXeditor - authoring interface \/ WYSIWYG replacement. It is the head",
+            "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548584459
+                "created": 1548605864,
+                "updated": 1548605864
+            }
+        },
+        {
+            "id": "item-d6551870-1c08-da0a-6e2d-e24e919fa628",
+            "indent": 1,
+            "location": "pages\/haxeditor\/index.html",
+            "order": 0,
+            "parent": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
+            "title": "HAXeditor",
+            "description": "",
+            "metadata": {
+                "created": 1548605864,
+                "updated": 1548605864
             }
         },
         {
             "id": "item-apo7dab5-13dd-sadd-1234-262fa3c4dj553",
             "indent": 1,
             "location": "pages\/what-is-haxcms\/index.html",
-            "order": 0,
+            "order": 1,
             "parent": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
             "title": "HAXcms",
             "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548454097
+                "created": 1548605864,
+                "updated": 1548605864
             }
         },
         {
             "id": "item-36ed4f6a-7eb8-9414-d5b0-6c2914e9f5d9",
             "indent": 1,
             "location": "pages\/haxdesktop\/index.html",
-            "order": 1,
+            "order": 2,
             "parent": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
-            "title": "HAXdesktop",
+            "title": "HAXdesktop (future)",
             "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548454097
+                "created": 1548605864,
+                "updated": 1548605864
             }
         },
         {
@@ -185,10 +188,10 @@
             "order": 4,
             "parent": null,
             "title": "Documentation",
-            "description": "HAX may seem complex, but it's built on a series of standards that will never\n\n break. As a result of the complexity of these standards, there are things you should know prior to digging into HAXedito",
+            "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548589321
+                "created": 1548605864,
+                "updated": 1548605864
             }
         },
         {
@@ -200,8 +203,8 @@
             "title": "Development",
             "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548454097
+                "created": 1548605864,
+                "updated": 1548605864
             }
         },
         {
@@ -213,8 +216,8 @@
             "title": "hello-world HAX element",
             "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548454097
+                "created": 1548605864,
+                "updated": 1548605864
             }
         },
         {
@@ -226,8 +229,8 @@
             "title": "Core concepts",
             "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548454097
+                "created": 1548605864,
+                "updated": 1548605864
             }
         },
         {
@@ -239,8 +242,8 @@
             "title": "HAX Schema",
             "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548454097
+                "created": 1548605864,
+                "updated": 1548605864
             }
         },
         {
@@ -252,8 +255,8 @@
             "title": "HAX AppStore specification",
             "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548454097
+                "created": 1548605864,
+                "updated": 1548605864
             }
         },
         {
@@ -265,8 +268,8 @@
             "title": "JSON Outline Schema",
             "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548454097
+                "created": 1548605864,
+                "updated": 1548605864
             }
         },
         {
@@ -276,10 +279,10 @@
             "order": 2,
             "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
             "title": "Related technologies",
-            "description": "There are several technologies you should learn about if your going to understand how HAX is built (and how to extend it)\nJSON Schema\nLearn more about JSON Schema\n\n\n\n on the official website for that ",
+            "description": "",
             "metadata": {
-                "created": 1548454097,
-                "updated": 1548604994
+                "created": 1548605864,
+                "updated": 1548605864
             }
         }
     ]
