@@ -289,10 +289,10 @@
             "order": 0,
             "parent": "item-0e4cc53c-944f-658a-5440-eacc5a1c0358",
             "title": "JSON Schema",
-            "description": "Learn more about JSON Schema\n\n on the official website for that standard. JSON Schema provides a way of describing the data contained in a JSON blob so that a form can be built to modify those values.",
+            "description": "Learn more about JSON Schema\n\n\n on the official website for that standard. JSON Schema provides a way of describing the data contained in a JSON blob so that a form can be built to modify those values",
             "metadata": {
                 "created": 1548454097,
-                "updated": 1548594845
+                "updated": 1548604301
             }
         }
     ]
