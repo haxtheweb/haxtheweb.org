@@ -130,19 +130,6 @@
             }
         },
         {
-            "id": "item-3d436efc-c9b0-04ba-4dc0-4768078cd688",
-            "indent": 1,
-            "location": "pages\/haxcms\/index.html",
-            "order": 3,
-            "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
-            "title": "HAXcms",
-            "description": "",
-            "metadata": {
-                "created": 1548653325,
-                "updated": 1548653325
-            }
-        },
-        {
             "id": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
             "indent": 0,
             "location": "pages\/solutions\/index.html",
