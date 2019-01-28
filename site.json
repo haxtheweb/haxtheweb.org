@@ -351,19 +351,6 @@
             }
         },
         {
-            "id": "item-617a8f08-70d0-e05c-2334-2db267726ce7",
-            "indent": 2,
-            "location": "pages\/blox\/index.html",
-            "order": 1,
-            "parent": "item-275a0928-60ab-b7ce-c2b6-d0e35826498b",
-            "title": "Blox",
-            "description": "",
-            "metadata": {
-                "created": 1548652369,
-                "updated": 1548652369
-            }
-        },
-        {
             "id": "item-63d13d34-c9a3-1ce5-61d4-bec869c09a2e",
             "indent": 2,
             "location": "pages\/stax\/index.html",
