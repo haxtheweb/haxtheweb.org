@@ -12,7 +12,7 @@
         "domain": "https:\/\/haxtheweb.org",
         "hexCode": "#aeff00",
         "created": 1547138719,
-        "updated": 1548606135,
+        "updated": 1548633882,
         "cssVariable": "--simple-colors-lime-background5",
         "publishing": {
             "git": {
@@ -34,8 +34,8 @@
             "title": "Try hax",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -47,8 +47,8 @@
             "title": "Welcome",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -60,8 +60,8 @@
             "title": "What is HAX",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -73,8 +73,8 @@
             "title": "Why Headless",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -86,8 +86,8 @@
             "title": "Integrations",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -99,8 +99,8 @@
             "title": "BackdropCMS",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -112,8 +112,8 @@
             "title": "Drupal",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -125,8 +125,8 @@
             "title": "GravCMS",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -138,8 +138,8 @@
             "title": "Solutions",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -151,8 +151,8 @@
             "title": "HAXeditor",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -164,8 +164,8 @@
             "title": "HAXcms",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -177,8 +177,8 @@
             "title": "HAXdesktop (future)",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -190,8 +190,8 @@
             "title": "Documentation",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -203,8 +203,8 @@
             "title": "Development",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -214,10 +214,10 @@
             "order": 0,
             "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
             "title": "hello-world element",
-            "description": "Let's see what goes into the element called @lrnwebcomponents\/example-hax-element\n\n\n\n\n\n\u00a0\n\n\nin order to learn how we can wire anything up to HAXeditor.\n@lrnwebcomponents\/example-hax-element\/example-ha",
+            "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548608412
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -227,52 +227,10 @@
             "order": 1,
             "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
             "title": "HAX schema",
-            "description": "Understanding HAXschema\nHAXschema, the JSON blob that you see as the first property passed into HAXWiring.setup \n\n\nis a standard way of sending data about the element in question to HAX so that it und",
+            "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548610052,
-                "files": [
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_10-10-39.png",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-27_10-10-39.png",
-                        "url": "files\/2019-01-27_10-10-39.png",
-                        "type": "image\/png",
-                        "name": "2019-01-27_10-10-39.png",
-                        "size": 36049
-                    },
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_10-10-58.png",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-27_10-10-58.png",
-                        "url": "files\/2019-01-27_10-10-58.png",
-                        "type": "image\/png",
-                        "name": "2019-01-27_10-10-58.png",
-                        "size": 19304
-                    },
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_10-22-48.png",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-27_10-22-48.png",
-                        "url": "files\/2019-01-27_10-22-48.png",
-                        "type": "image\/png",
-                        "name": "2019-01-27_10-22-48.png",
-                        "size": 31686
-                    },
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_10-22-28.png",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-27_10-22-28.png",
-                        "url": "files\/2019-01-27_10-22-28.png",
-                        "type": "image\/png",
-                        "name": "2019-01-27_10-22-28.png",
-                        "size": 31306
-                    },
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_10-25-22.png",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-27_10-25-22.png",
-                        "url": "files\/2019-01-27_10-25-22.png",
-                        "type": "image\/png",
-                        "name": "2019-01-27_10-25-22.png",
-                        "size": 104216
-                    }
-                ]
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -282,10 +240,62 @@
             "order": 2,
             "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
             "title": "HAX app store",
-            "description": "The app store specification is what provides HAX with it's raw data integration capabilities. It's a block of JSON that tells HAXeditor the rules by which it is to play by. A complete example is avail",
+            "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548633842
+                "created": 1548633882,
+                "updated": 1548633882
+            }
+        },
+        {
+            "id": "item-7c6e1a0e-2267-3aa2-e015-0cef1dcfc526",
+            "indent": 3,
+            "location": "pages\/apps\/index.html",
+            "order": 0,
+            "parent": "item-4de60a5f-98ab-a602-edfc-0cf024e83755",
+            "title": "Apps",
+            "description": "",
+            "metadata": {
+                "created": 1548633882,
+                "updated": 1548633882
+            }
+        },
+        {
+            "id": "item-6701e67b-1a3a-e528-5fce-fb766a9cf01c",
+            "indent": 3,
+            "location": "pages\/blox\/index.html",
+            "order": 1,
+            "parent": "item-4de60a5f-98ab-a602-edfc-0cf024e83755",
+            "title": "Blox",
+            "description": "",
+            "metadata": {
+                "created": 1548633882,
+                "updated": 1548633882
+            }
+        },
+        {
+            "id": "item-52aa3ef0-fa36-6edd-6374-33d19eaaf2cd",
+            "indent": 3,
+            "location": "pages\/stax\/index.html",
+            "order": 2,
+            "parent": "item-4de60a5f-98ab-a602-edfc-0cf024e83755",
+            "title": "Stax",
+            "description": "",
+            "metadata": {
+                "created": 1548633882,
+                "updated": 1548633882
+            }
+        },
+        {
+            "id": "item-38e34bf2-e605-bc09-9cb8-eccbbe61b61a",
+            "indent": 3,
+            "location": "pages\/autloader\/index.html",
+            "order": 3,
+            "parent": "item-4de60a5f-98ab-a602-edfc-0cf024e83755",
+            "title": "Autloader",
+            "description": "",
+            "metadata": {
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -297,8 +307,8 @@
             "title": "Core concepts",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -310,8 +320,8 @@
             "title": "Gizmo",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -323,8 +333,8 @@
             "title": "Blox",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -336,8 +346,8 @@
             "title": "Stax",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -349,8 +359,8 @@
             "title": "\"App\"",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -362,8 +372,8 @@
             "title": "UX concepts",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -373,20 +383,10 @@
             "order": 0,
             "parent": "item-06233713-d866-3351-81da-841d3931144c",
             "title": "Add",
-            "description": "Add\n is how you add new assets to HAX from remote places. If you paste a URL, you can hit configure item\n\n and have it added. HAX will see if it has any way of guessing what the link is (for example a",
+            "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606564,
-                "files": [
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_09-23-33.png",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-27_09-23-33.png",
-                        "url": "files\/2019-01-27_09-23-33.png",
-                        "type": "image\/png",
-                        "name": "2019-01-27_09-23-33.png",
-                        "size": 64635
-                    }
-                ]
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -396,36 +396,10 @@
             "order": 1,
             "parent": "item-06233713-d866-3351-81da-841d3931144c",
             "title": "Make",
-            "description": "Make allows you to create things using the Gizmos that the editor knows about. Make typically will involve media pieces but could also just be a treatment to text you'd like to apply. Some examples of",
+            "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548608366,
-                "files": [
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_09-23-59.png",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-27_09-23-59.png",
-                        "url": "files\/2019-01-27_09-23-59.png",
-                        "type": "image\/png",
-                        "name": "2019-01-27_09-23-59.png",
-                        "size": 152226
-                    },
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_09-35-28.png",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-27_09-35-28.png",
-                        "url": "files\/2019-01-27_09-35-28.png",
-                        "type": "image\/png",
-                        "name": "2019-01-27_09-35-28.png",
-                        "size": 76620
-                    },
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_09-45-04.png",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-27_09-45-04.png",
-                        "url": "files\/2019-01-27_09-45-04.png",
-                        "type": "image\/png",
-                        "name": "2019-01-27_09-45-04.png",
-                        "size": 162790
-                    }
-                ]
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -437,8 +411,8 @@
             "title": "Find",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         },
         {
@@ -450,8 +424,8 @@
             "title": "Related technologies",
             "description": "",
             "metadata": {
-                "created": 1548606135,
-                "updated": 1548606135
+                "created": 1548633882,
+                "updated": 1548633882
             }
         }
     ]
