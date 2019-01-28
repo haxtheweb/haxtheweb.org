@@ -305,7 +305,7 @@
             "description": "Stax are what most WYSIWYG systems would call Templates. Stax in HAX are a series of HAX element schema's in succession.\n\nBelow is a definition for the \"example lesson\" seen above. This is a larger ex",
             "metadata": {
                 "created": 1548635132,
-                "updated": 1548636756,
+                "updated": 1548636772,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_17-39-01.png",
