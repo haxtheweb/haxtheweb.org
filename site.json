@@ -253,10 +253,10 @@
             "order": 0,
             "parent": "item-4de60a5f-98ab-a602-edfc-0cf024e83755",
             "title": "apps",
-            "description": "",
+            "description": "A single App definition\nThis is an example of how the Flickr\n\n\n\n integration is set up in haxtheweb.org. Below this integration's pieces have been annotated i order to illustrate what each provides to",
             "metadata": {
                 "created": 1548634420,
-                "updated": 1548634420
+                "updated": 1548634998
             }
         },
         {
