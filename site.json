@@ -240,10 +240,10 @@
             "order": 2,
             "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
             "title": "HAX app store",
-            "description": "",
+            "description": "The app store specification is what provides HAX with it's raw data integration capabilities. It's a block of JSON that tells HAXeditor the rules by which it is to play by. A complete example is avail",
             "metadata": {
                 "created": 1548634420,
-                "updated": 1548634420
+                "updated": 1548634490
             }
         },
         {
