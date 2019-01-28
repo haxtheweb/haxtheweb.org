@@ -460,10 +460,10 @@
             "order": 2,
             "parent": "item-06233713-d866-3351-81da-841d3931144c",
             "title": "Find",
-            "description": "",
+            "description": "Find\n is a data interoperability layer to HAX where web components data binding shines. Find is able to stitch remote data together with local web components in order to streamline workflows.\n\n",
             "metadata": {
                 "created": 1548635132,
-                "updated": 1548635132,
+                "updated": 1548638556,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_09-23-44.png",
