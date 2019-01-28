@@ -12,7 +12,7 @@
         "domain": "https:\/\/haxtheweb.org",
         "hexCode": "#aeff00",
         "created": 1547138719,
-        "updated": 1548635132,
+        "updated": 1548640762,
         "cssVariable": "--simple-colors-lime-background5",
         "publishing": {
             "git": {
@@ -34,8 +34,8 @@
             "title": "Try hax",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -47,8 +47,8 @@
             "title": "Welcome",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -60,8 +60,8 @@
             "title": "What is HAX",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -73,8 +73,8 @@
             "title": "Why Headless",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -86,8 +86,8 @@
             "title": "Integrations",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -99,8 +99,8 @@
             "title": "BackdropCMS",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -112,8 +112,8 @@
             "title": "Drupal",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -125,8 +125,8 @@
             "title": "GravCMS",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -138,8 +138,8 @@
             "title": "Solutions",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -149,10 +149,10 @@
             "order": 0,
             "parent": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
             "title": "HAXeditor",
-            "description": "HAX or HAXeditor is the editor of the future you're using in this site! It's all the editing capabilities you've come for with HAX and the core solution that all other projects are based on here. The ",
+            "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548639148
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -164,8 +164,8 @@
             "title": "HAXcms",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -175,10 +175,10 @@
             "order": 2,
             "parent": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
             "title": "HAXdesktop (future)",
-            "description": "HAXdesktop is the same great experience of HAXcms but provided as a stand alone desktop app. It builds out content that is in a forever format just like HAX, and puts it in version control, but with t",
+            "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548638845
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -190,8 +190,8 @@
             "title": "Documentation",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -201,62 +201,75 @@
             "order": 0,
             "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
             "title": "Development",
-            "description": "The developers docs will lay out the many specifications that make HAX possible including core concepts, different schema's it leverages ad how to define app store spec in order to take integrations f",
+            "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548639317
+                "created": 1548640762,
+                "updated": 1548640762
+            }
+        },
+        {
+            "id": "item-692eb91c-4003-3429-5d9f-caac64691849",
+            "indent": 2,
+            "location": "pages\/wcfactory-tooling\/index.html",
+            "order": 0,
+            "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
+            "title": "WCFactory Tooling",
+            "description": "",
+            "metadata": {
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
             "id": "item-39074718-758f-d51b-1dc5-15cfbb79e44c",
             "indent": 2,
             "location": "pages\/hello-world-hax-element\/index.html",
-            "order": 0,
+            "order": 1,
             "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
             "title": "hello-world element",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
             "id": "item-f1c8e3a4-eddb-806a-8a3a-206c1e33f7a9",
             "indent": 2,
             "location": "pages\/hax-schema\/index.html",
-            "order": 1,
+            "order": 2,
             "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
             "title": "HAX schema",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
             "id": "item-52727dcf-a7d5-90e9-c459-a4a53dd07ffd",
             "indent": 2,
             "location": "pages\/hax-element-schema\/index.html",
-            "order": 2,
+            "order": 3,
             "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
             "title": "HAX Element Schema",
-            "description": "Example of HAX element schema JSON object. It's a pretty simple abstraction of HTML elements that helps with packaging and sanitization.\nh2 tag (core HTML)\n  {\n\"tag\": \"h2\",\n\"properties\": {},\n\"content\"",
+            "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548639554
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
             "id": "item-4de60a5f-98ab-a602-edfc-0cf024e83755",
             "indent": 2,
             "location": "pages\/hax-appstore-specification\/index.html",
-            "order": 3,
+            "order": 4,
             "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
             "title": "HAX app store",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -268,8 +281,8 @@
             "title": "apps",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -279,20 +292,10 @@
             "order": 1,
             "parent": "item-4de60a5f-98ab-a602-edfc-0cf024e83755",
             "title": "blox",
-            "description": "Blox are the internal name of what a normal wysiwyg would call Layouts. The Layouts menu lists the blox \/ grid-plate tags that you can populate. There's no other way to generate a layout plate in HAX ",
+            "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635922,
-                "files": [
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_17-33-57.png",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-27_17-33-57.png",
-                        "url": "files\/2019-01-27_17-33-57.png",
-                        "type": "image\/png",
-                        "name": "2019-01-27_17-33-57.png",
-                        "size": 198722
-                    }
-                ]
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -302,28 +305,10 @@
             "order": 2,
             "parent": "item-4de60a5f-98ab-a602-edfc-0cf024e83755",
             "title": "stax",
-            "description": "Stax are what most WYSIWYG systems would call Templates. Stax in HAX are a series of HAX element schema's in succession.\n\nBelow is a definition for the \"example lesson\" seen above. This is a larger ex",
+            "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548636772,
-                "files": [
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_17-39-01.png",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-27_17-39-01.png",
-                        "url": "files\/2019-01-27_17-39-01.png",
-                        "type": "image\/png",
-                        "name": "2019-01-27_17-39-01.png",
-                        "size": 63255
-                    },
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_17-39-31.png",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-27_17-39-31.png",
-                        "url": "files\/2019-01-27_17-39-31.png",
-                        "type": "image\/png",
-                        "name": "2019-01-27_17-39-31.png",
-                        "size": 123124
-                    }
-                ]
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -333,10 +318,10 @@
             "order": 3,
             "parent": "item-4de60a5f-98ab-a602-edfc-0cf024e83755",
             "title": "autoloader",
-            "description": "Autoloader is waaayyy easier to implement then the other parts of the appstore spec. All it is is an array or object of references to elements that HAX should forcibly load the definitions of once it'",
+            "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548637398
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -348,8 +333,8 @@
             "title": "Core concepts",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -359,10 +344,10 @@
             "order": 0,
             "parent": "item-275a0928-60ab-b7ce-c2b6-d0e35826498b",
             "title": "Gizmo",
-            "description": "A Gizmo is an advanced piece of media or interactivity placed on the page. At a technical level, it is a web component, but to your users and content readers it's an advanced piece of functionality he",
+            "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548638689
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -374,8 +359,8 @@
             "title": "Blox",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -387,8 +372,8 @@
             "title": "Stax",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -398,10 +383,10 @@
             "order": 3,
             "parent": "item-275a0928-60ab-b7ce-c2b6-d0e35826498b",
             "title": "App",
-            "description": "An App adds remote data capabilities to HAX. Want to search Youtube without leaving your editing experience? Hax Apps are the way to do that. Apps show up for users under the Find\n\u00a0menu and while we ",
+            "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548638771
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -411,20 +396,10 @@
             "order": 2,
             "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
             "title": "UX concepts",
-            "description": "The HAX UI can be broken down into three major production concepts. Content authors are either:\nAdding something they already have\nFinding something to add to their content\nMaking something to go in t",
+            "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548637587,
-                "files": [
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_18-05-51.png",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-27_18-05-51.png",
-                        "url": "files\/2019-01-27_18-05-51.png",
-                        "type": "image\/png",
-                        "name": "2019-01-27_18-05-51.png",
-                        "size": 8762
-                    }
-                ]
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -436,8 +411,8 @@
             "title": "Add",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -449,8 +424,8 @@
             "title": "Make",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -460,20 +435,10 @@
             "order": 2,
             "parent": "item-06233713-d866-3351-81da-841d3931144c",
             "title": "Find",
-            "description": "Find\n is a data interoperability layer to HAX where web components data binding shines. Find is able to stitch remote data together with local web components in order to streamline workflows.\n\n",
+            "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548638556,
-                "files": [
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_09-23-44.png",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-27_09-23-44.png",
-                        "url": "files\/2019-01-27_09-23-44.png",
-                        "type": "image\/png",
-                        "name": "2019-01-27_09-23-44.png",
-                        "size": 107622
-                    }
-                ]
+                "created": 1548640762,
+                "updated": 1548640762
             }
         },
         {
@@ -485,8 +450,8 @@
             "title": "Related technologies",
             "description": "",
             "metadata": {
-                "created": 1548635132,
-                "updated": 1548635132
+                "created": 1548640762,
+                "updated": 1548640762
             }
         }
     ]
