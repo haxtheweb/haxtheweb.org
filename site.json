@@ -411,10 +411,10 @@
             "order": 2,
             "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
             "title": "UX concepts",
-            "description": "",
+            "description": "The HAX UI can be broken down into three major production concepts. Content authors are either:\nAdding something they already have\nFinding something to add to their content\nMaking something to go in t",
             "metadata": {
                 "created": 1548635132,
-                "updated": 1548635132,
+                "updated": 1548637587,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_18-05-51.png",
