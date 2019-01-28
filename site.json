@@ -282,7 +282,17 @@
             "description": "",
             "metadata": {
                 "created": 1548635132,
-                "updated": 1548635132
+                "updated": 1548635132,
+                "files": [
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_17-33-57.png",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-27_17-33-57.png",
+                        "url": "files\/2019-01-27_17-33-57.png",
+                        "type": "image\/png",
+                        "name": "2019-01-27_17-33-57.png",
+                        "size": 198722
+                    }
+                ]
             }
         },
         {
