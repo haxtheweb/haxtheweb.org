@@ -351,19 +351,6 @@
             }
         },
         {
-            "id": "item-edc96e68-c010-d81a-e8e9-29077e2c923d",
-            "indent": 2,
-            "location": "pages\/concepts-app\/index.html",
-            "order": 3,
-            "parent": "item-275a0928-60ab-b7ce-c2b6-d0e35826498b",
-            "title": "App",
-            "description": "",
-            "metadata": {
-                "created": 1548652369,
-                "updated": 1548652369
-            }
-        },
-        {
             "id": "item-06233713-d866-3351-81da-841d3931144c",
             "indent": 1,
             "location": "pages\/ux-concepts\/index.html",
