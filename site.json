@@ -338,19 +338,6 @@
             }
         },
         {
-            "id": "item-0ff96df6-b4cb-db19-d7d1-df38a55aca3e",
-            "indent": 2,
-            "location": "pages\/gizmo\/index.html",
-            "order": 0,
-            "parent": "item-275a0928-60ab-b7ce-c2b6-d0e35826498b",
-            "title": "Gizmo",
-            "description": "",
-            "metadata": {
-                "created": 1548652369,
-                "updated": 1548652369
-            }
-        },
-        {
             "id": "item-06233713-d866-3351-81da-841d3931144c",
             "indent": 1,
             "location": "pages\/ux-concepts\/index.html",
