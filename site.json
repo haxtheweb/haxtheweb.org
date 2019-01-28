@@ -336,7 +336,7 @@
             "description": "Autoloader is waaayyy easier to implement then the other parts of the appstore spec. All it is is an array or object of references to elements that HAX should forcibly load the definitions of once it'",
             "metadata": {
                 "created": 1548635132,
-                "updated": 1548637356
+                "updated": 1548637398
             }
         },
         {
