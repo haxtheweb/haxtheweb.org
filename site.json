@@ -12,7 +12,7 @@
         "domain": "https:\/\/haxtheweb.org",
         "hexCode": "#aeff00",
         "created": 1547138719,
-        "updated": 1548640762,
+        "updated": 1548652369,
         "cssVariable": "--simple-colors-lime-background5",
         "publishing": {
             "git": {
@@ -34,8 +34,8 @@
             "title": "Try hax",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -47,8 +47,8 @@
             "title": "Welcome",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -60,8 +60,8 @@
             "title": "What is HAX",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -73,8 +73,8 @@
             "title": "Why Headless",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -86,8 +86,8 @@
             "title": "Integrations",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -99,8 +99,8 @@
             "title": "BackdropCMS",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -112,8 +112,8 @@
             "title": "Drupal",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -125,8 +125,8 @@
             "title": "GravCMS",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -138,8 +138,8 @@
             "title": "Solutions",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -151,8 +151,8 @@
             "title": "HAXeditor",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -164,8 +164,8 @@
             "title": "HAXcms",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -177,8 +177,8 @@
             "title": "HAXdesktop (future)",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -190,8 +190,8 @@
             "title": "Documentation",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -201,10 +201,10 @@
             "order": 0,
             "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
             "title": "Development",
-            "description": "The developers docs will lay out the many specifications that make HAX possible including core concepts, different schema's it leverages ad how to define app store spec in order to take integrations f",
+            "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548648623
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -214,10 +214,10 @@
             "order": 0,
             "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
             "title": "WCFactory Tooling",
-            "description": "We made tooling to publish web components with ease and in any library. It's called WCFactory and while not required, it's the tooling we use for managing HAX and the many related elements in our libr",
+            "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640938
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -229,8 +229,8 @@
             "title": "hello-world element",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -242,8 +242,8 @@
             "title": "HAX schema",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -255,8 +255,8 @@
             "title": "HAX Element Schema",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -268,60 +268,60 @@
             "title": "HAX app store",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
             "id": "item-96d00871-d866-c65e-b7f0-4e242bde5b15",
             "indent": 3,
-            "location": "pages\/apps\/index.html",
+            "location": "pages\/hax-appstore-apps\/index.html",
             "order": 0,
             "parent": "item-4de60a5f-98ab-a602-edfc-0cf024e83755",
             "title": "apps",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
             "id": "item-a91393ea-31f8-30bd-888f-275a05e08e0a",
             "indent": 3,
-            "location": "pages\/blox\/index.html",
+            "location": "pages\/hax-appstore-blox\/index.html",
             "order": 1,
             "parent": "item-4de60a5f-98ab-a602-edfc-0cf024e83755",
             "title": "blox",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
             "id": "item-faaa1198-10c7-ff30-ece6-01b30a9c0f85",
             "indent": 3,
-            "location": "pages\/stax\/index.html",
+            "location": "pages\/hax-appstore-stax\/index.html",
             "order": 2,
             "parent": "item-4de60a5f-98ab-a602-edfc-0cf024e83755",
             "title": "stax",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
             "id": "item-a839d5c1-3321-a395-c032-4ea8ea2cfa27",
             "indent": 3,
-            "location": "pages\/autoloader\/index.html",
+            "location": "pages\/hax-appstore-autoloader\/index.html",
             "order": 3,
             "parent": "item-4de60a5f-98ab-a602-edfc-0cf024e83755",
             "title": "autoloader",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -333,8 +333,8 @@
             "title": "Core concepts",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -346,8 +346,8 @@
             "title": "Gizmo",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -359,8 +359,8 @@
             "title": "Blox",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -372,8 +372,8 @@
             "title": "Stax",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -385,8 +385,8 @@
             "title": "App",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -398,8 +398,8 @@
             "title": "UX concepts",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -411,8 +411,8 @@
             "title": "Add",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -424,8 +424,8 @@
             "title": "Make",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -437,8 +437,8 @@
             "title": "Find",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         },
         {
@@ -450,8 +450,8 @@
             "title": "Related technologies",
             "description": "",
             "metadata": {
-                "created": 1548640762,
-                "updated": 1548640762
+                "created": 1548652369,
+                "updated": 1548652369
             }
         }
     ]
