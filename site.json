@@ -279,10 +279,10 @@
             "order": 1,
             "parent": "item-4de60a5f-98ab-a602-edfc-0cf024e83755",
             "title": "blox",
-            "description": "",
+            "description": "Blox are the internal name of what a normal wysiwyg would call Layouts. The Layouts menu lists the blox \/ grid-plate tags that you can populate. There's no other way to generate a layout plate in HAX ",
             "metadata": {
                 "created": 1548635132,
-                "updated": 1548635132,
+                "updated": 1548635922,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-27_17-33-57.png",
