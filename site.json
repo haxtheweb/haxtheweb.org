@@ -201,10 +201,10 @@
             "order": 0,
             "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
             "title": "Development",
-            "description": "",
+            "description": "The developers docs will lay out the many specifications that make HAX possible including core concepts, different schema's it leverages ad how to define app store spec in order to take integrations f",
             "metadata": {
                 "created": 1548640762,
-                "updated": 1548640762
+                "updated": 1548648519
             }
         },
         {
