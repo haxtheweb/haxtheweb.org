@@ -331,10 +331,10 @@
             "order": 1,
             "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
             "title": "Core concepts",
-            "description": "My great new content!\n",
+            "description": "A Gizmo is an advanced piece of media or interactivity placed on the page. At a technical level, it is a web component, but to your users and content readers it's an advanced piece of functionality he",
             "metadata": {
                 "created": 1548652369,
-                "updated": 1548652441
+                "updated": 1548652451
             }
         },
         {
