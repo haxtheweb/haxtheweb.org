@@ -1,1 +1,22 @@
-<p>My great new content!</p>
+<p>Autoloader is waaayyy easier to implement then the other parts of the appstore spec. All it is is an array or object of references to elements that HAX should forcibly load the definitions of once it's done bootstrapping. Here's a basic example with the steps as to what HAX does with this information</p>
+<ol><li>HAX loads the appstore definition</li>
+<li>HAX finishes its bootstrap and is ready to use</li>
+<li>It then loops through each autoloader element and does the following:</li>
+<ul><li>attempts to dynamically import the definition of the element</li>
+<li>places a copy of the tag it in the slot of a tag called `<b>hax-autoloader</b>
+`</li>
+<li>waits till it reads the definition from the element via standard events (see: <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/hax-body-behaviors/lib/HAXWiring.js#L159-L176">HAXWiring.js</a>
+)</li>
+<li>Deletes the element from the DOM</li>
+</ul>
+</ol>
+<code-sample style="width: 25%; margin: 0px auto; display: block;" copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content">
+"autoloader": [
+    "lrn-aside",
+    "grid-plate",
+    "tab-list",
+    "magazine-cover",
+    "video-player",
+    "license-element"
+]</template>
+</code-sample>
