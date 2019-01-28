@@ -240,10 +240,10 @@
             "order": 2,
             "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
             "title": "HAX Element Schema",
-            "description": "",
+            "description": "Example of HAX element schema JSON object. It's a pretty simple abstraction of HTML elements that helps with packaging and sanitization.\nh2 tag (core HTML)\n  {\n\"tag\": \"h2\",\n\"properties\": {},\n\"content\"",
             "metadata": {
                 "created": 1548635132,
-                "updated": 1548635132
+                "updated": 1548639554
             }
         },
         {
