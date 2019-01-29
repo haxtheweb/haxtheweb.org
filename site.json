@@ -55,10 +55,10 @@
             "order": 0,
             "parent": "item-welcome",
             "title": "What is HAX",
-            "description": "",
+            "description": "\nHAX - Headless Authoring eXperience\nHAX is a decoupled authoring experience built in web components. Web components is a standard way of developers creating new HTML tags. It's a layer below traditio",
             "metadata": {
                 "created": 1548653325,
-                "updated": 1548653325
+                "updated": 1548744574
             }
         },
         {
