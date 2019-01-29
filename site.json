@@ -35,7 +35,17 @@
             "description": "  \nHAX is short for Headless Authoring Experience\n\n\n(excuse the mess, We're updating all our docs and publishing workflows!)\n\n\nIt is a next generation WYSIWYG that's built in Web components and can ta",
             "metadata": {
                 "created": 1548653325,
-                "updated": 1548721614
+                "updated": 1548721614,
+                "files": [
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/lego.jpg",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/lego.jpg",
+                        "url": "files\/lego.jpg",
+                        "type": "image\/jpeg",
+                        "name": "lego.jpg",
+                        "size": 13481
+                    }
+                ]
             }
         },
         {
