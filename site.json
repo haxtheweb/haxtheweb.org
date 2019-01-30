@@ -419,10 +419,10 @@
             "order": 4,
             "parent": null,
             "title": "F.A.Q.",
-            "description": "Where did this come from?\nHAX is the brain child of the ELMS:LN team at Pennsylvania State University. Lead by Bryan Ollendyke (@btopro), HAX is the authoring solution created to power ELMS:LN and oth",
+            "description": "Is this really real?\nYes. Web components turn your site effectively into an API. HAXeditor just leverages this fact and standards that exist in order to supply an incredible amount of functionality on",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826811
+                "updated": 1548828345
             }
         }
     ]
