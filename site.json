@@ -432,11 +432,11 @@
             "order": "0",
             "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "title": "Creating new ones",
-            "description": "HAXeditor keeps so much functionality on the front-end that there's really very little tying it to..well.. anything. As a result, HAX is easy to integrate into systems that currently have WYSIWYG capa",
+            "description": "\nHAXeditor keeps so much functionality on the front-end that there's really very little tying it to..well.. anything. As a result, HAX is easy to integrate into systems that currently have WYSIWYG cap",
             "metadata": {
                 "siteName": "haxtheweb",
                 "created": 1548828434,
-                "updated": 1548828645,
+                "updated": 1548828742,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
