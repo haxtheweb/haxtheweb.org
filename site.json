@@ -7,13 +7,13 @@
     "metadata": {
         "siteName": "haxtheweb",
         "image": "assets\/banner.jpg",
-        "theme": "outline-player",
+        "theme": "simple-blog",
         "icon": "lrn:network",
         "domain": "https:\/\/haxtheweb.org",
         "hexCode": "#aeff00",
         "created": 1547138719,
-        "updated": 1548826475,
-        "cssVariable": "--simple-colors-lime-background5",
+        "updated": 1549145889,
+        "cssVariable": "",
         "publishing": {
             "git": {
                 "vendor": "github",
