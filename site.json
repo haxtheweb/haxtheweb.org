@@ -58,10 +58,10 @@
             "order": 1,
             "parent": "item-welcome",
             "title": "Why Headless",
-            "description": "Cross platform\nBecause we've adopted the web component\n\n\n\n\n\n\n\n standard in the development of both HAX (authoring system) and HAXCMS (content management), everything we create and compile via our open",
+            "description": "Cross platform\nBecause we've adopted the web component\n\n\n\n\n\n\n\n\n standard in the development of both HAX (authoring system) and HAXCMS (content management), everything we create and compile via our ope",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548827409,
+                "updated": 1549145688,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-29_22-47-53.png",
