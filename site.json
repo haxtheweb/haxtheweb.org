@@ -12,8 +12,8 @@
         "domain": "https:\/\/haxtheweb.org",
         "hexCode": "#aeff00",
         "created": 1547138719,
-        "updated": 1548826475,
-        "cssVariable": "--simple-colors-lime-background5",
+        "updated": 1549146835,
+        "cssVariable": "",
         "publishing": {
             "git": {
                 "vendor": "github",
@@ -22,7 +22,7 @@
                 "cdn": "haxtheweb.org"
             }
         },
-        "lastPublished": 1549052778
+        "lastPublished": 1549207394
     },
     "items": [
         {
@@ -32,10 +32,10 @@
             "order": 0,
             "parent": null,
             "title": "Welcome",
-            "description": "",
+            "description": "  \nHAX is short for Headless Authoring Experience\n\n\n\n\n\n\n(excuse the mess, We're updating all our docs and publishing workflows!)\n\n\n\n\n\n\nIt is a next generation WYSIWYG that's built in Web components an",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549146820
             }
         },
         {
@@ -58,10 +58,10 @@
             "order": 1,
             "parent": "item-welcome",
             "title": "Why Headless",
-            "description": "Cross platform\nBecause we've adopted the web component\n\n\n\n\n\n\n\n standard in the development of both HAX (authoring system) and HAXCMS (content management), everything we create and compile via our open",
+            "description": "Cross platform\nBecause we've adopted the web component\n\n\n\n\n\n\n\n\n standard in the development of both HAX (authoring system) and HAXCMS (content management), everything we create and compile via our ope",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548827409,
+                "updated": 1549145688,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-29_22-47-53.png",
@@ -81,10 +81,10 @@
             "order": 2,
             "parent": "item-welcome",
             "title": "Try hax",
-            "description": "",
+            "description": "When you use HAXeditor in your own system, everyone won't be able to see this but, just for this website we made something special. HAX mode is activated even though you're not logged in! You can't sa",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549207377
             }
         },
         {
@@ -436,7 +436,7 @@
             "metadata": {
                 "siteName": "haxtheweb",
                 "created": 1548828434,
-                "updated": 1548828742,
+                "updated": 1549146960,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
