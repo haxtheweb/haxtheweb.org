@@ -81,10 +81,10 @@
             "order": 2,
             "parent": "item-welcome",
             "title": "Try hax",
-            "description": "",
+            "description": "When you use HAXeditor in your own system, everyone won't be able to see this but, just for this website we made something special. HAX mode is activated even though you're not logged in! You can't sa",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549207377
             }
         },
         {
