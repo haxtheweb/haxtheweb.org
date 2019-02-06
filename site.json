@@ -12,7 +12,7 @@
         "domain": "https:\/\/haxtheweb.org",
         "hexCode": "#aeff00",
         "created": 1547138719,
-        "updated": 1549428503,
+        "updated": 1549146835,
         "cssVariable": "",
         "publishing": {
             "git": {
@@ -32,10 +32,10 @@
             "order": 0,
             "parent": null,
             "title": "Welcome",
-            "description": "",
+            "description": "  \nHAX is short for Headless Authoring Experience\n\n\n\n\n\n\n(excuse the mess, We're updating all our docs and publishing workflows!)\n\n\n\n\n\n\nIt is a next generation WYSIWYG that's built in Web components an",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1549146820
             }
         },
         {
@@ -47,8 +47,8 @@
             "title": "What is HAX",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -58,10 +58,20 @@
             "order": 1,
             "parent": "item-welcome",
             "title": "Why Headless",
-            "description": "",
+            "description": "Cross platform\nBecause we've adopted the web component\n\n\n\n\n\n\n\n\n standard in the development of both HAX (authoring system) and HAXCMS (content management), everything we create and compile via our ope",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1549145688,
+                "files": [
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-29_22-47-53.png",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-29_22-47-53.png",
+                        "url": "files\/2019-01-29_22-47-53.png",
+                        "type": "image\/png",
+                        "name": "2019-01-29_22-47-53.png",
+                        "size": 100870
+                    }
+                ]
             }
         },
         {
@@ -71,10 +81,10 @@
             "order": 2,
             "parent": "item-welcome",
             "title": "Try hax",
-            "description": "",
+            "description": "When you use HAXeditor in your own system, everyone won't be able to see this but, just for this website we made something special. HAX mode is activated even though you're not logged in! You can't sa",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1549207377
             }
         },
         {
@@ -84,10 +94,10 @@
             "order": 1,
             "parent": null,
             "title": "Integrations",
-            "description": "",
+            "description": "HAX provides plenty of ways to integrate into the platforms you already use! Here's a list of currently supported ones with links off to their associated plugins\nHAXcms (duh, it's powering this websit",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1549428486
             }
         },
         {
@@ -99,8 +109,8 @@
             "title": "BackdropCMS",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -112,8 +122,8 @@
             "title": "Drupal",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -125,34 +135,8 @@
             "title": "GravCMS",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
-            }
-        },
-        {
-            "id": "item-5a9ea17e-63ce-96f3-e94f-d5282b290661",
-            "indent": 1,
-            "location": "pages\/wordpress\/index.html",
-            "order": 3,
-            "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
-            "title": "WordPress",
-            "description": "",
-            "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
-            }
-        },
-        {
-            "id": "item-c5e61b84-e88a-5a48-29c6-5908117ec505",
-            "indent": 1,
-            "location": "pages\/item-c5e61b84-e88a-5a48-29c6-5908117ec505\/index.html",
-            "order": 4,
-            "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
-            "title": "Creating new ones",
-            "description": "",
-            "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -164,8 +148,8 @@
             "title": "Solutions",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -177,8 +161,8 @@
             "title": "HAXeditor",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -190,8 +174,8 @@
             "title": "HAXcms",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -203,8 +187,8 @@
             "title": "HAXdesktop (future)",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -216,8 +200,8 @@
             "title": "Documentation",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -229,8 +213,8 @@
             "title": "Development",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -242,8 +226,8 @@
             "title": "WCFactory Tooling",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -255,8 +239,8 @@
             "title": "hello-world element",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -268,8 +252,8 @@
             "title": "HAX schema",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -281,8 +265,8 @@
             "title": "HAX Element Schema",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -294,8 +278,8 @@
             "title": "HAX app store",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -307,8 +291,8 @@
             "title": "apps",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -320,8 +304,8 @@
             "title": "blox",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -333,8 +317,8 @@
             "title": "stax",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -346,8 +330,8 @@
             "title": "autoloader",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -359,8 +343,8 @@
             "title": "Core concepts",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -372,8 +356,8 @@
             "title": "UX concepts",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -385,8 +369,8 @@
             "title": "Add",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -398,8 +382,8 @@
             "title": "Make",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -411,8 +395,8 @@
             "title": "Find",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -424,8 +408,8 @@
             "title": "Related technologies",
             "description": "",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548826475
             }
         },
         {
@@ -435,10 +419,34 @@
             "order": 4,
             "parent": null,
             "title": "F.A.Q.",
-            "description": "",
+            "description": "Is this really real?\nYes. Web components turn your site effectively into an API. HAXeditor just leverages this fact and standards that exist in order to supply an incredible amount of functionality on",
             "metadata": {
-                "created": 1549428503,
-                "updated": 1549428503
+                "created": 1548826475,
+                "updated": 1548950911
+            }
+        },
+        {
+            "id": "item-c5e61b84-e88a-5a48-29c6-5908117ec505",
+            "indent": "0",
+            "location": "pages\/item-c5e61b84-e88a-5a48-29c6-5908117ec505\/index.html",
+            "order": "0",
+            "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
+            "title": "Creating new ones",
+            "description": "\nHAXeditor keeps so much functionality on the front-end that there's really very little tying it to..well.. anything. As a result, HAX is easy to integrate into systems that currently have WYSIWYG cap",
+            "metadata": {
+                "siteName": "haxtheweb",
+                "created": 1548828434,
+                "updated": 1549146960,
+                "files": [
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
+                        "url": "files\/59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
+                        "type": "image\/jpeg",
+                        "name": "59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
+                        "size": 51809
+                    }
+                ]
             }
         }
     ]
