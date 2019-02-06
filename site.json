@@ -140,6 +140,19 @@
             }
         },
         {
+            "id": "item-5a9ea17e-63ce-96f3-e94f-d5282b290661",
+            "indent": 1,
+            "location": "pages\/wordpress\/index.html",
+            "order": 3,
+            "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
+            "title": "WordPress",
+            "description": "You'll want to follow a few steps before replacing Gutenberg\n.\nGet the Classic Editor\n. This plugin helps restore WordPress back to what you wanted\nGet the Web component plugin\n\nGet the HAX plugin\n\nEn",
+            "metadata": {
+                "created": 1549428503,
+                "updated": 1549429151
+            }
+        },
+        {
             "id": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
             "indent": 0,
             "location": "pages\/solutions\/index.html",
