@@ -3,6 +3,7 @@ This is a HAXcms generated and managed micro-site. It can run on it's own but it
 
 ## Developer mode
 HAXcms primary audience is people doing things entirely through the UI. It is however creating everything in a way that's very developer friendly though. This means you can peal this off from the original place it came from and run this as a stand alone repo by:
+
 - leveraging the included package.json
 - removing the symlinks to dist / node_modules / build
 - copying the dist directory from the project root into your local setup: https://github.com/elmsln/haxcms/tree/master/dist
