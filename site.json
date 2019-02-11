@@ -12,7 +12,7 @@
         "domain": "https:\/\/haxtheweb.org",
         "hexCode": "#aeff00",
         "created": 1547138719,
-        "updated": 1549146835,
+        "updated": 1549849136,
         "cssVariable": "",
         "publishing": {
             "git": {
@@ -35,7 +35,7 @@
             "description": "  \nHAX is short for Headless Authoring Experience\n\n\n\n\n\n\n(excuse the mess, We're updating all our docs and publishing workflows!)\n\n\n\n\n\n\nIt is a next generation WYSIWYG that's built in Web components an",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549146820
+                "updated": 1549849136
             }
         },
         {
@@ -48,7 +48,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -57,11 +57,11 @@
             "location": "pages\/why-hax\/index.html",
             "order": 1,
             "parent": "item-welcome",
-            "title": "Why Headless",
+            "title": "Principles",
             "description": "Cross platform\nBecause we've adopted the web component\n\n\n\n\n\n\n\n\n standard in the development of both HAX (authoring system) and HAXCMS (content management), everything we create and compile via our ope",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549145688,
+                "updated": 1549849136,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-29_22-47-53.png",
@@ -84,7 +84,7 @@
             "description": "When you use HAXeditor in your own system, everyone won't be able to see this but, just for this website we made something special. HAX mode is activated even though you're not logged in! You can't sa",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549207377
+                "updated": 1549849136
             }
         },
         {
@@ -97,7 +97,7 @@
             "description": "HAX provides plenty of ways to integrate into the platforms you already use! Here's a list of currently supported ones with links off to their associated plugins\nHAXcms (duh, it's powering this websit",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549429311
+                "updated": 1549849136
             }
         },
         {
@@ -110,7 +110,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -123,7 +123,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -136,7 +136,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -149,7 +149,7 @@
             "description": "You'll want to follow a few steps before replacing Gutenberg\n.\nGet the Classic Editor\n. This plugin helps restore WordPress back to what you wanted\nGet the Web component plugin\n\nGet the HAX plugin\n\nEn",
             "metadata": {
                 "created": 1549428503,
-                "updated": 1549429151
+                "updated": 1549849136
             }
         },
         {
@@ -162,7 +162,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -175,7 +175,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -188,7 +188,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -201,7 +201,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -214,7 +214,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -227,7 +227,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -240,7 +240,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -253,7 +253,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -266,7 +266,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -279,7 +279,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -292,7 +292,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -305,7 +305,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -318,7 +318,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -331,7 +331,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -344,7 +344,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -357,7 +357,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -370,7 +370,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -383,7 +383,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -396,7 +396,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -409,7 +409,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -422,7 +422,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548826475
+                "updated": 1549849136
             }
         },
         {
@@ -435,21 +435,21 @@
             "description": "Is this really real?\nYes. Web components turn your site effectively into an API. HAXeditor just leverages this fact and standards that exist in order to supply an incredible amount of functionality on",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1548950911
+                "updated": 1549849136
             }
         },
         {
             "id": "item-c5e61b84-e88a-5a48-29c6-5908117ec505",
-            "indent": "0",
+            "indent": 1,
             "location": "pages\/item-c5e61b84-e88a-5a48-29c6-5908117ec505\/index.html",
-            "order": "0",
+            "order": 4,
             "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "title": "Creating new ones",
             "description": "\nHAXeditor keeps so much functionality on the front-end that there's really very little tying it to..well.. anything. As a result, HAX is easy to integrate into systems that currently have WYSIWYG cap",
             "metadata": {
                 "siteName": "haxtheweb",
                 "created": 1548828434,
-                "updated": 1549146960,
+                "updated": 1549849136,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
