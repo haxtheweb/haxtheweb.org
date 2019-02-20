@@ -13,7 +13,7 @@
         "hexCode": "#aeff00",
         "cssVariable": "--simple-colors-default-theme-light-blue-7",
         "created": 1547138719,
-        "updated": 1549849136,
+        "updated": 1550643005,
         "dynamicElementLoader": {
             "a11y-gif-player": "@lrnwebcomponents\/a11y-gif-player\/a11y-gif-player.js",
             "citation-element": "@lrnwebcomponents\/citation-element\/citation-element.js",
@@ -66,7 +66,7 @@
             "description": "  \nHAX is short for Headless Authoring Experience\n\n\n\n\n\n\n(excuse the mess, We're updating all our docs and publishing workflows!)\n\n\n\n\n\n\nIt is a next generation WYSIWYG that's built in Web components an",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -79,7 +79,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -92,7 +92,7 @@
             "description": "Core PrinciplesSupport any platform (CMS, App, etc) that supports the Web components standardEmpower authors to write a lot of code without ever looking at itAll content produced should work with o",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849539,
+                "updated": 1550643005,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-29_22-47-53.png",
@@ -115,7 +115,7 @@
             "description": "When you use HAXeditor in your own system, everyone won't be able to see this but, just for this website we made something special. HAX mode is activated even though you're not logged in! You can't sa",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1550596624
+                "updated": 1550643005
             }
         },
         {
@@ -128,7 +128,7 @@
             "description": "HAX provides plenty of ways to integrate into the platforms you already use! Here's a list of currently supported ones with links off to their associated plugins\nHAXcms (duh, it's powering this websit",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -141,7 +141,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -154,7 +154,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -167,7 +167,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -180,7 +180,7 @@
             "description": "You'll want to follow a few steps before replacing Gutenberg\n.\nGet the Classic Editor\n. This plugin helps restore WordPress back to what you wanted\nGet the Web component plugin\n\nGet the HAX plugin\n\nEn",
             "metadata": {
                 "created": 1549428503,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -193,7 +193,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -206,7 +206,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -219,7 +219,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -232,7 +232,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -245,7 +245,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -254,11 +254,11 @@
             "location": "pages\/development\/index.html",
             "order": 0,
             "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
-            "title": "Development",
+            "title": "HAX development",
             "description": "Include HAX in your projectThe developers docs will lay out the many specifications that make HAX possible including core concepts, different schema's it leverages ad how to define app store spec in ",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1550642705
+                "updated": 1550643005
             }
         },
         {
@@ -271,7 +271,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -284,7 +284,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -297,7 +297,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -310,7 +310,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -323,7 +323,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -336,7 +336,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -349,7 +349,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -362,7 +362,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -375,7 +375,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -388,7 +388,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -401,7 +401,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -414,7 +414,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -427,7 +427,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -440,20 +440,20 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
             "id": "item-0e4cc53c-944f-658a-5440-eacc5a1c0358",
             "indent": 1,
             "location": "pages\/related-technologies\/index.html",
-            "order": 3,
+            "order": 4,
             "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
             "title": "Related technologies",
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -466,7 +466,7 @@
             "description": "Is this really real?\nYes. Web components turn your site effectively into an API. HAXeditor just leverages this fact and standards that exist in order to supply an incredible amount of functionality on",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550643005
             }
         },
         {
@@ -480,7 +480,7 @@
             "metadata": {
                 "siteName": "haxtheweb",
                 "created": 1548828434,
-                "updated": 1549849136,
+                "updated": 1550643005,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
@@ -491,6 +491,84 @@
                         "size": 51809
                     }
                 ]
+            }
+        },
+        {
+            "id": "item-4bce3546-4d53-4456-8eae-494c79180229",
+            "indent": 1,
+            "location": "pages\/haxcms-1\/index.html",
+            "order": 3,
+            "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
+            "title": "HAXcms",
+            "description": "",
+            "metadata": {
+                "created": 1550643005,
+                "updated": 1550643005
+            }
+        },
+        {
+            "id": "item-dfd62788-ba48-4051-a869-986e5956864f",
+            "indent": 2,
+            "location": "pages\/concepts\/index.html",
+            "order": 0,
+            "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
+            "title": "Concepts",
+            "description": "",
+            "metadata": {
+                "created": 1550643005,
+                "updated": 1550643005
+            }
+        },
+        {
+            "id": "item-5a6e6643-3834-4ac5-ae70-0090263759cb",
+            "indent": 2,
+            "location": "pages\/installation\/index.html",
+            "order": 1,
+            "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
+            "title": "Installation",
+            "description": "",
+            "metadata": {
+                "created": 1550643005,
+                "updated": 1550643005
+            }
+        },
+        {
+            "id": "item-44a138ea-5122-4a2b-b2ce-8bf1fb11bb29",
+            "indent": 2,
+            "location": "pages\/structure\/index.html",
+            "order": 2,
+            "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
+            "title": "Structure",
+            "description": "",
+            "metadata": {
+                "created": 1550643005,
+                "updated": 1550643005
+            }
+        },
+        {
+            "id": "item-5df45272-f6b9-4f4f-b650-16c47aeac6fb",
+            "indent": 2,
+            "location": "pages\/publishing\/index.html",
+            "order": 3,
+            "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
+            "title": "Publishing",
+            "description": "",
+            "metadata": {
+                "created": 1550643005,
+                "updated": 1550643005
+            }
+        },
+        {
+            "id": "item-a52fb685-0a2f-4bc0-8e62-457cf01d66ed",
+            "indent": 2,
+            "location": "pages\/theme-layer\/index.html",
+            "order": 4,
+            "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
+            "title": "Theme layer",
+            "description": "",
+            "metadata": {
+                "created": 1550643005,
+                "updated": 1550643005
             }
         }
     ]
