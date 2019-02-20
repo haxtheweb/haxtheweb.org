@@ -11,6 +11,7 @@
         "icon": "lrn:network",
         "domain": "https:\/\/haxtheweb.org",
         "hexCode": "#aeff00",
+        "cssVariable": "--simple-colors-default-theme-light-blue-7",
         "created": 1547138719,
         "updated": 1549849136,
         "dynamicElementLoader": {
@@ -44,7 +45,6 @@
             "wave-player": "@lrnwebcomponents\/wave-player\/wave-player.js",
             "wikipedia-query": "@lrnwebcomponents\/wikipedia-query\/wikipedia-query.js"
         },
-        "cssVariable": "",
         "publishing": {
             "git": {
                 "vendor": "github",
@@ -255,10 +255,10 @@
             "order": 0,
             "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
             "title": "Development",
-            "description": "",
+            "description": "Include HAX in your projectThe developers docs will lay out the many specifications that make HAX possible including core concepts, different schema's it leverages ad how to define app store spec in ",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1549849136
+                "updated": 1550642705
             }
         },
         {
