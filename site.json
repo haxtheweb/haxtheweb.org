@@ -500,10 +500,10 @@
             "order": 3,
             "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
             "title": "HAXcms",
-            "description": "",
+            "description": "HAXcms, that which powers the site you are currently reading is a powerful \"static site generator\" paradigm. It leverages server technology in order to orchestrate a static site. That way the \"server\"",
             "metadata": {
                 "created": 1550643005,
-                "updated": 1550643005
+                "updated": 1550643229
             }
         },
         {
