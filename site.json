@@ -552,7 +552,17 @@
             "description": "HAXcms requires being published in order to be visible by users. Working locally or on Desktop or on a server is akin to you writing a document on your computer. It's not shared with anyone. Then, whe",
             "metadata": {
                 "created": 1550643005,
-                "updated": 1550643946
+                "updated": 1550643946,
+                "files": [
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-02-20_01-26-01.png",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-02-20_01-26-01.png",
+                        "url": "files\/2019-02-20_01-26-01.png",
+                        "type": "image\/png",
+                        "name": "2019-02-20_01-26-01.png",
+                        "size": 19448
+                    }
+                ]
             }
         },
         {
