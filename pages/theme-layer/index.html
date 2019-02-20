@@ -1,1 +1,73 @@
-<p>My great new content!</p>
+<p>Writing themes for HAXcms is trivial if you know web components. We've also written the <a href="https://github.com/elmsln/wcfactory">wcfactory</a>
+ tooling in order to improve the development and management of web component libraries at scale (see <a href="https://github.com/elmsln/lrnwebcomponents">LRNWebComponents</a>
+ for our element portfolio).</p>
+<p>Here's the steps to integrate a web component theme with HAXcms. This automatically takes care of all the authoring tools and state management associated with HAXcms. Your design is just that; design.</p>
+<p><br/></p>
+<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 100%;">  <template preserve-content="preserve-content">yarn add @lrnwebcomponents/haxcms-elements
+// pull in the HAXCMSThemeWiring class and our store
+import { HAXCMSThemeWiring } from "@lrnwebcomponents/haxcms-elements/lib/HAXCMSThemeWiring.js";
+import { store } from "@lrnwebcomponents/haxcms-elements/lib/haxcms-site-store.js";
+import { autorun, toJS } from "mobx";
+
+// css required
+&lt;style&gt;
+    /**
+     * Hide the slotted content during edit mode. This must be here to work.
+     */
+    :host([edit-mode]) #slot {
+      display: none;
+    }
+&lt;/style&gt;
+
+// properties required on your element
+    /**
+     * editting state for the page
+     */
+    editMode: {
+      type: Boolean,
+      reflectToAttribute: true
+    },
+    /**
+     * Active item which is in JSON Outline Schema
+     */
+    activeItem: {
+      type: Object
+    },
+    /**
+     * a manifest json file decoded, in JSON Outline Schema format
+     */
+    manifest: {
+      type: Object
+    }
+// HTML of the element
+<div id="contentcontainer">
+  <div id="slot"><slot></slot></div>
+</div>
+
+// inside your web component life cycle hooks
+  /**
+   * created life cycle
+   */
+  constructor() {
+    super();
+    this.HAXCMSThemeWiring = new HAXCMSThemeWiring(this);
+  },
+  /**
+   * connected life cycle
+   */
+  connectedCallback: function() {
+    super.connectedCallback();
+    this.HAXCMSThemeWiring.connect(this, this.$.contentcontainer);
+    this.__disposer = autorun(() =&gt; {
+      this.manifest = toJS(store.routerManifest);
+    });
+  },
+  /**
+   * disconnected life cycle
+   */
+  disconnectedCallback: function() {
+    super.disconnectedCallback();
+    this.HAXCMSThemeWiring.disconnect(this);
+    this.__disposer();
+  },</template>
+</code-sample>
