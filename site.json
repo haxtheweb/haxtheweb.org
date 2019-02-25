@@ -536,10 +536,10 @@
             "order": 1,
             "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
             "title": "Installation",
-            "description": "",
+            "description": "Have PHP? well then you can setup HAXcms pretty quick.  # HAX the web and answer the promptsbash scripts\/haxtheweb.shAnswer the questions and then you'll be setup. We still recommend using HAXcms ",
             "metadata": {
                 "created": 1550643005,
-                "updated": 1550643005
+                "updated": 1551130140
             }
         },
         {
