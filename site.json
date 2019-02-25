@@ -523,10 +523,10 @@
             "order": 0,
             "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
             "title": "Concepts",
-            "description": "",
+            "description": "HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to",
             "metadata": {
                 "created": 1550643005,
-                "updated": 1550643005
+                "updated": 1551130299
             }
         },
         {
