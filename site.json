@@ -549,10 +549,10 @@
             "order": 2,
             "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
             "title": "Structure",
-            "description": "HAXcms requires being published in order to be visible by users. Working locally or on Desktop or on a server is akin to you writing a document on your computer. It's not shared with anyone. Then, whe",
+            "description": "By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories \/ files include:fi",
             "metadata": {
                 "created": 1550643005,
-                "updated": 1550644132,
+                "updated": 1551129810,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-02-20_01-26-01.png",
