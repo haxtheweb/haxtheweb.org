@@ -9,7 +9,7 @@
         "image": "assets\/banner.jpg",
         "theme": "outline-player",
         "icon": "lrn:network",
-        "domain": "https:\/\/haxtheweb.org",
+        "domain": "https:\/\/haxtheweb.org\/",
         "hexCode": "#aeff00",
         "cssVariable": "--simple-colors-default-theme-light-blue-7",
         "created": 1547138719,
@@ -580,10 +580,10 @@
             "order": 3,
             "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
             "title": "Publishing",
-            "description": "",
+            "description": "HAXcms requires being published in order to be visible by users. Working locally or on Desktop or on a server is akin to you writing a document on your computer. It's not shared with anyone. Then, whe",
             "metadata": {
                 "created": 1550643005,
-                "updated": 1550643005
+                "updated": 1551129527
             }
         },
         {
