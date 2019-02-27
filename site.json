@@ -7,7 +7,11 @@
     "metadata": {
         "siteName": "haxtheweb",
         "image": "assets\/banner.jpg",
-        "theme": "outline-player",
+        "theme": {
+            "element": "outline-player",
+            "path": "@lrnwebcomponents\/outline-player\/outline-player.js",
+            "name": "Outline player"
+        },
         "icon": "lrn:network",
         "domain": "https:\/\/haxtheweb.org\/",
         "hexCode": "#aeff00",
@@ -216,10 +220,10 @@
             "order": 1,
             "parent": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
             "title": "HAXcms",
-            "description": "",
+            "description": "Pure publishing joyHAXcms is the slimmest possible Content Management System possible thanks to the awesome power of HAX. HAXcms boils content creation down to a handful of files behind the scenes, a",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1550643005
+                "updated": 1551302424
             }
         },
         {
