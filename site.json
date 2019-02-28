@@ -476,7 +476,7 @@
         {
             "id": "item-c5e61b84-e88a-5a48-29c6-5908117ec505",
             "indent": 1,
-            "location": "pages\/item-c5e61b84-e88a-5a48-29c6-5908117ec505\/index.html",
+            "location": "pages\/integrations\/create-new-ones\/index.html",
             "order": 4,
             "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "title": "Creating new ones",
@@ -484,7 +484,7 @@
             "metadata": {
                 "siteName": "haxtheweb",
                 "created": 1548828434,
-                "updated": 1550643005,
+                "updated": 1551388626,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
