@@ -1,7 +1,7 @@
 {
-    "name": "HAX-the-web",
-    "short_name": "haxtheweb",
-    "description": "Documentation and learning about how we HAX the web",
+    "name": "{{ title }}",
+    "short_name": "{{ short }}",
+    "description": "{{ description }}",
     "icons": [
         {
             "src": "assets\/android-icon-36x36.png",
@@ -46,9 +46,9 @@
             "density": "4.0"
         }
     ],
-    "scope": "/",
-    "start_url": "/",
+    "scope": "{{ basePath }}",
+    "start_url": "{{ basePath }}",
     "display": "standalone",
-    "theme_color": "#aeff00",
-    "background_color": "#aeff00"
+    "theme_color": "{{ hexCode }}",
+    "background_color": "{{ hexCode }}"
 }
