@@ -67,10 +67,10 @@
             "order": 0,
             "parent": null,
             "title": "Welcome",
-            "description": "  \nHAX is short for Headless Authoring Experience\n\n\n\n\n\n\n(excuse the mess, We're updating all our docs and publishing workflows!)\n\n\n\n\n\n\nIt is a next generation WYSIWYG that's built in Web components an",
+            "description": "Why HAX?The video player below is a single tag on the interface that works in any system (see lower for code-sample another tag presenting this one)  \/\/ the tag opening",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1550643005
+                "updated": 1551459354
             }
         },
         {
