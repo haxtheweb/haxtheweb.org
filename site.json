@@ -8,16 +8,16 @@
         "siteName": "haxtheweb",
         "image": "assets\/banner.jpg",
         "theme": {
-            "element": "outline-player",
-            "path": "@lrnwebcomponents\/outline-player\/outline-player.js",
-            "name": "Outline player"
+            "element": "haxcms-dev-theme",
+            "path": "@lrnwebcomponents\/haxcms-elements\/lib\/haxcms-dev-theme.js",
+            "name": "Developer theme"
         },
         "icon": "lrn:network",
         "domain": "https:\/\/haxtheweb.org\/",
         "hexCode": "#aeff00",
         "cssVariable": "--simple-colors-default-theme-light-blue-7",
         "created": 1547138719,
-        "updated": 1550643005,
+        "updated": 1551459407,
         "dynamicElementLoader": {
             "a11y-gif-player": "@lrnwebcomponents\/a11y-gif-player\/a11y-gif-player.js",
             "citation-element": "@lrnwebcomponents\/citation-element\/citation-element.js",
