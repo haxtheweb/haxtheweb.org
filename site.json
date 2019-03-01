@@ -47,7 +47,9 @@
             "task-list": "@lrnwebcomponents\/task-list\/task-list.js",
             "video-player": "@lrnwebcomponents\/video-player\/video-player.js",
             "wave-player": "@lrnwebcomponents\/wave-player\/wave-player.js",
-            "wikipedia-query": "@lrnwebcomponents\/wikipedia-query\/wikipedia-query.js"
+            "wikipedia-query": "@lrnwebcomponents\/wikipedia-query\/wikipedia-query.js",
+            "md-block": "@lrnwebcomponents\/md-block\/md-block.js",
+            "grid-plate": "@lrnwebcomponents\/grid-plate\/grid-plate.js"
         },
         "publishing": {
             "git": {
@@ -57,7 +59,7 @@
                 "cdn": "haxtheweb.org"
             }
         },
-        "lastPublished": 1551459366
+        "lastPublished": 1551461476
     },
     "items": [
         {
