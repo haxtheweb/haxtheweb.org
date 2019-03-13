@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HAX-the-web</title>
+  <link href="https://haxtheweb.org//atom.xml" rel="self" />
+  <subtitle>Documentation and learning about how we HAX the web</subtitle>
+  <updated>2019-03-01T16:57:08+00:00</updated>
+  <author>
+      <name>elmsln</name>
+  </author>
+  <id>https://haxtheweb.org//feed</id>
+  <entry>
+    <title>Welcome</title>
+    <id>https://haxtheweb.org//home</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary>Why HAX?The video player below is a single tag on the interface that works in any system (see lower for code-sample another tag presenting this one)  // the tag opening</summary>
+    <link href="https://haxtheweb.org//home"/>
+    
+    <content type="html">
+      <![CDATA[ Why HAX?The video player below is a single tag on the interface that works in any system (see lower for code-sample another tag presenting this one)  // the tag opening ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>What is HAX</title>
+    <id>https://haxtheweb.org//what-is-it</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//what-is-it"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Principles</title>
+    <id>https://haxtheweb.org//why-hax</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary>Core PrinciplesSupport any platform (CMS, App, etc) that supports the Web components standardEmpower authors to write a lot of code without ever looking at itAll content produced should work with o</summary>
+    <link href="https://haxtheweb.org//why-hax"/>
+    
+    <content type="html">
+      <![CDATA[ Core PrinciplesSupport any platform (CMS, App, etc) that supports the Web components standardEmpower authors to write a lot of code without ever looking at itAll content produced should work with o ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Try hax</title>
+    <id>https://haxtheweb.org//try-hax</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary>When you use HAXeditor in your own system, everyone won't be able to see this but, just for this website we made something special. HAX mode is activated even though you're not logged in! You can't sa</summary>
+    <link href="https://haxtheweb.org//try-hax"/>
+    
+    <content type="html">
+      <![CDATA[ When you use HAXeditor in your own system, everyone won't be able to see this but, just for this website we made something special. HAX mode is activated even though you're not logged in! You can't sa ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Integrations</title>
+    <id>https://haxtheweb.org//integrations</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary>HAX provides plenty of ways to integrate into the platforms you already use! Here's a list of currently supported ones with links off to their associated plugins
+HAXcms (duh, it's powering this websit</summary>
+    <link href="https://haxtheweb.org//integrations"/>
+    
+    <content type="html">
+      <![CDATA[ HAX provides plenty of ways to integrate into the platforms you already use! Here's a list of currently supported ones with links off to their associated plugins
+HAXcms (duh, it's powering this websit ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>BackdropCMS</title>
+    <id>https://haxtheweb.org//backdropcms</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//backdropcms"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Drupal</title>
+    <id>https://haxtheweb.org//drupal</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//drupal"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>GravCMS</title>
+    <id>https://haxtheweb.org//gravcms</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//gravcms"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>WordPress</title>
+    <id>https://haxtheweb.org//wordpress</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-02-06T04:48:23+00:00</published>
+    <summary>You'll want to follow a few steps before replacing Gutenberg
+.
+Get the Classic Editor
+. This plugin helps restore WordPress back to what you wanted
+Get the Web component plugin
+
+Get the HAX plugin
+
+En</summary>
+    <link href="https://haxtheweb.org//wordpress"/>
+    
+    <content type="html">
+      <![CDATA[ You'll want to follow a few steps before replacing Gutenberg
+.
+Get the Classic Editor
+. This plugin helps restore WordPress back to what you wanted
+Get the Web component plugin
+
+Get the HAX plugin
+
+En ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Solutions</title>
+    <id>https://haxtheweb.org//solutions</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//solutions"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>HAXeditor</title>
+    <id>https://haxtheweb.org//haxeditor</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//haxeditor"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>HAXcms</title>
+    <id>https://haxtheweb.org//what-is-haxcms</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary>Pure publishing joyHAXcms is the slimmest possible Content Management System possible thanks to the awesome power of HAX. HAXcms boils content creation down to a handful of files behind the scenes, a</summary>
+    <link href="https://haxtheweb.org//what-is-haxcms"/>
+    
+    <content type="html">
+      <![CDATA[ Pure publishing joyHAXcms is the slimmest possible Content Management System possible thanks to the awesome power of HAX. HAXcms boils content creation down to a handful of files behind the scenes, a ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>HAXdesktop (future)</title>
+    <id>https://haxtheweb.org//haxdesktop</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//haxdesktop"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Documentation</title>
+    <id>https://haxtheweb.org//documentation</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//documentation"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>HAX development</title>
+    <id>https://haxtheweb.org//development</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary>Include HAX in your projectThe developers docs will lay out the many specifications that make HAX possible including core concepts, different schema's it leverages ad how to define app store spec in </summary>
+    <link href="https://haxtheweb.org//development"/>
+    
+    <content type="html">
+      <![CDATA[ Include HAX in your projectThe developers docs will lay out the many specifications that make HAX possible including core concepts, different schema's it leverages ad how to define app store spec in  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>WCFactory Tooling</title>
+    <id>https://haxtheweb.org//wcfactory-tooling</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//wcfactory-tooling"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>hello-world element</title>
+    <id>https://haxtheweb.org//hello-world-hax-element</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//hello-world-hax-element"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>HAX schema</title>
+    <id>https://haxtheweb.org//hax-schema</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//hax-schema"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>HAX Element Schema</title>
+    <id>https://haxtheweb.org//hax-element-schema</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//hax-element-schema"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>HAX app store</title>
+    <id>https://haxtheweb.org//hax-appstore-specification</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//hax-appstore-specification"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>apps</title>
+    <id>https://haxtheweb.org//hax-appstore-apps</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//hax-appstore-apps"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>blox</title>
+    <id>https://haxtheweb.org//hax-appstore-blox</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//hax-appstore-blox"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>stax</title>
+    <id>https://haxtheweb.org//hax-appstore-stax</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//hax-appstore-stax"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>autoloader</title>
+    <id>https://haxtheweb.org//hax-appstore-autoloader</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//hax-appstore-autoloader"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Core concepts</title>
+    <id>https://haxtheweb.org//core-concepts</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//core-concepts"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>UX concepts</title>
+    <id>https://haxtheweb.org//ux-concepts</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//ux-concepts"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Add</title>
+    <id>https://haxtheweb.org//add</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//add"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Make</title>
+    <id>https://haxtheweb.org//make</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//make"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Find</title>
+    <id>https://haxtheweb.org//find</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//find"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Related technologies</title>
+    <id>https://haxtheweb.org//related-technologies</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//related-technologies"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>F.A.Q.</title>
+    <id>https://haxtheweb.org//f-a-q-</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary>Is this really real?
+Yes. Web components turn your site effectively into an API. HAXeditor just leverages this fact and standards that exist in order to supply an incredible amount of functionality on</summary>
+    <link href="https://haxtheweb.org//f-a-q-"/>
+    
+    <content type="html">
+      <![CDATA[ Is this really real?
+Yes. Web components turn your site effectively into an API. HAXeditor just leverages this fact and standards that exist in order to supply an incredible amount of functionality on ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Creating new ones</title>
+    <id>https://haxtheweb.org//integrations/create-new-ones</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-01-30T06:07:14+00:00</published>
+    <summary>
+HAXeditor keeps so much functionality on the front-end that there's really very little tying it to..well.. anything. As a result, HAX is easy to integrate into systems that currently have WYSIWYG cap</summary>
+    <link href="https://haxtheweb.org//integrations/create-new-ones"/>
+    
+    <content type="html">
+      <![CDATA[ 
+HAXeditor keeps so much functionality on the front-end that there's really very little tying it to..well.. anything. As a result, HAX is easy to integrate into systems that currently have WYSIWYG cap ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>HAXcms</title>
+    <id>https://haxtheweb.org//haxcms-1</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-02-20T06:10:05+00:00</published>
+    <summary>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server"</summary>
+    <link href="https://haxtheweb.org//haxcms-1"/>
+    
+    <content type="html">
+      <![CDATA[ HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server" ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Concepts</title>
+    <id>https://haxtheweb.org//concepts</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-02-20T06:10:05+00:00</published>
+    <summary>HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to</summary>
+    <link href="https://haxtheweb.org//concepts"/>
+    
+    <content type="html">
+      <![CDATA[ HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Installation</title>
+    <id>https://haxtheweb.org//installation</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-02-20T06:10:05+00:00</published>
+    <summary>Have PHP? well then you can setup HAXcms pretty quick.  # HAX the web and answer the promptsbash scripts/haxtheweb.shAnswer the questions and then you'll be setup. We still recommend using HAXcms </summary>
+    <link href="https://haxtheweb.org//installation"/>
+    
+    <content type="html">
+      <![CDATA[ Have PHP? well then you can setup HAXcms pretty quick.  # HAX the web and answer the promptsbash scripts/haxtheweb.shAnswer the questions and then you'll be setup. We still recommend using HAXcms  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Structure</title>
+    <id>https://haxtheweb.org//structure</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-02-20T06:10:05+00:00</published>
+    <summary>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories / files include:fi</summary>
+    <link href="https://haxtheweb.org//structure"/>
+    
+    <content type="html">
+      <![CDATA[ By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories / files include:fi ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Publishing</title>
+    <id>https://haxtheweb.org//publishing</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-02-20T06:10:05+00:00</published>
+    <summary>HAXcms requires being published in order to be visible by users. Working locally or on Desktop or on a server is akin to you writing a document on your computer. It's not shared with anyone. Then, whe</summary>
+    <link href="https://haxtheweb.org//publishing"/>
+    
+    <content type="html">
+      <![CDATA[ HAXcms requires being published in order to be visible by users. Working locally or on Desktop or on a server is akin to you writing a document on your computer. It's not shared with anyone. Then, whe ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Theme layer</title>
+    <id>https://haxtheweb.org//theme-layer</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-02-20T06:10:05+00:00</published>
+    <summary>Writing themes for HAXcms is trivial if you know web components. We've also written the wcfactory tooling in order to improve the development and management of web component libraries at scale (see L</summary>
+    <link href="https://haxtheweb.org//theme-layer"/>
+    
+    <content type="html">
+      <![CDATA[ Writing themes for HAXcms is trivial if you know web components. We've also written the wcfactory tooling in order to improve the development and management of web component libraries at scale (see L ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Elements</title>
+    <id>https://haxtheweb.org//elements</id>
+    <updated>2019-03-13T00:45:37+00:00</updated>
+    <published>2019-03-13T00:45:37+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//elements"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+</feed>

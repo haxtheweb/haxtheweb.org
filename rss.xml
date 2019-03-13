@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>HAX-the-web</title>
+    <link>https://haxtheweb.org//rss.xml</link>
+    <description>Documentation and learning about how we HAX the web</description>
+    <copyright>Copyright (C) 2019 https://haxtheweb.org/</copyright>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Mar 2019 16:57:08 +0000</lastBuildDate>
+    <atom:link href="https://haxtheweb.org//rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Welcome</title>
+      <link>https://haxtheweb.org//home</link>
+      <description>
+          <![CDATA[ Why HAX?The video player below is a single tag on the interface that works in any system (see lower for code-sample another tag presenting this one)  // the tag opening ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//home</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What is HAX</title>
+      <link>https://haxtheweb.org//what-is-it</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//what-is-it</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Principles</title>
+      <link>https://haxtheweb.org//why-hax</link>
+      <description>
+          <![CDATA[ Core PrinciplesSupport any platform (CMS, App, etc) that supports the Web components standardEmpower authors to write a lot of code without ever looking at itAll content produced should work with o ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//why-hax</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Try hax</title>
+      <link>https://haxtheweb.org//try-hax</link>
+      <description>
+          <![CDATA[ When you use HAXeditor in your own system, everyone won't be able to see this but, just for this website we made something special. HAX mode is activated even though you're not logged in! You can't sa ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//try-hax</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Integrations</title>
+      <link>https://haxtheweb.org//integrations</link>
+      <description>
+          <![CDATA[ HAX provides plenty of ways to integrate into the platforms you already use! Here's a list of currently supported ones with links off to their associated plugins
+HAXcms (duh, it's powering this websit ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//integrations</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>BackdropCMS</title>
+      <link>https://haxtheweb.org//backdropcms</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//backdropcms</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Drupal</title>
+      <link>https://haxtheweb.org//drupal</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//drupal</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GravCMS</title>
+      <link>https://haxtheweb.org//gravcms</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//gravcms</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>WordPress</title>
+      <link>https://haxtheweb.org//wordpress</link>
+      <description>
+          <![CDATA[ You'll want to follow a few steps before replacing Gutenberg
+.
+Get the Classic Editor
+. This plugin helps restore WordPress back to what you wanted
+Get the Web component plugin
+
+Get the HAX plugin
+
+En ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//wordpress</guid>
+      <pubDate>Tue, 13 Mar 8503 15:49:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Solutions</title>
+      <link>https://haxtheweb.org//solutions</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//solutions</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HAXeditor</title>
+      <link>https://haxtheweb.org//haxeditor</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//haxeditor</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HAXcms</title>
+      <link>https://haxtheweb.org//what-is-haxcms</link>
+      <description>
+          <![CDATA[ Pure publishing joyHAXcms is the slimmest possible Content Management System possible thanks to the awesome power of HAX. HAXcms boils content creation down to a handful of files behind the scenes, a ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//what-is-haxcms</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HAXdesktop (future)</title>
+      <link>https://haxtheweb.org//haxdesktop</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//haxdesktop</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Documentation</title>
+      <link>https://haxtheweb.org//documentation</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//documentation</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HAX development</title>
+      <link>https://haxtheweb.org//development</link>
+      <description>
+          <![CDATA[ Include HAX in your projectThe developers docs will lay out the many specifications that make HAX possible including core concepts, different schema's it leverages ad how to define app store spec in  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//development</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>WCFactory Tooling</title>
+      <link>https://haxtheweb.org//wcfactory-tooling</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//wcfactory-tooling</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>hello-world element</title>
+      <link>https://haxtheweb.org//hello-world-hax-element</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//hello-world-hax-element</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HAX schema</title>
+      <link>https://haxtheweb.org//hax-schema</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//hax-schema</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HAX Element Schema</title>
+      <link>https://haxtheweb.org//hax-element-schema</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//hax-element-schema</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HAX app store</title>
+      <link>https://haxtheweb.org//hax-appstore-specification</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//hax-appstore-specification</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>apps</title>
+      <link>https://haxtheweb.org//hax-appstore-apps</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//hax-appstore-apps</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>blox</title>
+      <link>https://haxtheweb.org//hax-appstore-blox</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//hax-appstore-blox</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>stax</title>
+      <link>https://haxtheweb.org//hax-appstore-stax</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//hax-appstore-stax</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>autoloader</title>
+      <link>https://haxtheweb.org//hax-appstore-autoloader</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//hax-appstore-autoloader</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Core concepts</title>
+      <link>https://haxtheweb.org//core-concepts</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//core-concepts</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UX concepts</title>
+      <link>https://haxtheweb.org//ux-concepts</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//ux-concepts</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Add</title>
+      <link>https://haxtheweb.org//add</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//add</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Make</title>
+      <link>https://haxtheweb.org//make</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//make</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Find</title>
+      <link>https://haxtheweb.org//find</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//find</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Related technologies</title>
+      <link>https://haxtheweb.org//related-technologies</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//related-technologies</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>F.A.Q.</title>
+      <link>https://haxtheweb.org//f-a-q-</link>
+      <description>
+          <![CDATA[ Is this really real?
+Yes. Web components turn your site effectively into an API. HAXeditor just leverages this fact and standards that exist in order to supply an incredible amount of functionality on ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//f-a-q-</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Creating new ones</title>
+      <link>https://haxtheweb.org//integrations/create-new-ones</link>
+      <description>
+          <![CDATA[ 
+HAXeditor keeps so much functionality on the front-end that there's really very little tying it to..well.. anything. As a result, HAX is easy to integrate into systems that currently have WYSIWYG cap ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//integrations/create-new-ones</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HAXcms</title>
+      <link>https://haxtheweb.org//haxcms-1</link>
+      <description>
+          <![CDATA[ HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server" ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//haxcms-1</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Concepts</title>
+      <link>https://haxtheweb.org//concepts</link>
+      <description>
+          <![CDATA[ HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//concepts</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Installation</title>
+      <link>https://haxtheweb.org//installation</link>
+      <description>
+          <![CDATA[ Have PHP? well then you can setup HAXcms pretty quick.  # HAX the web and answer the promptsbash scripts/haxtheweb.shAnswer the questions and then you'll be setup. We still recommend using HAXcms  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//installation</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Structure</title>
+      <link>https://haxtheweb.org//structure</link>
+      <description>
+          <![CDATA[ By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories / files include:fi ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//structure</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Publishing</title>
+      <link>https://haxtheweb.org//publishing</link>
+      <description>
+          <![CDATA[ HAXcms requires being published in order to be visible by users. Working locally or on Desktop or on a server is akin to you writing a document on your computer. It's not shared with anyone. Then, whe ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//publishing</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Theme layer</title>
+      <link>https://haxtheweb.org//theme-layer</link>
+      <description>
+          <![CDATA[ Writing themes for HAXcms is trivial if you know web components. We've also written the wcfactory tooling in order to improve the development and management of web component libraries at scale (see L ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//theme-layer</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Elements</title>
+      <link>https://haxtheweb.org//elements</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//elements</guid>
+      <pubDate>Sat, 13 Mar 7937 15:52:43 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
