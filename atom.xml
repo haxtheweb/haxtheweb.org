@@ -3,7 +3,7 @@
   <title>HAX-the-web</title>
   <link href="https://haxtheweb.org//atom.xml" rel="self" />
   <subtitle>Documentation and learning about how we HAX the web</subtitle>
-  <updated>2019-03-13T00:45:37+00:00</updated>
+  <updated>2019-03-15T20:02:59+00:00</updated>
   <author>
       <name>elmsln</name>
   </author>
@@ -11,13 +11,13 @@
   <entry>
     <title>Welcome</title>
     <id>https://haxtheweb.org//home</id>
-    <updated>2019-03-13T00:45:37+00:00</updated>
+    <updated>2019-03-18T12:05:37+00:00</updated>
     <published>2019-01-30T05:34:35+00:00</published>
-    <summary>Why HAX?The video player below is a single tag on the interface that works in any system (see lower for code-sample another tag presenting this one)  // the tag opening</summary>
+    <summary>Why HAX?The video player below is a single tag on the interface that works in any system (see lower for code-sample another tag presenting this one)  // the tag openi</summary>
     <link href="https://haxtheweb.org//home"/>
     
     <content type="html">
-      <![CDATA[ Why HAX?The video player below is a single tag on the interface that works in any system (see lower for code-sample another tag presenting this one)  // the tag opening ]]>
+      <![CDATA[ Why HAX?The video player below is a single tag on the interface that works in any system (see lower for code-sample another tag presenting this one)  // the tag openi ]]>
     </content>
   </entry>
   <entry>

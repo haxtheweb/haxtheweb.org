@@ -6,13 +6,13 @@
     <description>Documentation and learning about how we HAX the web</description>
     <copyright>Copyright (C) 2019 https://haxtheweb.org/</copyright>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Mar 2019 00:45:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Mar 2019 20:02:59 +0000</lastBuildDate>
     <atom:link href="https://haxtheweb.org//rss.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Welcome</title>
       <link>https://haxtheweb.org//home</link>
       <description>
-          <![CDATA[ Why HAX?The video player below is a single tag on the interface that works in any system (see lower for code-sample another tag presenting this one)  // the tag opening ]]>
+          <![CDATA[ Why HAX?The video player below is a single tag on the interface that works in any system (see lower for code-sample another tag presenting this one)  // the tag openi ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//home</guid>
@@ -105,7 +105,7 @@ En ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//wordpress</guid>
-      <pubDate>Tue, 13 Mar 8503 15:49:42 +0000</pubDate>
+      <pubDate>Sun, 18 Mar 8503 15:49:42 +0000</pubDate>
     </item>
     <item>
       <title>Solutions</title>
@@ -407,7 +407,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//elements</guid>
-      <pubDate>Sat, 13 Mar 7937 15:52:43 +0000</pubDate>
+      <pubDate>Thu, 18 Mar 7937 15:52:43 +0000</pubDate>
     </item>
   </channel>
 </rss>
