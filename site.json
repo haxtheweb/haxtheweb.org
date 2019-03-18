@@ -69,10 +69,10 @@
             "order": 0,
             "parent": null,
             "title": "Welcome",
-            "description": "Why HAX?The video player below is a single tag on the interface that works in any system (see lower for code-sample another tag presenting this one)  \/\/ the tag openi",
+            "description": "Why HAX?That video player is a single tag in the DOM that works anywhere\u00a0(see code-sample, another web component)  \/\/ the tag opening just like normal HTML&lt; video-player\/\/ a custom property",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1552910737
+                "updated": 1552910785
             }
         },
         {

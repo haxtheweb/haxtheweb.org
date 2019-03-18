@@ -12,7 +12,7 @@
       <title>Welcome</title>
       <link>https://haxtheweb.org//home</link>
       <description>
-          <![CDATA[ Why HAX?The video player below is a single tag on the interface that works in any system (see lower for code-sample another tag presenting this one)  // the tag openi ]]>
+          <![CDATA[ Why HAX?That video player is a single tag in the DOM that works anywhere (see code-sample, another web component)  // the tag opening just like normal HTML&lt; video-player// a custom property ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//home</guid>
