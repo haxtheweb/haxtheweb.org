@@ -6,7 +6,7 @@
     <description>Documentation and learning about how we HAX the web</description>
     <copyright>Copyright (C) 2019 https://haxtheweb.org/</copyright>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Mar 2019 20:02:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Mar 2019 12:06:57 +0000</lastBuildDate>
     <atom:link href="https://haxtheweb.org//rss.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Welcome</title>
@@ -413,7 +413,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       <title>Presentations</title>
       <link>https://haxtheweb.org//presentations</link>
       <description>
-          <![CDATA[  ]]>
+          <![CDATA[ HAX The PlaylistThis playlist is of all things HAXTheWebWCFactory is another important project that the HAX team develops with. ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//presentations</guid>

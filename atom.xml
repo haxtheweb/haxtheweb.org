@@ -3,7 +3,7 @@
   <title>HAX-the-web</title>
   <link href="https://haxtheweb.org//atom.xml" rel="self" />
   <subtitle>Documentation and learning about how we HAX the web</subtitle>
-  <updated>2019-03-15T20:02:59+00:00</updated>
+  <updated>2019-03-18T12:06:57+00:00</updated>
   <author>
       <name>elmsln</name>
   </author>
@@ -501,13 +501,13 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
   <entry>
     <title>Presentations</title>
     <id>https://haxtheweb.org//presentations</id>
-    <updated>2019-03-18T12:06:57+00:00</updated>
+    <updated>2019-03-18T12:14:46+00:00</updated>
     <published>2019-03-18T12:06:57+00:00</published>
-    <summary></summary>
+    <summary>HAX The PlaylistThis playlist is of all things HAXTheWebWCFactory is another important project that the HAX team develops with.</summary>
     <link href="https://haxtheweb.org//presentations"/>
     
     <content type="html">
-      <![CDATA[  ]]>
+      <![CDATA[ HAX The PlaylistThis playlist is of all things HAXTheWebWCFactory is another important project that the HAX team develops with. ]]>
     </content>
   </entry>
 </feed>

@@ -643,10 +643,10 @@
             "order": 3,
             "parent": "item-welcome",
             "title": "Presentations",
-            "description": "",
+            "description": "HAX The PlaylistThis playlist is of all things HAXTheWebWCFactory is another important project that the HAX team develops with.",
             "metadata": {
                 "created": 1552910817,
-                "updated": 1552910817
+                "updated": 1552911286
             }
         }
     ]
