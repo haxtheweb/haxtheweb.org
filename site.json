@@ -798,7 +798,13 @@
             "description": "EEK! You were NOT supposed to see this...except that this is what HAXcms sees. This is your just barebones components with almost 0 css baseline theme play space. This is a great one to fork and rewri",
             "metadata": {
                 "created": 1553194396,
-                "updated": 1553195914
+                "updated": 1553195924,
+                "theme": {
+                    "element": "haxcms-dev-theme",
+                    "path": "@lrnwebcomponents\/haxcms-elements\/lib\/development\/haxcms-dev-theme.js",
+                    "name": "DEVELOPER: Test theme",
+                    "key": "haxcms-dev-theme"
+                }
             }
         }
     ]

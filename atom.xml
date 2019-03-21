@@ -597,7 +597,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
   <entry>
     <title>Dev theme</title>
     <id>https://haxtheweb.org//dev-theme</id>
-    <updated>2019-03-21T19:18:34+00:00</updated>
+    <updated>2019-03-21T19:18:44+00:00</updated>
     <published>2019-03-21T18:53:16+00:00</published>
     <summary>EEK! You were NOT supposed to see this...except that this is what HAXcms sees. This is your just barebones components with almost 0 css baseline theme play space. This is a great one to fork and rewri</summary>
     <link href="https://haxtheweb.org//dev-theme"/>
