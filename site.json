@@ -688,10 +688,10 @@
             "order": 1,
             "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
             "title": "Minimalist",
-            "description": "",
+            "description": "As you can see, the minimalist theme is for trying to give you a straight forward, linear design pattern.Pages are ordered based on the very 1 page's child pages.So you'd have a structure like this:",
             "metadata": {
                 "created": 1553194396,
-                "updated": 1553194423,
+                "updated": 1553194503,
                 "theme": {
                     "element": "haxcms-minimalist-theme",
                     "path": "@lrnwebcomponents\/haxcms-elements\/lib\/core\/themes\/haxcms-minimalist-theme.js",

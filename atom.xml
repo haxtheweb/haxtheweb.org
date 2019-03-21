@@ -537,13 +537,13 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
   <entry>
     <title>Minimalist</title>
     <id>https://haxtheweb.org//minimalist</id>
-    <updated>2019-03-21T18:53:43+00:00</updated>
+    <updated>2019-03-21T18:55:03+00:00</updated>
     <published>2019-03-21T18:53:16+00:00</published>
-    <summary></summary>
+    <summary>As you can see, the minimalist theme is for trying to give you a straight forward, linear design pattern.Pages are ordered based on the very 1 page's child pages.So you'd have a structure like this:</summary>
     <link href="https://haxtheweb.org//minimalist"/>
     
     <content type="html">
-      <![CDATA[  ]]>
+      <![CDATA[ As you can see, the minimalist theme is for trying to give you a straight forward, linear design pattern.Pages are ordered based on the very 1 page's child pages.So you'd have a structure like this: ]]>
     </content>
   </entry>
   <entry>
