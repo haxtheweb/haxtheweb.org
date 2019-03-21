@@ -672,7 +672,7 @@
             "description": "The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulationThe theme elements in HAXcms can",
             "metadata": {
                 "created": 1553194396,
-                "updated": 1553194857,
+                "updated": 1553197360,
                 "theme": {
                     "element": "haxcms-basic-theme",
                     "path": "@lrnwebcomponents\/haxcms-elements\/lib\/core\/themes\/haxcms-basic-theme.js",
