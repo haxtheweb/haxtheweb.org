@@ -3,7 +3,7 @@
   <title>HAX-the-web</title>
   <link href="https://haxtheweb.org//atom.xml" rel="self" />
   <subtitle>Documentation and learning about how we HAX the web</subtitle>
-  <updated>2019-03-21T18:53:16+00:00</updated>
+  <updated>2019-03-21T19:46:24+00:00</updated>
   <author>
       <name>elmsln</name>
   </author>
@@ -609,13 +609,13 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
   <entry>
     <title>Get Involved!</title>
     <id>https://haxtheweb.org//get-involved-</id>
-    <updated>2019-03-21T19:46:24+00:00</updated>
+    <updated>2019-03-21T19:54:28+00:00</updated>
     <published>2019-03-21T19:46:24+00:00</published>
-    <summary></summary>
+    <summary>HAXcms - That which powers this websiteHAXeditor - That which powers our editing experience (and all our other tags for that matter)ELMS:LN Web components on webcomponents.org - Those which we</summary>
     <link href="https://haxtheweb.org//get-involved-"/>
     
     <content type="html">
-      <![CDATA[  ]]>
+      <![CDATA[ HAXcms - That which powers this websiteHAXeditor - That which powers our editing experience (and all our other tags for that matter)ELMS:LN Web components on webcomponents.org - Those which we ]]>
     </content>
   </entry>
 </feed>

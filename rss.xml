@@ -6,7 +6,7 @@
     <description>Documentation and learning about how we HAX the web</description>
     <copyright>Copyright (C) 2019 https://haxtheweb.org/</copyright>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Mar 2019 18:53:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Mar 2019 19:46:24 +0000</lastBuildDate>
     <atom:link href="https://haxtheweb.org//rss.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Welcome</title>
@@ -503,7 +503,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       <title>Get Involved!</title>
       <link>https://haxtheweb.org//get-involved-</link>
       <description>
-          <![CDATA[  ]]>
+          <![CDATA[ HAXcms - That which powers this websiteHAXeditor - That which powers our editing experience (and all our other tags for that matter)ELMS:LN Web components on webcomponents.org - Those which we ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//get-involved-</guid>
