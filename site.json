@@ -749,7 +749,13 @@
             "description": "Outline player is an even more basic form of Learn two. It's for those seeking something even more minimalist in design and capabilities.",
             "metadata": {
                 "created": 1553194396,
-                "updated": 1553195266
+                "updated": 1553195277,
+                "theme": {
+                    "element": "outline-player",
+                    "path": "@lrnwebcomponents\/outline-player\/outline-player.js",
+                    "name": "Documentation",
+                    "key": "outline-player"
+                }
             }
         },
         {
