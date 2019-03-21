@@ -656,10 +656,10 @@
             "order": 5,
             "parent": null,
             "title": "Example themes",
-            "description": "",
+            "description": "Explore some of the themes built for HAXcms that you get out of the box. This is a great demonstration of the performance and power of both web components and HAXcms (the system powering this site!).",
             "metadata": {
                 "created": 1553194396,
-                "updated": 1553194396
+                "updated": 1553194584
             }
         },
         {
