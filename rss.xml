@@ -393,7 +393,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       <title>Theme layer</title>
       <link>https://haxtheweb.org//theme-layer</link>
       <description>
-          <![CDATA[ Writing themes for HAXcms is trivial if you know web components. We've also written the wcfactory tooling in order to improve the development and management of web component libraries at scale (see L ]]>
+          <![CDATA[ Writing themes for HAXcms is trivial if you know web components. We've also written the wcfactory tooling in order to improve the development and management of web component libraries at scale (see  ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//theme-layer</guid>
