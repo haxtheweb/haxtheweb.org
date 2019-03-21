@@ -720,10 +720,10 @@
             "order": 3,
             "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
             "title": "Simple blog",
-            "description": "",
+            "description": "This one definitely just broke your world view... cause... it's... a.... blog.It also just broke the navigation cause Simple Blog is about viewing a listing of blog posts and then when you are inside",
             "metadata": {
                 "created": 1553194396,
-                "updated": 1553194396,
+                "updated": 1553195703,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-03-21_15-12-05.png",
