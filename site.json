@@ -736,7 +736,13 @@
             "description": "Slide player is great for lectures and presentation style sites (or parts of sites). It lets you focus on the content and has almost no UI.",
             "metadata": {
                 "created": 1553194396,
-                "updated": 1553195341
+                "updated": 1553195347,
+                "theme": {
+                    "element": "haxcms-slide-theme",
+                    "path": "@lrnwebcomponents\/haxcms-elements\/lib\/core\/themes\/haxcms-slide-theme.js",
+                    "name": "Slide deck",
+                    "key": "haxcms-slide-theme"
+                }
             }
         },
         {
