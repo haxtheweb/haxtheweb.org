@@ -691,7 +691,13 @@
             "description": "",
             "metadata": {
                 "created": 1553194396,
-                "updated": 1553194396
+                "updated": 1553194423,
+                "theme": {
+                    "element": "haxcms-minimalist-theme",
+                    "path": "@lrnwebcomponents\/haxcms-elements\/lib\/core\/themes\/haxcms-minimalist-theme.js",
+                    "name": "Minimalist site",
+                    "key": "haxcms-minimalist-theme"
+                }
             }
         },
         {
