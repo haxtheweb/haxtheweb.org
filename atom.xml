@@ -3,7 +3,7 @@
   <title>HAX-the-web</title>
   <link href="https://haxtheweb.org//atom.xml" rel="self" />
   <subtitle>Documentation and learning about how we HAX the web</subtitle>
-  <updated>2019-03-18T12:06:57+00:00</updated>
+  <updated>2019-03-21T18:53:16+00:00</updated>
   <author>
       <name>elmsln</name>
   </author>
@@ -508,6 +508,102 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
     
     <content type="html">
       <![CDATA[ HAX The PlaylistThis playlist is of all things HAXTheWebWCFactory is another important project that the HAX team develops with. ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Example themes</title>
+    <id>https://haxtheweb.org//example-themes</id>
+    <updated>2019-03-21T18:53:16+00:00</updated>
+    <published>2019-03-21T18:53:16+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//example-themes"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Basic</title>
+    <id>https://haxtheweb.org//basic</id>
+    <updated>2019-03-21T18:53:33+00:00</updated>
+    <published>2019-03-21T18:53:16+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//basic"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Minimalist</title>
+    <id>https://haxtheweb.org//minimalist</id>
+    <updated>2019-03-21T18:53:16+00:00</updated>
+    <published>2019-03-21T18:53:16+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//minimalist"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Learn two</title>
+    <id>https://haxtheweb.org//learn-two</id>
+    <updated>2019-03-21T18:53:16+00:00</updated>
+    <published>2019-03-21T18:53:16+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//learn-two"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Simple blog</title>
+    <id>https://haxtheweb.org//simple-blog</id>
+    <updated>2019-03-21T18:53:16+00:00</updated>
+    <published>2019-03-21T18:53:16+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//simple-blog"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Slide player</title>
+    <id>https://haxtheweb.org//slide-player</id>
+    <updated>2019-03-21T18:53:16+00:00</updated>
+    <published>2019-03-21T18:53:16+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//slide-player"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Outline player</title>
+    <id>https://haxtheweb.org//outline-player</id>
+    <updated>2019-03-21T18:53:16+00:00</updated>
+    <published>2019-03-21T18:53:16+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//outline-player"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Dev theme</title>
+    <id>https://haxtheweb.org//dev-theme</id>
+    <updated>2019-03-21T18:53:16+00:00</updated>
+    <published>2019-03-21T18:53:16+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//dev-theme"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
     </content>
   </entry>
 </feed>

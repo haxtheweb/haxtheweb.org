@@ -6,7 +6,7 @@
     <description>Documentation and learning about how we HAX the web</description>
     <copyright>Copyright (C) 2019 https://haxtheweb.org/</copyright>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Mar 2019 12:06:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Mar 2019 18:53:16 +0000</lastBuildDate>
     <atom:link href="https://haxtheweb.org//rss.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Welcome</title>
@@ -417,6 +417,86 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//presentations</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Example themes</title>
+      <link>https://haxtheweb.org//example-themes</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//example-themes</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Basic</title>
+      <link>https://haxtheweb.org//basic</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//basic</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Minimalist</title>
+      <link>https://haxtheweb.org//minimalist</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//minimalist</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learn two</title>
+      <link>https://haxtheweb.org//learn-two</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//learn-two</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Simple blog</title>
+      <link>https://haxtheweb.org//simple-blog</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//simple-blog</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Slide player</title>
+      <link>https://haxtheweb.org//slide-player</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//slide-player</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Outline player</title>
+      <link>https://haxtheweb.org//outline-player</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//outline-player</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dev theme</title>
+      <link>https://haxtheweb.org//dev-theme</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//dev-theme</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
   </channel>

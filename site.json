@@ -672,7 +672,13 @@
             "description": "",
             "metadata": {
                 "created": 1553194396,
-                "updated": 1553194396
+                "updated": 1553194413,
+                "theme": {
+                    "element": "haxcms-basic-theme",
+                    "path": "@lrnwebcomponents\/haxcms-elements\/lib\/core\/themes\/haxcms-basic-theme.js",
+                    "name": "Basic site",
+                    "key": "haxcms-basic-theme"
+                }
             }
         },
         {
