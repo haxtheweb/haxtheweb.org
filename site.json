@@ -72,7 +72,7 @@
             "description": "  Why HAX?That video player is a single tag in the DOM that works anywhere\u00a0(see code-sample)  \/\/ the tag opening just like normal HTML&lt; video-player\/\/ a custom property t",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1553285942,
+                "updated": 1553285966,
                 "theme": {
                     "element": "haxcms-basic-theme",
                     "path": "@lrnwebcomponents\/haxcms-elements\/lib\/core\/themes\/haxcms-basic-theme.js",
