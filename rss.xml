@@ -105,7 +105,7 @@ En ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//wordpress</guid>
-      <pubDate>Thu, 22 Mar 8503 15:49:42 +0000</pubDate>
+      <pubDate>Fri, 23 Mar 8503 15:49:42 +0000</pubDate>
     </item>
     <item>
       <title>Solutions</title>
@@ -390,7 +390,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Theme layer</title>
+      <title>Theming</title>
       <link>https://haxtheweb.org//theme-layer</link>
       <description>
           <![CDATA[ Writing themes for HAXcms is trivial if you know web components. We've also written the wcfactory tooling in order to improve the development and management of web component libraries at scale (see  ]]>
@@ -400,14 +400,14 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Elements</title>
+      <title>Core elements</title>
       <link>https://haxtheweb.org//elements</link>
       <description>
           <![CDATA[ While you're not required to use them, HAXcms supplies a series of elements that can make theme development effortless. You can see the source of these in greater detail under the theme directory of h ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//elements</guid>
-      <pubDate>Mon, 22 Mar 7937 15:52:43 +0000</pubDate>
+      <pubDate>Tue, 23 Mar 7937 15:52:43 +0000</pubDate>
     </item>
     <item>
       <title>Presentations</title>
@@ -507,6 +507,46 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//get-involved-</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CSS</title>
+      <link>https://haxtheweb.org//css</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//css</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Web components</title>
+      <link>https://haxtheweb.org//web-components</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//web-components</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Query examples</title>
+      <link>https://haxtheweb.org//query-examples</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//query-examples</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dev workflows</title>
+      <link>https://haxtheweb.org//dev-workflows</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//dev-workflows</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
   </channel>
