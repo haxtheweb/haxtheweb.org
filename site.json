@@ -826,11 +826,11 @@
             "location": "pages\/css\/index.html",
             "order": 0,
             "parent": "item-a52fb685-0a2f-4bc0-8e62-457cf01d66ed",
-            "title": "CSS",
+            "title": "CSS vars",
             "description": "CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a",
             "metadata": {
                 "created": 1553349518,
-                "updated": 1553350115
+                "updated": 1553351715
             }
         },
         {

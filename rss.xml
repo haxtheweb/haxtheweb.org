@@ -510,7 +510,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CSS</title>
+      <title>CSS vars</title>
       <link>https://haxtheweb.org//css</link>
       <description>
           <![CDATA[ CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a ]]>
