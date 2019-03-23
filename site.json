@@ -853,10 +853,10 @@
             "order": 0,
             "parent": "item-a84c35ec-85c8-4c7c-b4ab-80c2fbc87550",
             "title": "Query examples",
-            "description": "",
+            "description": "  Hold up there. You didn't cover any of the query tags in that last section!Ok ok, here's the deal. Queries are so important that they needed their own section. Calm down Dwight we'll handle that n",
             "metadata": {
                 "created": 1553349518,
-                "updated": 1553349518,
+                "updated": 1553353746,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-03-23_10-51-10.jpg",
