@@ -550,10 +550,10 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Skin a custom theme</title>
+      <title>Skin a site</title>
       <link>https://haxtheweb.org//skin-a-custom-theme</link>
       <description>
-          <![CDATA[ Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can't get into the weeds of web components or javascript.Wo ]]>
+          <![CDATA[ Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can&#39;t get into the weeds of web components or javascript.Wo ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//skin-a-custom-theme</guid>

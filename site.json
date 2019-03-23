@@ -888,11 +888,11 @@
             "location": "pages\/skin-a-custom-theme\/index.html",
             "order": 1,
             "parent": "item-a52fb685-0a2f-4bc0-8e62-457cf01d66ed",
-            "title": "Skin a custom theme",
-            "description": "Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can't get into the weeds of web components or javascript.Wo",
+            "title": "Skin a site",
+            "description": "Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can&#39;t get into the weeds of web components or javascript.Wo",
             "metadata": {
                 "created": 1553354507,
-                "updated": 1553354792
+                "updated": 1553354816
             }
         }
     ]
