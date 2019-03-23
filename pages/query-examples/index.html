@@ -1,9 +1,12 @@
-<person-testimonial elevation="1" image="https://media1.giphy.com/media/3t7RAFhu75Wwg/giphy.gif" name="Expects free stuff" position="@all twitter users" accent-color="grey" style="width: 75%; margin: 0px auto; display: block;">  <span>Hold up there. You didn't cover any of the query tags in that last section!</span>
+<person-testimonial style="width: 75%; margin: 0px auto; display: block;" elevation="1" image="https://media1.giphy.com/media/3t7RAFhu75Wwg/giphy.gif" name="Dwight K Schrute" position="Assistant to the regional Web component developer manager" accent-color="grey">  <span>Hold up there. You didn't cover any of the query tags in that last section!</span>
 </person-testimonial>
 <p>Ok ok, here's the deal. Queries are so important that they needed their own section. Calm down Dwight we'll handle that now.<span style="caret-color: rgb(25, 30, 35);"> </span><span style="caret-color: rgb(0, 0, 0);">The <b><i>site-</i>
+
 </b>
+
  query elements are incredibly powerful aspects of HAXcms theming that deserve their own section anyway.</span></p>
 <h2><a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/ui-components/query/site-query.js">site-query</a>
+
 </h2>
 <h3>Code Example</h3>
 <code-sample>  <template preserve-content="preserve-content">&lt; site-query
@@ -23,15 +26,21 @@ conditions='{"metadata.tag": "funny"}'
 <h3 class="hax-active">When it's useful</h3>
 <p>Always. This is by far the most powerful element in our library. It can query the site structure and effectively return anything, anywhere that matches the criteria. It is for exact criteria matching though so you won't be getting children of page X unless you specifically requested them.</p>
 <p>This is great for getting things like getting all the pages that don't have parents (top level items) which is exactly how the <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/ui-components/navigation/site-top-menu.js#L116">site-top-menu</a>
+
  tag does it in conjunction with a dom-repeat tag (in that example).</p>
 <h3 class="hax-active">Caveats</h3>
 <ul><li>This doesn't render anything by itself</li>
 
+
 <li>You have to then know how to do a two way template bind (Polymer convention looking like <b>{{result}} </b>
+
 or know how to use javascript in order to bind the results to visual output</li>
+
 <li>Its incredibly powerful</li>
+
 </ul>
 <p><a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/ui-components/query/site-query-menu-slice.js">site-query-menu-slice</a>
+
 <br/></p>
 <p>A menu slice query is one which takes part of a hierarchy and chops it out to return the items.</p>
 <code-sample copy-clipboard-button="copy-clipboard-button" style="width: 100%;">  <template preserve-content="preserve-content"> &lt;
@@ -70,6 +79,7 @@ that are 2 to 4 levels deep.</span>
 <h3>When it's useful</h3>
 <p>This can be useful for a block that always shows the children of the current page in a documentation site.</p>
 <h2><a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/ui-components/query/site-render-query.js">site-render-query</a>
+
 </h2>
 <p>A site render query attempts to standardize the practice of wiring site-query up to something visual. It requires you supply something visual to get going and has the unfortunate limitation though that what you render must not be dynamic in nature.</p>
 <p>Example</p>
