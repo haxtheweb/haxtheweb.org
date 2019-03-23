@@ -657,13 +657,13 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
   <entry>
     <title>Dev workflows</title>
     <id>https://haxtheweb.org//dev-workflows</id>
-    <updated>2019-03-23T13:58:38+00:00</updated>
+    <updated>2019-03-23T15:21:23+00:00</updated>
     <published>2019-03-23T13:58:38+00:00</published>
-    <summary></summary>
+    <summary>Our development workflow is as follows (for themes)All custom theme work happens in your _config directoryMake my-theme.js, pull everything together, either in this directory or in a wcfactory cat</summary>
     <link href="https://haxtheweb.org//dev-workflows"/>
     
     <content type="html">
-      <![CDATA[  ]]>
+      <![CDATA[ Our development workflow is as follows (for themes)All custom theme work happens in your _config directoryMake my-theme.js, pull everything together, either in this directory or in a wcfactory cat ]]>
     </content>
   </entry>
 </feed>

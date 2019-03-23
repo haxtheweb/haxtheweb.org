@@ -876,10 +876,10 @@
             "order": 3,
             "parent": "item-a52fb685-0a2f-4bc0-8e62-457cf01d66ed",
             "title": "Dev workflows",
-            "description": "",
+            "description": "Our development workflow is as follows (for themes)All custom theme work happens in your _config directoryMake my-theme.js, pull everything together, either in this directory or in a wcfactory cat",
             "metadata": {
                 "created": 1553349518,
-                "updated": 1553349518
+                "updated": 1553354483
             }
         }
     ]
