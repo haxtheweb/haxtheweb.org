@@ -621,13 +621,13 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
   <entry>
     <title>CSS</title>
     <id>https://haxtheweb.org//css</id>
-    <updated>2019-03-23T13:58:38+00:00</updated>
+    <updated>2019-03-23T14:08:35+00:00</updated>
     <published>2019-03-23T13:58:38+00:00</published>
-    <summary></summary>
+    <summary>CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a</summary>
     <link href="https://haxtheweb.org//css"/>
     
     <content type="html">
-      <![CDATA[  ]]>
+      <![CDATA[ CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a ]]>
     </content>
   </entry>
   <entry>
