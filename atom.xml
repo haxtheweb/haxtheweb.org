@@ -3,7 +3,7 @@
   <title>HAX-the-web</title>
   <link href="https://haxtheweb.org//atom.xml" rel="self" />
   <subtitle>Documentation and learning about how we HAX the web</subtitle>
-  <updated>2019-03-23T13:58:38+00:00</updated>
+  <updated>2019-03-23T15:21:47+00:00</updated>
   <author>
       <name>elmsln</name>
   </author>
@@ -669,13 +669,13 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
   <entry>
     <title>Skin a custom theme</title>
     <id>https://haxtheweb.org//skin-a-custom-theme</id>
-    <updated>2019-03-23T15:21:47+00:00</updated>
+    <updated>2019-03-23T15:26:32+00:00</updated>
     <published>2019-03-23T15:21:47+00:00</published>
-    <summary></summary>
+    <summary>Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can't get into the weeds of web components or javascript.Wo</summary>
     <link href="https://haxtheweb.org//skin-a-custom-theme"/>
     
     <content type="html">
-      <![CDATA[  ]]>
+      <![CDATA[ Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can't get into the weeds of web components or javascript.Wo ]]>
     </content>
   </entry>
 </feed>
