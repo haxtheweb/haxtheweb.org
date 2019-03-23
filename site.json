@@ -607,10 +607,10 @@
             "order": 4,
             "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
             "title": "Theming",
-            "description": "Writing themes for HAXcms is trivial if you know web components. We've also written the wcfactory tooling in order to improve the development and management of web component libraries at scale (see ",
+            "description": "There are multiple ways to \"theme\" in HAXcms that align with the skillsets of the person doing the theme development. Know web components? Cool. Know basic CSS and HTML? Cool. Want to build something ",
             "metadata": {
                 "created": 1550643005,
-                "updated": 1553349518
+                "updated": 1553349738
             }
         },
         {

@@ -3,7 +3,7 @@
   <title>HAX-the-web</title>
   <link href="https://haxtheweb.org//atom.xml" rel="self" />
   <subtitle>Documentation and learning about how we HAX the web</subtitle>
-  <updated>2019-03-21T19:46:24+00:00</updated>
+  <updated>2019-03-23T13:58:38+00:00</updated>
   <author>
       <name>elmsln</name>
   </author>
@@ -477,13 +477,13 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
   <entry>
     <title>Theming</title>
     <id>https://haxtheweb.org//theme-layer</id>
-    <updated>2019-03-23T13:58:38+00:00</updated>
+    <updated>2019-03-23T14:02:18+00:00</updated>
     <published>2019-02-20T06:10:05+00:00</published>
-    <summary>Writing themes for HAXcms is trivial if you know web components. We've also written the wcfactory tooling in order to improve the development and management of web component libraries at scale (see </summary>
+    <summary>There are multiple ways to "theme" in HAXcms that align with the skillsets of the person doing the theme development. Know web components? Cool. Know basic CSS and HTML? Cool. Want to build something </summary>
     <link href="https://haxtheweb.org//theme-layer"/>
     
     <content type="html">
-      <![CDATA[ Writing themes for HAXcms is trivial if you know web components. We've also written the wcfactory tooling in order to improve the development and management of web component libraries at scale (see  ]]>
+      <![CDATA[ There are multiple ways to "theme" in HAXcms that align with the skillsets of the person doing the theme development. Know web components? Cool. Know basic CSS and HTML? Cool. Want to build something  ]]>
     </content>
   </entry>
   <entry>
