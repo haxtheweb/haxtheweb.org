@@ -363,7 +363,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       <title>Installation</title>
       <link>https://haxtheweb.org//installation</link>
       <description>
-          <![CDATA[ Generic PHP install directionsHave PHP? well then you can setup HAXcms pretty quick. Just run this one command and you'll be HAXing the web in no time!  # HAX the web and answer the promptsbash scr ]]>
+          <![CDATA[ Generic PHP install directionsHave PHP? well then you can setup HAXcms pretty quick. Just download HAXcms and navigate to its directory in a browser. It'll attempt to automatically install (which is  ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//installation</guid>
