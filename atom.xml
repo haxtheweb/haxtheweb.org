@@ -441,13 +441,13 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
   <entry>
     <title>Installation</title>
     <id>https://haxtheweb.org//installation</id>
-    <updated>2019-03-23T15:21:47+00:00</updated>
+    <updated>2019-03-25T13:42:49+00:00</updated>
     <published>2019-02-20T06:10:05+00:00</published>
-    <summary>Have PHP? well then you can setup HAXcms pretty quick.  # HAX the web and answer the promptsbash scripts/haxtheweb.shAnswer the questions and then you'll be setup. We still recommend using HAXcms </summary>
+    <summary>Generic PHP install directionsHave PHP? well then you can setup HAXcms pretty quick. Just run this one command and you'll be HAXing the web in no time!  # HAX the web and answer the promptsbash scr</summary>
     <link href="https://haxtheweb.org//installation"/>
     
     <content type="html">
-      <![CDATA[ Have PHP? well then you can setup HAXcms pretty quick.  # HAX the web and answer the promptsbash scripts/haxtheweb.shAnswer the questions and then you'll be setup. We still recommend using HAXcms  ]]>
+      <![CDATA[ Generic PHP install directionsHave PHP? well then you can setup HAXcms pretty quick. Just run this one command and you'll be HAXing the web in no time!  # HAX the web and answer the promptsbash scr ]]>
     </content>
   </entry>
   <entry>
