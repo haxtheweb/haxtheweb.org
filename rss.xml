@@ -559,5 +559,15 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       <guid>https://haxtheweb.org//skin-a-custom-theme</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
+    <item>
+      <title>Troubleshooting</title>
+      <link>https://haxtheweb.org//troubleshooting</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//troubleshooting</guid>
+      <pubDate>Sun, 25 Mar 5764 15:53:55 +0000</pubDate>
+    </item>
   </channel>
 </rss>
