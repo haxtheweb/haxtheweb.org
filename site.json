@@ -941,10 +941,10 @@
             "order": 5,
             "parent": "item-welcome",
             "title": "I have issues",
-            "description": "",
+            "description": "Yea yea, we all do.Oh, you have a problem or would like to contribute to HAXcms (that's awesome!). All issues, feature requests and general thumbs up should happen in our issue queue on github:\u00a0http",
             "metadata": {
                 "created": 1553556295,
-                "updated": 1553556295
+                "updated": 1553556404
             }
         }
     ]

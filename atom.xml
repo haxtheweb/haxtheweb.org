@@ -3,7 +3,7 @@
   <title>HAX-the-web</title>
   <link href="https://haxtheweb.org//atom.xml" rel="self" />
   <subtitle>Documentation and learning about how we HAX the web</subtitle>
-  <updated>2019-03-25T23:16:04+00:00</updated>
+  <updated>2019-03-25T23:24:56+00:00</updated>
   <author>
       <name>elmsln</name>
   </author>
@@ -693,13 +693,13 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
   <entry>
     <title>I have issues</title>
     <id>https://haxtheweb.org//i-have-issues</id>
-    <updated>2019-03-25T23:24:55+00:00</updated>
+    <updated>2019-03-25T23:26:44+00:00</updated>
     <published>2019-03-25T23:24:55+00:00</published>
-    <summary></summary>
+    <summary>Yea yea, we all do.Oh, you have a problem or would like to contribute to HAXcms (that's awesome!). All issues, feature requests and general thumbs up should happen in our issue queue on github: http</summary>
     <link href="https://haxtheweb.org//i-have-issues"/>
     
     <content type="html">
-      <![CDATA[  ]]>
+      <![CDATA[ Yea yea, we all do.Oh, you have a problem or would like to contribute to HAXcms (that's awesome!). All issues, feature requests and general thumbs up should happen in our issue queue on github: http ]]>
     </content>
   </entry>
 </feed>

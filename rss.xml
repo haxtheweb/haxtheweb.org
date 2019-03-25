@@ -6,7 +6,7 @@
     <description>Documentation and learning about how we HAX the web</description>
     <copyright>Copyright (C) 2019 https://haxtheweb.org/</copyright>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Mar 2019 23:16:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2019 23:24:56 +0000</lastBuildDate>
     <atom:link href="https://haxtheweb.org//rss.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Welcome</title>
@@ -573,7 +573,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       <title>I have issues</title>
       <link>https://haxtheweb.org//i-have-issues</link>
       <description>
-          <![CDATA[  ]]>
+          <![CDATA[ Yea yea, we all do.Oh, you have a problem or would like to contribute to HAXcms (that's awesome!). All issues, feature requests and general thumbs up should happen in our issue queue on github: http ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//i-have-issues</guid>
