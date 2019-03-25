@@ -545,7 +545,17 @@
             "description": "Have PHP? well then you can setup HAXcms pretty quick.  # HAX the web and answer the promptsbash scripts\/haxtheweb.shAnswer the questions and then you'll be setup. We still recommend using HAXcms ",
             "metadata": {
                 "created": 1550643005,
-                "updated": 1553354507
+                "updated": 1553354507,
+                "files": [
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/mampstructure.jpg",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/mampstructure.jpg",
+                        "url": "files\/mampstructure.jpg",
+                        "type": "image\/jpeg",
+                        "name": "mampstructure.jpg",
+                        "size": 15099
+                    }
+                ]
             }
         },
         {
