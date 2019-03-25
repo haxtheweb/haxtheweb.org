@@ -562,6 +562,14 @@
                         "type": "image\/jpeg",
                         "name": "mampstart.jpg",
                         "size": 12670
+                    },
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/mamppage.jpg",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/mamppage.jpg",
+                        "url": "files\/mamppage.jpg",
+                        "type": "image\/jpeg",
+                        "name": "mamppage.jpg",
+                        "size": 17086
                     }
                 ]
             }
