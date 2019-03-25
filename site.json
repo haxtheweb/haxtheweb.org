@@ -554,6 +554,14 @@
                         "type": "image\/jpeg",
                         "name": "mampstructure.jpg",
                         "size": 15099
+                    },
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/mampstart.jpg",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/mampstart.jpg",
+                        "url": "files\/mampstart.jpg",
+                        "type": "image\/jpeg",
+                        "name": "mampstart.jpg",
+                        "size": 12670
                     }
                 ]
             }
