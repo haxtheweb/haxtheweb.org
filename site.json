@@ -928,10 +928,10 @@
             "order": 4,
             "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
             "title": "Troubleshooting",
-            "description": "",
+            "description": "These are some common issues \/ resolutions in HAXcms related to installation, publishing, etc.I installed HAXcms and forgot my passwordYour username and password can be found in _config\/config.php o",
             "metadata": {
                 "created": 1553555764,
-                "updated": 1553555764
+                "updated": 1553556059
             }
         }
     ]
