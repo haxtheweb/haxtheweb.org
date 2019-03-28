@@ -105,7 +105,7 @@ En ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//wordpress</guid>
-      <pubDate>Sun, 25 Mar 8503 15:49:42 +0000</pubDate>
+      <pubDate>Wed, 28 Mar 8503 15:49:42 +0000</pubDate>
     </item>
     <item>
       <title>Solutions</title>
@@ -321,8 +321,7 @@ En ]]>
       <title>F.A.Q.</title>
       <link>https://haxtheweb.org//f-a-q-</link>
       <description>
-          <![CDATA[ Is this really real?
-Yes. Web components turn your site effectively into an API. HAXeditor just leverages this fact and standards that exist in order to supply an incredible amount of functionality on ]]>
+          <![CDATA[ Is this really real?Yes. Web components turn your site effectively into an API. HAXeditor just leverages this fact and standards that exist in order to supply an incredible amount of functionality on ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//f-a-q-</guid>
@@ -407,7 +406,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//elements</guid>
-      <pubDate>Thu, 25 Mar 7937 15:52:43 +0000</pubDate>
+      <pubDate>Sun, 28 Mar 7937 15:52:43 +0000</pubDate>
     </item>
     <item>
       <title>Presentations</title>
@@ -567,7 +566,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//troubleshooting</guid>
-      <pubDate>Sun, 25 Mar 5764 15:53:55 +0000</pubDate>
+      <pubDate>Wed, 28 Mar 5764 15:53:55 +0000</pubDate>
     </item>
     <item>
       <title>I have issues</title>
@@ -577,7 +576,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//i-have-issues</guid>
-      <pubDate>Mon, 25 Mar 6295 15:53:55 +0000</pubDate>
+      <pubDate>Thu, 28 Mar 6295 15:53:55 +0000</pubDate>
     </item>
   </channel>
 </rss>
