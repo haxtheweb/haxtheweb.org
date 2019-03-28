@@ -640,6 +640,14 @@
                         "type": "image\/jpeg",
                         "name": "pubwork1.jpg",
                         "size": 51662
+                    },
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/pubwork2.jpg",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/pubwork2.jpg",
+                        "url": "files\/pubwork2.jpg",
+                        "type": "image\/jpeg",
+                        "name": "pubwork2.jpg",
+                        "size": 70772
                     }
                 ]
             }
