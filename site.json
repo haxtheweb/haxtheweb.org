@@ -632,6 +632,14 @@
                         "type": "image\/jpeg",
                         "name": "gitpublishingdata.jpg",
                         "size": 12847
+                    },
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/pubwork1.jpg",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/pubwork1.jpg",
+                        "url": "files\/pubwork1.jpg",
+                        "type": "image\/jpeg",
+                        "name": "pubwork1.jpg",
+                        "size": 51662
                     }
                 ]
             }
