@@ -1,4 +1,31 @@
-<p>HAXcms requires being published in order to be visible by users. Working locally or on Desktop or on a server is akin to you writing a document on your computer. It's not shared with anyone. Then, when you want to share it with people or update your website, hitting the Publish button is how to do this.</p>
+<p>HAXcms requires being published in order to be visible to other people. Working locally or on Desktop or on a server, is akin to you writing a document on your computer. It's not shared with anyone. Then, when you want to share it with people or update your website, hitting the <i>Publish button </i>
+is how to do this.</p>
 <p><br/></p>
 <img src="files/2019-02-20_01-26-01.png" alt="Select the settings gear under the additional menu options as an editor." style="width: 25%;"/><p>Currently GitHub is the only provider supported in the local installation method (or from DDEV / one of the supported container providers). In the future hitting publish will have additional development flexibility.</p>
-<img src="files/2019-02-20_01-26-10.png" alt="Edit site settings modal showing the Publish button." style="width: 75%; margin: 0px auto; display: block;"/>
+<img src="files/2019-02-20_01-26-10.png" alt="Edit site settings modal showing the Publish button." style="width: 75%; margin: 0px auto; display: block;"/><h2>Understanding what's actually happening</h2>
+<media-image source="files/gitpublishingdata.jpg" caption="This is a typical publishing area within your site.json file" alt="Screenshot of a piece of a JSON file that's powering the publishing settings for the workflow" size="wide" card box resource="#f73a7020-4b02-7471-fa7c" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 75%; margin: 0px auto; display: block;"></media-image>
+<p>When you hit publish, a few things happen to make your site "web ready". This is the general order of those operations:</p>
+<ol><li>HAXcms takes the underlying files and commits them all to version control (though they already should be)</li>
+
+<li>It then pushes these to the origin of the git repository (likely github)</li>
+<li>Then it switches to the branch you do your publishing from. In github, this is the <b>gh-pages</b>
+ branch, but can deviate as needed.</li>
+<li>Next it deletes symlinks and replaces them with the correct references as needed and leverages the "cdn provider" you specified when setting up HAXcms in order to super charge your files for end users.</li>
+<li>It uses <a href="https://twig.symfony.com/">twig</a>
+ to step through and correctly rewrite references in the index.html of your site to match the paths of where it's going to be sent</li>
+<li>Then it adds all this to version control and sends it up to your gh-pages branch.</li>
+<li>It does some local file clean up and sets things back to master branch for the next time you go to work on everything</li>
+</ol>
+<p>When this is all done, in the UI you'll see a link to your site after it's indicated a successful publish (meaning it pushed the files up there). Depending on where you host your content it may take a few minutes to see the change, though GitHub is usually up within about 2 minutes.</p>
+<p>Once about 2 minutes or so has passed, refresh your live site address or type in the URL of the site. If you've been there previously, you'll probably see the same content / theme as the last time you were there. After about 5 seconds, a message will pop up indicating "new content available" and clicking it (or refreshing the browser) will give you your updated content.</p>
+<p>This last step happens because of what's called a "service worker". This enables your site to be 100% offline capable and ensures that your site only uses traffic and data when it's absolutely nessecary.</p>
+<p>A note on non UI publishing workflows</p>
+<p>You might not have (or want to) setup the credentials between HAXcms and github / your git repo. That's ok. After you hit publish go to terminal / a Git GUI and run the following to publish your site:</p>
+<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 50%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">cd haxcms/_sites/YOURSITE
+git checkout gh-pages
+git push origin gh-pages
+git checkout master
+git push origin master</template>
+</code-sample>
+<p>HAXcms will have made sure that the gh-pages and master branches are valid for distribution, even if it wasn't able to actually send these files to their publishing destination.</p>
+<a11y-gif-player src="https://media0.giphy.com/media/QYPvVL1CheVXO/giphy.gif" src-without-animation="https://media3.giphy.com/media/QYPvVL1CheVXO/480w_s.jpg" alt="Monkeys publishing on keyboards with internet info graphic in the background" resource="#d430faf1-2a0a-3ffc-ded5" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 50%;"></a11y-gif-player>
