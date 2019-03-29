@@ -481,6 +481,14 @@
                         "type": "image\/jpeg",
                         "name": "pubwork1.jpg",
                         "size": 51662
+                    },
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/IMG_20190127_153429.jpg",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/IMG_20190127_153429.jpg",
+                        "url": "files\/IMG_20190127_153429.jpg",
+                        "type": "image\/jpeg",
+                        "name": "IMG_20190127_153429.jpg",
+                        "size": 27242
                     }
                 ]
             }
