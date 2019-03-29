@@ -836,7 +836,17 @@
                     "path": "@lrnwebcomponents\/haxcms-elements\/lib\/core\/themes\/haxcms-slide-theme.js",
                     "name": "Slide deck",
                     "key": "haxcms-slide-theme"
-                }
+                },
+                "files": [
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/demo.csv",
+                        "url": "files\/demo.csv",
+                        "type": "text\/plain",
+                        "name": "demo.csv",
+                        "size": 830
+                    }
+                ]
             }
         },
         {
