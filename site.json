@@ -81,6 +81,14 @@
                         "type": "text\/plain",
                         "name": "demo.csv",
                         "size": 830
+                    },
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/demo.csv",
+                        "url": "files\/demo.csv",
+                        "type": "text\/plain",
+                        "name": "demo.csv",
+                        "size": 830
                     }
                 ]
             }
