@@ -1,8 +1,10 @@
-<video-player style="width: 100%; margin: 0px auto; display: block;" accent-color="orange" dark="dark" lang="en" preload="metadata" source="https://www.youtube.com/watch?v=LrS7dqokTLE" sticky-corner="top-right" track="files/HAXshort.vtt" __stand-alone youtube-id="LrS7dqokTLE?undefined" iframed source-type="youtube" is-a11y-media is-youtube media-title="Why do I need to go anywhere?">  <track src="files/HAXshort.vtt" kind="subtitles" label="English" slot="track"/></track>
+<video-player style="width: 100%; margin: 0px auto; display: block;" accent-color="orange" dark="dark" lang="en" preload="metadata" source="https://www.youtube.com/watch?v=LrS7dqokTLE" sticky-corner="top-right" track="files/HAXshort.vtt" __stand-alone="" youtube-id="LrS7dqokTLE?undefined" iframed="" source-type="youtube" is-a11y-media="" is-youtube="" media-title="Why do I need to go anywhere?">  <track src="files/HAXshort.vtt" kind="subtitles" label="English" slot="track"/></track>
+
 
 </video-player>
 <h2>Why HAX?</h2>
 <p>That video player is a single tag in the DOM that works anywhere <b><i>(see code-sample)</i>
+
 
 
 
@@ -21,11 +23,17 @@
 
 
 
+
 </p>
-<code-sample>  <template preserve-content="preserve-content">// the tag opening just like normal HTML
+<p class="hax-active"><b><i><br/></i>
+</b>
+</p>
+<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 50%;">  <template preserve-content="preserve-content">// the tag opening just like normal HTML
 &lt; video-player
 // a custom property to make the video stick in the corner
 sticky-corner="top-right"
+// closed captioning that generates the transcript
+track="files/HAXshort.vtt"
 // link to the youtube video
 source="https://www.youtube.com/watch?v=LrS7dqokTLE"
 // normal looking style attributes, it is a html tag after all
@@ -33,6 +41,9 @@ style="width: 75%; margin: 0px auto; display: block;"&gt;
 // closing tag, though there could have been information in here
 <!-- video-player --></template>
 </code-sample>
+<p><b><i><br/></i>
+</b>
+</p>
 <p>In fact the code above is using a tag called <b>< code - sample ></b>
 
 
@@ -63,34 +74,6 @@ style="width: 75%; margin: 0px auto; display: block;"&gt;
 
 
 
+
  to present itself! These elements work anywhere. Dig into the rest of the site for further documentation, integrations and how to get involved in <i>HAX The Web</i>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .</p>
