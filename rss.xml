@@ -19,6 +19,16 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Get Involved!</title>
+      <link>https://haxtheweb.org//get-involved-</link>
+      <description>
+          <![CDATA[ HAXcms - That which powers this websiteHAXeditor - That which powers our editing experience (and all our other tags for that matter)ELMS:LN Web components on webcomponents.org - Those whi ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//get-involved-</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>What is HAX</title>
       <link>https://haxtheweb.org//what-is-it</link>
       <description>
@@ -32,7 +42,7 @@
       <title>Principles</title>
       <link>https://haxtheweb.org//why-hax</link>
       <description>
-          <![CDATA[ Core PrinciplesSupport any platform (CMS, App, etc) that supports the Web components standardEmpower authors to write a lot of code without ever looking at itAll content produced should work with o ]]>
+          <![CDATA[ Core PrinciplesSupport all platforms and devices (CMS, App, etc)Empower authors to write code without ever looking at codeAll content produced must work with or without HAXeditor availableSuppo ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//why-hax</guid>
@@ -49,14 +59,43 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Integrations</title>
-      <link>https://haxtheweb.org//integrations</link>
+      <title>Presentations</title>
+      <link>https://haxtheweb.org//presentations</link>
       <description>
-          <![CDATA[ HAX provides plenty of ways to integrate into the platforms you already use! Here's a list of currently supported ones with links off to their associated plugins
-HAXcms (duh, it's powering this websit ]]>
+          <![CDATA[ HAX The PlaylistThis playlist is of all things HAXTheWebWCFactory is another important project that the HAX team develops with. ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//integrations</guid>
+      <guid>https://haxtheweb.org//presentations</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>I have issues</title>
+      <link>https://haxtheweb.org//i-have-issues</link>
+      <description>
+          <![CDATA[ Yea yea, we all do.Oh, you have a problem or would like to contribute to HAXcms (that's awesome!). All issues, feature requests and general thumbs up should happen in our issue queue on github: http ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//i-have-issues</guid>
+      <pubDate>Tue, 02 Apr 6295 15:53:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Basic</title>
+      <link>https://haxtheweb.org//basic</link>
+      <description>
+          <![CDATA[ The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulationThe theme elements in HAXcms can ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//basic</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Query examples</title>
+      <link>https://haxtheweb.org//query-examples</link>
+      <description>
+          <![CDATA[   Hold up there. You didn't cover any of the query tags in that last section!Ok ok, here's the deal. Queries are so important that they needed their own section. Calm down Dwight we'll handle that n ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//query-examples</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -70,51 +109,23 @@ HAXcms (duh, it's powering this websit ]]>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Drupal</title>
-      <link>https://haxtheweb.org//drupal</link>
+      <title>Concepts</title>
+      <link>https://haxtheweb.org//concepts</link>
       <description>
-          <![CDATA[  ]]>
+          <![CDATA[ HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//drupal</guid>
+      <guid>https://haxtheweb.org//concepts</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>GravCMS</title>
-      <link>https://haxtheweb.org//gravcms</link>
+      <title>CSS vars</title>
+      <link>https://haxtheweb.org//css</link>
       <description>
-          <![CDATA[  ]]>
+          <![CDATA[ CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//gravcms</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WordPress</title>
-      <link>https://haxtheweb.org//wordpress</link>
-      <description>
-          <![CDATA[ You'll want to follow a few steps before replacing Gutenberg
-.
-Get the Classic Editor
-. This plugin helps restore WordPress back to what you wanted
-Get the Web component plugin
-
-Get the HAX plugin
-
-En ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//wordpress</guid>
-      <pubDate>Thu, 29 Mar 8503 15:49:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>Solutions</title>
-      <link>https://haxtheweb.org//solutions</link>
-      <description>
-          <![CDATA[  ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//solutions</guid>
+      <guid>https://haxtheweb.org//css</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -128,33 +139,23 @@ En ]]>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>HAXcms</title>
-      <link>https://haxtheweb.org//what-is-haxcms</link>
-      <description>
-          <![CDATA[ Pure publishing joyHAXcms is the slimmest possible Content Management System possible thanks to the awesome power of HAX. HAXcms boils content creation down to a handful of files behind the scenes, a ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//what-is-haxcms</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>HAXdesktop (future)</title>
-      <link>https://haxtheweb.org//haxdesktop</link>
+      <title>apps</title>
+      <link>https://haxtheweb.org//hax-appstore-apps</link>
       <description>
           <![CDATA[  ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//haxdesktop</guid>
+      <guid>https://haxtheweb.org//hax-appstore-apps</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Documentation</title>
-      <link>https://haxtheweb.org//documentation</link>
+      <title>Add</title>
+      <link>https://haxtheweb.org//add</link>
       <description>
           <![CDATA[  ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//documentation</guid>
+      <guid>https://haxtheweb.org//add</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -218,16 +219,6 @@ En ]]>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>apps</title>
-      <link>https://haxtheweb.org//hax-appstore-apps</link>
-      <description>
-          <![CDATA[  ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//hax-appstore-apps</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>blox</title>
       <link>https://haxtheweb.org//hax-appstore-blox</link>
       <description>
@@ -268,64 +259,83 @@ En ]]>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>UX concepts</title>
-      <link>https://haxtheweb.org//ux-concepts</link>
+      <title>Installation</title>
+      <link>https://haxtheweb.org//installation</link>
+      <description>
+          <![CDATA[ Generic PHP install directionsHave PHP? well then you can setup HAXcms pretty quick. Just download HAXcms and navigate to its directory in a browser. It'll attempt to automatically install (which is  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//installation</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Minimalist</title>
+      <link>https://haxtheweb.org//minimalist</link>
+      <description>
+          <![CDATA[ As you can see, the minimalist theme is for trying to give you a straight forward, linear design pattern.Pages are ordered based on the very 1 page's child pages.So you'd have a structure like this: ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//minimalist</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HAXcms</title>
+      <link>https://haxtheweb.org//what-is-haxcms</link>
+      <description>
+          <![CDATA[ Pure publishing joyHAXcms is the slimmest possible Content Management System possible thanks to the awesome power of HAX. HAXcms boils content creation down to a handful of files behind the scenes, a ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//what-is-haxcms</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Drupal</title>
+      <link>https://haxtheweb.org//drupal</link>
       <description>
           <![CDATA[  ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//ux-concepts</guid>
+      <guid>https://haxtheweb.org//drupal</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Add</title>
-      <link>https://haxtheweb.org//add</link>
+      <title>Integrations</title>
+      <link>https://haxtheweb.org//integrations</link>
+      <description>
+          <![CDATA[ HAX provides plenty of ways to integrate into the platforms you already use! Here's a list of currently supported ones with links off to their associated plugins
+HAXcms (duh, it's powering this websit ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//integrations</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GravCMS</title>
+      <link>https://haxtheweb.org//gravcms</link>
       <description>
           <![CDATA[  ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//add</guid>
+      <guid>https://haxtheweb.org//gravcms</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Make</title>
-      <link>https://haxtheweb.org//make</link>
+      <title>WordPress</title>
+      <link>https://haxtheweb.org//wordpress</link>
       <description>
-          <![CDATA[  ]]>
+          <![CDATA[ You'll want to follow a few steps before replacing Gutenberg
+.
+Get the Classic Editor
+. This plugin helps restore WordPress back to what you wanted
+Get the Web component plugin
+
+Get the HAX plugin
+
+En ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//make</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Find</title>
-      <link>https://haxtheweb.org//find</link>
-      <description>
-          <![CDATA[  ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//find</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Related technologies</title>
-      <link>https://haxtheweb.org//related-technologies</link>
-      <description>
-          <![CDATA[  ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//related-technologies</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>F.A.Q.</title>
-      <link>https://haxtheweb.org//f-a-q-</link>
-      <description>
-          <![CDATA[ Is this really real?Yes. Web components turn your site effectively into an API. HAXeditor just leverages this fact and standards that exist in order to supply an incredible amount of functionality on ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//f-a-q-</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <guid>https://haxtheweb.org//wordpress</guid>
+      <pubDate>Mon, 02 Apr 8503 15:49:42 +0000</pubDate>
     </item>
     <item>
       <title>Creating new ones</title>
@@ -339,33 +349,23 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>HAXcms</title>
-      <link>https://haxtheweb.org//haxcms-1</link>
+      <title>Skin a site</title>
+      <link>https://haxtheweb.org//skin-a-custom-theme</link>
       <description>
-          <![CDATA[ HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server" ]]>
+          <![CDATA[ Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can&#39;t get into the weeds of web components or javascript.Wo ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//haxcms-1</guid>
+      <guid>https://haxtheweb.org//skin-a-custom-theme</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Concepts</title>
-      <link>https://haxtheweb.org//concepts</link>
+      <title>Make</title>
+      <link>https://haxtheweb.org//make</link>
       <description>
-          <![CDATA[ HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to ]]>
+          <![CDATA[  ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//concepts</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Installation</title>
-      <link>https://haxtheweb.org//installation</link>
-      <description>
-          <![CDATA[ Generic PHP install directionsHave PHP? well then you can setup HAXcms pretty quick. Just download HAXcms and navigate to its directory in a browser. It'll attempt to automatically install (which is  ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//installation</guid>
+      <guid>https://haxtheweb.org//make</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -379,6 +379,96 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Learn two</title>
+      <link>https://haxtheweb.org//learn-two</link>
+      <description>
+          <![CDATA[ Learn two is a straight forward way of presenting material for learning about a topic. With a breadcrumb trail `` and a simple `` that tracks visually as you activate new items, it's a great way to pr ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//learn-two</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Web components</title>
+      <link>https://haxtheweb.org//web-components</link>
+      <description>
+          <![CDATA[ Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the haxcms-slide-th ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//web-components</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Find</title>
+      <link>https://haxtheweb.org//find</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//find</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UX concepts</title>
+      <link>https://haxtheweb.org//ux-concepts</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//ux-concepts</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HAXdesktop (future)</title>
+      <link>https://haxtheweb.org//haxdesktop</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//haxdesktop</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Solutions</title>
+      <link>https://haxtheweb.org//solutions</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//solutions</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Related technologies</title>
+      <link>https://haxtheweb.org//related-technologies</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//related-technologies</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Documentation</title>
+      <link>https://haxtheweb.org//documentation</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//documentation</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HAXcms</title>
+      <link>https://haxtheweb.org//haxcms-1</link>
+      <description>
+          <![CDATA[ HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server" ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//haxcms-1</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Publishing</title>
       <link>https://haxtheweb.org//publishing</link>
       <description>
@@ -387,6 +477,16 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       <category></category>
       <guid>https://haxtheweb.org//publishing</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Troubleshooting</title>
+      <link>https://haxtheweb.org//troubleshooting</link>
+      <description>
+          <![CDATA[ These are some common issues / resolutions in HAXcms related to installation, publishing, etc.I installed HAXcms and forgot my passwordYour username and password can be found in _config/config.php o ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//troubleshooting</guid>
+      <pubDate>Mon, 02 Apr 5764 15:53:55 +0000</pubDate>
     </item>
     <item>
       <title>Theming</title>
@@ -406,56 +506,16 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//elements</guid>
-      <pubDate>Mon, 29 Mar 7937 15:52:43 +0000</pubDate>
+      <pubDate>Fri, 02 Apr 7937 15:52:43 +0000</pubDate>
     </item>
     <item>
-      <title>Presentations</title>
-      <link>https://haxtheweb.org//presentations</link>
+      <title>Dev workflows</title>
+      <link>https://haxtheweb.org//dev-workflows</link>
       <description>
-          <![CDATA[ HAX The PlaylistThis playlist is of all things HAXTheWebWCFactory is another important project that the HAX team develops with. ]]>
+          <![CDATA[ Our development workflow is as follows (for themes)All custom theme work happens in your _config directoryMake my-theme.js, pull everything together, either in this directory or in a wcfactory cat ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//presentations</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Example themes</title>
-      <link>https://haxtheweb.org//example-themes</link>
-      <description>
-          <![CDATA[ Explore some of the themes built for HAXcms that you get out of the box. This is a great demonstration of the performance and power of both web components and HAXcms (the system powering this site!). ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//example-themes</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Basic</title>
-      <link>https://haxtheweb.org//basic</link>
-      <description>
-          <![CDATA[ The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulationThe theme elements in HAXcms can ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//basic</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Minimalist</title>
-      <link>https://haxtheweb.org//minimalist</link>
-      <description>
-          <![CDATA[ As you can see, the minimalist theme is for trying to give you a straight forward, linear design pattern.Pages are ordered based on the very 1 page's child pages.So you'd have a structure like this: ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//minimalist</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Learn two</title>
-      <link>https://haxtheweb.org//learn-two</link>
-      <description>
-          <![CDATA[ Learn two is a straight forward way of presenting material for learning about a topic. With a breadcrumb trail `` and a simple `` that tracks visually as you activate new items, it's a great way to pr ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//learn-two</guid>
+      <guid>https://haxtheweb.org//dev-workflows</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -479,6 +539,26 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>F.A.Q.</title>
+      <link>https://haxtheweb.org//f-a-q-</link>
+      <description>
+          <![CDATA[ Is this really real?Yes. Web components turn your site effectively into an API. HAXeditor just leverages this fact and standards that exist in order to supply an incredible amount of functionality on ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//f-a-q-</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Example themes</title>
+      <link>https://haxtheweb.org//example-themes</link>
+      <description>
+          <![CDATA[ Explore some of the themes built for HAXcms that you get out of the box. This is a great demonstration of the performance and power of both web components and HAXcms (the system powering this site!). ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//example-themes</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Outline player</title>
       <link>https://haxtheweb.org//outline-player</link>
       <description>
@@ -497,86 +577,6 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       <category></category>
       <guid>https://haxtheweb.org//dev-theme</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Get Involved!</title>
-      <link>https://haxtheweb.org//get-involved-</link>
-      <description>
-          <![CDATA[ HAXcms - That which powers this websiteHAXeditor - That which powers our editing experience (and all our other tags for that matter)ELMS:LN Web components on webcomponents.org - Those whi ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//get-involved-</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CSS vars</title>
-      <link>https://haxtheweb.org//css</link>
-      <description>
-          <![CDATA[ CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//css</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Web components</title>
-      <link>https://haxtheweb.org//web-components</link>
-      <description>
-          <![CDATA[ Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the haxcms-slide-th ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//web-components</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Query examples</title>
-      <link>https://haxtheweb.org//query-examples</link>
-      <description>
-          <![CDATA[   Hold up there. You didn't cover any of the query tags in that last section!Ok ok, here's the deal. Queries are so important that they needed their own section. Calm down Dwight we'll handle that n ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//query-examples</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Dev workflows</title>
-      <link>https://haxtheweb.org//dev-workflows</link>
-      <description>
-          <![CDATA[ Our development workflow is as follows (for themes)All custom theme work happens in your _config directoryMake my-theme.js, pull everything together, either in this directory or in a wcfactory cat ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//dev-workflows</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Skin a site</title>
-      <link>https://haxtheweb.org//skin-a-custom-theme</link>
-      <description>
-          <![CDATA[ Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can&#39;t get into the weeds of web components or javascript.Wo ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//skin-a-custom-theme</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Troubleshooting</title>
-      <link>https://haxtheweb.org//troubleshooting</link>
-      <description>
-          <![CDATA[ These are some common issues / resolutions in HAXcms related to installation, publishing, etc.I installed HAXcms and forgot my passwordYour username and password can be found in _config/config.php o ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//troubleshooting</guid>
-      <pubDate>Thu, 29 Mar 5764 15:53:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>I have issues</title>
-      <link>https://haxtheweb.org//i-have-issues</link>
-      <description>
-          <![CDATA[ Yea yea, we all do.Oh, you have a problem or would like to contribute to HAXcms (that's awesome!). All issues, feature requests and general thumbs up should happen in our issue queue on github: http ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//i-have-issues</guid>
-      <pubDate>Fri, 29 Mar 6295 15:53:55 +0000</pubDate>
     </item>
   </channel>
 </rss>
