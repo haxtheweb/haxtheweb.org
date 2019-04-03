@@ -3,7 +3,7 @@
   <title>HAX-the-web</title>
   <link href="https://haxtheweb.org//atom.xml" rel="self" />
   <subtitle>Documentation and learning about how we HAX the web</subtitle>
-  <updated>2019-03-25T23:24:56+00:00</updated>
+  <updated>2019-04-02T03:17:49+00:00</updated>
   <author>
       <name>elmsln</name>
   </author>
@@ -23,13 +23,13 @@
   <entry>
     <title>Get Involved!</title>
     <id>https://haxtheweb.org//get-involved-</id>
-    <updated>2019-04-02T03:17:48+00:00</updated>
+    <updated>2019-04-03T19:04:34+00:00</updated>
     <published>2019-03-21T19:46:24+00:00</published>
-    <summary>HAXcms - That which powers this websiteHAXeditor - That which powers our editing experience (and all our other tags for that matter)ELMS:LN Web components on webcomponents.org - Those whi</summary>
+    <summary>HAXcms - That which powers this websiteHAXeditor - That which powers our editing experience (and all our other tags for that matter)ELMS:LN Web components on webcomponents.org - Thos</summary>
     <link href="https://haxtheweb.org//get-involved-"/>
     
     <content type="html">
-      <![CDATA[ HAXcms - That which powers this websiteHAXeditor - That which powers our editing experience (and all our other tags for that matter)ELMS:LN Web components on webcomponents.org - Those whi ]]>
+      <![CDATA[ HAXcms - That which powers this websiteHAXeditor - That which powers our editing experience (and all our other tags for that matter)ELMS:LN Web components on webcomponents.org - Thos ]]>
     </content>
   </entry>
   <entry>
@@ -93,36 +93,60 @@
     </content>
   </entry>
   <entry>
-    <title>Concepts</title>
-    <id>https://haxtheweb.org//concepts</id>
-    <updated>2019-04-02T03:17:48+00:00</updated>
-    <published>2019-02-20T06:10:05+00:00</published>
-    <summary>HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to</summary>
-    <link href="https://haxtheweb.org//concepts"/>
-    
-    <content type="html">
-      <![CDATA[ HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Query examples</title>
-    <id>https://haxtheweb.org//query-examples</id>
+    <title>Basic</title>
+    <id>https://haxtheweb.org//basic</id>
     <updated>2019-04-02T03:17:49+00:00</updated>
-    <published>2019-03-23T13:58:38+00:00</published>
-    <summary>  Hold up there. You didn't cover any of the query tags in that last section!Ok ok, here's the deal. Queries are so important that they needed their own section. Calm down Dwight we'll handle that n</summary>
-    <link href="https://haxtheweb.org//query-examples"/>
+    <published>2019-03-21T18:53:16+00:00</published>
+    <summary>The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulationThe theme elements in HAXcms can</summary>
+    <link href="https://haxtheweb.org//basic"/>
     
     <content type="html">
-      <![CDATA[   Hold up there. You didn't cover any of the query tags in that last section!Ok ok, here's the deal. Queries are so important that they needed their own section. Calm down Dwight we'll handle that n ]]>
+      <![CDATA[ The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulationThe theme elements in HAXcms can ]]>
     </content>
   </entry>
   <entry>
-    <title>WCFactory Tooling</title>
-    <id>https://haxtheweb.org//wcfactory-tooling</id>
+    <title>Add</title>
+    <id>https://haxtheweb.org//add</id>
     <updated>2019-04-02T03:17:48+00:00</updated>
     <published>2019-01-30T05:34:35+00:00</published>
     <summary></summary>
-    <link href="https://haxtheweb.org//wcfactory-tooling"/>
+    <link href="https://haxtheweb.org//add"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>CSS vars</title>
+    <id>https://haxtheweb.org//css</id>
+    <updated>2019-04-02T03:17:48+00:00</updated>
+    <published>2019-03-23T13:58:38+00:00</published>
+    <summary>CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a</summary>
+    <link href="https://haxtheweb.org//css"/>
+    
+    <content type="html">
+      <![CDATA[ CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>apps</title>
+    <id>https://haxtheweb.org//hax-appstore-apps</id>
+    <updated>2019-04-02T03:17:48+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//hax-appstore-apps"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>HAXeditor</title>
+    <id>https://haxtheweb.org//haxeditor</id>
+    <updated>2019-04-02T03:17:48+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//haxeditor"/>
     
     <content type="html">
       <![CDATA[  ]]>
@@ -138,6 +162,18 @@
     
     <content type="html">
       <![CDATA[ Include HAX in your projectThe developers docs will lay out the many specifications that make HAX possible including core concepts, different schema's it leverages ad how to define app store spec in  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>WCFactory Tooling</title>
+    <id>https://haxtheweb.org//wcfactory-tooling</id>
+    <updated>2019-04-02T03:17:48+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//wcfactory-tooling"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
     </content>
   </entry>
   <entry>
@@ -189,18 +225,6 @@
     </content>
   </entry>
   <entry>
-    <title>apps</title>
-    <id>https://haxtheweb.org//hax-appstore-apps</id>
-    <updated>2019-04-02T03:17:48+00:00</updated>
-    <published>2019-01-30T05:34:35+00:00</published>
-    <summary></summary>
-    <link href="https://haxtheweb.org//hax-appstore-apps"/>
-    
-    <content type="html">
-      <![CDATA[  ]]>
-    </content>
-  </entry>
-  <entry>
     <title>blox</title>
     <id>https://haxtheweb.org//hax-appstore-blox</id>
     <updated>2019-04-02T03:17:48+00:00</updated>
@@ -237,15 +261,27 @@
     </content>
   </entry>
   <entry>
-    <title>Basic</title>
-    <id>https://haxtheweb.org//basic</id>
+    <title>Query examples</title>
+    <id>https://haxtheweb.org//query-examples</id>
     <updated>2019-04-02T03:17:49+00:00</updated>
-    <published>2019-03-21T18:53:16+00:00</published>
-    <summary>The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulationThe theme elements in HAXcms can</summary>
-    <link href="https://haxtheweb.org//basic"/>
+    <published>2019-03-23T13:58:38+00:00</published>
+    <summary>  Hold up there. You didn't cover any of the query tags in that last section!Ok ok, here's the deal. Queries are so important that they needed their own section. Calm down Dwight we'll handle that n</summary>
+    <link href="https://haxtheweb.org//query-examples"/>
     
     <content type="html">
-      <![CDATA[ The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulationThe theme elements in HAXcms can ]]>
+      <![CDATA[   Hold up there. You didn't cover any of the query tags in that last section!Ok ok, here's the deal. Queries are so important that they needed their own section. Calm down Dwight we'll handle that n ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Concepts</title>
+    <id>https://haxtheweb.org//concepts</id>
+    <updated>2019-04-02T03:17:48+00:00</updated>
+    <published>2019-02-20T06:10:05+00:00</published>
+    <summary>HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to</summary>
+    <link href="https://haxtheweb.org//concepts"/>
+    
+    <content type="html">
+      <![CDATA[ HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to ]]>
     </content>
   </entry>
   <entry>
@@ -261,60 +297,12 @@
     </content>
   </entry>
   <entry>
-    <title>Add</title>
-    <id>https://haxtheweb.org//add</id>
+    <title>Drupal</title>
+    <id>https://haxtheweb.org//drupal</id>
     <updated>2019-04-02T03:17:48+00:00</updated>
     <published>2019-01-30T05:34:35+00:00</published>
     <summary></summary>
-    <link href="https://haxtheweb.org//add"/>
-    
-    <content type="html">
-      <![CDATA[  ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>CSS vars</title>
-    <id>https://haxtheweb.org//css</id>
-    <updated>2019-04-02T03:17:48+00:00</updated>
-    <published>2019-03-23T13:58:38+00:00</published>
-    <summary>CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a</summary>
-    <link href="https://haxtheweb.org//css"/>
-    
-    <content type="html">
-      <![CDATA[ CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>HAXeditor</title>
-    <id>https://haxtheweb.org//haxeditor</id>
-    <updated>2019-04-02T03:17:48+00:00</updated>
-    <published>2019-01-30T05:34:35+00:00</published>
-    <summary></summary>
-    <link href="https://haxtheweb.org//haxeditor"/>
-    
-    <content type="html">
-      <![CDATA[  ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Skin a site</title>
-    <id>https://haxtheweb.org//skin-a-custom-theme</id>
-    <updated>2019-04-02T03:17:48+00:00</updated>
-    <published>2019-03-23T15:21:47+00:00</published>
-    <summary>Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can&#39;t get into the weeds of web components or javascript.Wo</summary>
-    <link href="https://haxtheweb.org//skin-a-custom-theme"/>
-    
-    <content type="html">
-      <![CDATA[ Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can&#39;t get into the weeds of web components or javascript.Wo ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Make</title>
-    <id>https://haxtheweb.org//make</id>
-    <updated>2019-04-02T03:17:48+00:00</updated>
-    <published>2019-01-30T05:34:35+00:00</published>
-    <summary></summary>
-    <link href="https://haxtheweb.org//make"/>
+    <link href="https://haxtheweb.org//drupal"/>
     
     <content type="html">
       <![CDATA[  ]]>
@@ -333,27 +321,27 @@
     </content>
   </entry>
   <entry>
-    <title>Drupal</title>
-    <id>https://haxtheweb.org//drupal</id>
+    <title>Make</title>
+    <id>https://haxtheweb.org//make</id>
     <updated>2019-04-02T03:17:48+00:00</updated>
     <published>2019-01-30T05:34:35+00:00</published>
     <summary></summary>
-    <link href="https://haxtheweb.org//drupal"/>
+    <link href="https://haxtheweb.org//make"/>
     
     <content type="html">
       <![CDATA[  ]]>
     </content>
   </entry>
   <entry>
-    <title>Solutions</title>
-    <id>https://haxtheweb.org//solutions</id>
+    <title>Skin a site</title>
+    <id>https://haxtheweb.org//skin-a-custom-theme</id>
     <updated>2019-04-02T03:17:48+00:00</updated>
-    <published>2019-01-30T05:34:35+00:00</published>
-    <summary></summary>
-    <link href="https://haxtheweb.org//solutions"/>
+    <published>2019-03-23T15:21:47+00:00</published>
+    <summary>Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can&#39;t get into the weeds of web components or javascript.Wo</summary>
+    <link href="https://haxtheweb.org//skin-a-custom-theme"/>
     
     <content type="html">
-      <![CDATA[  ]]>
+      <![CDATA[ Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can&#39;t get into the weeds of web components or javascript.Wo ]]>
     </content>
   </entry>
   <entry>
@@ -366,18 +354,6 @@
     
     <content type="html">
       <![CDATA[ Pure publishing joyHAXcms is the slimmest possible Content Management System possible thanks to the awesome power of HAX. HAXcms boils content creation down to a handful of files behind the scenes, a ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>HAXdesktop (future)</title>
-    <id>https://haxtheweb.org//haxdesktop</id>
-    <updated>2019-04-02T03:17:48+00:00</updated>
-    <published>2019-01-30T05:34:35+00:00</published>
-    <summary></summary>
-    <link href="https://haxtheweb.org//haxdesktop"/>
-    
-    <content type="html">
-      <![CDATA[  ]]>
     </content>
   </entry>
   <entry>
@@ -405,51 +381,39 @@
     </content>
   </entry>
   <entry>
-    <title>GravCMS</title>
-    <id>https://haxtheweb.org//gravcms</id>
+    <title>Solutions</title>
+    <id>https://haxtheweb.org//solutions</id>
     <updated>2019-04-02T03:17:48+00:00</updated>
     <published>2019-01-30T05:34:35+00:00</published>
     <summary></summary>
-    <link href="https://haxtheweb.org//gravcms"/>
+    <link href="https://haxtheweb.org//solutions"/>
     
     <content type="html">
       <![CDATA[  ]]>
     </content>
   </entry>
   <entry>
-    <title>Learn two</title>
-    <id>https://haxtheweb.org//learn-two</id>
-    <updated>2019-04-02T03:17:49+00:00</updated>
-    <published>2019-03-21T18:53:16+00:00</published>
-    <summary>Learn two is a straight forward way of presenting material for learning about a topic. With a breadcrumb trail `` and a simple `` that tracks visually as you activate new items, it's a great way to pr</summary>
-    <link href="https://haxtheweb.org//learn-two"/>
+    <title>HAXdesktop (future)</title>
+    <id>https://haxtheweb.org//haxdesktop</id>
+    <updated>2019-04-02T03:17:48+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//haxdesktop"/>
     
     <content type="html">
-      <![CDATA[ Learn two is a straight forward way of presenting material for learning about a topic. With a breadcrumb trail `` and a simple `` that tracks visually as you activate new items, it's a great way to pr ]]>
+      <![CDATA[  ]]>
     </content>
   </entry>
   <entry>
-    <title>Structure</title>
-    <id>https://haxtheweb.org//structure</id>
+    <title>UX concepts</title>
+    <id>https://haxtheweb.org//ux-concepts</id>
     <updated>2019-04-02T03:17:48+00:00</updated>
-    <published>2019-02-20T06:10:05+00:00</published>
-    <summary>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories / files include:fi</summary>
-    <link href="https://haxtheweb.org//structure"/>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//ux-concepts"/>
     
     <content type="html">
-      <![CDATA[ By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories / files include:fi ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Web components</title>
-    <id>https://haxtheweb.org//web-components</id>
-    <updated>2019-04-02T03:17:48+00:00</updated>
-    <published>2019-03-23T13:58:38+00:00</published>
-    <summary>Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the haxcms-slide-th</summary>
-    <link href="https://haxtheweb.org//web-components"/>
-    
-    <content type="html">
-      <![CDATA[ Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the haxcms-slide-th ]]>
+      <![CDATA[  ]]>
     </content>
   </entry>
   <entry>
@@ -465,12 +429,48 @@
     </content>
   </entry>
   <entry>
-    <title>UX concepts</title>
-    <id>https://haxtheweb.org//ux-concepts</id>
+    <title>Web components</title>
+    <id>https://haxtheweb.org//web-components</id>
+    <updated>2019-04-02T03:17:48+00:00</updated>
+    <published>2019-03-23T13:58:38+00:00</published>
+    <summary>Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the haxcms-slide-th</summary>
+    <link href="https://haxtheweb.org//web-components"/>
+    
+    <content type="html">
+      <![CDATA[ Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the haxcms-slide-th ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Structure</title>
+    <id>https://haxtheweb.org//structure</id>
+    <updated>2019-04-02T03:17:48+00:00</updated>
+    <published>2019-02-20T06:10:05+00:00</published>
+    <summary>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories / files include:fi</summary>
+    <link href="https://haxtheweb.org//structure"/>
+    
+    <content type="html">
+      <![CDATA[ By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories / files include:fi ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Learn two</title>
+    <id>https://haxtheweb.org//learn-two</id>
+    <updated>2019-04-02T03:17:49+00:00</updated>
+    <published>2019-03-21T18:53:16+00:00</published>
+    <summary>Learn two is a straight forward way of presenting material for learning about a topic. With a breadcrumb trail `` and a simple `` that tracks visually as you activate new items, it's a great way to pr</summary>
+    <link href="https://haxtheweb.org//learn-two"/>
+    
+    <content type="html">
+      <![CDATA[ Learn two is a straight forward way of presenting material for learning about a topic. With a breadcrumb trail `` and a simple `` that tracks visually as you activate new items, it's a great way to pr ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>GravCMS</title>
+    <id>https://haxtheweb.org//gravcms</id>
     <updated>2019-04-02T03:17:48+00:00</updated>
     <published>2019-01-30T05:34:35+00:00</published>
     <summary></summary>
-    <link href="https://haxtheweb.org//ux-concepts"/>
+    <link href="https://haxtheweb.org//gravcms"/>
     
     <content type="html">
       <![CDATA[  ]]>
@@ -533,18 +533,6 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
     </content>
   </entry>
   <entry>
-    <title>Related technologies</title>
-    <id>https://haxtheweb.org//related-technologies</id>
-    <updated>2019-04-02T03:17:48+00:00</updated>
-    <published>2019-01-30T05:34:35+00:00</published>
-    <summary></summary>
-    <link href="https://haxtheweb.org//related-technologies"/>
-    
-    <content type="html">
-      <![CDATA[  ]]>
-    </content>
-  </entry>
-  <entry>
     <title>Simple blog</title>
     <id>https://haxtheweb.org//simple-blog</id>
     <updated>2019-04-02T03:17:49+00:00</updated>
@@ -563,6 +551,18 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
     <published>2019-01-30T05:34:35+00:00</published>
     <summary></summary>
     <link href="https://haxtheweb.org//documentation"/>
+    
+    <content type="html">
+      <![CDATA[  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Related technologies</title>
+    <id>https://haxtheweb.org//related-technologies</id>
+    <updated>2019-04-02T03:17:48+00:00</updated>
+    <published>2019-01-30T05:34:35+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//related-technologies"/>
     
     <content type="html">
       <![CDATA[  ]]>

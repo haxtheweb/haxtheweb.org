@@ -6,7 +6,7 @@
     <description>Documentation and learning about how we HAX the web</description>
     <copyright>Copyright (C) 2019 https://haxtheweb.org/</copyright>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Mar 2019 23:24:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2019 03:17:49 +0000</lastBuildDate>
     <atom:link href="https://haxtheweb.org//rss.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Welcome</title>
@@ -22,7 +22,7 @@
       <title>Get Involved!</title>
       <link>https://haxtheweb.org//get-involved-</link>
       <description>
-          <![CDATA[ HAXcms - That which powers this websiteHAXeditor - That which powers our editing experience (and all our other tags for that matter)ELMS:LN Web components on webcomponents.org - Those whi ]]>
+          <![CDATA[ HAXcms - That which powers this websiteHAXeditor - That which powers our editing experience (and all our other tags for that matter)ELMS:LN Web components on webcomponents.org - Thos ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//get-involved-</guid>
@@ -76,36 +76,56 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//i-have-issues</guid>
-      <pubDate>Tue, 02 Apr 6295 15:53:55 +0000</pubDate>
+      <pubDate>Wed, 03 Apr 6295 15:53:55 +0000</pubDate>
     </item>
     <item>
-      <title>Concepts</title>
-      <link>https://haxtheweb.org//concepts</link>
+      <title>Basic</title>
+      <link>https://haxtheweb.org//basic</link>
       <description>
-          <![CDATA[ HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to ]]>
+          <![CDATA[ The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulationThe theme elements in HAXcms can ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//concepts</guid>
+      <guid>https://haxtheweb.org//basic</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Query examples</title>
-      <link>https://haxtheweb.org//query-examples</link>
-      <description>
-          <![CDATA[   Hold up there. You didn't cover any of the query tags in that last section!Ok ok, here's the deal. Queries are so important that they needed their own section. Calm down Dwight we'll handle that n ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//query-examples</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WCFactory Tooling</title>
-      <link>https://haxtheweb.org//wcfactory-tooling</link>
+      <title>Add</title>
+      <link>https://haxtheweb.org//add</link>
       <description>
           <![CDATA[  ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//wcfactory-tooling</guid>
+      <guid>https://haxtheweb.org//add</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CSS vars</title>
+      <link>https://haxtheweb.org//css</link>
+      <description>
+          <![CDATA[ CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//css</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>apps</title>
+      <link>https://haxtheweb.org//hax-appstore-apps</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//hax-appstore-apps</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HAXeditor</title>
+      <link>https://haxtheweb.org//haxeditor</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//haxeditor</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -116,6 +136,16 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//development</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>WCFactory Tooling</title>
+      <link>https://haxtheweb.org//wcfactory-tooling</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//wcfactory-tooling</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -159,16 +189,6 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>apps</title>
-      <link>https://haxtheweb.org//hax-appstore-apps</link>
-      <description>
-          <![CDATA[  ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//hax-appstore-apps</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>blox</title>
       <link>https://haxtheweb.org//hax-appstore-blox</link>
       <description>
@@ -199,13 +219,23 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Basic</title>
-      <link>https://haxtheweb.org//basic</link>
+      <title>Query examples</title>
+      <link>https://haxtheweb.org//query-examples</link>
       <description>
-          <![CDATA[ The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulationThe theme elements in HAXcms can ]]>
+          <![CDATA[   Hold up there. You didn't cover any of the query tags in that last section!Ok ok, here's the deal. Queries are so important that they needed their own section. Calm down Dwight we'll handle that n ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//basic</guid>
+      <guid>https://haxtheweb.org//query-examples</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Concepts</title>
+      <link>https://haxtheweb.org//concepts</link>
+      <description>
+          <![CDATA[ HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//concepts</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -219,53 +249,13 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Add</title>
-      <link>https://haxtheweb.org//add</link>
+      <title>Drupal</title>
+      <link>https://haxtheweb.org//drupal</link>
       <description>
           <![CDATA[  ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//add</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CSS vars</title>
-      <link>https://haxtheweb.org//css</link>
-      <description>
-          <![CDATA[ CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//css</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>HAXeditor</title>
-      <link>https://haxtheweb.org//haxeditor</link>
-      <description>
-          <![CDATA[  ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//haxeditor</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Skin a site</title>
-      <link>https://haxtheweb.org//skin-a-custom-theme</link>
-      <description>
-          <![CDATA[ Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can&#39;t get into the weeds of web components or javascript.Wo ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//skin-a-custom-theme</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Make</title>
-      <link>https://haxtheweb.org//make</link>
-      <description>
-          <![CDATA[  ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//make</guid>
+      <guid>https://haxtheweb.org//drupal</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -279,23 +269,23 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Drupal</title>
-      <link>https://haxtheweb.org//drupal</link>
+      <title>Make</title>
+      <link>https://haxtheweb.org//make</link>
       <description>
           <![CDATA[  ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//drupal</guid>
+      <guid>https://haxtheweb.org//make</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Solutions</title>
-      <link>https://haxtheweb.org//solutions</link>
+      <title>Skin a site</title>
+      <link>https://haxtheweb.org//skin-a-custom-theme</link>
       <description>
-          <![CDATA[  ]]>
+          <![CDATA[ Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can&#39;t get into the weeds of web components or javascript.Wo ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//solutions</guid>
+      <guid>https://haxtheweb.org//skin-a-custom-theme</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -306,16 +296,6 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//what-is-haxcms</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>HAXdesktop (future)</title>
-      <link>https://haxtheweb.org//haxdesktop</link>
-      <description>
-          <![CDATA[  ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//haxdesktop</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -339,43 +319,33 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>GravCMS</title>
-      <link>https://haxtheweb.org//gravcms</link>
+      <title>Solutions</title>
+      <link>https://haxtheweb.org//solutions</link>
       <description>
           <![CDATA[  ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//gravcms</guid>
+      <guid>https://haxtheweb.org//solutions</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Learn two</title>
-      <link>https://haxtheweb.org//learn-two</link>
+      <title>HAXdesktop (future)</title>
+      <link>https://haxtheweb.org//haxdesktop</link>
       <description>
-          <![CDATA[ Learn two is a straight forward way of presenting material for learning about a topic. With a breadcrumb trail `` and a simple `` that tracks visually as you activate new items, it's a great way to pr ]]>
+          <![CDATA[  ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//learn-two</guid>
+      <guid>https://haxtheweb.org//haxdesktop</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Structure</title>
-      <link>https://haxtheweb.org//structure</link>
+      <title>UX concepts</title>
+      <link>https://haxtheweb.org//ux-concepts</link>
       <description>
-          <![CDATA[ By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories / files include:fi ]]>
+          <![CDATA[  ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//structure</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Web components</title>
-      <link>https://haxtheweb.org//web-components</link>
-      <description>
-          <![CDATA[ Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the haxcms-slide-th ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//web-components</guid>
+      <guid>https://haxtheweb.org//ux-concepts</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -389,13 +359,43 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>UX concepts</title>
-      <link>https://haxtheweb.org//ux-concepts</link>
+      <title>Web components</title>
+      <link>https://haxtheweb.org//web-components</link>
+      <description>
+          <![CDATA[ Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the haxcms-slide-th ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//web-components</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Structure</title>
+      <link>https://haxtheweb.org//structure</link>
+      <description>
+          <![CDATA[ By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories / files include:fi ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//structure</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learn two</title>
+      <link>https://haxtheweb.org//learn-two</link>
+      <description>
+          <![CDATA[ Learn two is a straight forward way of presenting material for learning about a topic. With a breadcrumb trail `` and a simple `` that tracks visually as you activate new items, it's a great way to pr ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//learn-two</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GravCMS</title>
+      <link>https://haxtheweb.org//gravcms</link>
       <description>
           <![CDATA[  ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//ux-concepts</guid>
+      <guid>https://haxtheweb.org//gravcms</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -425,7 +425,7 @@ En ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//wordpress</guid>
-      <pubDate>Mon, 02 Apr 8503 15:49:42 +0000</pubDate>
+      <pubDate>Tue, 03 Apr 8503 15:49:42 +0000</pubDate>
     </item>
     <item>
       <title>Creating new ones</title>
@@ -436,16 +436,6 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//integrations/create-new-ones</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Related technologies</title>
-      <link>https://haxtheweb.org//related-technologies</link>
-      <description>
-          <![CDATA[  ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//related-technologies</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -466,6 +456,16 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//documentation</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Related technologies</title>
+      <link>https://haxtheweb.org//related-technologies</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//related-technologies</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -496,7 +496,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//troubleshooting</guid>
-      <pubDate>Mon, 02 Apr 5764 15:53:55 +0000</pubDate>
+      <pubDate>Tue, 03 Apr 5764 15:53:55 +0000</pubDate>
     </item>
     <item>
       <title>Theming</title>
@@ -516,7 +516,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//elements</guid>
-      <pubDate>Fri, 02 Apr 7937 15:52:43 +0000</pubDate>
+      <pubDate>Sat, 03 Apr 7937 15:52:43 +0000</pubDate>
     </item>
     <item>
       <title>Dev workflows</title>
