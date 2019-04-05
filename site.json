@@ -59,7 +59,8 @@
                 "cdn": "haxtheweb.org"
             }
         },
-        "lastPublished": 1553888323
+        "lastPublished": 1553888323,
+        "publishedLocation": "https:\/\/haxtheweb.org\/"
     },
     "items": [
         {
@@ -877,7 +878,7 @@
             "description": "There are multiple ways to \"theme\" in HAXcms that align with the skillsets of the person doing the theme development. Know web components? Cool. Know basic CSS and HTML? Cool. Want to build something ",
             "metadata": {
                 "created": 1550643005,
-                "updated": 1554175068
+                "updated": 1554495509
             }
         },
         {
