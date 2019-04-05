@@ -825,10 +825,10 @@
             "order": 4,
             "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
             "title": "Life cycle",
-            "description": "",
+            "description": "This is a general life cycle that happens when HAXcms \"boots up\". When web components are unpacking the contents of what to do it generally will work this way.page load, should it be no-js or a web c",
             "metadata": {
                 "created": 1554496047,
-                "updated": 1554496047
+                "updated": 1554496370
             }
         },
         {

@@ -1,1 +1,10 @@
-<p>Ex uno Plures</p>
+<p>This is a general life cycle that happens when HAXcms "boots up". When web components are unpacking the contents of what to do it generally will work this way.</p>
+<ul><li>page load, should it be no-js or a web component delivered, preflight</li>
+<li>haxcms-site-builder loads site.json, reads JSON Outline Schema and starts to bootstrap that into a theme, items, title, etc</li>
+<li>Appends a haxcms-editor-builder tag which checks for "context"</li>
+<li>Context is established based on global values for php, nodejs, beaker, etc<br/></li>
+<li>Uses a login end point to check if there's a JWT in the user's local data</li>
+<li>When it finds a backend, it <a href="https://github.com/elmsln/lrnwebcomponents/tree/master/elements/haxcms-elements/lib/core/backends">injects a tag to bridge that backend</a>
+</li>
+<li>HAXeditor gets injected into the correct place in the theme which then all of that unpacks and does its thing</li>
+</ul>
