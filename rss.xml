@@ -129,7 +129,7 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>HAXeditor</title>
+      <title>HAX development</title>
       <link>https://haxtheweb.org//development</link>
       <description>
           <![CDATA[ Include HAX in your projectThe developers docs will lay out the many specifications that make HAX possible including core concepts, different schema's it leverages ad how to define app store spec in  ]]>
@@ -149,7 +149,7 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>WCFactory Tooling</title>
+      <title>hello-world element</title>
       <link>https://haxtheweb.org//hello-world-hax-element</link>
       <description>
           <![CDATA[  ]]>
@@ -159,7 +159,7 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>hello-world element</title>
+      <title>HAX schema</title>
       <link>https://haxtheweb.org//hax-schema</link>
       <description>
           <![CDATA[  ]]>
@@ -169,7 +169,7 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>HAX schema</title>
+      <title>HAX Element Schema</title>
       <link>https://haxtheweb.org//hax-element-schema</link>
       <description>
           <![CDATA[  ]]>
@@ -179,7 +179,7 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>HAX Element Schema</title>
+      <title>HAX app store</title>
       <link>https://haxtheweb.org//hax-appstore-specification</link>
       <description>
           <![CDATA[  ]]>
@@ -189,7 +189,7 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>apps</title>
+      <title>blox</title>
       <link>https://haxtheweb.org//hax-appstore-blox</link>
       <description>
           <![CDATA[  ]]>
@@ -199,7 +199,7 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>blox</title>
+      <title>stax</title>
       <link>https://haxtheweb.org//hax-appstore-stax</link>
       <description>
           <![CDATA[  ]]>
@@ -209,7 +209,7 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>stax</title>
+      <title>autoloader</title>
       <link>https://haxtheweb.org//hax-appstore-autoloader</link>
       <description>
           <![CDATA[  ]]>
@@ -299,7 +299,7 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>autoloader</title>
+      <title>Core concepts</title>
       <link>https://haxtheweb.org//core-concepts</link>
       <description>
           <![CDATA[  ]]>
@@ -309,7 +309,7 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Concepts</title>
+      <title>Installation</title>
       <link>https://haxtheweb.org//installation</link>
       <description>
           <![CDATA[ Generic PHP install directionsHave PHP? well then you can setup HAXcms pretty quick. Just download HAXcms and navigate to its directory in a browser. It'll attempt to automatically install (which is  ]]>
@@ -339,7 +339,7 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Core concepts</title>
+      <title>UX concepts</title>
       <link>https://haxtheweb.org//ux-concepts</link>
       <description>
           <![CDATA[  ]]>
@@ -369,7 +369,7 @@
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Installation</title>
+      <title>Structure</title>
       <link>https://haxtheweb.org//structure</link>
       <description>
           <![CDATA[ By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories / files include:fi ]]>
@@ -479,7 +479,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Structure</title>
+      <title>Publishing</title>
       <link>https://haxtheweb.org//publishing</link>
       <description>
           <![CDATA[ HAXcms requires being published in order to be visible to other people. Working locally or on Desktop or on a server, is akin to you writing a document on your computer. It's not shared with anyone. W ]]>
@@ -489,7 +489,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Publishing</title>
+      <title>Troubleshooting</title>
       <link>https://haxtheweb.org//troubleshooting</link>
       <description>
           <![CDATA[ These are some common issues / resolutions in HAXcms related to installation, publishing, etc.I installed HAXcms and forgot my passwordYour username and password can be found in _config/config.php o ]]>
@@ -577,16 +577,6 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       <category></category>
       <guid>https://haxtheweb.org//f-a-q-</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Life cycle</title>
-      <link>https://haxtheweb.org//life-cycle</link>
-      <description>
-          <![CDATA[  ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//life-cycle</guid>
-      <pubDate>Sun, 05 Apr 5931 15:54:49 +0000</pubDate>
     </item>
   </channel>
 </rss>
