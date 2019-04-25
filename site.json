@@ -531,10 +531,10 @@
             "order": 1,
             "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "title": "Drupal",
-            "description": "",
+            "description": "Try on SimplyTest.meTry HAX on Simplytest me in a few steps without needing to install anythingGo to Simplytest me and pick HAX modulePick 8.x-3.0 or 7.x-3.0Log in, go to Administration -> Confi",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1554496046,
+                "updated": 1556219076,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/scale-50\/d8cdnimage.jpg",
@@ -552,7 +552,8 @@
                         "name": "haxd8simply.jpg",
                         "size": 91967
                     }
-                ]
+                ],
+                "readtime": 1
             }
         },
         {
