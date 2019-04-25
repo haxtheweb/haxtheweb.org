@@ -543,6 +543,14 @@
                         "type": "image\/jpeg",
                         "name": "d8cdnimage.jpg",
                         "size": 136928
+                    },
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/scale-50\/haxd8simply.jpg",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/scale-50\/haxd8simply.jpg",
+                        "url": "files\/scale-50\/haxd8simply.jpg",
+                        "type": "image\/jpeg",
+                        "name": "haxd8simply.jpg",
+                        "size": 91967
                     }
                 ]
             }
