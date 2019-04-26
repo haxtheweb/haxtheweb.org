@@ -758,10 +758,11 @@
             "order": 3,
             "parent": null,
             "title": "Documentation",
-            "description": "",
+            "description": "HAX may seem complex, but it's built on a series of standards that will never break. As a result of the complexity of these standards, there are things you should know prior to digging into HAXedi",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1554496046
+                "updated": 1556305354,
+                "readtime": 1
             }
         },
         {

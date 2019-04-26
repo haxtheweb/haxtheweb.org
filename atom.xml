@@ -535,13 +535,13 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
   <entry>
     <title>Documentation</title>
     <id>https://haxtheweb.org//documentation</id>
-    <updated>2019-04-05T20:27:26+00:00</updated>
+    <updated>2019-04-26T19:02:34+00:00</updated>
     <published>2019-01-30T05:34:35+00:00</published>
-    <summary></summary>
+    <summary>HAX may seem complex, but it's built on a series of standards that will never break. As a result of the complexity of these standards, there are things you should know prior to digging into HAXedi</summary>
     <link href="https://haxtheweb.org//documentation"/>
     
     <content type="html">
-      <![CDATA[  ]]>
+      <![CDATA[ HAX may seem complex, but it's built on a series of standards that will never break. As a result of the complexity of these standards, there are things you should know prior to digging into HAXedi ]]>
     </content>
   </entry>
   <entry>
