@@ -463,7 +463,7 @@
             "description": "Generic PHP install directionsHave PHP? well then you can setup HAXcms pretty quick. Just download HAXcms and navigate to its directory in a browser. It'll attempt to automatically install (which is ",
             "metadata": {
                 "created": 1550643005,
-                "updated": 1554496047,
+                "updated": 1556288779,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/mampstructure.jpg",
@@ -489,7 +489,8 @@
                         "name": "mamppage.jpg",
                         "size": 17086
                     }
-                ]
+                ],
+                "readtime": 2
             }
         },
         {
