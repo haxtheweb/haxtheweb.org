@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- generator="icamys/SitemapGenerator/1.0.0" -->
 <!-- sitemap-generator-version="1.0.0" -->
-<!-- generated-on="2019-04-26T04:00:53+00:00" -->
+<!-- generated-on="2019-04-26T04:01:33+00:00" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9                                  http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://haxtheweb.org//home</loc>
@@ -341,7 +341,7 @@
   </url>
   <url>
     <loc>https://haxtheweb.org//f-a-q-</loc>
-    <lastmod>2019-04-26T04:00:53+00:00</lastmod>
+    <lastmod>2019-04-26T04:01:33+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
