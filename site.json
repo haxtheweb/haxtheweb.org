@@ -338,10 +338,11 @@
             "order": 2,
             "parent": "item-4de60a5f-98ab-a602-edfc-0cf024e83755",
             "title": "stax",
-            "description": "",
+            "description": "Stax are what most WYSIWYG systems would call Templates. Stax in HAX are a series of HAX element schema's in succession.Below is a definition for the \"example lesson\" seen above. This is a larger ex",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1554496046
+                "updated": 1556892937,
+                "readtime": 4
             }
         },
         {
