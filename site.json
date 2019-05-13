@@ -70,10 +70,10 @@
             "order": 0,
             "parent": null,
             "title": "Welcome",
-            "description": "  Why HAX?That video player is a single tag in the DOM that works anywhere\u00a0(see code-sample)  \/\/ the tag opening just like normal HTML&lt; video-player\/\/ a custom prop",
+            "description": "  yarn add @lrnwebcomponents\/h-a-x  Why HAX?That video player is a single tag in the DOM that works anywhere\u00a0(see code-sample)  \/\/ the tag opening just like",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1554496046,
+                "updated": 1557768849,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
@@ -99,7 +99,8 @@
                         "name": "ngdle.png",
                         "size": 307196
                     }
-                ]
+                ],
+                "readtime": 1
             }
         },
         {
