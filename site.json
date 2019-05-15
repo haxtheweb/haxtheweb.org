@@ -977,7 +977,13 @@
             "description": "",
             "metadata": {
                 "created": 1557949010,
-                "updated": 1557949010
+                "updated": 1557949025,
+                "theme": {
+                    "element": "haxor-slevin",
+                    "path": "@lrnwebcomponents\/haxor-slevin\/haxor-slevin.js",
+                    "name": "Coder blog",
+                    "key": "haxor-slevin"
+                }
             }
         },
         {
