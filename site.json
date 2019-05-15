@@ -17,7 +17,7 @@
         "hexCode": "#009dc7",
         "cssVariable": "cyan",
         "created": 1547138719,
-        "updated": 1557948977,
+        "updated": 1557949010,
         "dynamicElementLoader": {
             "a11y-gif-player": "@lrnwebcomponents\/a11y-gif-player\/a11y-gif-player.js",
             "citation-element": "@lrnwebcomponents\/citation-element\/citation-element.js",
@@ -73,7 +73,7 @@
             "description": "  yarn add @lrnwebcomponents\/h-a-x  Why HAX?That video player is a single tag in the DOM that works anywhere\u00a0(see code-sample)  \/\/ the tag opening just like",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1557768849,
+                "updated": 1557949006,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
@@ -113,7 +113,7 @@
             "description": "HAXcms - That which powers this websiteHAXeditor - That which powers our editing experience\u00a0(and all our other tags for that matter)ELMS:LN Web components on webcomponents.org\u00a0- Thos",
             "metadata": {
                 "created": 1553197584,
-                "updated": 1554496046
+                "updated": 1557949006
             }
         },
         {
@@ -126,7 +126,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1554496046
+                "updated": 1557949006
             }
         },
         {
@@ -139,7 +139,7 @@
             "description": "Core PrinciplesSupport all platforms and devices (CMS, App, etc)Empower authors to write code without ever looking at codeAll content produced must work with or without HAXeditor availableSuppo",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1554496046,
+                "updated": 1557949006,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-29_22-47-53.png",
@@ -162,7 +162,7 @@
             "description": "When you use HAXeditor in your own system, everyone won't be able to see this but, just for this website we made something special. HAX mode is activated even though you're not logged in! You can't sa",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1556303268,
+                "updated": 1557949006,
                 "readtime": 1
             }
         },
@@ -176,7 +176,7 @@
             "description": "HAX The PlaylistThis playlist is of all things HAXTheWebWCFactory is another important project that the HAX team develops with.",
             "metadata": {
                 "created": 1552910817,
-                "updated": 1554496046
+                "updated": 1557949006
             }
         },
         {
@@ -189,121 +189,52 @@
             "description": "Yea yea, we all do.Oh, you have a problem or would like to contribute to HAXcms (that's awesome!). All issues, feature requests and general thumbs up should happen in our issue queue on github:\u00a0http",
             "metadata": {
                 "created": 1553556295,
-                "updated": 1554496046
+                "updated": 1557949006
             }
         },
         {
-            "id": "item-36c4fc60-67c0-43c2-8f71-c6a117e8b7d6",
-            "indent": 4,
-            "location": "pages\/query-examples\/index.html",
-            "order": 0,
-            "parent": "item-a84c35ec-85c8-4c7c-b4ab-80c2fbc87550",
-            "title": "Query examples",
-            "description": "  Hold up there. You didn't cover any of the query tags in that last section!Ok ok, here's the deal. Queries are so important that they needed their own section. Calm down Dwight we'll handle that n",
-            "metadata": {
-                "created": 1553349518,
-                "updated": 1554496047,
-                "files": [
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-03-23_10-51-10.jpg",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-03-23_10-51-10.jpg",
-                        "url": "files\/2019-03-23_10-51-10.jpg",
-                        "type": "image\/jpeg",
-                        "name": "2019-03-23_10-51-10.jpg",
-                        "size": 54637
-                    }
-                ]
-            }
-        },
-        {
-            "id": "item-4824986b-1897-568d-fdd9-4b882ea6ee1f",
+            "id": "item-d6551870-1c08-da0a-6e2d-e24e919fa628",
             "indent": 1,
-            "location": "pages\/backdropcms\/index.html",
+            "location": "pages\/haxeditor\/index.html",
             "order": 0,
-            "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
-            "title": "BackdropCMS",
+            "parent": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
+            "title": "HAXeditor",
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1554496046
+                "updated": 1557949006
             }
         },
         {
-            "id": "item-692eb91c-4003-3429-5d9f-caac64691849",
+            "id": "item-e3dafe1a-1f50-1834-68f3-9f378e4ddda5",
             "indent": 2,
-            "location": "pages\/wcfactory-tooling\/index.html",
+            "location": "pages\/add\/index.html",
             "order": 0,
-            "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
-            "title": "WCFactory Tooling",
+            "parent": "item-06233713-d866-3351-81da-841d3931144c",
+            "title": "Add",
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1554496046
+                "updated": 1557949008
             }
         },
         {
-            "id": "item-534ed4c7-2468-366f-5410-adc169efcebc",
+            "id": "item-6dfbc25d-96f9-4671-a076-69986c44744f",
             "indent": 1,
-            "location": "pages\/development\/index.html",
+            "location": "pages\/basic\/index.html",
             "order": 0,
-            "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
-            "title": "HAX development",
-            "description": "Include HAX in your projectThe developers docs will lay out the many specifications that make HAX possible including core concepts, different schema's it leverages ad how to define app store spec in ",
+            "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
+            "title": "Basic",
+            "description": "The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulationThe theme elements in HAXcms can",
             "metadata": {
-                "created": 1548826475,
-                "updated": 1554496046
-            }
-        },
-        {
-            "id": "item-39074718-758f-d51b-1dc5-15cfbb79e44c",
-            "indent": 2,
-            "location": "pages\/hello-world-hax-element\/index.html",
-            "order": 1,
-            "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
-            "title": "hello-world element",
-            "description": "",
-            "metadata": {
-                "created": 1548826475,
-                "updated": 1554496046
-            }
-        },
-        {
-            "id": "item-f1c8e3a4-eddb-806a-8a3a-206c1e33f7a9",
-            "indent": 2,
-            "location": "pages\/hax-schema\/index.html",
-            "order": 2,
-            "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
-            "title": "HAX schema",
-            "description": "",
-            "metadata": {
-                "created": 1548826475,
-                "updated": 1554496046
-            }
-        },
-        {
-            "id": "item-52727dcf-a7d5-90e9-c459-a4a53dd07ffd",
-            "indent": 2,
-            "location": "pages\/hax-element-schema\/index.html",
-            "order": 3,
-            "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
-            "title": "HAX Element Schema",
-            "description": "",
-            "metadata": {
-                "created": 1548826475,
-                "updated": 1554496046
-            }
-        },
-        {
-            "id": "item-4de60a5f-98ab-a602-edfc-0cf024e83755",
-            "indent": 2,
-            "location": "pages\/hax-appstore-specification\/index.html",
-            "order": 4,
-            "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
-            "title": "HAX app store",
-            "description": "",
-            "metadata": {
-                "created": 1548826475,
-                "updated": 1554496046
+                "created": 1553194396,
+                "updated": 1557949009,
+                "theme": {
+                    "element": "haxcms-basic-theme",
+                    "path": "@lrnwebcomponents\/haxcms-elements\/lib\/core\/themes\/haxcms-basic-theme.js",
+                    "name": "Basic site",
+                    "key": "haxcms-basic-theme"
+                }
             }
         },
         {
@@ -316,7 +247,98 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1554496046
+                "updated": 1557949008
+            }
+        },
+        {
+            "id": "item-dfd62788-ba48-4051-a869-986e5956864f",
+            "indent": 2,
+            "location": "pages\/concepts\/index.html",
+            "order": 0,
+            "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
+            "title": "Concepts",
+            "description": "HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to",
+            "metadata": {
+                "created": 1550643005,
+                "updated": 1557949008
+            }
+        },
+        {
+            "id": "item-534ed4c7-2468-366f-5410-adc169efcebc",
+            "indent": 1,
+            "location": "pages\/development\/index.html",
+            "order": 0,
+            "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
+            "title": "HAX development",
+            "description": "Include HAX in your projectThe developers docs will lay out the many specifications that make HAX possible including core concepts, different schema's it leverages ad how to define app store spec in ",
+            "metadata": {
+                "created": 1548826475,
+                "updated": 1557949007
+            }
+        },
+        {
+            "id": "item-692eb91c-4003-3429-5d9f-caac64691849",
+            "indent": 2,
+            "location": "pages\/wcfactory-tooling\/index.html",
+            "order": 0,
+            "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
+            "title": "WCFactory Tooling",
+            "description": "",
+            "metadata": {
+                "created": 1548826475,
+                "updated": 1557949007
+            }
+        },
+        {
+            "id": "item-39074718-758f-d51b-1dc5-15cfbb79e44c",
+            "indent": 2,
+            "location": "pages\/hello-world-hax-element\/index.html",
+            "order": 1,
+            "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
+            "title": "hello-world element",
+            "description": "",
+            "metadata": {
+                "created": 1548826475,
+                "updated": 1557949007
+            }
+        },
+        {
+            "id": "item-f1c8e3a4-eddb-806a-8a3a-206c1e33f7a9",
+            "indent": 2,
+            "location": "pages\/hax-schema\/index.html",
+            "order": 2,
+            "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
+            "title": "HAX schema",
+            "description": "",
+            "metadata": {
+                "created": 1548826475,
+                "updated": 1557949007
+            }
+        },
+        {
+            "id": "item-52727dcf-a7d5-90e9-c459-a4a53dd07ffd",
+            "indent": 2,
+            "location": "pages\/hax-element-schema\/index.html",
+            "order": 3,
+            "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
+            "title": "HAX Element Schema",
+            "description": "",
+            "metadata": {
+                "created": 1548826475,
+                "updated": 1557949007
+            }
+        },
+        {
+            "id": "item-4de60a5f-98ab-a602-edfc-0cf024e83755",
+            "indent": 2,
+            "location": "pages\/hax-appstore-specification\/index.html",
+            "order": 4,
+            "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
+            "title": "HAX app store",
+            "description": "",
+            "metadata": {
+                "created": 1548826475,
+                "updated": 1557949008
             }
         },
         {
@@ -329,7 +351,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1554496046
+                "updated": 1557949008
             }
         },
         {
@@ -342,7 +364,7 @@
             "description": "Stax are what most WYSIWYG systems would call Templates. Stax in HAX are a series of HAX element schema's in succession.Below is a definition for the \"example lesson\" seen above. This is a larger ex",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1556892937,
+                "updated": 1557949008,
                 "readtime": 4
             }
         },
@@ -356,20 +378,43 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1554496047
+                "updated": 1557949008
             }
         },
         {
-            "id": "item-d6551870-1c08-da0a-6e2d-e24e919fa628",
+            "id": "item-4824986b-1897-568d-fdd9-4b882ea6ee1f",
             "indent": 1,
-            "location": "pages\/haxeditor\/index.html",
+            "location": "pages\/backdropcms\/index.html",
             "order": 0,
-            "parent": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
-            "title": "HAXeditor",
+            "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
+            "title": "BackdropCMS",
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1554496046
+                "updated": 1557949007
+            }
+        },
+        {
+            "id": "item-36c4fc60-67c0-43c2-8f71-c6a117e8b7d6",
+            "indent": 4,
+            "location": "pages\/query-examples\/index.html",
+            "order": 0,
+            "parent": "item-a84c35ec-85c8-4c7c-b4ab-80c2fbc87550",
+            "title": "Query examples",
+            "description": "  Hold up there. You didn't cover any of the query tags in that last section!Ok ok, here's the deal. Queries are so important that they needed their own section. Calm down Dwight we'll handle that n",
+            "metadata": {
+                "created": 1553349518,
+                "updated": 1557949009,
+                "files": [
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-03-23_10-51-10.jpg",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-03-23_10-51-10.jpg",
+                        "url": "files\/2019-03-23_10-51-10.jpg",
+                        "type": "image\/jpeg",
+                        "name": "2019-03-23_10-51-10.jpg",
+                        "size": 54637
+                    }
+                ]
             }
         },
         {
@@ -382,78 +427,20 @@
             "description": "CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a",
             "metadata": {
                 "created": 1553349518,
-                "updated": 1554496047
+                "updated": 1557949009
             }
         },
         {
-            "id": "item-e3dafe1a-1f50-1834-68f3-9f378e4ddda5",
+            "id": "item-e29af6f1-f392-4a0b-3284-b4c4fc90703b",
             "indent": 2,
-            "location": "pages\/add\/index.html",
-            "order": 0,
+            "location": "pages\/make\/index.html",
+            "order": 1,
             "parent": "item-06233713-d866-3351-81da-841d3931144c",
-            "title": "Add",
+            "title": "Make",
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1554496047
-            }
-        },
-        {
-            "id": "item-6dfbc25d-96f9-4671-a076-69986c44744f",
-            "indent": 1,
-            "location": "pages\/basic\/index.html",
-            "order": 0,
-            "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
-            "title": "Basic",
-            "description": "The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulationThe theme elements in HAXcms can",
-            "metadata": {
-                "created": 1553194396,
-                "updated": 1554496047,
-                "theme": {
-                    "element": "haxcms-basic-theme",
-                    "path": "@lrnwebcomponents\/haxcms-elements\/lib\/core\/themes\/haxcms-basic-theme.js",
-                    "name": "Basic site",
-                    "key": "haxcms-basic-theme"
-                }
-            }
-        },
-        {
-            "id": "item-dfd62788-ba48-4051-a869-986e5956864f",
-            "indent": 2,
-            "location": "pages\/concepts\/index.html",
-            "order": 0,
-            "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
-            "title": "Concepts",
-            "description": "HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to",
-            "metadata": {
-                "created": 1550643005,
-                "updated": 1554496047
-            }
-        },
-        {
-            "id": "item-3859b3ac-1ef5-45b4-909c-3892f97a9f4c",
-            "indent": 3,
-            "location": "pages\/skin-a-custom-theme\/index.html",
-            "order": 1,
-            "parent": "item-a52fb685-0a2f-4bc0-8e62-457cf01d66ed",
-            "title": "Skin a site",
-            "description": "Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can&#39;t get into the weeds of web components or javascript.Wo",
-            "metadata": {
-                "created": 1553354507,
-                "updated": 1554496047
-            }
-        },
-        {
-            "id": "item-275a0928-60ab-b7ce-c2b6-d0e35826498b",
-            "indent": 1,
-            "location": "pages\/core-concepts\/index.html",
-            "order": 1,
-            "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
-            "title": "Core concepts",
-            "description": "",
-            "metadata": {
-                "created": 1548826475,
-                "updated": 1554496047
+                "updated": 1557949008
             }
         },
         {
@@ -466,7 +453,7 @@
             "description": "Generic PHP install directionsHave PHP? well then you can setup HAXcms pretty quick. Just download HAXcms and navigate to its directory in a browser. It'll attempt to automatically install (which is ",
             "metadata": {
                 "created": 1550643005,
-                "updated": 1556288779,
+                "updated": 1557949009,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/mampstructure.jpg",
@@ -497,16 +484,29 @@
             }
         },
         {
-            "id": "item-e29af6f1-f392-4a0b-3284-b4c4fc90703b",
-            "indent": 2,
-            "location": "pages\/make\/index.html",
+            "id": "item-275a0928-60ab-b7ce-c2b6-d0e35826498b",
+            "indent": 1,
+            "location": "pages\/core-concepts\/index.html",
             "order": 1,
-            "parent": "item-06233713-d866-3351-81da-841d3931144c",
-            "title": "Make",
+            "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
+            "title": "Core concepts",
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1554496047
+                "updated": 1557949008
+            }
+        },
+        {
+            "id": "item-3859b3ac-1ef5-45b4-909c-3892f97a9f4c",
+            "indent": 3,
+            "location": "pages\/skin-a-custom-theme\/index.html",
+            "order": 1,
+            "parent": "item-a52fb685-0a2f-4bc0-8e62-457cf01d66ed",
+            "title": "Skin a site",
+            "description": "Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can&#39;t get into the weeds of web components or javascript.Wo",
+            "metadata": {
+                "created": 1553354507,
+                "updated": 1557949009
             }
         },
         {
@@ -519,13 +519,52 @@
             "description": "As you can see, the minimalist theme is for trying to give you a straight forward, linear design pattern.Pages are ordered based on the very 1 page's child pages.So you'd have a structure like this:",
             "metadata": {
                 "created": 1553194396,
-                "updated": 1554496047,
+                "updated": 1557949010,
                 "theme": {
                     "element": "haxcms-minimalist-theme",
                     "path": "@lrnwebcomponents\/haxcms-elements\/lib\/core\/themes\/haxcms-minimalist-theme.js",
                     "name": "Minimalist site",
                     "key": "haxcms-minimalist-theme"
                 }
+            }
+        },
+        {
+            "id": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
+            "indent": 0,
+            "location": "pages\/solutions\/index.html",
+            "order": 1,
+            "parent": null,
+            "title": "Solutions",
+            "description": "",
+            "metadata": {
+                "created": 1548826475,
+                "updated": 1557949006
+            }
+        },
+        {
+            "id": "item-apo7dab5-13dd-sadd-1234-262fa3c4dj553",
+            "indent": 1,
+            "location": "pages\/what-is-haxcms\/index.html",
+            "order": 1,
+            "parent": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
+            "title": "HAXcms",
+            "description": "Pure publishing joyHAXcms is the slimmest possible Content Management System possible thanks to the awesome power of HAX. HAXcms boils content creation down to a handful of files behind the scenes, a",
+            "metadata": {
+                "created": 1548826475,
+                "updated": 1557949006
+            }
+        },
+        {
+            "id": "item-36ed4f6a-7eb8-9414-d5b0-6c2914e9f5d9",
+            "indent": 1,
+            "location": "pages\/haxdesktop\/index.html",
+            "order": 2,
+            "parent": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
+            "title": "HAXdesktop (future)",
+            "description": "",
+            "metadata": {
+                "created": 1548826475,
+                "updated": 1557949006
             }
         },
         {
@@ -538,7 +577,7 @@
             "description": "Try on SimplyTest.meTry HAX on Simplytest me in a few steps without needing to install anythingGo to Simplytest me and pick HAX modulePick 8.x-3.0 or 7.x-3.0Log in, go to Administration -> Co",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1556219116,
+                "updated": 1557949007,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/scale-50\/d8cdnimage.jpg",
@@ -561,42 +600,16 @@
             }
         },
         {
-            "id": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
+            "id": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "indent": 0,
-            "location": "pages\/solutions\/index.html",
-            "order": 1,
-            "parent": null,
-            "title": "Solutions",
-            "description": "",
-            "metadata": {
-                "created": 1548826475,
-                "updated": 1554496046
-            }
-        },
-        {
-            "id": "item-apo7dab5-13dd-sadd-1234-262fa3c4dj553",
-            "indent": 1,
-            "location": "pages\/what-is-haxcms\/index.html",
-            "order": 1,
-            "parent": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
-            "title": "HAXcms",
-            "description": "Pure publishing joyHAXcms is the slimmest possible Content Management System possible thanks to the awesome power of HAX. HAXcms boils content creation down to a handful of files behind the scenes, a",
-            "metadata": {
-                "created": 1548826475,
-                "updated": 1554496046
-            }
-        },
-        {
-            "id": "item-36ed4f6a-7eb8-9414-d5b0-6c2914e9f5d9",
-            "indent": 1,
-            "location": "pages\/haxdesktop\/index.html",
+            "location": "pages\/integrations\/index.html",
             "order": 2,
-            "parent": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
-            "title": "HAXdesktop (future)",
-            "description": "",
+            "parent": null,
+            "title": "Integrations",
+            "description": "HAX provides plenty of ways to integrate into the platforms you already use! Here's a list of currently supported ones with links off to their associated plugins\nHAXcms (duh, it's powering this websit",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1554496046
+                "updated": 1557949007
             }
         },
         {
@@ -609,20 +622,70 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1554496046
+                "updated": 1557949007
             }
         },
         {
-            "id": "item-1ba9e275-eca6-4911-8cb3-23dd6b039389",
+            "id": "item-5a9ea17e-63ce-96f3-e94f-d5282b290661",
             "indent": 1,
-            "location": "pages\/learn-two\/index.html",
-            "order": 2,
-            "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
-            "title": "Learn two",
-            "description": "Learn two is a straight forward way of presenting material for learning about a topic. With a breadcrumb trail `` and a simple `` that tracks visually as you activate new items, it's a great way to pr",
+            "location": "pages\/wordpress\/index.html",
+            "order": 3,
+            "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
+            "title": "WordPress",
+            "description": "You'll want to follow a few steps before replacing Gutenberg\n.\nGet the Classic Editor\n. This plugin helps restore WordPress back to what you wanted\nGet the Web component plugin\n\nGet the HAX plugin\n\nEn",
             "metadata": {
-                "created": 1553194396,
-                "updated": 1554496047
+                "created": 1549428503,
+                "updated": 1557949007
+            }
+        },
+        {
+            "id": "item-c5e61b84-e88a-5a48-29c6-5908117ec505",
+            "indent": 1,
+            "location": "pages\/integrations\/create-new-ones\/index.html",
+            "order": 4,
+            "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
+            "title": "Creating new ones",
+            "description": "\nHAXeditor keeps so much functionality on the front-end that there's really very little tying it to..well.. anything. As a result, HAX is easy to integrate into systems that currently have WYSIWYG cap",
+            "metadata": {
+                "siteName": "haxtheweb",
+                "created": 1548828434,
+                "updated": 1557949007,
+                "files": [
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
+                        "url": "files\/59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
+                        "type": "image\/jpeg",
+                        "name": "59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
+                        "size": 51809
+                    }
+                ]
+            }
+        },
+        {
+            "id": "item-251f207e-4046-a4b0-40ce-7c28fe38ae23",
+            "indent": 2,
+            "location": "pages\/find\/index.html",
+            "order": 2,
+            "parent": "item-06233713-d866-3351-81da-841d3931144c",
+            "title": "Find",
+            "description": "",
+            "metadata": {
+                "created": 1548826475,
+                "updated": 1557949008
+            }
+        },
+        {
+            "id": "item-17449951-7504-468a-b315-4388b85c00e3",
+            "indent": 3,
+            "location": "pages\/web-components\/index.html",
+            "order": 2,
+            "parent": "item-a52fb685-0a2f-4bc0-8e62-457cf01d66ed",
+            "title": "Web components",
+            "description": "Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the haxcms-slide-th",
+            "metadata": {
+                "created": 1553349518,
+                "updated": 1557949009
             }
         },
         {
@@ -635,7 +698,7 @@
             "description": "By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories \/ files include:fi",
             "metadata": {
                 "created": 1550643005,
-                "updated": 1554496047,
+                "updated": 1557949009,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-02-20_01-26-01.png",
@@ -665,29 +728,16 @@
             }
         },
         {
-            "id": "item-17449951-7504-468a-b315-4388b85c00e3",
-            "indent": 3,
-            "location": "pages\/web-components\/index.html",
+            "id": "item-1ba9e275-eca6-4911-8cb3-23dd6b039389",
+            "indent": 1,
+            "location": "pages\/learn-two\/index.html",
             "order": 2,
-            "parent": "item-a52fb685-0a2f-4bc0-8e62-457cf01d66ed",
-            "title": "Web components",
-            "description": "Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the haxcms-slide-th",
+            "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
+            "title": "Learn two",
+            "description": "Learn two is a straight forward way of presenting material for learning about a topic. With a breadcrumb trail `` and a simple `` that tracks visually as you activate new items, it's a great way to pr",
             "metadata": {
-                "created": 1553349518,
-                "updated": 1554496047
-            }
-        },
-        {
-            "id": "item-251f207e-4046-a4b0-40ce-7c28fe38ae23",
-            "indent": 2,
-            "location": "pages\/find\/index.html",
-            "order": 2,
-            "parent": "item-06233713-d866-3351-81da-841d3931144c",
-            "title": "Find",
-            "description": "",
-            "metadata": {
-                "created": 1548826475,
-                "updated": 1554496047
+                "created": 1553194396,
+                "updated": 1557949010
             }
         },
         {
@@ -700,71 +750,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1554496047
-            }
-        },
-        {
-            "id": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
-            "indent": 0,
-            "location": "pages\/integrations\/index.html",
-            "order": 2,
-            "parent": null,
-            "title": "Integrations",
-            "description": "HAX provides plenty of ways to integrate into the platforms you already use! Here's a list of currently supported ones with links off to their associated plugins\nHAXcms (duh, it's powering this websit",
-            "metadata": {
-                "created": 1548826475,
-                "updated": 1554496046
-            }
-        },
-        {
-            "id": "item-5a9ea17e-63ce-96f3-e94f-d5282b290661",
-            "indent": 1,
-            "location": "pages\/wordpress\/index.html",
-            "order": 3,
-            "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
-            "title": "WordPress",
-            "description": "You'll want to follow a few steps before replacing Gutenberg\n.\nGet the Classic Editor\n. This plugin helps restore WordPress back to what you wanted\nGet the Web component plugin\n\nGet the HAX plugin\n\nEn",
-            "metadata": {
-                "created": 1549428503,
-                "updated": 1554496046
-            }
-        },
-        {
-            "id": "item-c5e61b84-e88a-5a48-29c6-5908117ec505",
-            "indent": 1,
-            "location": "pages\/integrations\/create-new-ones\/index.html",
-            "order": 4,
-            "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
-            "title": "Creating new ones",
-            "description": "\nHAXeditor keeps so much functionality on the front-end that there's really very little tying it to..well.. anything. As a result, HAX is easy to integrate into systems that currently have WYSIWYG cap",
-            "metadata": {
-                "siteName": "haxtheweb",
-                "created": 1548828434,
-                "updated": 1554496046,
-                "files": [
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
-                        "url": "files\/59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
-                        "type": "image\/jpeg",
-                        "name": "59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
-                        "size": 51809
-                    }
-                ]
-            }
-        },
-        {
-            "id": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
-            "indent": 0,
-            "location": "pages\/documentation\/index.html",
-            "order": 3,
-            "parent": null,
-            "title": "Documentation",
-            "description": "HAX may seem complex, but it's built on a series of standards that will never break. As a result of the complexity of these standards, there are things you should know prior to digging into HAXedi",
-            "metadata": {
-                "created": 1548826475,
-                "updated": 1556305354,
-                "readtime": 1
+                "updated": 1557949008
             }
         },
         {
@@ -777,30 +763,7 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1554496047
-            }
-        },
-        {
-            "id": "item-4bce3546-4d53-4456-8eae-494c79180229",
-            "indent": 1,
-            "location": "pages\/haxcms-1\/index.html",
-            "order": 4,
-            "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
-            "title": "HAXcms",
-            "description": "HAXcms, that which powers the site you are currently reading is a powerful \"static site generator\" paradigm. It leverages server technology in order to orchestrate a static site. That way the \"server\"",
-            "metadata": {
-                "created": 1550643005,
-                "updated": 1554496047,
-                "files": [
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/HAXCms workflow.jpg",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/HAXCms workflow.jpg",
-                        "url": "files\/HAXCms workflow.jpg",
-                        "type": "image\/jpeg",
-                        "name": "HAXCms workflow.jpg",
-                        "size": 72736
-                    }
-                ]
+                "updated": 1557949008
             }
         },
         {
@@ -813,7 +776,7 @@
             "description": "HAXcms requires being published in order to be visible to other people. Working locally or on Desktop or on a server, is akin to you writing a document on your computer. It's not shared with anyone. W",
             "metadata": {
                 "created": 1550643005,
-                "updated": 1554496047,
+                "updated": 1557949009,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/gitpublishingdata.jpg",
@@ -843,45 +806,6 @@
             }
         },
         {
-            "id": "item-e6daa06e-dfd2-43a4-ade8-0c0ded24e0b4",
-            "indent": 2,
-            "location": "pages\/life-cycle\/index.html",
-            "order": 4,
-            "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
-            "title": "Life cycle",
-            "description": "This is a general life cycle that happens when HAXcms \"boots up\". When web components are unpacking the contents of what to do it generally will work this way.page load, should it be no-js or a web c",
-            "metadata": {
-                "created": 1554496047,
-                "updated": 1554496370
-            }
-        },
-        {
-            "id": "item-c7500902-9aed-4117-8949-a6597a02dada",
-            "indent": 2,
-            "location": "pages\/troubleshooting\/index.html",
-            "order": 5,
-            "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
-            "title": "Troubleshooting",
-            "description": "These are some common issues \/ resolutions in HAXcms related to installation, publishing, etc.I installed HAXcms and forgot my passwordYour username and password can be found in _config\/config.php o",
-            "metadata": {
-                "created": 1553555764,
-                "updated": 1554496047
-            }
-        },
-        {
-            "id": "item-a52fb685-0a2f-4bc0-8e62-457cf01d66ed",
-            "indent": 2,
-            "location": "pages\/theme-layer\/index.html",
-            "order": 6,
-            "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
-            "title": "Theming",
-            "description": "There are multiple ways to \"theme\" in HAXcms that align with the skillsets of the person doing the theme development. Know web components? Cool. Know basic CSS and HTML? Cool. Want to build something ",
-            "metadata": {
-                "created": 1550643005,
-                "updated": 1554496047
-            }
-        },
-        {
             "id": "item-a84c35ec-85c8-4c7c-b4ab-80c2fbc87550",
             "indent": 3,
             "location": "pages\/elements\/index.html",
@@ -891,7 +815,7 @@
             "description": "While you're not required to use them, HAXcms supplies a series of elements that can make theme development effortless. You can see the source of these in greater detail under the theme directory of h",
             "metadata": {
                 "created": 1552437937,
-                "updated": 1554496047,
+                "updated": 1557949009,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-03-12_16-45-51.png",
@@ -905,19 +829,6 @@
             }
         },
         {
-            "id": "item-7f3dd690-4c3f-4616-baa5-159b9a15809c",
-            "indent": 3,
-            "location": "pages\/dev-workflows\/index.html",
-            "order": 4,
-            "parent": "item-a52fb685-0a2f-4bc0-8e62-457cf01d66ed",
-            "title": "Dev workflows",
-            "description": "Our development workflow is as follows (for themes)All custom theme work happens in your _config directoryMake my-theme.js, pull everything together, either in this directory or in a wcfactory cat",
-            "metadata": {
-                "created": 1553349518,
-                "updated": 1554496047
-            }
-        },
-        {
             "id": "item-dfb1fdc8-8464-4ae4-96dc-42bf6095c05d",
             "indent": 1,
             "location": "pages\/simple-blog\/index.html",
@@ -927,7 +838,7 @@
             "description": "This one definitely just broke your world view... cause... it's... a.... blog.It also just broke the navigation cause Simple Blog is about viewing a listing of blog posts and then when you are inside",
             "metadata": {
                 "created": 1553194396,
-                "updated": 1554496047,
+                "updated": 1557949010,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-03-21_15-12-05.png",
@@ -955,6 +866,95 @@
             }
         },
         {
+            "id": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
+            "indent": 0,
+            "location": "pages\/documentation\/index.html",
+            "order": 3,
+            "parent": null,
+            "title": "Documentation",
+            "description": "HAX may seem complex, but it's built on a series of standards that will never break. As a result of the complexity of these standards, there are things you should know prior to digging into HAXedi",
+            "metadata": {
+                "created": 1548826475,
+                "updated": 1557949007,
+                "readtime": 1
+            }
+        },
+        {
+            "id": "item-4bce3546-4d53-4456-8eae-494c79180229",
+            "indent": 1,
+            "location": "pages\/haxcms-1\/index.html",
+            "order": 4,
+            "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
+            "title": "HAXcms",
+            "description": "HAXcms, that which powers the site you are currently reading is a powerful \"static site generator\" paradigm. It leverages server technology in order to orchestrate a static site. That way the \"server\"",
+            "metadata": {
+                "created": 1550643005,
+                "updated": 1557949008,
+                "files": [
+                    {
+                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/HAXCms workflow.jpg",
+                        "fullUrl": "\/_sites\/haxtheweb\/files\/HAXCms workflow.jpg",
+                        "url": "files\/HAXCms workflow.jpg",
+                        "type": "image\/jpeg",
+                        "name": "HAXCms workflow.jpg",
+                        "size": 72736
+                    }
+                ]
+            }
+        },
+        {
+            "id": "item-e6daa06e-dfd2-43a4-ade8-0c0ded24e0b4",
+            "indent": 2,
+            "location": "pages\/life-cycle\/index.html",
+            "order": 4,
+            "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
+            "title": "Life cycle",
+            "description": "This is a general life cycle that happens when HAXcms \"boots up\". When web components are unpacking the contents of what to do it generally will work this way.page load, should it be no-js or a web c",
+            "metadata": {
+                "created": 1554496047,
+                "updated": 1557949009
+            }
+        },
+        {
+            "id": "item-c7500902-9aed-4117-8949-a6597a02dada",
+            "indent": 2,
+            "location": "pages\/troubleshooting\/index.html",
+            "order": 5,
+            "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
+            "title": "Troubleshooting",
+            "description": "These are some common issues \/ resolutions in HAXcms related to installation, publishing, etc.I installed HAXcms and forgot my passwordYour username and password can be found in _config\/config.php o",
+            "metadata": {
+                "created": 1553555764,
+                "updated": 1557949009
+            }
+        },
+        {
+            "id": "item-a52fb685-0a2f-4bc0-8e62-457cf01d66ed",
+            "indent": 2,
+            "location": "pages\/theme-layer\/index.html",
+            "order": 6,
+            "parent": "item-4bce3546-4d53-4456-8eae-494c79180229",
+            "title": "Theming",
+            "description": "There are multiple ways to \"theme\" in HAXcms that align with the skillsets of the person doing the theme development. Know web components? Cool. Know basic CSS and HTML? Cool. Want to build something ",
+            "metadata": {
+                "created": 1550643005,
+                "updated": 1557949009
+            }
+        },
+        {
+            "id": "item-7f3dd690-4c3f-4616-baa5-159b9a15809c",
+            "indent": 3,
+            "location": "pages\/dev-workflows\/index.html",
+            "order": 4,
+            "parent": "item-a52fb685-0a2f-4bc0-8e62-457cf01d66ed",
+            "title": "Dev workflows",
+            "description": "Our development workflow is as follows (for themes)All custom theme work happens in your _config directoryMake my-theme.js, pull everything together, either in this directory or in a wcfactory cat",
+            "metadata": {
+                "created": 1553349518,
+                "updated": 1557949009
+            }
+        },
+        {
             "id": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
             "indent": 0,
             "location": "pages\/example-themes\/index.html",
@@ -964,20 +964,33 @@
             "description": "Explore some of the themes built for HAXcms that you get out of the box. This is a great demonstration of the performance and power of both web components and HAXcms (the system powering this site!).",
             "metadata": {
                 "created": 1553194396,
-                "updated": 1554496047
+                "updated": 1557949009
+            }
+        },
+        {
+            "id": "item-e15602be-f062-45e2-adf3-8f5d9b37702a",
+            "indent": 1,
+            "location": "pages\/haxor-slevin\/index.html",
+            "order": 4,
+            "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
+            "title": "Haxor Slevin",
+            "description": "",
+            "metadata": {
+                "created": 1557949010,
+                "updated": 1557949010
             }
         },
         {
             "id": "item-6e62c525-da4e-4b77-bcb7-d752d54f9929",
             "indent": 1,
             "location": "pages\/slide-player\/index.html",
-            "order": 4,
+            "order": 5,
             "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
             "title": "Slide player",
             "description": "Slide player is great for lectures and presentation style sites (or parts of sites). It lets you focus on the content and has almost no UI.",
             "metadata": {
                 "created": 1553194396,
-                "updated": 1554496047,
+                "updated": 1557949010,
                 "theme": {
                     "element": "haxcms-slide-theme",
                     "path": "@lrnwebcomponents\/haxcms-elements\/lib\/core\/themes\/haxcms-slide-theme.js",
@@ -1000,13 +1013,13 @@
             "id": "item-9c331aaf-b94e-4455-a206-057797dfab80",
             "indent": 1,
             "location": "pages\/outline-player\/index.html",
-            "order": 5,
+            "order": 6,
             "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
             "title": "Outline player",
             "description": "Outline player is an even more basic form of Learn two. It's for those seeking something even more minimalist in design and capabilities.Fun things about this include... ok well very little. Let's fa",
             "metadata": {
                 "created": 1553194396,
-                "updated": 1554496047,
+                "updated": 1557949010,
                 "theme": {
                     "element": "outline-player",
                     "path": "@lrnwebcomponents\/outline-player\/outline-player.js",
@@ -1019,13 +1032,13 @@
             "id": "item-1c523534-3b59-4e3a-880a-8af81f5e7e99",
             "indent": 1,
             "location": "pages\/dev-theme\/index.html",
-            "order": 6,
+            "order": 7,
             "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
             "title": "Dev theme",
             "description": "EEK! You were NOT supposed to see this...except that this is what HAXcms sees. This is your just barebones components with almost 0 css baseline theme play space. This is a great one to fork and rewri",
             "metadata": {
                 "created": 1553194396,
-                "updated": 1554496047,
+                "updated": 1557949010,
                 "theme": {
                     "element": "haxcms-dev-theme",
                     "path": "@lrnwebcomponents\/haxcms-elements\/lib\/development\/haxcms-dev-theme.js",
@@ -1044,7 +1057,7 @@
             "description": "Is this really real?Yes. Web components turn your site effectively into an API. HAXeditor just leverages this fact and standards that exist in order to supply an incredible amount of functionality on",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1557948905,
+                "updated": 1557949010,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/pubwork1.jpg",
