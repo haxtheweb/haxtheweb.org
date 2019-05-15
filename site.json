@@ -974,16 +974,17 @@
             "order": 4,
             "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
             "title": "Haxor Slevin",
-            "description": "",
+            "description": "Oh? So you think you're 1337 3l33t 3H?Well step right up and jump into the world of hackers and numbers. Ones. Zeros. It's a whole universe of them. You're fighting for control of your online digital",
             "metadata": {
                 "created": 1557949010,
-                "updated": 1557949025,
+                "updated": 1557949147,
                 "theme": {
                     "element": "haxor-slevin",
                     "path": "@lrnwebcomponents\/haxor-slevin\/haxor-slevin.js",
                     "name": "Coder blog",
                     "key": "haxor-slevin"
-                }
+                },
+                "readtime": 1
             }
         },
         {
