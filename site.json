@@ -14,10 +14,10 @@
         },
         "icon": "lrn:network",
         "domain": "https:\/\/haxtheweb.org\/",
-        "hexCode": "#009d75",
-        "cssVariable": "teal",
+        "hexCode": "#429d00",
+        "cssVariable": "light-green",
         "created": 1547138719,
-        "updated": 1554496047,
+        "updated": 1557948918,
         "dynamicElementLoader": {
             "a11y-gif-player": "@lrnwebcomponents\/a11y-gif-player\/a11y-gif-player.js",
             "citation-element": "@lrnwebcomponents\/citation-element\/citation-element.js",
