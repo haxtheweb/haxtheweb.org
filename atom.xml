@@ -395,13 +395,13 @@
   <entry>
     <title>HAXiam</title>
     <id>https://haxtheweb.org//haxiam</id>
-    <updated>2019-05-20T02:49:29+00:00</updated>
+    <updated>2019-05-20T02:53:45+00:00</updated>
     <published>2019-05-20T02:49:29+00:00</published>
-    <summary></summary>
+    <summary>HAXiam (HAX-I-Am) is a SaaS platform code base that's used to deploy HAXcms to multiple people. It is an abstraction on the HAXcms code base that enables it to be used by multiple users from a single</summary>
     <link href="https://haxtheweb.org//haxiam"/>
     
     <content type="html">
-      <![CDATA[  ]]>
+      <![CDATA[ HAXiam (HAX-I-Am) is a SaaS platform code base that's used to deploy HAXcms to multiple people. It is an abstraction on the HAXcms code base that enables it to be used by multiple users from a single ]]>
     </content>
   </entry>
   <entry>
