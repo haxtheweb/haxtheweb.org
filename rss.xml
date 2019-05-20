@@ -76,7 +76,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//i-have-issues</guid>
-      <pubDate>Wed, 15 May 6295 15:53:55 +0000</pubDate>
+      <pubDate>Mon, 20 May 6295 15:53:55 +0000</pubDate>
     </item>
     <item>
       <title>HAXeditor</title>
@@ -375,7 +375,7 @@ En ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//wordpress</guid>
-      <pubDate>Tue, 15 May 8503 15:49:42 +0000</pubDate>
+      <pubDate>Sun, 20 May 8503 15:49:42 +0000</pubDate>
     </item>
     <item>
       <title>Creating new ones</title>
@@ -466,7 +466,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//elements</guid>
-      <pubDate>Sat, 15 May 7937 15:52:43 +0000</pubDate>
+      <pubDate>Thu, 20 May 7937 15:52:43 +0000</pubDate>
     </item>
     <item>
       <title>Simple blog</title>
@@ -506,7 +506,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//life-cycle</guid>
-      <pubDate>Wed, 15 May 6047 15:54:49 +0000</pubDate>
+      <pubDate>Mon, 20 May 6047 15:54:49 +0000</pubDate>
     </item>
     <item>
       <title>Troubleshooting</title>
@@ -516,7 +516,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//troubleshooting</guid>
-      <pubDate>Tue, 15 May 5764 15:53:55 +0000</pubDate>
+      <pubDate>Sun, 20 May 5764 15:53:55 +0000</pubDate>
     </item>
     <item>
       <title>Theming</title>
@@ -596,6 +596,16 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//f-a-q-</guid>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HAXiam</title>
+      <link>https://haxtheweb.org//haxiam</link>
+      <description>
+          <![CDATA[  ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//haxiam</guid>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
     </item>
   </channel>
