@@ -587,19 +587,6 @@
             }
         },
         {
-            "id": "item-36ed4f6a-7eb8-9414-d5b0-6c2914e9f5d9",
-            "indent": 1,
-            "location": "pages\/haxdesktop\/index.html",
-            "order": 2,
-            "parent": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
-            "title": "HAXdesktop (future)",
-            "description": "",
-            "metadata": {
-                "created": 1548826475,
-                "updated": 1557949006
-            }
-        },
-        {
             "id": "item-3a11bfe2-7c7e-4a13-9da1-f29a89e68f01",
             "indent": 1,
             "location": "pages\/haxiam\/index.html",
