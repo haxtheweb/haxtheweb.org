@@ -6,7 +6,7 @@
     <description>Documentation and learning about how we HAX the web</description>
     <copyright>Copyright (C) 2019 https://haxtheweb.org/</copyright>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 May 2019 02:49:34 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2019 20:49:34 -0600</lastBuildDate>
     <atom:link href="https://haxtheweb.org//rss.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Welcome</title>
@@ -16,7 +16,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//home</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Get Involved!</title>
@@ -26,7 +26,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//get-involved-</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>What is HAX</title>
@@ -36,7 +36,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//what-is-it</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Principles</title>
@@ -46,7 +46,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//why-hax</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Try hax</title>
@@ -56,7 +56,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//try-hax</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Presentations</title>
@@ -66,7 +66,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//presentations</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>I have issues</title>
@@ -76,7 +76,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//i-have-issues</guid>
-      <pubDate>Mon, 20 May 6295 15:53:55 +0000</pubDate>
+      <pubDate>Wed, 19 Jun 6295 15:53:55 -0700</pubDate>
     </item>
     <item>
       <title>BackdropCMS</title>
@@ -86,7 +86,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//backdropcms</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>CSS vars</title>
@@ -96,7 +96,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//css</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>WCFactory Tooling</title>
@@ -106,7 +106,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//wcfactory-tooling</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>HAX development</title>
@@ -116,7 +116,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//development</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>hello-world element</title>
@@ -126,7 +126,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//hello-world-hax-element</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>HAX schema</title>
@@ -136,7 +136,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//hax-schema</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>HAX Element Schema</title>
@@ -146,7 +146,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//hax-element-schema</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>HAX app store</title>
@@ -156,7 +156,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//hax-appstore-specification</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>apps</title>
@@ -166,7 +166,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//hax-appstore-apps</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>blox</title>
@@ -176,7 +176,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//hax-appstore-blox</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>stax</title>
@@ -186,7 +186,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//hax-appstore-stax</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>autoloader</title>
@@ -196,7 +196,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//hax-appstore-autoloader</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Concepts</title>
@@ -206,7 +206,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//concepts</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Basic</title>
@@ -216,7 +216,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//basic</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Add</title>
@@ -226,7 +226,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//add</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>HAXeditor</title>
@@ -236,7 +236,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//haxeditor</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Query examples</title>
@@ -246,7 +246,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//query-examples</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Skin a site</title>
@@ -256,7 +256,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//skin-a-custom-theme</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Minimalist</title>
@@ -266,7 +266,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//minimalist</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>HAXcms</title>
@@ -276,7 +276,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//what-is-haxcms</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Core concepts</title>
@@ -286,7 +286,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//core-concepts</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Installation</title>
@@ -296,7 +296,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//installation</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Make</title>
@@ -306,7 +306,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//make</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Drupal</title>
@@ -316,7 +316,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//drupal</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Solutions</title>
@@ -326,7 +326,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//solutions</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>HAXiam</title>
@@ -336,7 +336,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//haxiam</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>UX concepts</title>
@@ -346,7 +346,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//ux-concepts</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Find</title>
@@ -356,7 +356,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//find</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Learn two</title>
@@ -366,7 +366,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//learn-two</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Web components</title>
@@ -376,7 +376,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//web-components</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>GravCMS</title>
@@ -386,7 +386,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//gravcms</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Integrations</title>
@@ -397,7 +397,7 @@ HAXcms (duh, it's powering this websit ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//integrations</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>WordPress</title>
@@ -415,7 +415,7 @@ En ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//wordpress</guid>
-      <pubDate>Sun, 20 May 8503 15:49:42 +0000</pubDate>
+      <pubDate>Tue, 19 Jun 8503 15:49:42 -0700</pubDate>
     </item>
     <item>
       <title>Creating new ones</title>
@@ -426,7 +426,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//integrations/create-new-ones</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Structure</title>
@@ -436,7 +436,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//structure</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Documentation</title>
@@ -446,7 +446,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//documentation</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Related technologies</title>
@@ -456,7 +456,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//related-technologies</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>HAXcms</title>
@@ -466,7 +466,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//haxcms-1</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Publishing</title>
@@ -476,7 +476,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//publishing</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Life cycle</title>
@@ -486,7 +486,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//life-cycle</guid>
-      <pubDate>Mon, 20 May 6047 15:54:49 +0000</pubDate>
+      <pubDate>Wed, 19 Jun 6047 15:54:49 -0700</pubDate>
     </item>
     <item>
       <title>Troubleshooting</title>
@@ -496,7 +496,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//troubleshooting</guid>
-      <pubDate>Sun, 20 May 5764 15:53:55 +0000</pubDate>
+      <pubDate>Tue, 19 Jun 5764 15:53:55 -0700</pubDate>
     </item>
     <item>
       <title>Theming</title>
@@ -506,7 +506,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//theme-layer</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Core elements</title>
@@ -516,7 +516,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//elements</guid>
-      <pubDate>Thu, 20 May 7937 15:52:43 +0000</pubDate>
+      <pubDate>Sat, 19 Jun 7937 15:52:43 -0700</pubDate>
     </item>
     <item>
       <title>Dev workflows</title>
@@ -526,7 +526,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//dev-workflows</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Simple blog</title>
@@ -536,7 +536,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//simple-blog</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Example themes</title>
@@ -546,7 +546,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//example-themes</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Haxor Slevin</title>
@@ -556,7 +556,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//haxor-slevin</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Slide player</title>
@@ -566,7 +566,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//slide-player</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Outline player</title>
@@ -576,7 +576,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//outline-player</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>Dev theme</title>
@@ -586,7 +586,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//dev-theme</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
     <item>
       <title>F.A.Q.</title>
@@ -596,7 +596,7 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
       </description>
       <category></category>
       <guid>https://haxtheweb.org//f-a-q-</guid>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 17:00:00 -0700</pubDate>
     </item>
   </channel>
 </rss>
