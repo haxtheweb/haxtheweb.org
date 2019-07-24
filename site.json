@@ -70,10 +70,10 @@
             "order": 0,
             "parent": null,
             "title": "Welcome",
-            "description": "  HAX is the only editor that frees you of editor specific code when doing design work. This is possible because to extend HAX visually (see Make button pinwheel at top) you simply do the foll",
+            "description": "  HAX is the only editor that frees you of editor specific code when doing design work. This is possible because to extend HAX visually (see Make button pinwheel at top) you simply do the fol",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1563971980,
+                "updated": 1563972132,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
@@ -103,20 +103,25 @@
                 "readtime": 1,
                 "contentDetails": {
                     "headings": 0,
-                    "paragraphs": 8,
+                    "paragraphs": 6,
                     "schema": [
                         {
                             "resource": "#18d556e9-a1d7-3069-81d9",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        },
+                        {
+                            "resource": "#c7edcc4c-d947-ea43-6cfe",
                             "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
                         }
                     ],
                     "tags": {
                         "video-player": 1,
-                        "p": 8,
+                        "p": 6,
                         "ol": 1,
+                        "a11y-gif-player": 1,
                         "code-sample": 2
                     },
-                    "elements": 12
+                    "elements": 11
                 }
             }
         },
