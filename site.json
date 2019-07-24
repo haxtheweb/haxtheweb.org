@@ -1165,10 +1165,28 @@
             "order": 7,
             "parent": null,
             "title": "Scavenger Hunt",
-            "description": "",
+            "description": "@btopro will be at DrupalGovCon and you can get a free HAXTheWeb hockey jersey by completing the following scavenger hunt!",
             "metadata": {
                 "created": 1563970537,
-                "updated": 1563972328
+                "updated": 1563973548,
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 1,
+                    "schema": [
+                        {
+                            "typeof": "oer:SupportingMaterial",
+                            "resource": "#0029fa60-f5b6-27a2-adb7",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        }
+                    ],
+                    "tags": {
+                        "p": 1,
+                        "task-list": 1,
+                        "meme-maker": 1
+                    },
+                    "elements": 3
+                }
             }
         }
     ]
