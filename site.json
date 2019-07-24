@@ -145,10 +145,23 @@
             "order": 1,
             "parent": "item-welcome",
             "title": "Why HAXcms",
-            "description": "",
+            "description": "HAXcms, which powers this website, is hard to describe exactly what \"kind\" of system it is. That's because given that it's 100% web components, decoupled, and static by design, it's hard to put it in",
             "metadata": {
                 "created": 1563972322,
-                "updated": 1563972322
+                "updated": 1563973140,
+                "readtime": 2,
+                "contentDetails": {
+                    "headings": 1,
+                    "paragraphs": 2,
+                    "schema": [],
+                    "tags": {
+                        "grid-plate": 1,
+                        "h2": 1,
+                        "ul": 1,
+                        "p": 2
+                    },
+                    "elements": 5
+                }
             }
         },
         {
