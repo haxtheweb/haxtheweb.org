@@ -70,10 +70,10 @@
             "order": 0,
             "parent": null,
             "title": "Welcome",
-            "description": "  HAX is the only editor that frees you of editor specific code when doing design work. This is possible because to extend HAX visually (see Make button pinwheel at top) you simply do the follo",
+            "description": "  HAX is the only editor that frees you of editor specific code when doing design work. This is possible because to extend HAX visually (see Make button pinwheel at top) you simply do the foll",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1563971886,
+                "updated": 1563971980,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",

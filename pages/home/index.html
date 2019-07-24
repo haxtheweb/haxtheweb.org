@@ -4,18 +4,23 @@
 
 
 
+
 </video-player>
 <p>HAX is the only editor that frees you of editor specific code when doing design work. This is possible because to extend HAX visually (see Make button pinwheel at top) you simply do the following:</p>
 <ol><li>Make a new web component in any library you want</li>
 
-<li>Use that element anywhere web components work (so everywhere)</li>
-<li>Put in a simple call for <a href="hax-schema">HAXWiring / Schema</a>
-</li>
-<li>Now <b><i>IF</i>
+
+<li>Add some simple, documented <a href="hax-schema">HAXSchema</a>
+<br/></li>
+
+<li><b><i>When </i>
 </b>
- HAX is around, it'll know how to edit your element</li>
+HAX is around, it'll know how to edit your element but you can use it anywhere else regardless!</li>
+
 </ol>
-<p><span style="letter-spacing: -0.48px;">HAX is easy for developers to integrate to. Yarn / NPM install the element, place the editable content inside the slot (like < h-a-x ><p>stuff</p>< /h-a-x >), import h-a-x and wallah. You've got a fully decoupled block editing experience that hasn't locked you in.</span></p>
+<p><span style="letter-spacing: -0.48px;">HAX is easy for developers to integrate to. Yarn / NPM install the element, place the editable content inside the slot (like < h-a-x ></span></p>
+<p>stuff</p>
+<p></p>
 <code-sample copy-clipboard-button style="width: 50%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">yarn add @lrnwebcomponents/h-a-x</template>
 </code-sample>
 <p>As an example, that video-player at the top of the page was completely designed and worked on without ever thinking about HAX. Then at the end, when the API is done, we wrote some small HAXSchema and now it's editable and able to be placed in HAX. Hit edit below and click on the video about to see for yourself. <b><i>(see code-sample)</i>
@@ -29,7 +34,9 @@
 
 
 
+
 </b>
+
 
 
 
@@ -50,7 +57,9 @@
 
 
 
+
 </b>
+
 
 
 
@@ -72,7 +81,9 @@ style="width: 75%; margin: 0px auto; display: block;"&gt;
 
 
 
+
 </b>
+
 
 
 
@@ -111,7 +122,9 @@ style="width: 75%; margin: 0px auto; display: block;"&gt;
 
 
 
+
  to present itself! These elements work anywhere. Dig into the rest of the site for further documentation, integrations and how to get involved in <i>HAX The Web</i>
+
 
 
 
