@@ -1,14 +1,25 @@
-<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 50%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">yarn add @lrnwebcomponents/h-a-x</template>
-</code-sample>
-<p><br/></p>
-<video-player style="width: 100%; margin: 0px auto; display: block;" accent-color="orange" dark="dark" lang="en" preload="metadata" source="https://www.youtube.com/watch?v=LrS7dqokTLE" sticky-corner="top-right" track="files/HAXshort.vtt" __stand-alone="" youtube-id="LrS7dqokTLE?undefined" iframed="" source-type="youtube" is-a11y-media="" is-youtube="" media-title="Why do I need to go anywhere?" resource="#18d556e9-a1d7-3069-81d9" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org ">  <track src="files/HAXshort.vtt" kind="subtitles" label="English" slot="track"/></track>
+<video-player style="width: 100%; margin: 0px auto; display: block;" accent-color="orange" dark lang="en" preload="metadata" source="https://www.youtube.com/watch?v=LrS7dqokTLE" sticky-corner="top-right" track="files/HAXshort.vtt" __stand-alone="" youtube-id="LrS7dqokTLE?undefined" iframed="" source-type="youtube" is-a11y-media="" is-youtube="" media-title="Why do I need to go anywhere?" resource="#18d556e9-a1d7-3069-81d9" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " sources="[]" tracks="[]" schema-resource-id="#18d556e9-a1d7-3069-81d9">  <track src="files/HAXshort.vtt" kind="subtitles" label="English" slot="track"/></track>
+
 
 
 
 
 </video-player>
-<h2>Why HAX?</h2>
-<p>That video player is a single tag in the DOM that works anywhere <b><i>(see code-sample)</i>
+<p>HAX is the only editor that frees you of editor specific code when doing design work. This is possible because to extend HAX visually (see Make button pinwheel at top) you simply do the following:</p>
+<ol><li>Make a new web component in any library you want</li>
+
+<li>Use that element anywhere web components work (so everywhere)</li>
+<li>Put in a simple call for <a href="hax-schema">HAXWiring / Schema</a>
+</li>
+<li>Now <b><i>IF</i>
+</b>
+ HAX is around, it'll know how to edit your element</li>
+</ol>
+<p><span style="letter-spacing: -0.48px;">HAX is easy for developers to integrate to. Yarn / NPM install the element, place the editable content inside the slot (like < h-a-x ><p>stuff</p>< /h-a-x >), import h-a-x and wallah. You've got a fully decoupled block editing experience that hasn't locked you in.</span></p>
+<code-sample copy-clipboard-button style="width: 50%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">yarn add @lrnwebcomponents/h-a-x</template>
+</code-sample>
+<p>As an example, that video-player at the top of the page was completely designed and worked on without ever thinking about HAX. Then at the end, when the API is done, we wrote some small HAXSchema and now it's editable and able to be placed in HAX. Hit edit below and click on the video about to see for yourself. <b><i>(see code-sample)</i>
+
 
 
 
@@ -33,15 +44,18 @@
 
 
 
+
 </p>
-<p class="hax-active"><b><i><br/></i>
+<p><b><i><br/></i>
+
 
 
 </b>
 
 
+
 </p>
-<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 50%;">  <template preserve-content="preserve-content">// the tag opening just like normal HTML
+<code-sample copy-clipboard-button style="width: 50%;">  <template preserve-content="preserve-content">// the tag opening just like normal HTML
 &lt; video-player
 // a custom property to make the video stick in the corner
 sticky-corner="top-right"
@@ -57,7 +71,9 @@ style="width: 75%; margin: 0px auto; display: block;"&gt;
 <p><b><i><br/></i>
 
 
+
 </b>
+
 
 
 </p>
@@ -94,7 +110,9 @@ style="width: 75%; margin: 0px auto; display: block;"&gt;
 
 
 
+
  to present itself! These elements work anywhere. Dig into the rest of the site for further documentation, integrations and how to get involved in <i>HAX The Web</i>
+
 
 
 .</p>

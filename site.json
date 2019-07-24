@@ -70,10 +70,10 @@
             "order": 0,
             "parent": null,
             "title": "Welcome",
-            "description": "  yarn add @lrnwebcomponents\/h-a-x  Why HAX?That video player is a single tag in the DOM that works anywhere\u00a0(see code-sample)  \/\/ the tag opening just like",
+            "description": "  HAX is the only editor that frees you of editor specific code when doing design work. This is possible because to extend HAX visually (see Make button pinwheel at top) you simply do the follo",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1563970531,
+                "updated": 1563971886,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
@@ -100,7 +100,24 @@
                         "size": 307196
                     }
                 ],
-                "readtime": 1
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 8,
+                    "schema": [
+                        {
+                            "resource": "#18d556e9-a1d7-3069-81d9",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        }
+                    ],
+                    "tags": {
+                        "video-player": 1,
+                        "p": 8,
+                        "ol": 1,
+                        "code-sample": 2
+                    },
+                    "elements": 12
+                }
             }
         },
         {

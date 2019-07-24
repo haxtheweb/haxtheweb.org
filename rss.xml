@@ -6,8 +6,18 @@
     <description>Documentation and learning about how we HAX the web</description>
     <copyright>Copyright (C) 2019 https://haxtheweb.org/</copyright>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Jun 2019 14:18:36 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2019 06:15:37 -0600</lastBuildDate>
     <atom:link href="https://haxtheweb.org//rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Scavenger Hunt</title>
+      <link>https://haxtheweb.org//scavenger-hunt</link>
+      <description>
+          <![CDATA[ <p>Ex uno Plures</p> ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//scavenger-hunt</guid>
+      <pubDate>Wed, 24 Jul 2019 06:15:37 -0600</pubDate>
+    </item>
     <item>
       <title>HAXiam</title>
       <link>https://haxtheweb.org//haxiam</link>
@@ -171,76 +181,6 @@ site-active-title {
       </description>
       <category></category>
       <guid>https://haxtheweb.org//css</guid>
-      <pubDate>Sat, 23 Mar 2019 07:58:38 -0600</pubDate>
-    </item>
-    <item>
-      <title>Web components</title>
-      <link>https://haxtheweb.org//web-components</link>
-      <description>
-          <![CDATA[ <p>Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/themes/haxcms-slide-theme.js#L1">haxcms-slide-theme</a>
-
-.</p>
-<h2>Import classes / web components</h2>
-<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 100%;">  <template preserve-content="preserve-content">import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
-import { HAXCMSTheme } from "@lrnwebcomponents/haxcms-elements/lib/core/HAXCMSThemeWiring.js";
-import "@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-title.js";
-import "@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-print-button.js";
-import "@lrnwebcomponents/haxcms-elements/lib/ui-components/active-item/site-active-title.js";
-import "@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-dot-indicator";
-import "@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-menu-button.js";
-import "@polymer/paper-icon-button/paper-icon-button.js";
-import "@polymer/iron-icons/iron-icons.js";
-import "@polymer/paper-tooltip/paper-tooltip.js";
-import "@lrnwebcomponents/simple-colors/simple-colors.js";
-import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
-</code-sample>
-<p>As you can see this theme imports a few basic components helpful in the development of most themes. First we import PolymerElement and the HAXCMSTheme mix-in from our theme wiring library. Theme wiring provides a basis for wiring any custom element into the state management of HAXcms, typically without having to deal with any concepts of state!</p>
-<h2>Mix-ins</h2>
-<code-sample copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content">class HAXCMSSlideTheme extends HAXCMSTheme(PolymerElement) {</template>
-</code-sample>
-<p>Next we get the mix-in statement. Note how HAXCMSTheme wraps the PolymerElement class, thereby giving us a mix of the two together.</p>
-<h3 class="hax-active">HAXCMSTheme mix-in class</h3>
-<p>You can learn more about what the mix-in class provides by <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/HAXCMSThemeWiring.js">digging into the HAXCMSThemeWiring.js</a>
-
- class. This class bridges the HAXcms store (written in mobx) with the design layer. This way you can leverage anything in the store by writing the polymer convention for referencing a data bound variable in the template.</p>
-<p><a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/haxcms-site-store.js#L410-L428">Here's the variables you'll commonly see</a>
-
- in our themes, direct from the store with an example of what a dom bind of that would look like in a template</p>
-<code-sample copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content"><h1>[[siteTitle]]</h1>
-<h2>[[ancestorTitle</h2>
-<h3>[[parentTitle]]</h3>
-<h4>[[activeTitle]]</h4>
-<div>
-    [[activeItemFields.images.0.url]]
-</div></template>
-</code-sample>
-<p>That last line with activeItemFields is part of the raw power under the hood of this approach. You can use HAXcms to create field definitions (in <a href="hax-shema">HAXschema</a>
-
-) that then extend the capabilities of your pages.</p>
-<h2>Required CSS</h2>
-<p>There is one small required block of CSS when doing web component / theme development for HAXcms. It is the following:</p>
-<code-sample copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content">/**
- * Hide the slotted content during edit mode. This must be here to work.
- */
-:host([edit-mode]) #slot {
-    display: none;
-}</template>
-</code-sample>
-<p>This helps ensure that when your user clicks the edit button that they see the HAXeditor as opposed to the body of content they are currently working with. Then when they hit save, the HAXeditor sends the content to the backend which then updates the front end and they see the changes. This CSS ensures that it isn't visible during editing.</p>
-<h2 class="hax-active">Required HTML</h2>
-<code-sample copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content"><div id="contentcontainer">
-    <div id="slot"><slot></slot></div>
-</div></template>
-</code-sample>
-<p>Related to the CSS, the following block of HTML must appear in your template somewhere (or in the case of <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/simple-blog/lib/simple-blog-post.js#L125-L127">simple-blog</a>
-, an element leveraged by your theme). You can make this look like whatever you want beyond this but this ensures the HAXeditor can correctly target and be integrated using the HAXCMSTheme mix-in. There are ways to position and reposition the HAXeditor dynamically that will not be covered here but <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/simple-blog/simple-blog.js#L174">can be seen in simple-blog</a>
-.</p>
-<p>From there, design away. Write whatever CSS and HTML and JS you want! The example themes referenced in our docs all provide blue prints for different ways of leveraging our template system.</p>
-<p>Next we'll discuss our Core template elements which you'll want to leverage in order to make theme development even cleaner!</p>
- ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//web-components</guid>
       <pubDate>Sat, 23 Mar 2019 07:58:38 -0600</pubDate>
     </item>
     <item>
@@ -422,6 +362,76 @@ that are 2 to 4 levels deep.</span>
       <pubDate>Sat, 23 Mar 2019 07:58:38 -0600</pubDate>
     </item>
     <item>
+      <title>Web components</title>
+      <link>https://haxtheweb.org//web-components</link>
+      <description>
+          <![CDATA[ <p>Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/themes/haxcms-slide-theme.js#L1">haxcms-slide-theme</a>
+
+.</p>
+<h2>Import classes / web components</h2>
+<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 100%;">  <template preserve-content="preserve-content">import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
+import { HAXCMSTheme } from "@lrnwebcomponents/haxcms-elements/lib/core/HAXCMSThemeWiring.js";
+import "@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-title.js";
+import "@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-print-button.js";
+import "@lrnwebcomponents/haxcms-elements/lib/ui-components/active-item/site-active-title.js";
+import "@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-dot-indicator";
+import "@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-menu-button.js";
+import "@polymer/paper-icon-button/paper-icon-button.js";
+import "@polymer/iron-icons/iron-icons.js";
+import "@polymer/paper-tooltip/paper-tooltip.js";
+import "@lrnwebcomponents/simple-colors/simple-colors.js";
+import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
+</code-sample>
+<p>As you can see this theme imports a few basic components helpful in the development of most themes. First we import PolymerElement and the HAXCMSTheme mix-in from our theme wiring library. Theme wiring provides a basis for wiring any custom element into the state management of HAXcms, typically without having to deal with any concepts of state!</p>
+<h2>Mix-ins</h2>
+<code-sample copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content">class HAXCMSSlideTheme extends HAXCMSTheme(PolymerElement) {</template>
+</code-sample>
+<p>Next we get the mix-in statement. Note how HAXCMSTheme wraps the PolymerElement class, thereby giving us a mix of the two together.</p>
+<h3 class="hax-active">HAXCMSTheme mix-in class</h3>
+<p>You can learn more about what the mix-in class provides by <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/HAXCMSThemeWiring.js">digging into the HAXCMSThemeWiring.js</a>
+
+ class. This class bridges the HAXcms store (written in mobx) with the design layer. This way you can leverage anything in the store by writing the polymer convention for referencing a data bound variable in the template.</p>
+<p><a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/haxcms-site-store.js#L410-L428">Here's the variables you'll commonly see</a>
+
+ in our themes, direct from the store with an example of what a dom bind of that would look like in a template</p>
+<code-sample copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content"><h1>[[siteTitle]]</h1>
+<h2>[[ancestorTitle</h2>
+<h3>[[parentTitle]]</h3>
+<h4>[[activeTitle]]</h4>
+<div>
+    [[activeItemFields.images.0.url]]
+</div></template>
+</code-sample>
+<p>That last line with activeItemFields is part of the raw power under the hood of this approach. You can use HAXcms to create field definitions (in <a href="hax-shema">HAXschema</a>
+
+) that then extend the capabilities of your pages.</p>
+<h2>Required CSS</h2>
+<p>There is one small required block of CSS when doing web component / theme development for HAXcms. It is the following:</p>
+<code-sample copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content">/**
+ * Hide the slotted content during edit mode. This must be here to work.
+ */
+:host([edit-mode]) #slot {
+    display: none;
+}</template>
+</code-sample>
+<p>This helps ensure that when your user clicks the edit button that they see the HAXeditor as opposed to the body of content they are currently working with. Then when they hit save, the HAXeditor sends the content to the backend which then updates the front end and they see the changes. This CSS ensures that it isn't visible during editing.</p>
+<h2 class="hax-active">Required HTML</h2>
+<code-sample copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content"><div id="contentcontainer">
+    <div id="slot"><slot></slot></div>
+</div></template>
+</code-sample>
+<p>Related to the CSS, the following block of HTML must appear in your template somewhere (or in the case of <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/simple-blog/lib/simple-blog-post.js#L125-L127">simple-blog</a>
+, an element leveraged by your theme). You can make this look like whatever you want beyond this but this ensures the HAXeditor can correctly target and be integrated using the HAXCMSTheme mix-in. There are ways to position and reposition the HAXeditor dynamically that will not be covered here but <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/simple-blog/simple-blog.js#L174">can be seen in simple-blog</a>
+.</p>
+<p>From there, design away. Write whatever CSS and HTML and JS you want! The example themes referenced in our docs all provide blue prints for different ways of leveraging our template system.</p>
+<p>Next we'll discuss our Core template elements which you'll want to leverage in order to make theme development even cleaner!</p>
+ ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//web-components</guid>
+      <pubDate>Sat, 23 Mar 2019 07:58:38 -0600</pubDate>
+    </item>
+    <item>
       <title>Get Involved!</title>
       <link>https://haxtheweb.org//get-involved-</link>
       <description>
@@ -489,24 +499,16 @@ that are 2 to 4 levels deep.</span>
       <pubDate>Thu, 21 Mar 2019 13:46:24 -0600</pubDate>
     </item>
     <item>
-      <title>Minimalist</title>
-      <link>https://haxtheweb.org//minimalist</link>
+      <title>Slide player</title>
+      <link>https://haxtheweb.org//slide-player</link>
       <description>
-          <![CDATA[ <p>As you can see, the minimalist theme is for trying to give you a straight forward, linear design pattern.</p>
-<p>Pages are ordered based on the very 1 page's child pages.</p>
-<p>So you'd have a structure like this:</p>
-<ul><li>Home</li>
-<ul><li>Page 1</li>
-<li>Page 2</li>
-<li>Page 3</li>
-</ul>
-
-<li>This page wouldn't show up in the nav</li>
-</ul>
+          <![CDATA[ <p>Slide player is great for lectures and presentation style sites (or parts of sites). It lets you focus on the content and has almost no UI.</p>
+<wikipedia-query show-title="" search="Presentation slide" render-as="content" resource="#9cdecdb2-ed7c-f2e2-2c27" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " search-response="[object Object]"></wikipedia-query>
+<lrn-table title="Example teaching component. This is just a CSV file!" csv-file="files/demo.csv" description="The data in this table is irrelevant, it's basically just here to visually demonstrate what's possible with our platform." resource="#dd29b4ba-18fc-53ac-0340" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 100%; margin: 0px auto; display: block;"></lrn-table>
  ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//minimalist</guid>
+      <guid>https://haxtheweb.org//slide-player</guid>
       <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
     </item>
     <item>
@@ -529,20 +531,6 @@ that are 2 to 4 levels deep.</span>
       <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
     </item>
     <item>
-      <title>Simple blog</title>
-      <link>https://haxtheweb.org//simple-blog</link>
-      <description>
-          <![CDATA[ <p>This one definitely just broke your world view... cause... it's... a.... blog.</p>
-<p>It also just broke the navigation cause Simple Blog is about viewing a listing of blog posts and then when you are inside of a single post, it takes over the entire interaction</p>
-<p>You can click the top left button to go back and dig into another theme from here if you like</p>
-<meme-maker image-url="files/2019-03-21_15-12-05.jpg" top-text="Posts about theme in theme" bottom-text="So meta" style="width: 75%; margin: 0px auto; display: block;"></meme-maker>
- ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//simple-blog</guid>
-      <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
-    </item>
-    <item>
       <title>Learn two</title>
       <link>https://haxtheweb.org//learn-two</link>
       <description>
@@ -554,38 +542,6 @@ that are 2 to 4 levels deep.</span>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//learn-two</guid>
-      <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
-    </item>
-    <item>
-      <title>Example themes</title>
-      <link>https://haxtheweb.org//example-themes</link>
-      <description>
-          <![CDATA[ <p>Explore some of the themes built for HAXcms that you get out of the box. This is a great demonstration of the performance and power of both web components and HAXcms (the system powering this site!).</p>
-<h2>Special note</h2>
-<p>When you switch theme it's JUST for that page in question. If you need to reset, go back to the home page. Not all themes will provide a lot of navigation as they make more sense for different structures.</p>
-<p>You can learn more about our theme layer and how to write your own themes in the <a href="theme-layer">Theme layer section of our docs</a>
-
-.</p>
-<h2 class="hax-active">Bugs</h2>
-<p>There are known issues currently that pop up at times when doing the "<a href="https://github.com/elmsln/HAXcms/issues/152">swap themes dynamically in HAXcms</a>
-" concept, namely that some CSS variables need to be rebuilt.</p>
- ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//example-themes</guid>
-      <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
-    </item>
-    <item>
-      <title>Slide player</title>
-      <link>https://haxtheweb.org//slide-player</link>
-      <description>
-          <![CDATA[ <p>Slide player is great for lectures and presentation style sites (or parts of sites). It lets you focus on the content and has almost no UI.</p>
-<wikipedia-query show-title="" search="Presentation slide" render-as="content" resource="#9cdecdb2-ed7c-f2e2-2c27" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " search-response="[object Object]"></wikipedia-query>
-<lrn-table title="Example teaching component. This is just a CSV file!" csv-file="files/demo.csv" description="The data in this table is irrelevant, it's basically just here to visually demonstrate what's possible with our platform." resource="#dd29b4ba-18fc-53ac-0340" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 100%; margin: 0px auto; display: block;"></lrn-table>
- ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//slide-player</guid>
       <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
     </item>
     <item>
@@ -605,6 +561,41 @@ that are 2 to 4 levels deep.</span>
       <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
     </item>
     <item>
+      <title>Simple blog</title>
+      <link>https://haxtheweb.org//simple-blog</link>
+      <description>
+          <![CDATA[ <p>This one definitely just broke your world view... cause... it's... a.... blog.</p>
+<p>It also just broke the navigation cause Simple Blog is about viewing a listing of blog posts and then when you are inside of a single post, it takes over the entire interaction</p>
+<p>You can click the top left button to go back and dig into another theme from here if you like</p>
+<meme-maker image-url="files/2019-03-21_15-12-05.jpg" top-text="Posts about theme in theme" bottom-text="So meta" style="width: 75%; margin: 0px auto; display: block;"></meme-maker>
+ ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//simple-blog</guid>
+      <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
+    </item>
+    <item>
+      <title>Minimalist</title>
+      <link>https://haxtheweb.org//minimalist</link>
+      <description>
+          <![CDATA[ <p>As you can see, the minimalist theme is for trying to give you a straight forward, linear design pattern.</p>
+<p>Pages are ordered based on the very 1 page's child pages.</p>
+<p>So you'd have a structure like this:</p>
+<ul><li>Home</li>
+<ul><li>Page 1</li>
+<li>Page 2</li>
+<li>Page 3</li>
+</ul>
+
+<li>This page wouldn't show up in the nav</li>
+</ul>
+ ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//minimalist</guid>
+      <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
+    </item>
+    <item>
       <title>Dev theme</title>
       <link>https://haxtheweb.org//dev-theme</link>
       <description>
@@ -615,6 +606,25 @@ that are 2 to 4 levels deep.</span>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//dev-theme</guid>
+      <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
+    </item>
+    <item>
+      <title>Example themes</title>
+      <link>https://haxtheweb.org//example-themes</link>
+      <description>
+          <![CDATA[ <p>Explore some of the themes built for HAXcms that you get out of the box. This is a great demonstration of the performance and power of both web components and HAXcms (the system powering this site!).</p>
+<h2>Special note</h2>
+<p>When you switch theme it's JUST for that page in question. If you need to reset, go back to the home page. Not all themes will provide a lot of navigation as they make more sense for different structures.</p>
+<p>You can learn more about our theme layer and how to write your own themes in the <a href="theme-layer">Theme layer section of our docs</a>
+
+.</p>
+<h2 class="hax-active">Bugs</h2>
+<p>There are known issues currently that pop up at times when doing the "<a href="https://github.com/elmsln/HAXcms/issues/152">swap themes dynamically in HAXcms</a>
+" concept, namely that some CSS variables need to be rebuilt.</p>
+ ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//example-themes</guid>
       <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
     </item>
     <item>
@@ -730,22 +740,6 @@ the title of the active item wrapped in a h1 tag
       <category></category>
       <guid>https://haxtheweb.org//elements</guid>
       <pubDate>Tue, 12 Mar 2019 18:45:37 -0600</pubDate>
-    </item>
-    <item>
-      <title>HAXcms</title>
-      <link>https://haxtheweb.org//haxcms-1</link>
-      <description>
-          <![CDATA[ <p>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server" is only used when needed for a user to securely develop their content.</p>
-<h2>Difference from past static generators</h2>
-<p>Unlike solutions like <a href="https://jekyllrb.com/">Jekyll</a>
-
-, HAXcms is for anyone to publish a website, not just those that understand command line. HAXcms is intended to be installed and then allow users to entirely use a UI to create, publish and manage micro-sites.</p>
-<h2>Visualization</h2>
-<img src="files/HAXCms workflow.jpg" alt="HAXcms visualization of publishing workflow at a data layer. Static sites are published from the files you work with yet whatever you edit via the UI is always saved into a static format that works anywhere." style="width: 75%; margin: 0px auto; display: block;"/> ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//haxcms-1</guid>
-      <pubDate>Tue, 19 Feb 2019 23:10:05 -0700</pubDate>
     </item>
     <item>
       <title>Theming</title>
@@ -1115,22 +1109,202 @@ export { LearnTwoTheme };</template>
       <pubDate>Tue, 19 Feb 2019 23:10:05 -0700</pubDate>
     </item>
     <item>
-      <title>Concepts</title>
-      <link>https://haxtheweb.org//concepts</link>
+      <title>Installation</title>
+      <link>https://haxtheweb.org//installation</link>
       <description>
-          <![CDATA[ <p>HAXcms seeks to be a microsite generator and manager that <b>doesn't require any command line in order to operate</b>
-. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to eliminate all the barriers to then publishing that content online.</p>
-<h3 class="hax-active">Some words and phrases worth understanding in HAXcms</h3>
-<ul><li>HAXeditor - the HAX editor</li>
-<li>microsite - An individual site that's been created by a user</li>
-<li>Outline - All sites are an outline, we use JSON Outline Schema to manage this</li>
-<li>Theme - A single web component based theme that's agnostic of content</li>
-<li>Elements / web components - design assets that work anywhere</li>
+          <![CDATA[ <h2>Generic PHP install directions</h2>
+<p>Have PHP? well then you can setup HAXcms pretty quick. Just download HAXcms and navigate to its directory in a browser. It'll attempt to automatically install (which is to create two basic folders). If all goes well you'll see some ASCii art telling you what your password is. HAXcms seeks to be a 0 config installation so if anything didn't work or make sense, just drop us a line in the issue queues.</p>
+<h2 class="hax-active">Or from Command Line...</h2>
+<p>Just run this one command and you'll be HAXing the web in no time! This will step you through prompts (which can be scripted via arguments) to feed the backend what it needs to create the few configuration files it uses to load.</p>
+<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 75%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content"># HAX the web and answer the prompts
+bash scripts/haxtheweb.sh</template>
+</code-sample>
+<h3><sub>A note on bash</sub>
+
+</h3>
+<p></p>
+<p><sub>If you're having issues installing via the bash script, ensure you are on bash version 4.x. Some OS flavors start at 3.x which won't work.</sub>
+
+</p>
+<p></p>
+<h2>MAMP</h2>
+<p><a href="https://www.mamp.info/en/">MAMP</a>
+
+
+
+
+
+ allows Mac and PC users to rapidly install a working webdev stack on their machine. Here's the steps you need to take if using this (or on similar site hosting).</p>
+<p><span style="caret-color: rgb(0, 0, 0);">Download the </span><a href="https://github.com/elmsln/HAXcms/archive/master.zip" style="caret-color: rgb(0, 0, 0);">latest copy of HAXcms from github</a>
+
+
+ and<span style="caret-color: rgb(0, 0, 0);"> p</span><span style="caret-color: rgb(0, 0, 0);">lace this in </span><i style="caret-color: rgb(0, 0, 0);">MAMP/htdocs </i>
+<span style="caret-color: rgb(0, 0, 0);">either at the root level (as in copying the files you download into htdocs as shown in the image below) or by placing the folder in the directory (in the case where you have MAMP already installed / want to keep things tidy).</span></p>
+<media-image source="files/mampstructure.jpg" caption="MAMP file structure under htdocs directory" size="wide" card box resource="#990ebe5c-04c8-58b2-385a" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 25%; margin: 0px auto; display: block;"></media-image>
+<p><i>Open MAMP and hit the Start Servers Button</i>
+
+
+</p>
+<media-image source="files/mampstart.jpg" caption="MAMP start page when opening the application (image 2)" size="wide" card box resource="#4e5cac2b-786f-596c-b394" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 25%; margin: 0px auto; display: block;"></media-image>
+<p><i>Click MY WEBSITE in MAMP start page to get started</i>
+
+
+</p>
+<img src="files/mamppage.jpg" alt="MAMP starting page top menu bar screenshot." style="width: 50%; margin: 0px auto; display: block;"/><p>Now you can build website organically off of MAMP!</p>
+<h2>DDEV / Docksal / Lando / Vagrant</h2>
+<p>We recommend using HAXcms in a docker container manager like <a href="https://www.drud.com/what-is-ddev/">ddev</a>
+
+
+
+
+
+, though based on above you can see basically we're just downloading and running one command to get going. We support all of the above methods so pick the one you work with most often.</p>
+<ul>
+<li>Clone this repo: <code>git clone https://github.com/elmsln/haxcms.git</code>
+
+
+
+
+
+
+</li>
+
+
+
+
+
+
+
+<li>install <a href="https://store.docker.com/search?type=edition&offering=community" rel="nofollow">docker</a>
+
+
+
+
+
+
+</li>
+
+
+
+
+
+
+
+<li><a href="https://ddev.readthedocs.io/en/latest/#installation" rel="nofollow">install ddev</a>
+
+
+
+
+
+
+ or <a href="https://docksal.io/installation/" rel="nofollow">install docksal</a>
+
+
+
+
+
+
+ or <a href="https://docs.devwithlando.io/installation/installing.html" rel="nofollow">install lando</a>
+
+
+
+
+
+
+ or <a href="https://www.vagrantup.com/downloads.html" rel="nofollow">install vagrant</a>
+
+
+
+
+
+
+ (We support 'em all!)</li>
+
+
+
+
+
+
+
+<li>open a terminal window, go to the directory and type <code>ddev start</code>
+
+
+
+
+
+
+ (for ddev) or <code>fin init</code>
+
+
+
+
+
+
+ (for docksal) or <code>lando start && lando magic</code>
+
+
+
+
+
+
+ (for lando) or <code>vagrant up</code>
+
+
+
+
+
+
+ (for vagrant)</li>
+
+
+
+
+
+
+
+<li>go to the link any of them give you in a browser</li>
+
+
+
+
+
+
+
+<li>username/password is <code>admin</code>
+
+
+
+
+
+
+/<code>admin</code>
+
+
+
+
+
+
+ to get building out static sites locally that you can push up anywhere!</li>
+
+
+
+
+
+
+
+<li>Click the icon in the top right and you're off and running!</li>
+
+
+
+
+
+
+
 </ul>
  ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//concepts</guid>
+      <guid>https://haxtheweb.org//installation</guid>
       <pubDate>Tue, 19 Feb 2019 23:10:05 -0700</pubDate>
     </item>
   </channel>
