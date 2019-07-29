@@ -1165,14 +1165,14 @@
             "order": 7,
             "parent": null,
             "title": "Scavenger Hunt",
-            "description": "@btopro will be at DrupalGovCon and you can get a free HAXTheWeb hockey jersey by completing the following scavenger hunt!",
+            "description": "Become part of our dynasty franchise **by wearing a cool jerseyWe're building the greatest roster of people ever to HAX the complacency of our industry. Take the HAX scavenger hunt at the next event",
             "metadata": {
                 "created": 1563970537,
-                "updated": 1563991663,
+                "updated": 1564365357,
                 "readtime": 1,
                 "contentDetails": {
-                    "headings": 0,
-                    "paragraphs": 1,
+                    "headings": 1,
+                    "paragraphs": 2,
                     "schema": [
                         {
                             "typeof": "oer:SupportingMaterial",
@@ -1181,11 +1181,13 @@
                         }
                     ],
                     "tags": {
-                        "p": 1,
+                        "h3": 1,
+                        "p": 2,
+                        "ul": 1,
                         "task-list": 1,
                         "meme-maker": 1
                     },
-                    "elements": 3
+                    "elements": 6
                 }
             }
         }
