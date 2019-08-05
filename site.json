@@ -625,10 +625,10 @@
             "order": 1,
             "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "title": "Drupal",
-            "description": "Try on SimplyTest.meTry HAX on Simplytest me in a few steps without needing to install anythingGo to Simplytest me and pick HAX modulePick 8.x-3.0 or 7.x-3.0Log in, go to Administration -> Co",
+            "description": "Try on SimplyTest.meTry HAX on Simplytest me in a few steps without needing to install anythingGo to Simplytest me and pick HAX modulePick 8.x-3.1 or 7.x-3.1Log in, go to Administration ->",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1563972323,
+                "updated": 1564972399,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/scale-50\/d8cdnimage.jpg",
@@ -647,7 +647,26 @@
                         "size": 91967
                     }
                 ],
-                "readtime": 1
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 3,
+                    "paragraphs": 3,
+                    "schema": [
+                        {
+                            "resource": "#3b994c7f-952f-e85f-48b3",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        }
+                    ],
+                    "tags": {
+                        "h2": 2,
+                        "p": 3,
+                        "ol": 2,
+                        "grid-plate": 1,
+                        "h3": 1,
+                        "wikipedia-query": 1
+                    },
+                    "elements": 10
+                }
             }
         },
         {
