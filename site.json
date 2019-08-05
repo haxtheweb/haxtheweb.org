@@ -794,10 +794,27 @@
             "order": 2,
             "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "title": "GravCMS",
-            "description": "",
+            "description": "There's two plugins needed to run HAX on GravCMS - The web components and HAX plugins.Web components plugin\u00a0- provides the build routine and installation instructionsHAX plugin\u00a0- editor capab",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1563972323
+                "updated": 1564972468,
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 2,
+                    "schema": [
+                        {
+                            "resource": "#f0356db6-f345-316d-1426",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        }
+                    ],
+                    "tags": {
+                        "p": 2,
+                        "ul": 1,
+                        "media-image": 1
+                    },
+                    "elements": 4
+                }
             }
         },
         {
