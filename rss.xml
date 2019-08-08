@@ -480,18 +480,23 @@ site-active-title {
           <![CDATA[ <h2><span style="letter-spacing: -0.48px;">Join our community</span></h2>
 <ul><li><span style="letter-spacing: -0.48px;">Join us on the <a href="https://join.slack.com/t/elmsln/shared_invite/enQtMjg2MzUxMTYyNjcyLWNhYzU1ODk0MjQ5MWZlNjVjNWJkMmZlODJiMGNmNDBjODk2NDc2MDUzNTZkODE4NTRiMjUzYzkzOTBkNjI4NGE">HAXTheWeb Slack</a>
 
+
  channel</span></li>
+
 
 
 <li><a href="https://twitter.com/search?q=%23HAXTheWeb&src=typed_query">Follow / use the #HAXTheWeb hash tag</a>
 
 
+
 </li>
+
 
 
 </ul>
 <h2><span style="letter-spacing: -0.48px;">Jump in issue queues</span></h2>
 <ul><li><a href="https://github.com/elmsln/haxcms">HAXcms</a>
+
 
 
 
@@ -506,7 +511,9 @@ site-active-title {
 
 
 
+
 <li><a href="https://github.com/elmsln/lrnwebcomponents">HAXeditor</a>
+
 
 
 
@@ -520,7 +527,9 @@ site-active-title {
 
 
 
+
 <li><a href="https://github.com/elmsln/wcfactory">WCFactory</a>
+
 
 
 
@@ -529,9 +538,12 @@ site-active-title {
 
  - Build and maintain your own web component library, why should we be special.<br/></li>
 
+
 <li>Check out our <a href="integrations">integrations page</a>
 
+
  for platform specific repos</li>
+
 
 
 
@@ -543,13 +555,17 @@ site-active-title {
 <p><span style="letter-spacing: -0.48px;">Great! Here's some of the best ways for organizations to try "HAX" and get involved in the project.</span></p>
 <ul><li><span style="caret-color: rgb(0, 0, 0);">Reach out to any of the members of the core project team or who's listed at the bottom of the <a href="f-a-q-">FAQ</a>
 
+
 . We're happy to do conference calls to forge partnerships especially around HAX as a Learning management or OER production solution though it has implications for any public site!</span></li>
+
 
 
 
 <li>Try out the <a href="https://www.elmsln.org/demos">HAXcms live demo</a>
 
+
  (reset hourly)</li>
+
 
 
 
@@ -557,11 +573,15 @@ site-active-title {
 
 
 
+
  with questions</li>
 
 
 
+
 <li>Bring this website to developers in your organization or other code junkies and tell them to explore</li>
+<li>Host a HAX camp / meet up (ask for more details)</li>
+
 
 
 
@@ -577,8 +597,10 @@ site-active-title {
 
 
 
+
 .</span></p>
 <p><sub>*Claims vs reality may vary. Just help us out and we'll see where it goes..</sub>
+
 
 
 
