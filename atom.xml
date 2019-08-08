@@ -11,13 +11,14 @@
   <entry>
     <title>ClassicPress</title>
     <id>https://haxtheweb.org//integrations/classicpress</id>
-    <updated>2019-08-08T09:51:31-06:00</updated>
+    <updated>2019-08-08T09:51:52-06:00</updated>
     <published>2019-08-08T09:43:29-06:00</published>
-    <summary>ClassicPress is a popular fork of WordPress that's even easier to get HAX up and running then it is in the original!Get the Web component plugin, unzip and rename to webcomponentsG</summary>
+    <summary>ClassicPress is a popular fork of WordPress that's even easier to get HAX up and running then it is in the original!Get the Web component plugin, unzip and rename to webcomponents</summary>
     <link href="https://haxtheweb.org//integrations/classicpress"/>
     
     <content type="html">
       <![CDATA[ <p><a href="https://www.classicpress.net/">ClassicPress</a>
+
 
 
 
@@ -30,7 +31,9 @@
 <li>Get the <a href="https://github.com/elmsln/wp-plugin-webcomponents">Web component plugin</a>
 
 
+
 , unzip and rename to webcomponents</li>
+
 
 
 
@@ -40,7 +43,9 @@
 <li>Get the <a href="https://github.com/elmsln/wp-plugin-hax">HAX plugin</a>
 
 
+
 , unzip and rename to hax</li>
+
 
 
 
@@ -50,12 +55,16 @@
 <li>Put both of these plugins in your <b>wp-content/plugins/</b>
 
 
+
  directory</li>
+
 
 
 <li>Go into your site's plugins area and enable both <b>wp-admin/plugins.php</b>
 
+
 </li>
+
 
 
 <li>Go to edit / create a page/post and you are HAXing</li>
@@ -65,9 +74,10 @@
 
 
 
+
 </ol>
 <h2><span style="letter-spacing: -0.48px;" class="hax-active">Installation video</span></h2>
-<video-player accent-color="cyan" dark="dark" iframed="iframed" is-a11y-media="is-a11y-media" is-youtube="is-youtube" lang="en" media-title="Installing ClassicPress with HAX" preload="metadata" source="https://www.youtube.com/watch?v=q0IjUz2_IhA" source-type="youtube" sticky-corner="top-right" youtube-id="q0IjUz2_IhA" schema-resource-id="#85219ed3-d806-24d7-5c02" resource="#85219ed3-d806-24d7-5c02" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 75%; margin: 0px auto; display: block;" sources="[]" tracks="[]"></video-player>
+<video-player accent-color="cyan" dark="dark" iframed="iframed" is-a11y-media="is-a11y-media" is-youtube="is-youtube" lang="en" media-title="Installing ClassicPress with HAX" preload="metadata" source="https://www.youtube.com/watch?v=q0IjUz2_IhA" source-type="youtube" sticky-corner="top-right" youtube-id="q0IjUz2_IhA" schema-resource-id="#85219ed3-d806-24d7-5c02" resource="#85219ed3-d806-24d7-5c02" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 100%; margin: 0px auto; display: block;" sources="[]" tracks="[]"></video-player>
  ]]>
     </content>
   </entry>
