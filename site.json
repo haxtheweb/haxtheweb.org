@@ -201,10 +201,10 @@
             "order": 3,
             "parent": "item-welcome",
             "title": "Roadmap",
-            "description": "Relationships of major projectsHAX has many different parts detailed here, so let's look at the relationship between these pieces before getting into the roadmap. HAX projects are part of the ELMS:LN",
+            "description": "HAX encompasses many different projectsThis roadmap illustrates all the projects related to HAX and ELMS:LN, which HAX comes from. The little settings gears found throughout illustrate enhancements a",
             "metadata": {
                 "created": 1565290387,
-                "updated": 1565291226,
+                "updated": 1565296285,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/sites\/haxtheweb\/files\/\/haxrelationships.jpg",
@@ -225,15 +225,15 @@
                 ],
                 "readtime": 1,
                 "contentDetails": {
-                    "headings": 1,
-                    "paragraphs": 4,
+                    "headings": 2,
+                    "paragraphs": 6,
                     "schema": [],
                     "tags": {
-                        "h3": 1,
-                        "p": 4,
-                        "img": 1
+                        "h3": 2,
+                        "p": 6,
+                        "img": 2
                     },
-                    "elements": 6
+                    "elements": 10
                 }
             }
         },
