@@ -21,18 +21,6 @@
     </content>
   </entry>
   <entry>
-    <title>HAXcms</title>
-    <id>https://haxtheweb.org//home/roadmap/haxcms</id>
-    <updated>2019-08-08T13:07:06-06:00</updated>
-    <published>2019-08-08T13:07:06-06:00</published>
-    <summary></summary>
-    <link href="https://haxtheweb.org//home/roadmap/haxcms"/>
-    
-    <content type="html">
-      <![CDATA[ <p>Ex uno Plures</p> ]]>
-    </content>
-  </entry>
-  <entry>
     <title>Roadmap</title>
     <id>https://haxtheweb.org//home/roadmap</id>
     <updated>2019-08-08T13:07:06-06:00</updated>
@@ -896,6 +884,23 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
 
 <li>This page wouldn't show up in the nav</li>
 </ul>
+ ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Presentations</title>
+    <id>https://haxtheweb.org//presentations</id>
+    <updated>2019-08-08T13:07:07-06:00</updated>
+    <published>2019-03-18T06:06:57-06:00</published>
+    <summary>HAX The PlaylistThis playlist is of all things HAXTheWebWCFactory is another important project that the HAX team develops with.</summary>
+    <link href="https://haxtheweb.org//presentations"/>
+    
+    <content type="html">
+      <![CDATA[ <h3>HAX The Playlist</h3>
+<p>This playlist is of all things HAXTheWeb</p>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/videoseries?list=PLJQupiji7J5eTqv8JFiW8SZpSeKouZACH" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" style="margin:0 auto;"></iframe>
+<hr style="width:100%;"/><p>WCFactory is another important project that the HAX team develops with.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLJQupiji7J5cAv7Jfr1V8FvUTx_jJrmCl" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
  ]]>
     </content>
   </entry>
