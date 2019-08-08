@@ -230,19 +230,6 @@
             }
         },
         {
-            "id": "item-047ec047-b875-4c40-9839-01e98c6b135a",
-            "indent": 2,
-            "location": "pages\/home\/roadmap\/haxiam\/index.html",
-            "order": 3,
-            "parent": "item-01e0f49a-190a-4c8d-ae0e-83d62675e070",
-            "title": "HAXiam",
-            "description": "",
-            "metadata": {
-                "created": 1565291226,
-                "updated": 1565291226
-            }
-        },
-        {
             "id": "item-3f7d815c-5020-b7f0-dc79-d13499775ec8",
             "indent": 1,
             "location": "pages\/try-hax\/index.html",
