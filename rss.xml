@@ -9,6 +9,16 @@
     <lastBuildDate>Wed, 24 Jul 2019 06:45:28 -0600</lastBuildDate>
     <atom:link href="https://haxtheweb.org//rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>ClassicPress</title>
+      <link>https://haxtheweb.org//integrations/classicpress</link>
+      <description>
+          <![CDATA[ <p>Ex uno Plures</p> ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//integrations/classicpress</guid>
+      <pubDate>Thu, 08 Aug 2019 09:43:29 -0600</pubDate>
+    </item>
+    <item>
       <title>Why HAXcms</title>
       <link>https://haxtheweb.org//home/why-haxcms</link>
       <description>
@@ -238,6 +248,64 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
       <pubDate>Sat, 23 Mar 2019 07:58:38 -0600</pubDate>
     </item>
     <item>
+      <title>CSS vars</title>
+      <link>https://haxtheweb.org//css</link>
+      <description>
+          <![CDATA[ <p>CSS can be modified via <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties">CSS variables</a>
+. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility and control over design. We leverage CSS variables heavily in our template layer to allow you to "skin" just about any theme we have already.</p>
+<h2>A note about @apply</h2>
+<p>Unlike normal css variables, Polymer (the library we build our theme layer on) supports a convention for CSS variables that operate a bit more like Saas mixins. You can write blocks of code like <b>@apply --my-variable-blob;</b>
+ which will then allow someone to mix in and apply whatever valid CSS attributes they want at that level. You can see several implemented below (both CSS variables and @apply blocks).</p>
+<h2 class="hax-active">Example</h2>
+<p>This is an example from the <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/themes/haxcms-basic-theme.js#L23">haxcms-basic-theme </a>
+which forms a clean baseline for most sites.</p>
+<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 75%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">// this is from the haxcms-basic-theme
+site-top-menu {
+    --site-top-menu-bg: #37474f;
+    --site-top-menu-link-color: #ffffff;
+    --site-top-menu-indicator-color: #ffffff;
+    --site-top-menu-link-active-color: var(
+    --haxcms-basic-theme-accent-color
+    );
+    --site-top-menu-indicator-arrow: 8px;
+}
+site-children-block {
+    --site-children-block-button: {
+    color: #ffffff;
+    }
+    --site-children-block-button-active: {
+    background-color: #37474f;
+    color: var(--haxcms-basic-theme-accent-color);
+    }
+}
+.left-col {
+    min-height: 250px;
+    border: 2px solid black;
+    background-color: #37474f;
+    color: white;
+    padding: 16px;
+}
+site-active-title {
+    display: inline-flex;
+    --site-active-title-heading: {
+    font-family: "Montserrat", "Helvetica", "Tahoma", "Geneva", "Arial",
+        sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 8px;
+    text-rendering: optimizelegibility;
+    font-weight: 600;
+    color: white;
+    }
+}</template>
+</code-sample>
+ ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//css</guid>
+      <pubDate>Sat, 23 Mar 2019 07:58:38 -0600</pubDate>
+    </item>
+    <item>
       <title>Query examples</title>
       <link>https://haxtheweb.org//query-examples</link>
       <description>
@@ -353,64 +421,6 @@ that are 2 to 4 levels deep.</span>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//query-examples</guid>
-      <pubDate>Sat, 23 Mar 2019 07:58:38 -0600</pubDate>
-    </item>
-    <item>
-      <title>CSS vars</title>
-      <link>https://haxtheweb.org//css</link>
-      <description>
-          <![CDATA[ <p>CSS can be modified via <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties">CSS variables</a>
-. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility and control over design. We leverage CSS variables heavily in our template layer to allow you to "skin" just about any theme we have already.</p>
-<h2>A note about @apply</h2>
-<p>Unlike normal css variables, Polymer (the library we build our theme layer on) supports a convention for CSS variables that operate a bit more like Saas mixins. You can write blocks of code like <b>@apply --my-variable-blob;</b>
- which will then allow someone to mix in and apply whatever valid CSS attributes they want at that level. You can see several implemented below (both CSS variables and @apply blocks).</p>
-<h2 class="hax-active">Example</h2>
-<p>This is an example from the <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/themes/haxcms-basic-theme.js#L23">haxcms-basic-theme </a>
-which forms a clean baseline for most sites.</p>
-<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 75%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">// this is from the haxcms-basic-theme
-site-top-menu {
-    --site-top-menu-bg: #37474f;
-    --site-top-menu-link-color: #ffffff;
-    --site-top-menu-indicator-color: #ffffff;
-    --site-top-menu-link-active-color: var(
-    --haxcms-basic-theme-accent-color
-    );
-    --site-top-menu-indicator-arrow: 8px;
-}
-site-children-block {
-    --site-children-block-button: {
-    color: #ffffff;
-    }
-    --site-children-block-button-active: {
-    background-color: #37474f;
-    color: var(--haxcms-basic-theme-accent-color);
-    }
-}
-.left-col {
-    min-height: 250px;
-    border: 2px solid black;
-    background-color: #37474f;
-    color: white;
-    padding: 16px;
-}
-site-active-title {
-    display: inline-flex;
-    --site-active-title-heading: {
-    font-family: "Montserrat", "Helvetica", "Tahoma", "Geneva", "Arial",
-        sans-serif;
-    font-size: 16px;
-    line-height: 32px;
-    margin-bottom: 8px;
-    text-rendering: optimizelegibility;
-    font-weight: 600;
-    color: white;
-    }
-}</template>
-</code-sample>
- ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//css</guid>
       <pubDate>Sat, 23 Mar 2019 07:58:38 -0600</pubDate>
     </item>
     <item>
@@ -615,46 +625,6 @@ site-active-title {
       <pubDate>Thu, 21 Mar 2019 13:46:24 -0600</pubDate>
     </item>
     <item>
-      <title>Minimalist</title>
-      <link>https://haxtheweb.org//minimalist</link>
-      <description>
-          <![CDATA[ <p>As you can see, the minimalist theme is for trying to give you a straight forward, linear design pattern.</p>
-<p>Pages are ordered based on the very 1 page's child pages.</p>
-<p>So you'd have a structure like this:</p>
-<ul><li>Home</li>
-<ul><li>Page 1</li>
-<li>Page 2</li>
-<li>Page 3</li>
-</ul>
-
-<li>This page wouldn't show up in the nav</li>
-</ul>
- ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//minimalist</guid>
-      <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
-    </item>
-    <item>
-      <title>Basic</title>
-      <link>https://haxtheweb.org//basic</link>
-      <description>
-          <![CDATA[ <p>The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulation</p>
-<a11y-gif-player src="https://media1.giphy.com/media/qdDO6hTcyeDks/giphy.gif" src-without-animation="https://media2.giphy.com/media/qdDO6hTcyeDks/480w_s.jpg" alt="Despicable me whaaat?! silly meme" resource="#dbb0d209-57da-d49d-4e4c" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 50%; margin: 0px auto; display: block;"></a11y-gif-player>
-<p>The theme elements in HAXcms can completely encapsulate state. So the menu on the left of this design (as one example) is called<b> `< site - children - block ><site -="" children="" block="">`</site>
-</b>
-
-. Site children block will automatically show what's below the current page / inside the ancestor tree as the current hierarchy.</p>
-<p>That means if you used it in your theme, you could easily just style it and never have to think about state management / what's active. This approach is in all our themes at some level, the most pervasive of which is the next and previous buttons which are <b>`< site - menu - button type="next >`</b>
-
- in their format.</p>
- ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//basic</guid>
-      <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
-    </item>
-    <item>
       <title>Simple blog</title>
       <link>https://haxtheweb.org//simple-blog</link>
       <description>
@@ -683,19 +653,24 @@ site-active-title {
       <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
     </item>
     <item>
-      <title>Outline player</title>
-      <link>https://haxtheweb.org//outline-player</link>
+      <title>Minimalist</title>
+      <link>https://haxtheweb.org//minimalist</link>
       <description>
-          <![CDATA[ <p>Outline player is an even more basic form of Learn two. It's for those seeking something even more minimalist in design and capabilities.</p>
-<p>Fun things about this include... ok well very little. Let's face it, this was the first theme we made and then we decided to keep supporting it because it helps illustrate the modular nature of our UI layer.</p>
-<p>As examples</p>
-<p style="width: 100%;">The `< site - menu >` on the left side is the exact same tag that's found in the <a href="learn-two">Learn Two theme</a>
-. The buttons at the top are the same as in other themes (most of the initial ones). This abstraction of state from design allows you to focus on CSS and leave the front end engineering to... well.. no one, it just sorta happens.</p>
-<meme-maker alt="great job success GIF" image-url="https://media0.giphy.com/media/XreQmk7ETCak0/giphy.gif" top-text="Thanks" bottom-text="Mobx" style="width: 50%;"></meme-maker>
+          <![CDATA[ <p>As you can see, the minimalist theme is for trying to give you a straight forward, linear design pattern.</p>
+<p>Pages are ordered based on the very 1 page's child pages.</p>
+<p>So you'd have a structure like this:</p>
+<ul><li>Home</li>
+<ul><li>Page 1</li>
+<li>Page 2</li>
+<li>Page 3</li>
+</ul>
+
+<li>This page wouldn't show up in the nav</li>
+</ul>
  ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//outline-player</guid>
+      <guid>https://haxtheweb.org//minimalist</guid>
       <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
     </item>
     <item>
@@ -709,6 +684,25 @@ site-active-title {
       </description>
       <category></category>
       <guid>https://haxtheweb.org//dev-theme</guid>
+      <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
+    </item>
+    <item>
+      <title>Basic</title>
+      <link>https://haxtheweb.org//basic</link>
+      <description>
+          <![CDATA[ <p>The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulation</p>
+<a11y-gif-player src="https://media1.giphy.com/media/qdDO6hTcyeDks/giphy.gif" src-without-animation="https://media2.giphy.com/media/qdDO6hTcyeDks/480w_s.jpg" alt="Despicable me whaaat?! silly meme" resource="#dbb0d209-57da-d49d-4e4c" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 50%; margin: 0px auto; display: block;"></a11y-gif-player>
+<p>The theme elements in HAXcms can completely encapsulate state. So the menu on the left of this design (as one example) is called<b> `< site - children - block ><site -="" children="" block="">`</site>
+</b>
+
+. Site children block will automatically show what's below the current page / inside the ancestor tree as the current hierarchy.</p>
+<p>That means if you used it in your theme, you could easily just style it and never have to think about state management / what's active. This approach is in all our themes at some level, the most pervasive of which is the next and previous buttons which are <b>`< site - menu - button type="next >`</b>
+
+ in their format.</p>
+ ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//basic</guid>
       <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
     </item>
     <item>
@@ -728,6 +722,22 @@ site-active-title {
       </description>
       <category></category>
       <guid>https://haxtheweb.org//example-themes</guid>
+      <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
+    </item>
+    <item>
+      <title>Outline player</title>
+      <link>https://haxtheweb.org//outline-player</link>
+      <description>
+          <![CDATA[ <p>Outline player is an even more basic form of Learn two. It's for those seeking something even more minimalist in design and capabilities.</p>
+<p>Fun things about this include... ok well very little. Let's face it, this was the first theme we made and then we decided to keep supporting it because it helps illustrate the modular nature of our UI layer.</p>
+<p>As examples</p>
+<p style="width: 100%;">The `< site - menu >` on the left side is the exact same tag that's found in the <a href="learn-two">Learn Two theme</a>
+. The buttons at the top are the same as in other themes (most of the initial ones). This abstraction of state from design allows you to focus on CSS and leave the front end engineering to... well.. no one, it just sorta happens.</p>
+<meme-maker alt="great job success GIF" image-url="https://media0.giphy.com/media/XreQmk7ETCak0/giphy.gif" top-text="Thanks" bottom-text="Mobx" style="width: 50%;"></meme-maker>
+ ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//outline-player</guid>
       <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
     </item>
     <item>
@@ -858,222 +868,19 @@ the title of the active item wrapped in a h1 tag
       <pubDate>Tue, 12 Mar 2019 18:45:37 -0600</pubDate>
     </item>
     <item>
-      <title>Installation</title>
-      <link>https://haxtheweb.org//installation</link>
+      <title>HAXcms</title>
+      <link>https://haxtheweb.org//haxcms-1</link>
       <description>
-          <![CDATA[ <h2>Generic PHP install directions</h2>
-<p>Have PHP? well then you can setup HAXcms pretty quick. Just download HAXcms and navigate to its directory in a browser. It'll attempt to automatically install (which is to create two basic folders). If all goes well you'll see some ASCii art telling you what your password is. HAXcms seeks to be a 0 config installation so if anything didn't work or make sense, just drop us a line in the issue queues.</p>
-<h2 class="hax-active">Or from Command Line...</h2>
-<p>Just run this one command and you'll be HAXing the web in no time! This will step you through prompts (which can be scripted via arguments) to feed the backend what it needs to create the few configuration files it uses to load.</p>
-<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 75%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content"># HAX the web and answer the prompts
-bash scripts/haxtheweb.sh</template>
-</code-sample>
-<h3><sub>A note on bash</sub>
-
-</h3>
-<p></p>
-<p><sub>If you're having issues installing via the bash script, ensure you are on bash version 4.x. Some OS flavors start at 3.x which won't work.</sub>
-
-</p>
-<p></p>
-<h2>MAMP</h2>
-<p><a href="https://www.mamp.info/en/">MAMP</a>
-
-
-
-
-
- allows Mac and PC users to rapidly install a working webdev stack on their machine. Here's the steps you need to take if using this (or on similar site hosting).</p>
-<p><span style="caret-color: rgb(0, 0, 0);">Download the </span><a href="https://github.com/elmsln/HAXcms/archive/master.zip" style="caret-color: rgb(0, 0, 0);">latest copy of HAXcms from github</a>
-
-
- and<span style="caret-color: rgb(0, 0, 0);"> p</span><span style="caret-color: rgb(0, 0, 0);">lace this in </span><i style="caret-color: rgb(0, 0, 0);">MAMP/htdocs </i>
-<span style="caret-color: rgb(0, 0, 0);">either at the root level (as in copying the files you download into htdocs as shown in the image below) or by placing the folder in the directory (in the case where you have MAMP already installed / want to keep things tidy).</span></p>
-<media-image source="files/mampstructure.jpg" caption="MAMP file structure under htdocs directory" size="wide" card box resource="#990ebe5c-04c8-58b2-385a" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 25%; margin: 0px auto; display: block;"></media-image>
-<p><i>Open MAMP and hit the Start Servers Button</i>
-
-
-</p>
-<media-image source="files/mampstart.jpg" caption="MAMP start page when opening the application (image 2)" size="wide" card box resource="#4e5cac2b-786f-596c-b394" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 25%; margin: 0px auto; display: block;"></media-image>
-<p><i>Click MY WEBSITE in MAMP start page to get started</i>
-
-
-</p>
-<img src="files/mamppage.jpg" alt="MAMP starting page top menu bar screenshot." style="width: 50%; margin: 0px auto; display: block;"/><p>Now you can build website organically off of MAMP!</p>
-<h2>DDEV / Docksal / Lando / Vagrant</h2>
-<p>We recommend using HAXcms in a docker container manager like <a href="https://www.drud.com/what-is-ddev/">ddev</a>
-
-
-
-
-
-, though based on above you can see basically we're just downloading and running one command to get going. We support all of the above methods so pick the one you work with most often.</p>
-<ul>
-<li>Clone this repo: <code>git clone https://github.com/elmsln/haxcms.git</code>
-
-
-
-
-
-
-</li>
-
-
-
-
-
-
-
-<li>install <a href="https://store.docker.com/search?type=edition&offering=community" rel="nofollow">docker</a>
-
-
-
-
-
-
-</li>
-
-
-
-
-
-
-
-<li><a href="https://ddev.readthedocs.io/en/latest/#installation" rel="nofollow">install ddev</a>
-
-
-
-
-
-
- or <a href="https://docksal.io/installation/" rel="nofollow">install docksal</a>
-
-
-
-
-
-
- or <a href="https://docs.devwithlando.io/installation/installing.html" rel="nofollow">install lando</a>
-
-
-
-
-
-
- or <a href="https://www.vagrantup.com/downloads.html" rel="nofollow">install vagrant</a>
-
-
-
-
-
-
- (We support 'em all!)</li>
-
-
-
-
-
-
-
-<li>open a terminal window, go to the directory and type <code>ddev start</code>
-
-
-
-
-
-
- (for ddev) or <code>fin init</code>
-
-
-
-
-
-
- (for docksal) or <code>lando start && lando magic</code>
-
-
-
-
-
-
- (for lando) or <code>vagrant up</code>
-
-
-
-
-
-
- (for vagrant)</li>
-
-
-
-
-
-
-
-<li>go to the link any of them give you in a browser</li>
-
-
-
-
-
-
-
-<li>username/password is <code>admin</code>
-
-
-
-
-
-
-/<code>admin</code>
-
-
-
-
-
-
- to get building out static sites locally that you can push up anywhere!</li>
-
-
-
-
-
-
-
-<li>Click the icon in the top right and you're off and running!</li>
-
-
-
-
-
-
-
-</ul>
- ]]>
+          <![CDATA[ <p>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server" is only used when needed for a user to securely develop their content.</p>
+<h2>Difference from past static generators</h2>
+<p>Unlike solutions like <a href="https://jekyllrb.com/">Jekyll</a>
+
+, HAXcms is for anyone to publish a website, not just those that understand command line. HAXcms is intended to be installed and then allow users to entirely use a UI to create, publish and manage micro-sites.</p>
+<h2>Visualization</h2>
+<img src="files/HAXCms workflow.jpg" alt="HAXcms visualization of publishing workflow at a data layer. Static sites are published from the files you work with yet whatever you edit via the UI is always saved into a static format that works anywhere." style="width: 75%; margin: 0px auto; display: block;"/> ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//installation</guid>
-      <pubDate>Tue, 19 Feb 2019 23:10:05 -0700</pubDate>
-    </item>
-    <item>
-      <title>Structure</title>
-      <link>https://haxtheweb.org//structure</link>
-      <description>
-          <![CDATA[ <p>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.</p>
-<p>The key directories / files include:</p>
-<ul><li>files - any files you've uploaded through the HAX interface</li>
-
-<li>pages - folders named by their content uri that have index.html in it, no structure other then what you created when hitting save</li>
-<li>site.json - JSON Outline Schema object that defines the pages in your site and their relationship to each other<br/></li>
-<li>index.html - front page of the PWA that stitch it all together</li>
-<li>service-worker.js - makes it a PWA, no need to edi this</li>
-</ul>
-<h3><span style="caret-color: rgb(0, 0, 0);">Screen grab of a microsite</span></h3>
-<img src="files/2019-02-25_16-22-25.png" alt="File structure of a typical HAXcms micro-site after being generated." style="width: 25%; margin: 0px auto; display: block;"/> ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//structure</guid>
+      <guid>https://haxtheweb.org//haxcms-1</guid>
       <pubDate>Tue, 19 Feb 2019 23:10:05 -0700</pubDate>
     </item>
   </channel>
