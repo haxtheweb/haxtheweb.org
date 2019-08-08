@@ -204,7 +204,17 @@
             "description": "",
             "metadata": {
                 "created": 1565290387,
-                "updated": 1565290387
+                "updated": 1565290387,
+                "files": [
+                    {
+                        "path": "\/var\/www\/html\/sites\/haxtheweb\/files\/\/haxrelationships.jpg",
+                        "fullUrl": "\/sites\/haxtheweb\/files\/haxrelationships.jpg",
+                        "url": "files\/haxrelationships.jpg",
+                        "type": "image\/jpeg",
+                        "name": "haxrelationships.jpg",
+                        "size": 88416
+                    }
+                ]
             }
         },
         {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- generator-class="Icamys\SitemapGenerator\SitemapGenerator" -->
 <!-- generator-version="1.1.0" -->
-<!-- generated-on="2019-08-08T12:53:14-06:00" -->
+<!-- generated-on="2019-08-08T12:56:50-06:00" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//home</loc>
@@ -28,6 +28,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//home/roadmap</loc>
+    <lastmod>2019-08-08T12:53:07-06:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//try-hax</loc>
     <lastmod>2019-08-08T12:53:07-06:00</lastmod>
     <changefreq>daily</changefreq>
@@ -46,20 +52,32 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//basic</loc>
-    <lastmod>2019-08-08T12:53:13-06:00</lastmod>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//css</loc>
+    <lastmod>2019-08-08T12:53:12-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//query-examples</loc>
-    <lastmod>2019-08-08T12:53:13-06:00</lastmod>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//concepts</loc>
+    <lastmod>2019-08-08T12:53:11-06:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//add</loc>
+    <lastmod>2019-08-08T12:53:11-06:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//hax-appstore-apps</loc>
+    <lastmod>2019-08-08T12:53:10-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//development</loc>
-    <lastmod>2019-08-08T12:53:09-06:00</lastmod>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//haxeditor</loc>
+    <lastmod>2019-08-08T12:53:08-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -68,6 +86,12 @@
     <lastmod>2019-08-08T12:53:09-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//development</loc>
+    <lastmod>2019-08-08T12:53:09-06:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//hello-world-hax-element</loc>
@@ -94,12 +118,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//hax-appstore-apps</loc>
-    <lastmod>2019-08-08T12:53:10-06:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//hax-appstore-blox</loc>
     <lastmod>2019-08-08T12:53:10-06:00</lastmod>
     <changefreq>daily</changefreq>
@@ -118,8 +136,14 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//css</loc>
-    <lastmod>2019-08-08T12:53:12-06:00</lastmod>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//query-examples</loc>
+    <lastmod>2019-08-08T12:53:13-06:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//basic</loc>
+    <lastmod>2019-08-08T12:53:13-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -130,19 +154,19 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//concepts</loc>
-    <lastmod>2019-08-08T12:53:11-06:00</lastmod>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//get-involved-</loc>
+    <lastmod>2019-08-08T12:53:08-06:00</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//add</loc>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//core-concepts</loc>
     <lastmod>2019-08-08T12:53:11-06:00</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//haxeditor</loc>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//what-is-haxcms</loc>
     <lastmod>2019-08-08T12:53:08-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -152,24 +176,6 @@
     <lastmod>2019-08-08T12:53:12-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//what-is-haxcms</loc>
-    <lastmod>2019-08-08T12:53:08-06:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//core-concepts</loc>
-    <lastmod>2019-08-08T12:53:11-06:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//get-involved-</loc>
-    <lastmod>2019-08-08T12:53:08-06:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//skin-a-custom-theme</loc>
@@ -196,32 +202,8 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//gravcms</loc>
-    <lastmod>2019-08-08T12:53:09-06:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//structure</loc>
-    <lastmod>2019-08-08T12:53:12-06:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//ux-concepts</loc>
-    <lastmod>2019-08-08T12:53:11-06:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//find</loc>
-    <lastmod>2019-08-08T12:53:11-06:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//learn-two</loc>
-    <lastmod>2019-08-08T12:53:13-06:00</lastmod>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//haxiam</loc>
+    <lastmod>2019-08-08T12:53:08-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -232,8 +214,32 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//haxiam</loc>
-    <lastmod>2019-08-08T12:53:08-06:00</lastmod>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//learn-two</loc>
+    <lastmod>2019-08-08T12:53:13-06:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//find</loc>
+    <lastmod>2019-08-08T12:53:11-06:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//ux-concepts</loc>
+    <lastmod>2019-08-08T12:53:11-06:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//structure</loc>
+    <lastmod>2019-08-08T12:53:12-06:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//gravcms</loc>
+    <lastmod>2019-08-08T12:53:09-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -242,30 +248,6 @@
     <lastmod>2019-08-08T12:53:08-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//integrations</loc>
-    <lastmod>2019-08-08T12:53:08-06:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//wordpress</loc>
-    <lastmod>2019-08-08T12:53:09-06:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//integrations/classicpress</loc>
-    <lastmod>2019-08-08T12:53:09-06:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//integrations/create-new-ones</loc>
-    <lastmod>2019-08-08T12:53:09-06:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//related-technologies</loc>
@@ -287,6 +269,36 @@
   </url>
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//simple-blog</loc>
+    <lastmod>2019-08-08T12:53:13-06:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//wordpress</loc>
+    <lastmod>2019-08-08T12:53:09-06:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//integrations</loc>
+    <lastmod>2019-08-08T12:53:08-06:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//integrations/classicpress</loc>
+    <lastmod>2019-08-08T12:53:09-06:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//integrations/create-new-ones</loc>
+    <lastmod>2019-08-08T12:53:09-06:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//haxor-slevin</loc>
     <lastmod>2019-08-08T12:53:13-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -328,8 +340,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//haxor-slevin</loc>
-    <lastmod>2019-08-08T12:53:13-06:00</lastmod>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//slide-player</loc>
+    <lastmod>2019-08-08T12:53:14-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -338,12 +350,6 @@
     <lastmod>2019-08-08T12:53:13-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//slide-player</loc>
-    <lastmod>2019-08-08T12:53:14-06:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//outline-player</loc>
@@ -368,11 +374,5 @@
     <lastmod>2019-08-08T12:53:14-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//home/roadmap</loc>
-    <lastmod>2019-08-08T12:53:07-06:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
   </url>
 </urlset>
