@@ -230,19 +230,6 @@
             }
         },
         {
-            "id": "item-e1ab269b-bfac-4a08-b75d-a1cdaaa1ee9c",
-            "indent": 2,
-            "location": "pages\/home\/roadmap\/haxeditor\/index.html",
-            "order": 0,
-            "parent": "item-01e0f49a-190a-4c8d-ae0e-83d62675e070",
-            "title": "HAXeditor",
-            "description": "",
-            "metadata": {
-                "created": 1565291226,
-                "updated": 1565291226
-            }
-        },
-        {
             "id": "item-1e920b31-8963-45ae-8d69-7aafd5a4071b",
             "indent": 2,
             "location": "pages\/home\/roadmap\/haxcms\/index.html",
