@@ -1,5 +1,8 @@
-<h2>Is this really real?</h2>
-<p>Yes. Web components turn your site effectively into an API. HAXeditor just leverages this fact and standards that exist in order to supply an incredible amount of functionality on the front end of the browser. We can do the vast majority of what many CMS and content solutions provide without a back end. Just HTML files and a h-a-x tag to understand how to modify them.</p>
+<h2>Are web components legit? Is this really possible?</h2>
+<p>Yes. Web components effectively <span style="font-size: var(--haxcms-base-styles-p-font-size, 24px); letter-spacing: var(--haxcms-base-styles-p-letter-spacing, 0.5px); caret-color: var(--hax-color-text);">turn the HTML of a site into a consistent API. <i>HAXeditor</i>
+ leverages this approach and standardizes its usage in order to supply an incredible amount of functionality in the browser. We do what the vast majority of CMS provide prior to interfacing with a server. Just HTML files and a <b><i>h-a-x</i>
+</b>
+ tag to understand how to modify content.</span></p>
 <h2 class="hax-active">What's Browser support like?</h2>
 <ul><li><b>Web components</b>
 
@@ -9,7 +12,9 @@
 
 
 
- are supported by IE11 and higher</li>
+
+ can be compiled to support IE11 and work in all major browsers natively</li>
+
 
 
 
@@ -27,6 +32,7 @@
 
 
 
+
  is supported by <b>IE 11</b>
 
 
@@ -35,8 +41,9 @@
 
 
 
- and higher, though most tested with evergreen browsers and support may sunset in 2020 depending on <a href="https://arstechnica.com/gadgets/2019/05/coming-soon-to-chromium-edge-ie-tabs-more-privacy-control/">Edge powered Chromium progression</a>
-.</li>
+
+ and all major browsers, though we mostly test "evergreen" browsers.</li>
+
 
 
 
@@ -53,7 +60,9 @@
 
 
 
- IE (even 11) is treated as legacy / no-js enabled, a handful of traffic (3%) gets web components but a simplistic design, 93+% of global traffic gets the site you. Everyone gets content (even without js!).</li>
+
+ IE (even 11) is treated as legacy / no-js enabled, a handful of traffic (3%) gets web components but a simplified design, 93+% of global traffic gets the site you. Everyone gets content (even without js!).</li>
+
 
 
 
@@ -63,8 +72,8 @@
 
 
 </ul>
-<h2>Do I have to use the elements HAX supplies?</h2>
-<p>No. HAXeditor is written such that <a href="hax-appstore-specification">Appstore Specification</a>
+<h2>Do I have to use the elements HAXeditor supplies?</h2>
+<p>No. HAX is written such that the <a href="hax-appstore-specification">Appstore Specification</a>
 
 
 
@@ -76,7 +85,8 @@
 
 
 
- is defining the elements that HAX has access to in the demos on this site. Leveraging the <i>autoloader</i>
+
+ is defining the elements that are available in this site and other demos. Leveraging the <i>autoloader</i>
 
 
 
@@ -88,9 +98,11 @@
 
 
 
- piece of the spec you can tell HAX which tags to load. The tag definitions and schema associated with those tags don't have to be the same.</p>
+
+ piece of the spec, you can tell HAX which tags to load. The web component definitions and schema can be kept separate as desired (useful in CMS with editorial workflows / permissions scenarios).</p>
 <h2>Do these elements require HAX to operate?</h2>
-<p>No. HAX can modify HTML inside of it and then export to HTML and that HTML isn't tied to HAX. HAX is effectively writing the same HTML you could by hand. Web components help make it semantic but also ensure that functionality lives with "the platform"; in this case, the platform being the browser itself. So long as the definitions of the component are in scope of the page, the element will unpack correctly HAX or otherwise.</p>
+<p>No! HAX modifies HTML inside of itself and then exports back to HTML. This means that as long as the web components on your site have definitions, HAX no longer is required to render them!</p>
+<p>HAX is effectively writing the same HTML you could have by hand. Web components help make it semantic but also ensure that functionality lives with "the platform"; in this case, the platform being the browser. So long as the definitions of the component are in scope of the page, the element will unpack correctly HAX or otherwise.</p>
 <h2>How does this compare to the WordPress Gutenberg plugin?</h2>
 <p>In terms of mission and what they attempt to provide, a click and build website tonight, no-or-minimal-code solution for the masses... they are the same. They both seek to reduce barriers to entry in web expression. HAX takes some critical differences in philosophy of design to Gutenberg both in technical implementation and goals for the open web.</p>
 <p>HAX seeks to improve web publishing for all systems, HAXcms or otherwise. HAXcms (which this site is constructed in) is but a tiny fraction of the web and we want to empower anyone to improve self expression. We want to improve privacy, self sovereignty, and the individuality of all peoples on the web. HAX seeks to eliminate technical barriers to production, integration and delivery of material on the internet; all of it, not just the expensive CMS part of it. We want to hax-the-web, hence this domain name.</p>
@@ -106,7 +118,8 @@
 
 
 
-<li>Gutenberg embeds it's blocks layer with the authoring nuance such that all operations can be wildly different per block. For example, a tabbed list of items may have a "add another" button inline with the block. HAX believes that the editing experience across complex elements must be delivered by the HAXeditor, not the element or block level. This illustrates itself in the UX as users selecting an element to work on and then interfacing with it the same way they would any other element. We feel that this will reduce long term barriers to adoption by end-users and training through a lack of cognitive load increase per element.</li>
+
+<li>Gutenberg embeds its blocks layer with the authoring nuance such that all operations can be wildly different per block. For example, a tabbed list of items may have a "add another" button inline with the block. HAX believes that the editing experience across complex elements must be delivered by the HAXeditor, not the element or block level. This illustrates itself in the UX as users selecting an element to work on and then interfacing with it the same way they would any other element. We feel that this will reduce long term barriers to adoption by end-users and training through a lack of cognitive load increase per element.</li>
 
 
 
@@ -117,7 +130,9 @@
 
 
 
-<li>Gutenberg sees you "add" things as it's primary construction method. If you need to upload media that's a separately integrated process, highly dependent on WordPress to deliver. HAX boils content creation operations down into the mental model of the author. Authors either say "I need to <b>Add</b>
+
+<li>Gutenberg sees you "add" things as its primary construction method. If you need to upload media that's a separately integrated process, highly dependent on WordPress to deliver. HAX boils content creation operations down into the mental model of the author. Authors either say "I need to <b>Add</b>
+
 
 
 
@@ -139,7 +154,9 @@
 
 
 
+
  something" (Find menu), "I need to <b>Make</b>
+
 
 
 
@@ -161,7 +178,9 @@
 
 
 
+
  something" (Blox / Layout menu) or that they want to remix something from a <b>Template</b>
+
 
 
 
@@ -183,8 +202,9 @@
 
 
 
-<li>The Gutenberg blocks system produces react components which are specific to the logistics of WordPress or traditional CMS solutions. The elements produced for HAX work in and out of HAX capable systems. We believe in extending the broader capabilities of the web first and HAX second. To reduces duplication of efforts globally and improves resource sharing.</li>
 
+<li>The Gutenberg blocks system produces react components which are specific to the logistics of WordPress. The elements produced for HAX <i>work in and out of HAX capable systems</i>
+. We believe in extending the broader capabilities of the web first and HAX second in order to reduce duplication of efforts globally and improves resource sharing.</li>
 
 
 
@@ -194,9 +214,11 @@
 
 
 
-<li>Gutenberg is written in React, effectively requiring all plugins and block components be written in React. HAX is written in Web components leveraging a mix of "VanillaJS" and Polymer constructed elements. You can use any web component compatible library in order to produce elements for HAX. While not limited to, here are some popular examples that could natively talk to HAX:</li>
 
 
+<li>Gutenberg is written in React, effectively requiring all plugins and block components be written in React. HAX is written in Web components leveraging a mix of "VanillaJS", LitElement and PolymerElement constructed elements. You can use <b><i>any web component compatible library</i>
+</b>
+ in order to produce elements for HAX. While not limited to, here are some popular examples that could natively talk to HAX:</li>
 
 
 
@@ -205,10 +227,10 @@
 
 
 
-<ul><li>VanillaJS, web components following the custom element specification</li>
 
 
 
+<ul><li>VanillaJS <span style="letter-spacing: -0.48px;">following the </span>web component specification</li>
 
 
 
@@ -216,40 +238,42 @@
 
 
 
-<li>Polymer</li>
 
 
 
 
+<li><a href="https://polymer-library.polymer-project.org/">PolymerElement</a>
+</li>
 
 
 
 
 
 
-<li>LitElement</li>
 
 
 
 
 
+<li><a href="https://lit-element.polymer-project.org/">LitElement</a>
+</li>
 
 
 
 
 
-<li>SkateJS</li>
 
 
 
 
 
 
+<li><a href="https://skatejs.netlify.com/">SkateJS</a>
+</li>
 
 
 
 
-<li>Slim.js</li>
 
 
 
@@ -257,10 +281,11 @@
 
 
 
+<li><a href="https://slim.js.org/">Slim.js</a>
+</li>
 
 
 
-<li>Svelte</li>
 
 
 
@@ -269,9 +294,10 @@
 
 
 
+<li><a href="https://svelte.dev/">Svelte</a>
+</li>
 
 
-<li>VueJS (web component wrapper)</li>
 
 
 
@@ -281,8 +307,22 @@
 
 
 
+<li><a href="https://vuejs.org/">VueJS</a>
+ (web component wrapper)</li>
 
-<li>Angular Components (compiled to custom elements)</li>
+
+
+
+
+
+
+
+
+
+
+<li><a href="https://angular.io/">Angular Components</a>
+ (compiled to custom elements)</li>
+
 
 
 
@@ -304,6 +344,7 @@
 
 
 
+
  should work</li>
 
 
@@ -315,7 +356,9 @@
 
 
 
+
 </ul>
+
 
 
 
@@ -338,6 +381,7 @@
 
 
 
+
 . HAX is the authoring solution originally created to power <a href="https://elmsln.org/">ELMS:LN</a>
 
 
@@ -348,18 +392,10 @@
 
 
 
- and other instructional innovations and was quickly realized for its potential to transform open web publishing.</p>
-<p>The original core development / evangelist team on HAX in it's infancy (and idea conceived in 2016, experimented in 2017, manifested in 2018, actualized in 2019):</p>
+
+ and other instructional innovations and was quickly realized for its potential to transform web publishing.</p>
+<p>The original core development / evangelist team on HAX in its infancy (an idea conceived in 2016, experimented in 2017, manifested in 2018, actualized in 2019):</p>
 <ul><li>Bryan Ollendyke (<a href="https://twitter.com/btopro">@btopro</a>
-
-
-
-
-
-
-
-
-
 ) - Project lead Developer</li>
 
 
@@ -370,16 +406,8 @@
 
 
 
+
 <li>Michael Potter (<a href="https://twitter.com/hey__mp">@hey__mp</a>
-
-
-
-
-
-
-
-
-
 ) - Core Developer</li>
 
 
@@ -390,16 +418,8 @@
 
 
 
+
 <li>Nikki Massaro-Kauffman (<a href="https://twitter.com/nikkimk">@nikkimk</a>
-
-
-
-
-
-
-
-
-
 ) - Core Developer</li>
 
 
@@ -410,17 +430,10 @@
 
 
 
+
 <li>Charles Lavera (<a href="https://twitter.com/cgldevel">@cgldevel</a>
+) - Core Developer</li>
 
-
-
-
-
-
-
-
-
-) - Developer</li>
 
 
 
@@ -431,16 +444,8 @@
 
 
 <li>Michael Collins (<a href="https://twiiter.com/_mike_collins">@_mike_collins</a>
+) - End user testing, needs assessment</li>
 
-
-
-
-
-
-
-
-
-) - End user testing, feedback, needs assessment</li>
 
 
 
@@ -451,16 +456,8 @@
 
 
 <li>Katrina Wehr (<a href="https://twitter.com/katrinamwehr">@katrinamwehr</a>
+) - End user testing, needs assessment</li>
 
-
-
-
-
-
-
-
-
-) - End user testing, feedback, needs assessment</li>
 
 
 
@@ -471,16 +468,8 @@
 
 
 <li>Melissa Hicks (<a href="https://twitter.com/juststormy">@juststormy</a>
-
-
-
-
-
-
-
-
-
 ) - Needs assessment, champion</li>
+
 
 
 
@@ -492,5 +481,4 @@
 
 </ul>
 <p>There is nothing we can't do together.</p>
-<p>Bryan Ollendyke - January 28, 2019</p>
 <p>Ex uno Plures</p>
