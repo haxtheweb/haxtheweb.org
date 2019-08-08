@@ -11,13 +11,16 @@
   <entry>
     <title>ClassicPress</title>
     <id>https://haxtheweb.org//integrations/classicpress</id>
-    <updated>2019-08-08T09:43:29-06:00</updated>
+    <updated>2019-08-08T09:46:04-06:00</updated>
     <published>2019-08-08T09:43:29-06:00</published>
-    <summary></summary>
+    <summary>ClassicPress is a popular fork of WordPress that's even easier to get HAX up and running then it is in the original!</summary>
     <link href="https://haxtheweb.org//integrations/classicpress"/>
     
     <content type="html">
-      <![CDATA[ <p>Ex uno Plures</p> ]]>
+      <![CDATA[ <p><a href="https://www.classicpress.net/">ClassicPress</a>
+ is a popular fork of WordPress that's even easier to get HAX up and running then it is in the original!</p>
+<p><br/></p>
+ ]]>
     </content>
   </entry>
   <entry>

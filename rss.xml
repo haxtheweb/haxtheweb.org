@@ -12,7 +12,10 @@
       <title>ClassicPress</title>
       <link>https://haxtheweb.org//integrations/classicpress</link>
       <description>
-          <![CDATA[ <p>Ex uno Plures</p> ]]>
+          <![CDATA[ <p><a href="https://www.classicpress.net/">ClassicPress</a>
+ is a popular fork of WordPress that's even easier to get HAX up and running then it is in the original!</p>
+<p><br/></p>
+ ]]>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//integrations/classicpress</guid>
