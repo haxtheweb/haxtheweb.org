@@ -838,10 +838,10 @@
             "order": 3,
             "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "title": "WordPress",
-            "description": "You'll want to follow a few steps before replacing Gutenberg.Get the Classic Editor. This plugin helps restore WordPress back to what you wantedGet the Web component pluginGet the HAX plugi",
+            "description": "We support WordPress too! In order to use HAX though you'll want to replace the Gutenberg editor. The following steps will help you get it up and running.Get the Classic Editor. This plugin helps ",
             "metadata": {
                 "created": 1549428503,
-                "updated": 1565279009,
+                "updated": 1565279071,
                 "readtime": 1,
                 "contentDetails": {
                     "headings": 0,

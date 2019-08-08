@@ -3,7 +3,7 @@
   <title>HAX-the-web</title>
   <link href="https://haxtheweb.org//atom.xml" rel="self" />
   <subtitle>Documentation and learning about how we HAX the web</subtitle>
-  <updated>2019-07-24T06:45:28-06:00</updated>
+  <updated>2019-08-08T09:43:34-06:00</updated>
   <author>
       <name>elmsln</name>
   </author>
@@ -268,66 +268,6 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
     </content>
   </entry>
   <entry>
-    <title>CSS vars</title>
-    <id>https://haxtheweb.org//css</id>
-    <updated>2019-08-08T09:43:32-06:00</updated>
-    <published>2019-03-23T07:58:38-06:00</published>
-    <summary>CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a</summary>
-    <link href="https://haxtheweb.org//css"/>
-    
-    <content type="html">
-      <![CDATA[ <p>CSS can be modified via <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties">CSS variables</a>
-. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility and control over design. We leverage CSS variables heavily in our template layer to allow you to "skin" just about any theme we have already.</p>
-<h2>A note about @apply</h2>
-<p>Unlike normal css variables, Polymer (the library we build our theme layer on) supports a convention for CSS variables that operate a bit more like Saas mixins. You can write blocks of code like <b>@apply --my-variable-blob;</b>
- which will then allow someone to mix in and apply whatever valid CSS attributes they want at that level. You can see several implemented below (both CSS variables and @apply blocks).</p>
-<h2 class="hax-active">Example</h2>
-<p>This is an example from the <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/themes/haxcms-basic-theme.js#L23">haxcms-basic-theme </a>
-which forms a clean baseline for most sites.</p>
-<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 75%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">// this is from the haxcms-basic-theme
-site-top-menu {
-    --site-top-menu-bg: #37474f;
-    --site-top-menu-link-color: #ffffff;
-    --site-top-menu-indicator-color: #ffffff;
-    --site-top-menu-link-active-color: var(
-    --haxcms-basic-theme-accent-color
-    );
-    --site-top-menu-indicator-arrow: 8px;
-}
-site-children-block {
-    --site-children-block-button: {
-    color: #ffffff;
-    }
-    --site-children-block-button-active: {
-    background-color: #37474f;
-    color: var(--haxcms-basic-theme-accent-color);
-    }
-}
-.left-col {
-    min-height: 250px;
-    border: 2px solid black;
-    background-color: #37474f;
-    color: white;
-    padding: 16px;
-}
-site-active-title {
-    display: inline-flex;
-    --site-active-title-heading: {
-    font-family: "Montserrat", "Helvetica", "Tahoma", "Geneva", "Arial",
-        sans-serif;
-    font-size: 16px;
-    line-height: 32px;
-    margin-bottom: 8px;
-    text-rendering: optimizelegibility;
-    font-weight: 600;
-    color: white;
-    }
-}</template>
-</code-sample>
- ]]>
-    </content>
-  </entry>
-  <entry>
     <title>Query examples</title>
     <id>https://haxtheweb.org//query-examples</id>
     <updated>2019-08-08T09:43:33-06:00</updated>
@@ -510,6 +450,66 @@ that are 2 to 4 levels deep.</span>
     </content>
   </entry>
   <entry>
+    <title>CSS vars</title>
+    <id>https://haxtheweb.org//css</id>
+    <updated>2019-08-08T09:43:32-06:00</updated>
+    <published>2019-03-23T07:58:38-06:00</published>
+    <summary>CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a</summary>
+    <link href="https://haxtheweb.org//css"/>
+    
+    <content type="html">
+      <![CDATA[ <p>CSS can be modified via <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties">CSS variables</a>
+. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility and control over design. We leverage CSS variables heavily in our template layer to allow you to "skin" just about any theme we have already.</p>
+<h2>A note about @apply</h2>
+<p>Unlike normal css variables, Polymer (the library we build our theme layer on) supports a convention for CSS variables that operate a bit more like Saas mixins. You can write blocks of code like <b>@apply --my-variable-blob;</b>
+ which will then allow someone to mix in and apply whatever valid CSS attributes they want at that level. You can see several implemented below (both CSS variables and @apply blocks).</p>
+<h2 class="hax-active">Example</h2>
+<p>This is an example from the <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/themes/haxcms-basic-theme.js#L23">haxcms-basic-theme </a>
+which forms a clean baseline for most sites.</p>
+<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 75%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">// this is from the haxcms-basic-theme
+site-top-menu {
+    --site-top-menu-bg: #37474f;
+    --site-top-menu-link-color: #ffffff;
+    --site-top-menu-indicator-color: #ffffff;
+    --site-top-menu-link-active-color: var(
+    --haxcms-basic-theme-accent-color
+    );
+    --site-top-menu-indicator-arrow: 8px;
+}
+site-children-block {
+    --site-children-block-button: {
+    color: #ffffff;
+    }
+    --site-children-block-button-active: {
+    background-color: #37474f;
+    color: var(--haxcms-basic-theme-accent-color);
+    }
+}
+.left-col {
+    min-height: 250px;
+    border: 2px solid black;
+    background-color: #37474f;
+    color: white;
+    padding: 16px;
+}
+site-active-title {
+    display: inline-flex;
+    --site-active-title-heading: {
+    font-family: "Montserrat", "Helvetica", "Tahoma", "Geneva", "Arial",
+        sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 8px;
+    text-rendering: optimizelegibility;
+    font-weight: 600;
+    color: white;
+    }
+}</template>
+</code-sample>
+ ]]>
+    </content>
+  </entry>
+  <entry>
     <title>Get Involved!</title>
     <id>https://haxtheweb.org//get-involved-</id>
     <updated>2019-08-08T09:43:28-06:00</updated>
@@ -653,6 +653,65 @@ that are 2 to 4 levels deep.</span>
     </content>
   </entry>
   <entry>
+    <title>Dev theme</title>
+    <id>https://haxtheweb.org//dev-theme</id>
+    <updated>2019-08-08T09:43:34-06:00</updated>
+    <published>2019-03-21T12:53:16-06:00</published>
+    <summary>EEK! You were NOT supposed to see this...except that this is what HAXcms sees. This is your just barebones components with almost 0 css baseline theme play space. This is a great one to fork and rewri</summary>
+    <link href="https://haxtheweb.org//dev-theme"/>
+    
+    <content type="html">
+      <![CDATA[ <p>EEK! You were NOT supposed to see this...except that this is what HAXcms sees. This is your just barebones components with almost 0 css baseline theme play space. This is a great one to fork and rewrite as a starting point and illustrates just how hideous (yet easy to theme) things can get.</p>
+<meme-maker image-url="https://memegenerator.net/img/images/5655311.jpg" top-text="NO css, You get none" bottom-text="GOOD DAY SIR" style="width: 50%; margin: 0px auto; display: block;"></meme-maker>
+<p>Given that this is in a tiny window you probably didn't even get to see this great Charley and the Chocolate factory reference :( so sad. so sad.</p>
+ ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Minimalist</title>
+    <id>https://haxtheweb.org//minimalist</id>
+    <updated>2019-08-08T09:43:33-06:00</updated>
+    <published>2019-03-21T12:53:16-06:00</published>
+    <summary>As you can see, the minimalist theme is for trying to give you a straight forward, linear design pattern.Pages are ordered based on the very 1 page's child pages.So you'd have a structure like this:</summary>
+    <link href="https://haxtheweb.org//minimalist"/>
+    
+    <content type="html">
+      <![CDATA[ <p>As you can see, the minimalist theme is for trying to give you a straight forward, linear design pattern.</p>
+<p>Pages are ordered based on the very 1 page's child pages.</p>
+<p>So you'd have a structure like this:</p>
+<ul><li>Home</li>
+<ul><li>Page 1</li>
+<li>Page 2</li>
+<li>Page 3</li>
+</ul>
+
+<li>This page wouldn't show up in the nav</li>
+</ul>
+ ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Basic</title>
+    <id>https://haxtheweb.org//basic</id>
+    <updated>2019-08-08T09:43:33-06:00</updated>
+    <published>2019-03-21T12:53:16-06:00</published>
+    <summary>The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulationThe theme elements in HAXcms can</summary>
+    <link href="https://haxtheweb.org//basic"/>
+    
+    <content type="html">
+      <![CDATA[ <p>The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulation</p>
+<a11y-gif-player src="https://media1.giphy.com/media/qdDO6hTcyeDks/giphy.gif" src-without-animation="https://media2.giphy.com/media/qdDO6hTcyeDks/480w_s.jpg" alt="Despicable me whaaat?! silly meme" resource="#dbb0d209-57da-d49d-4e4c" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 50%; margin: 0px auto; display: block;"></a11y-gif-player>
+<p>The theme elements in HAXcms can completely encapsulate state. So the menu on the left of this design (as one example) is called<b> `< site - children - block ><site -="" children="" block="">`</site>
+</b>
+
+. Site children block will automatically show what's below the current page / inside the ancestor tree as the current hierarchy.</p>
+<p>That means if you used it in your theme, you could easily just style it and never have to think about state management / what's active. This approach is in all our themes at some level, the most pervasive of which is the next and previous buttons which are <b>`< site - menu - button type="next >`</b>
+
+ in their format.</p>
+ ]]>
+    </content>
+  </entry>
+  <entry>
     <title>Simple blog</title>
     <id>https://haxtheweb.org//simple-blog</id>
     <updated>2019-08-08T09:43:33-06:00</updated>
@@ -681,65 +740,6 @@ that are 2 to 4 levels deep.</span>
 <p>Learn two also has great mobile support (try it out but changing the dimensions of your browser)</p>
 <p><a href="https://github.com/getgrav/grav-theme-learn2">Learn two is heavily based on the Learn Two theme in the GravCMS community</a>
 .</p>
- ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Minimalist</title>
-    <id>https://haxtheweb.org//minimalist</id>
-    <updated>2019-08-08T09:43:33-06:00</updated>
-    <published>2019-03-21T12:53:16-06:00</published>
-    <summary>As you can see, the minimalist theme is for trying to give you a straight forward, linear design pattern.Pages are ordered based on the very 1 page's child pages.So you'd have a structure like this:</summary>
-    <link href="https://haxtheweb.org//minimalist"/>
-    
-    <content type="html">
-      <![CDATA[ <p>As you can see, the minimalist theme is for trying to give you a straight forward, linear design pattern.</p>
-<p>Pages are ordered based on the very 1 page's child pages.</p>
-<p>So you'd have a structure like this:</p>
-<ul><li>Home</li>
-<ul><li>Page 1</li>
-<li>Page 2</li>
-<li>Page 3</li>
-</ul>
-
-<li>This page wouldn't show up in the nav</li>
-</ul>
- ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Dev theme</title>
-    <id>https://haxtheweb.org//dev-theme</id>
-    <updated>2019-08-08T09:43:34-06:00</updated>
-    <published>2019-03-21T12:53:16-06:00</published>
-    <summary>EEK! You were NOT supposed to see this...except that this is what HAXcms sees. This is your just barebones components with almost 0 css baseline theme play space. This is a great one to fork and rewri</summary>
-    <link href="https://haxtheweb.org//dev-theme"/>
-    
-    <content type="html">
-      <![CDATA[ <p>EEK! You were NOT supposed to see this...except that this is what HAXcms sees. This is your just barebones components with almost 0 css baseline theme play space. This is a great one to fork and rewrite as a starting point and illustrates just how hideous (yet easy to theme) things can get.</p>
-<meme-maker image-url="https://memegenerator.net/img/images/5655311.jpg" top-text="NO css, You get none" bottom-text="GOOD DAY SIR" style="width: 50%; margin: 0px auto; display: block;"></meme-maker>
-<p>Given that this is in a tiny window you probably didn't even get to see this great Charley and the Chocolate factory reference :( so sad. so sad.</p>
- ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Basic</title>
-    <id>https://haxtheweb.org//basic</id>
-    <updated>2019-08-08T09:43:33-06:00</updated>
-    <published>2019-03-21T12:53:16-06:00</published>
-    <summary>The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulationThe theme elements in HAXcms can</summary>
-    <link href="https://haxtheweb.org//basic"/>
-    
-    <content type="html">
-      <![CDATA[ <p>The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulation</p>
-<a11y-gif-player src="https://media1.giphy.com/media/qdDO6hTcyeDks/giphy.gif" src-without-animation="https://media2.giphy.com/media/qdDO6hTcyeDks/480w_s.jpg" alt="Despicable me whaaat?! silly meme" resource="#dbb0d209-57da-d49d-4e4c" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 50%; margin: 0px auto; display: block;"></a11y-gif-player>
-<p>The theme elements in HAXcms can completely encapsulate state. So the menu on the left of this design (as one example) is called<b> `< site - children - block ><site -="" children="" block="">`</site>
-</b>
-
-. Site children block will automatically show what's below the current page / inside the ancestor tree as the current hierarchy.</p>
-<p>That means if you used it in your theme, you could easily just style it and never have to think about state management / what's active. This approach is in all our themes at some level, the most pervasive of which is the next and previous buttons which are <b>`< site - menu - button type="next >`</b>
-
- in their format.</p>
  ]]>
     </content>
   </entry>
@@ -916,21 +916,25 @@ the title of the active item wrapped in a h1 tag
     </content>
   </entry>
   <entry>
-    <title>HAXcms</title>
-    <id>https://haxtheweb.org//haxcms-1</id>
-    <updated>2019-08-08T09:43:31-06:00</updated>
+    <title>Structure</title>
+    <id>https://haxtheweb.org//structure</id>
+    <updated>2019-08-08T09:43:32-06:00</updated>
     <published>2019-02-19T23:10:05-07:00</published>
-    <summary>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server"</summary>
-    <link href="https://haxtheweb.org//haxcms-1"/>
+    <summary>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories / files include:fi</summary>
+    <link href="https://haxtheweb.org//structure"/>
     
     <content type="html">
-      <![CDATA[ <p>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server" is only used when needed for a user to securely develop their content.</p>
-<h2>Difference from past static generators</h2>
-<p>Unlike solutions like <a href="https://jekyllrb.com/">Jekyll</a>
+      <![CDATA[ <p>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.</p>
+<p>The key directories / files include:</p>
+<ul><li>files - any files you've uploaded through the HAX interface</li>
 
-, HAXcms is for anyone to publish a website, not just those that understand command line. HAXcms is intended to be installed and then allow users to entirely use a UI to create, publish and manage micro-sites.</p>
-<h2>Visualization</h2>
-<img src="files/HAXCms workflow.jpg" alt="HAXcms visualization of publishing workflow at a data layer. Static sites are published from the files you work with yet whatever you edit via the UI is always saved into a static format that works anywhere." style="width: 75%; margin: 0px auto; display: block;"/> ]]>
+<li>pages - folders named by their content uri that have index.html in it, no structure other then what you created when hitting save</li>
+<li>site.json - JSON Outline Schema object that defines the pages in your site and their relationship to each other<br/></li>
+<li>index.html - front page of the PWA that stitch it all together</li>
+<li>service-worker.js - makes it a PWA, no need to edi this</li>
+</ul>
+<h3><span style="caret-color: rgb(0, 0, 0);">Screen grab of a microsite</span></h3>
+<img src="files/2019-02-25_16-22-25.png" alt="File structure of a typical HAXcms micro-site after being generated." style="width: 25%; margin: 0px auto; display: block;"/> ]]>
     </content>
   </entry>
 </feed>
