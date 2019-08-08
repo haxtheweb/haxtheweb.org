@@ -876,10 +876,10 @@
             "order": 4,
             "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "title": "ClassicPress",
-            "description": "ClassicPress is a popular fork of WordPress that's even easier to get HAX up and running then it is in the original!Get the Web component plugin, unzip and rename to webcomponentsGet the",
+            "description": "ClassicPress is a popular fork of WordPress that's even easier to get HAX up and running then it is in the original!Get the Web component plugin, unzip and rename to webcomponentsGet ",
             "metadata": {
                 "created": 1565279009,
-                "updated": 1565279389,
+                "updated": 1565279437,
                 "readtime": 1,
                 "contentDetails": {
                     "headings": 0,

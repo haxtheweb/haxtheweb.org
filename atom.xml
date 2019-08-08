@@ -11,13 +11,14 @@
   <entry>
     <title>ClassicPress</title>
     <id>https://haxtheweb.org//integrations/classicpress</id>
-    <updated>2019-08-08T09:49:49-06:00</updated>
+    <updated>2019-08-08T09:50:37-06:00</updated>
     <published>2019-08-08T09:43:29-06:00</published>
-    <summary>ClassicPress is a popular fork of WordPress that's even easier to get HAX up and running then it is in the original!Get the Web component plugin, unzip and rename to webcomponentsGet the</summary>
+    <summary>ClassicPress is a popular fork of WordPress that's even easier to get HAX up and running then it is in the original!Get the Web component plugin, unzip and rename to webcomponentsGet </summary>
     <link href="https://haxtheweb.org//integrations/classicpress"/>
     
     <content type="html">
       <![CDATA[ <p><a href="https://www.classicpress.net/">ClassicPress</a>
+
 
 
  is a popular fork of WordPress that's even easier to get HAX up and running then it is in the original!</p>
@@ -26,22 +27,30 @@
 
 
 <li>Get the <a href="https://github.com/elmsln/wp-plugin-webcomponents">Web component plugin</a>
+
 , unzip and rename to webcomponents</li>
 
 
 
 
+
 <li>Get the <a href="https://github.com/elmsln/wp-plugin-hax">HAX plugin</a>
+
 , unzip and rename to hax</li>
 
 
 
 
+
 <li>Put both of these plugins in your <b>wp-content/plugins/</b>
+
  directory</li>
-<li>Go into your site's plugins area and enable both (<b>wp-admin/plugins.php</b>
-)</li>
+
+<li>Go into your site's plugins area and enable both <b>wp-admin/plugins.php</b>
+</li>
+
 <li>Go to edit / create a page/post and you are HAXing</li>
+
 
 
 
