@@ -548,7 +548,7 @@
             "description": "Generic PHP install directionsHave PHP? well then you can setup HAXcms pretty quick. Just download HAXcms and navigate to its directory in a browser. It'll attempt to automatically install (which is ",
             "metadata": {
                 "created": 1550643005,
-                "updated": 1565291231,
+                "updated": 1565371185,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/mampstructure.jpg",
@@ -575,7 +575,31 @@
                         "size": 17086
                     }
                 ],
-                "readtime": 2
+                "readtime": 2,
+                "contentDetails": {
+                    "headings": 6,
+                    "paragraphs": 13,
+                    "schema": [
+                        {
+                            "resource": "#990ebe5c-04c8-58b2-385a",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        },
+                        {
+                            "resource": "#4e5cac2b-786f-596c-b394",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        }
+                    ],
+                    "tags": {
+                        "h2": 4,
+                        "p": 13,
+                        "code-sample": 2,
+                        "h3": 2,
+                        "media-image": 2,
+                        "img": 1,
+                        "ul": 1
+                    },
+                    "elements": 25
+                }
             }
         },
         {
