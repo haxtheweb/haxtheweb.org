@@ -76,10 +76,10 @@
             "order": 0,
             "parent": null,
             "title": "Welcome",
-            "description": "HAX is a next generation block editor that frees you of block editor specific code. HAX works by adding a small bit of JSON schema to web components that you author. This keeps your design pure withou",
+            "description": "Headless Authoring eXperience (HAX) is a next generation block editor that frees you of block editor specific code. HAX works by adding a small bit of JSON schema to web components that you author. Th",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1565291226,
+                "updated": 1565620517,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
