@@ -155,19 +155,28 @@
             "description": "HAXcms, which powers this website, is hard to describe exactly what \"kind\" of system it is. That's because given that it's 100% web components, decoupled, and static by design, it's hard to put it in",
             "metadata": {
                 "created": 1563972322,
-                "updated": 1565291226,
+                "updated": 1565705451,
                 "readtime": 2,
                 "contentDetails": {
-                    "headings": 1,
-                    "paragraphs": 2,
-                    "schema": [],
+                    "headings": 6,
+                    "paragraphs": 6,
+                    "schema": [
+                        {
+                            "typeof": "oer:Assessment",
+                            "resource": "#dd2feacf-ed4a-dcb0-b85d",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        }
+                    ],
                     "tags": {
                         "grid-plate": 1,
-                        "h2": 1,
-                        "ul": 1,
-                        "p": 2
+                        "h2": 2,
+                        "ul": 3,
+                        "p": 6,
+                        "h4": 4,
+                        "img": 1,
+                        "multiple-choice": 1
                     },
-                    "elements": 5
+                    "elements": 18
                 }
             }
         },
