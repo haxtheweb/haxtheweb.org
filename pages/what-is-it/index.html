@@ -3,7 +3,7 @@
 <p>HAX is a decoupled authoring experience built in web components. Web components is a standard way of developers creating new HTML tags. It's a layer below traditional libraries and frameworks that gives us low-level property and tag capabilities that have standard life-cycles.</p>
 <p>This means that developers can fundamentally change the way HTML operates while expressing it in a highly semantic tag structure.</p>
 <h3>Let's understand through a silly example</h3>
-<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 75%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">&lt; meme-maker 
+<code-sample copy-clipboard-button style="width: 75%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">&lt; meme-maker 
   alt="mother of god shades GIF"
   image-url="https://media2.giphy.com/media/3cB7aOM6347PW/giphy.gif"
   top-text="Web components"
@@ -19,8 +19,10 @@
 
 
 
+
 . A single tag that cascades and unpacks a unique interface experience.</p>
 <p>HAX also doesn't understand what it's editing though! It hasn't been built to say, understand the meme-maker tag above. It's been built to edit<i>things</i>
+
 
 
 
@@ -33,7 +35,9 @@
 
 
 
+
 <li>these definitions are limited by the develop more or less creating the rules of the experience</li>
+
 
 
 
@@ -45,11 +49,18 @@
 
 
 
+
 </li>
 
 
 
 
 
+
 </ul>
-<p>HAX then gets integrated into other platforms by effectively managing the "body" / blob area that makes up the page. The visual assets produced that work with HAX can then be used anywhere in any website. This frees up your team to focus more on what they need to design and think less about the platforms that used to constrain them!</p>
+<h3><span style="letter-spacing: -0.48px; font-weight: normal;">Wait, how can you say that</span></h3>
+<p><span style="letter-spacing: -0.48px; font-weight: normal;">HAX is effectively organizing the HTML of the page just like you could. Let's look at an example of this page's source. Either hit edit and then the "Source View" button or see the screenshot below</span></p>
+<img src="files/sourceviewthispage.jpg" alt="view of the source of this page showing all the HTML elements and web components used." style="width: 75%; margin: 0px auto; display: block;"/><p><span style="letter-spacing: -0.48px; font-weight: normal;">So when this page was built and the </span><span style="letter-spacing: -0.48px;"><b>files/lego.jpg</b>
+</span><span style="letter-spacing: -0.48px; font-weight: normal;" class="hax-active"> file uploaded (drag and drop in a place holder area) we selected the "Full width" image type for rendering. Then, adding a caption in the HAX element panel, we hit insert and HAX writes the properties into the web component and adds it to the DOM it is editing. When you hit save, HAX takes this piece of DOM and converts it into HTML to send to a backend.</span></p>
+<p><span style="letter-spacing: -0.48px; font-weight: normal;">The output has no trace of HAX, meaning that if you can load the web component definition for the full-width-image tag, then you no longer require HAX. It also means that if this content migrates between platforms that have access to HAX, it'll know how to pick up and modify the content after the fact (as long as the web component definition is there). </span></p>
+<p>In this way, HAX then gets integrated into other platforms by effectively managing the "body" / blob area that makes up the page. The visual assets produced that work with HAX can then be used anywhere in any website.</p>
