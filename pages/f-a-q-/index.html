@@ -1,10 +1,14 @@
 <h2>Are web components legit? Is this really possible?</h2>
 <p>Yes. Web components effectively <span style="font-size: var(--haxcms-base-styles-p-font-size, 24px); letter-spacing: var(--haxcms-base-styles-p-letter-spacing, 0.5px); caret-color: var(--hax-color-text);">turn the HTML of a site into a consistent API. <i>HAXeditor</i>
+
  leverages this approach and standardizes its usage in order to supply an incredible amount of functionality in the browser. We do what the vast majority of CMS provide prior to interfacing with a server. Just HTML files and a <b><i>h-a-x</i>
+
 </b>
+
  tag to understand how to modify content.</span></p>
 <h2 class="hax-active">What's Browser support like?</h2>
 <ul><li><b>Web components</b>
+
 
 
 
@@ -24,6 +28,7 @@
 
 
 
+
 <li><b>HAXeditor</b>
 
 
@@ -33,7 +38,9 @@
 
 
 
+
  is supported by <b>IE 11</b>
+
 
 
 
@@ -52,16 +59,24 @@
 
 
 
+
 <li><b>HAXcms</b>
+ support is broad but a bit fragmented to optimize the experience per each device. From lowest to highest quality (numbers based on <a href="https://gs.statcounter.com/">global traffic data in aggregate</a>
+, last updated <i>July 2019</i>
+)</li>
+<ul><li><li>IE (11) / Safari (9.1) / older - <i>no JS / frame based site</i>
+ (~ 3%)</li>
+<li>Edge (18 and below) - <i>watered down UI</i>
+ (~ 2.2%)</li>
+<ul><li><a href="https://youtu.be/Akn6keIYZ3k?t=829">Edge + Chromium in 2020 will move it to the bottom</a>
+</li>
+</ul>
+<li>Firefox 48-67 / Safari 10.x (~1%) - ES5 or ES6 w/ AMD compile</li>
+<li><b>Evergreen / Modern browsers (~ 93.8%) - Native ES6!</b>
+</li>
+</li>
+</ul>
 
-
-
-
-
-
-
-
- IE (even 11) is treated as legacy / no-js enabled, a handful of traffic (3%) gets web components but a simplified design, 93+% of global traffic gets the site you. Everyone gets content (even without js!).</li>
 
 
 
@@ -86,7 +101,9 @@
 
 
 
+
  is defining the elements that are available in this site and other demos. Leveraging the <i>autoloader</i>
+
 
 
 
@@ -119,7 +136,9 @@
 
 
 
+
 <li>Gutenberg embeds its blocks layer with the authoring nuance such that all operations can be wildly different per block. For example, a tabbed list of items may have a "add another" button inline with the block. HAX believes that the editing experience across complex elements must be delivered by the HAXeditor, not the element or block level. This illustrates itself in the UX as users selecting an element to work on and then interfacing with it the same way they would any other element. We feel that this will reduce long term barriers to adoption by end-users and training through a lack of cognitive load increase per element.</li>
+
 
 
 
@@ -143,7 +162,9 @@
 
 
 
+
  something" (Add menu), "I need to to <b>Find</b>
+
 
 
 
@@ -167,7 +188,9 @@
 
 
 
+
  something" (Make / create menu), "I need to <b>Layout</b>
+
 
 
 
@@ -191,6 +214,7 @@
 
 
 
+
  (Stax / Template menu).</li>
 
 
@@ -203,7 +227,9 @@
 
 
 
+
 <li>The Gutenberg blocks system produces react components which are specific to the logistics of WordPress. The elements produced for HAX <i>work in and out of HAX capable systems</i>
+
 . We believe in extending the broader capabilities of the web first and HAX second in order to reduce duplication of efforts globally and improves resource sharing.</li>
 
 
@@ -216,9 +242,13 @@
 
 
 
+
 <li>Gutenberg is written in React, effectively requiring all plugins and block components be written in React. HAX is written in Web components leveraging a mix of "VanillaJS", LitElement and PolymerElement constructed elements. You can use <b><i>any web component compatible library</i>
+
 </b>
+
  in order to produce elements for HAX. While not limited to, here are some popular examples that could natively talk to HAX:</li>
+
 
 
 
@@ -242,8 +272,11 @@
 
 
 
+
 <li><a href="https://polymer-library.polymer-project.org/">PolymerElement</a>
+
 </li>
+
 
 
 
@@ -256,7 +289,9 @@
 
 
 <li><a href="https://lit-element.polymer-project.org/">LitElement</a>
+
 </li>
+
 
 
 
@@ -269,7 +304,9 @@
 
 
 <li><a href="https://skatejs.netlify.com/">SkateJS</a>
+
 </li>
+
 
 
 
@@ -282,7 +319,9 @@
 
 
 <li><a href="https://slim.js.org/">Slim.js</a>
+
 </li>
+
 
 
 
@@ -295,6 +334,7 @@
 
 
 <li><a href="https://svelte.dev/">Svelte</a>
+
 </li>
 
 
@@ -307,7 +347,9 @@
 
 
 
+
 <li><a href="https://vuejs.org/">VueJS</a>
+
  (web component wrapper)</li>
 
 
@@ -320,8 +362,11 @@
 
 
 
+
 <li><a href="https://angular.io/">Angular Components</a>
+
  (compiled to custom elements)</li>
+
 
 
 
@@ -345,6 +390,7 @@
 
 
 
+
  should work</li>
 
 
@@ -357,7 +403,9 @@
 
 
 
+
 </ul>
+
 
 
 
@@ -382,7 +430,9 @@
 
 
 
+
 . HAX is the authoring solution originally created to power <a href="https://elmsln.org/">ELMS:LN</a>
+
 
 
 
@@ -396,6 +446,7 @@
  and other instructional innovations and was quickly realized for its potential to transform web publishing.</p>
 <p>The original core development / evangelist team on HAX in its infancy (an idea conceived in 2016, experimented in 2017, manifested in 2018, actualized in 2019):</p>
 <ul><li>Bryan Ollendyke (<a href="https://twitter.com/btopro">@btopro</a>
+
 ) - Project lead Developer</li>
 
 
@@ -407,8 +458,11 @@
 
 
 
+
 <li>Michael Potter (<a href="https://twitter.com/hey__mp">@hey__mp</a>
+
 ) - Core Developer</li>
+
 
 
 
@@ -420,6 +474,7 @@
 
 
 <li>Nikki Massaro-Kauffman (<a href="https://twitter.com/nikkimk">@nikkimk</a>
+
 ) - Core Developer</li>
 
 
@@ -431,7 +486,9 @@
 
 
 
+
 <li>Charles Lavera (<a href="https://twitter.com/cgldevel">@cgldevel</a>
+
 ) - Core Developer</li>
 
 
@@ -443,8 +500,11 @@
 
 
 
+
 <li>Michael Collins (<a href="https://twiiter.com/_mike_collins">@_mike_collins</a>
+
 ) - End user testing, needs assessment</li>
+
 
 
 
@@ -456,6 +516,7 @@
 
 
 <li>Katrina Wehr (<a href="https://twitter.com/katrinamwehr">@katrinamwehr</a>
+
 ) - End user testing, needs assessment</li>
 
 
@@ -467,8 +528,11 @@
 
 
 
+
 <li>Melissa Hicks (<a href="https://twitter.com/juststormy">@juststormy</a>
+
 ) - Needs assessment, champion</li>
+
 
 
 
