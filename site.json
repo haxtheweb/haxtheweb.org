@@ -172,29 +172,6 @@
             }
         },
         {
-            "id": "item-add7dab5-8208-sadd-1234-262fa3c4dj553",
-            "indent": 1,
-            "location": "pages\/why-hax\/index.html",
-            "order": 2,
-            "parent": "item-welcome",
-            "title": "Principles",
-            "description": "Core PrinciplesSupport all platforms and devices (CMS, App, etc)Empower authors to write code without ever looking at codeAll content produced must work with or without HAXeditor availableSuppo",
-            "metadata": {
-                "created": 1548826475,
-                "updated": 1565291226,
-                "files": [
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-01-29_22-47-53.png",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-01-29_22-47-53.png",
-                        "url": "files\/2019-01-29_22-47-53.png",
-                        "type": "image\/png",
-                        "name": "2019-01-29_22-47-53.png",
-                        "size": 100870
-                    }
-                ]
-            }
-        },
-        {
             "id": "item-01e0f49a-190a-4c8d-ae0e-83d62675e070",
             "indent": 1,
             "location": "pages\/home\/roadmap\/index.html",
