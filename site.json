@@ -314,17 +314,17 @@
             "description": "Live DemoThis website is an example of the HAXeditor running in HAXcms but does not have a backend to save things. If you'd like a live demo, the ELMS:LN community has provided one that resets all us",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1565705512,
+                "updated": 1565706439,
                 "readtime": 1,
                 "contentDetails": {
                     "headings": 2,
-                    "paragraphs": 4,
+                    "paragraphs": 5,
                     "schema": [],
                     "tags": {
                         "h3": 2,
-                        "p": 4
+                        "p": 5
                     },
-                    "elements": 6
+                    "elements": 7
                 }
             }
         },
