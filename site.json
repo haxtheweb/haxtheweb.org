@@ -142,7 +142,17 @@
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1565705511
+                "updated": 1565705511,
+                "files": [
+                    {
+                        "path": "\/var\/www\/html\/sites\/haxtheweb\/files\/\/sourceviewthispage.jpg",
+                        "fullUrl": "\/sites\/haxtheweb\/files\/sourceviewthispage.jpg",
+                        "url": "files\/sourceviewthispage.jpg",
+                        "type": "image\/jpeg",
+                        "name": "sourceviewthispage.jpg",
+                        "size": 34616
+                    }
+                ]
             }
         },
         {
