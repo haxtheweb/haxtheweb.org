@@ -11,7 +11,7 @@
   <entry>
     <title>Roadmap</title>
     <id>https://haxtheweb.org//home/roadmap</id>
-    <updated>2019-08-08T14:31:25-06:00</updated>
+    <updated>2019-08-13T08:11:10-06:00</updated>
     <published>2019-08-08T12:53:07-06:00</published>
     <summary>HAX encompasses many different projectsThis roadmap illustrates all the projects related to HAX and ELMS:LN, which HAX comes from. The little settings gears found throughout illustrate enhancements a</summary>
     <link href="https://haxtheweb.org//home/roadmap"/>
@@ -31,7 +31,7 @@
   <entry>
     <title>ClassicPress</title>
     <id>https://haxtheweb.org//integrations/classicpress</id>
-    <updated>2019-08-08T13:07:08-06:00</updated>
+    <updated>2019-08-13T08:11:12-06:00</updated>
     <published>2019-08-08T09:43:29-06:00</published>
     <summary>ClassicPress is a popular fork of WordPress that's even easier to get HAX up and running then it is in the original!Get the Web component plugin, unzip and rename to webcomponents</summary>
     <link href="https://haxtheweb.org//integrations/classicpress"/>
@@ -104,7 +104,7 @@
   <entry>
     <title>Why HAXcms</title>
     <id>https://haxtheweb.org//home/why-haxcms</id>
-    <updated>2019-08-13T08:10:51-06:00</updated>
+    <updated>2019-08-13T08:11:10-06:00</updated>
     <published>2019-07-24T06:45:22-06:00</published>
     <summary>HAXcms, which powers this website, is hard to describe exactly what "kind" of system it is. That's because given that it's 100% web components, decoupled, and static by design, it's hard to put it in</summary>
     <link href="https://haxtheweb.org//home/why-haxcms"/>
@@ -259,7 +259,7 @@
   <entry>
     <title>Scavenger Hunt</title>
     <id>https://haxtheweb.org//scavenger-hunt</id>
-    <updated>2019-08-12T15:39:48-06:00</updated>
+    <updated>2019-08-13T08:11:16-06:00</updated>
     <published>2019-07-24T06:15:37-06:00</published>
     <summary>Become part of our dynasty franchise **by wearing a cool jerseyWe're building the greatest roster of people ever to HAX the complacency of our industry. Take the HAX scavenger hunt at the next even</summary>
     <link href="https://haxtheweb.org//scavenger-hunt"/>
@@ -289,7 +289,7 @@
   <entry>
     <title>HAXiam</title>
     <id>https://haxtheweb.org//haxiam</id>
-    <updated>2019-08-08T13:07:07-06:00</updated>
+    <updated>2019-08-13T08:11:11-06:00</updated>
     <published>2019-05-19T20:49:29-06:00</published>
     <summary>HAXiam (HAX-I-Am) is a SaaS platform code base that's used to deploy HAXcms to multiple people. It is an abstraction on the HAXcms code base that enables it to be used by multiple users from a single</summary>
     <link href="https://haxtheweb.org//haxiam"/>
@@ -306,7 +306,7 @@
   <entry>
     <title>Haxor Slevin</title>
     <id>https://haxtheweb.org//haxor-slevin</id>
-    <updated>2019-08-08T13:07:13-06:00</updated>
+    <updated>2019-08-13T08:11:16-06:00</updated>
     <published>2019-05-15T13:36:50-06:00</published>
     <summary>Oh? So you think you're 1337 3l33t 3H?Well step right up and jump into the world of hackers and numbers. Ones. Zeros. It's a whole universe of them. You're fighting for control of your online digital</summary>
     <link href="https://haxtheweb.org//haxor-slevin"/>
@@ -321,7 +321,7 @@
   <entry>
     <title>Life cycle</title>
     <id>https://haxtheweb.org//life-cycle</id>
-    <updated>2019-08-08T13:07:12-06:00</updated>
+    <updated>2019-08-13T08:11:14-06:00</updated>
     <published>2019-04-05T14:27:27-06:00</published>
     <summary>This is a general life cycle that happens when HAXcms "boots up". When web components are unpacking the contents of what to do it generally will work this way.page load, should it be no-js or a web c</summary>
     <link href="https://haxtheweb.org//life-cycle"/>
@@ -343,7 +343,7 @@
   <entry>
     <title>I have issues</title>
     <id>https://haxtheweb.org//i-have-issues</id>
-    <updated>2019-08-08T13:07:07-06:00</updated>
+    <updated>2019-08-13T08:11:10-06:00</updated>
     <published>2019-03-25T17:24:55-06:00</published>
     <summary>Yea yea, we all do.Oh, you have a problem or would like to contribute to HAXcms (that's awesome!). All issues, feature requests and general thumbs up should happen in our issue queue on github: http</summary>
     <link href="https://haxtheweb.org//i-have-issues"/>
@@ -359,7 +359,7 @@
   <entry>
     <title>Troubleshooting</title>
     <id>https://haxtheweb.org//troubleshooting</id>
-    <updated>2019-08-08T13:07:12-06:00</updated>
+    <updated>2019-08-13T08:11:14-06:00</updated>
     <published>2019-03-25T17:16:04-06:00</published>
     <summary>These are some common issues / resolutions in HAXcms related to installation, publishing, etc.I installed HAXcms and forgot my passwordYour username and password can be found in _config/config.php o</summary>
     <link href="https://haxtheweb.org//troubleshooting"/>
@@ -384,7 +384,7 @@
   <entry>
     <title>Skin a site</title>
     <id>https://haxtheweb.org//skin-a-custom-theme</id>
-    <updated>2019-08-08T13:07:12-06:00</updated>
+    <updated>2019-08-13T08:11:15-06:00</updated>
     <published>2019-03-23T09:21:47-06:00</published>
     <summary>Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can&#39;t get into the weeds of web components or javascript.Wo</summary>
     <link href="https://haxtheweb.org//skin-a-custom-theme"/>
@@ -408,7 +408,7 @@
   <entry>
     <title>Dev workflows</title>
     <id>https://haxtheweb.org//dev-workflows</id>
-    <updated>2019-08-08T13:07:12-06:00</updated>
+    <updated>2019-08-13T08:11:15-06:00</updated>
     <published>2019-03-23T07:58:38-06:00</published>
     <summary>Our development workflow is as follows (for themes)All custom theme work happens in your _config directoryMake my-theme.js, pull everything together, either in this directory or in a wcfactory cat</summary>
     <link href="https://haxtheweb.org//dev-workflows"/>
@@ -470,7 +470,7 @@
   <entry>
     <title>CSS vars</title>
     <id>https://haxtheweb.org//css</id>
-    <updated>2019-08-08T13:07:12-06:00</updated>
+    <updated>2019-08-13T08:11:15-06:00</updated>
     <published>2019-03-23T07:58:38-06:00</published>
     <summary>CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a</summary>
     <link href="https://haxtheweb.org//css"/>
@@ -530,7 +530,7 @@ site-active-title {
   <entry>
     <title>Query examples</title>
     <id>https://haxtheweb.org//query-examples</id>
-    <updated>2019-08-08T13:07:12-06:00</updated>
+    <updated>2019-08-13T08:11:15-06:00</updated>
     <published>2019-03-23T07:58:38-06:00</published>
     <summary>  Hold up there. You didn't cover any of the query tags in that last section!Ok ok, here's the deal. Queries are so important that they needed their own section. Calm down Dwight we'll handle that n</summary>
     <link href="https://haxtheweb.org//query-examples"/>
@@ -650,7 +650,7 @@ that are 2 to 4 levels deep.</span>
   <entry>
     <title>Web components</title>
     <id>https://haxtheweb.org//web-components</id>
-    <updated>2019-08-08T13:07:12-06:00</updated>
+    <updated>2019-08-13T08:11:15-06:00</updated>
     <published>2019-03-23T07:58:38-06:00</published>
     <summary>Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the haxcms-slide-th</summary>
     <link href="https://haxtheweb.org//web-components"/>
@@ -722,7 +722,7 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
   <entry>
     <title>Get Involved!</title>
     <id>https://haxtheweb.org//get-involved-</id>
-    <updated>2019-08-08T13:07:07-06:00</updated>
+    <updated>2019-08-13T08:11:10-06:00</updated>
     <published>2019-03-21T13:46:24-06:00</published>
     <summary>Join our communityJoin us on the HAXTheWeb Slack channelFollow / use the #HAXTheWeb hash tagJump in issue queuesHAXcms - That which powers this websiteHAXeditor</summary>
     <link href="https://haxtheweb.org//get-involved-"/>
@@ -865,7 +865,7 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
   <entry>
     <title>Learn two</title>
     <id>https://haxtheweb.org//learn-two</id>
-    <updated>2019-08-08T13:07:13-06:00</updated>
+    <updated>2019-08-13T08:11:16-06:00</updated>
     <published>2019-03-21T12:53:16-06:00</published>
     <summary>Learn two is a straight forward way of presenting material for learning about a topic. With a breadcrumb trail `` and a simple `` that tracks visually as you activate new items, it's a great way to pr</summary>
     <link href="https://haxtheweb.org//learn-two"/>
@@ -881,7 +881,7 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
   <entry>
     <title>Slide player</title>
     <id>https://haxtheweb.org//slide-player</id>
-    <updated>2019-08-08T13:07:13-06:00</updated>
+    <updated>2019-08-13T08:11:16-06:00</updated>
     <published>2019-03-21T12:53:16-06:00</published>
     <summary>Slide player is great for lectures and presentation style sites (or parts of sites). It lets you focus on the content and has almost no UI.</summary>
     <link href="https://haxtheweb.org//slide-player"/>
@@ -896,7 +896,7 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
   <entry>
     <title>Example themes</title>
     <id>https://haxtheweb.org//example-themes</id>
-    <updated>2019-08-08T13:07:13-06:00</updated>
+    <updated>2019-08-13T08:11:15-06:00</updated>
     <published>2019-03-21T12:53:16-06:00</published>
     <summary>Explore some of the themes built for HAXcms that you get out of the box. This is a great demonstration of the performance and power of both web components and HAXcms (the system powering this site!).</summary>
     <link href="https://haxtheweb.org//example-themes"/>
@@ -917,7 +917,7 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
   <entry>
     <title>Outline player</title>
     <id>https://haxtheweb.org//outline-player</id>
-    <updated>2019-08-08T13:07:13-06:00</updated>
+    <updated>2019-08-13T08:11:16-06:00</updated>
     <published>2019-03-21T12:53:16-06:00</published>
     <summary>Outline player is an even more basic form of Learn two. It's for those seeking something even more minimalist in design and capabilities.Fun things about this include... ok well very little. Let's fa</summary>
     <link href="https://haxtheweb.org//outline-player"/>
@@ -935,7 +935,7 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
   <entry>
     <title>Simple blog</title>
     <id>https://haxtheweb.org//simple-blog</id>
-    <updated>2019-08-08T13:07:13-06:00</updated>
+    <updated>2019-08-13T08:11:16-06:00</updated>
     <published>2019-03-21T12:53:16-06:00</published>
     <summary>This one definitely just broke your world view... cause... it's... a.... blog.It also just broke the navigation cause Simple Blog is about viewing a listing of blog posts and then when you are inside</summary>
     <link href="https://haxtheweb.org//simple-blog"/>
@@ -951,7 +951,7 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
   <entry>
     <title>Minimalist</title>
     <id>https://haxtheweb.org//minimalist</id>
-    <updated>2019-08-08T13:07:13-06:00</updated>
+    <updated>2019-08-13T08:11:15-06:00</updated>
     <published>2019-03-21T12:53:16-06:00</published>
     <summary>As you can see, the minimalist theme is for trying to give you a straight forward, linear design pattern.Pages are ordered based on the very 1 page's child pages.So you'd have a structure like this:</summary>
     <link href="https://haxtheweb.org//minimalist"/>
@@ -974,7 +974,7 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
   <entry>
     <title>Dev theme</title>
     <id>https://haxtheweb.org//dev-theme</id>
-    <updated>2019-08-08T13:07:13-06:00</updated>
+    <updated>2019-08-13T08:11:16-06:00</updated>
     <published>2019-03-21T12:53:16-06:00</published>
     <summary>EEK! You were NOT supposed to see this...except that this is what HAXcms sees. This is your just barebones components with almost 0 css baseline theme play space. This is a great one to fork and rewri</summary>
     <link href="https://haxtheweb.org//dev-theme"/>
@@ -989,7 +989,7 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
   <entry>
     <title>Basic</title>
     <id>https://haxtheweb.org//basic</id>
-    <updated>2019-08-08T13:07:13-06:00</updated>
+    <updated>2019-08-13T08:11:15-06:00</updated>
     <published>2019-03-21T12:53:16-06:00</published>
     <summary>The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulationThe theme elements in HAXcms can</summary>
     <link href="https://haxtheweb.org//basic"/>
@@ -1010,7 +1010,7 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
   <entry>
     <title>Presentations</title>
     <id>https://haxtheweb.org//presentations</id>
-    <updated>2019-08-08T13:07:07-06:00</updated>
+    <updated>2019-08-13T08:11:10-06:00</updated>
     <published>2019-03-18T06:06:57-06:00</published>
     <summary>HAX The PlaylistThis playlist is of all things HAXTheWebWCFactory is another important project that the HAX team develops with.</summary>
     <link href="https://haxtheweb.org//presentations"/>
@@ -1027,7 +1027,7 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
   <entry>
     <title>Core elements</title>
     <id>https://haxtheweb.org//elements</id>
-    <updated>2019-08-08T13:07:12-06:00</updated>
+    <updated>2019-08-13T08:11:15-06:00</updated>
     <published>2019-03-12T18:45:37-06:00</published>
     <summary>While you're not required to use them, HAXcms supplies a series of elements that can make theme development effortless. You can see the source of these in greater detail under the theme directory of h</summary>
     <link href="https://haxtheweb.org//elements"/>
