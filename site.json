@@ -335,10 +335,21 @@
             "order": 5,
             "parent": "item-welcome",
             "title": "Presentations",
-            "description": "HAX The PlaylistThis playlist is of all things HAXTheWebWCFactory is another important project that the HAX team develops with.",
+            "description": "This is the youtube playlist of all things HAXTheWebThis playlist is updated on a regular basis so make sure to subscribe to the youtube channel for updates. There's also many other playlists relat",
             "metadata": {
                 "created": 1552910817,
-                "updated": 1565705512
+                "updated": 1565706296,
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 2,
+                    "schema": [],
+                    "tags": {
+                        "p": 2,
+                        "iframe": 1
+                    },
+                    "elements": 3
+                }
             }
         },
         {

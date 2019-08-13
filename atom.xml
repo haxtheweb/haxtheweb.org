@@ -1010,17 +1010,16 @@ site-active-title {
   <entry>
     <title>Presentations</title>
     <id>https://haxtheweb.org//presentations</id>
-    <updated>2019-08-13T08:11:52-06:00</updated>
+    <updated>2019-08-13T08:24:56-06:00</updated>
     <published>2019-03-18T06:06:57-06:00</published>
-    <summary>HAX The PlaylistThis playlist is of all things HAXTheWebWCFactory is another important project that the HAX team develops with.</summary>
+    <summary>This is the youtube playlist of all things HAXTheWebThis playlist is updated on a regular basis so make sure to subscribe to the youtube channel for updates. There's also many other playlists relat</summary>
     <link href="https://haxtheweb.org//presentations"/>
     
     <content type="html">
-      <![CDATA[ <h3>HAX The Playlist</h3>
-<p>This playlist is of all things HAXTheWeb</p>
+      <![CDATA[ <p>This is the <a href="https://www.youtube.com/watch?v=q0IjUz2_IhA&list=PLJQupiji7J5eTqv8JFiW8SZpSeKouZACH">youtube playlist</a>
+ of all things HAXTheWeb</p>
 <iframe width="600" height="400" src="https://www.youtube.com/embed/videoseries?list=PLJQupiji7J5eTqv8JFiW8SZpSeKouZACH" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" style="margin:0 auto;"></iframe>
-<hr style="width:100%;"/><p>WCFactory is another important project that the HAX team develops with.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLJQupiji7J5cAv7Jfr1V8FvUTx_jJrmCl" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+<p>This playlist is updated on a regular basis so make sure to subscribe to the youtube channel for updates. There's also many other playlists related to all things ELMS:LN, WCFactory, HAXcms and web components in general.</p>
  ]]>
     </content>
   </entry>
