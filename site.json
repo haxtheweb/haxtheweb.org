@@ -79,7 +79,7 @@
             "description": "Headless Authoring eXperience (HAX) is a next generation block editor that frees you of block editor specific code. HAX works by adding a small bit of JSON schema to web components that you author. Th",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1565754829,
+                "updated": 1565762386,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
@@ -126,9 +126,10 @@
                         "ol": 1,
                         "video-player": 1,
                         "a11y-gif-player": 1,
-                        "code-sample": 2
+                        "code-sample": 2,
+                        "h5p-element": 1
                     },
-                    "elements": 10
+                    "elements": 11
                 }
             }
         },
