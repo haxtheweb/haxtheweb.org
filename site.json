@@ -14,6 +14,7 @@
             "name": "haxtheweb",
             "created": 1547138719,
             "updated": 1565705517,
+            "domain": "https:\/\/haxtheweb.org\/",
             "git": {
                 "vendor": "github",
                 "branch": "master",
@@ -22,8 +23,8 @@
             },
             "static": {
                 "cdn": "haxtheweb.org",
-                "lastPublished": 1565894074,
-                "publishedLocation": "https:\/\/elmsln.github.io\/haxtheweb.org"
+                "lastPublished": 1565895159,
+                "publishedLocation": "https:\/\/haxtheweb.org\/"
             }
         },
         "theme": {
@@ -33,7 +34,6 @@
             "variables": {
                 "image": "assets\/banner.jpg",
                 "icon": "lrn:network",
-                "domain": "https:\/\/haxtheweb.org\/",
                 "hexCode": "#009dc7",
                 "cssVariable": "cyan"
             }
