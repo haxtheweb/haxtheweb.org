@@ -13,138 +13,34 @@
   <link rel="preconnect" crossorigin href="https://cdnjs.cloudflare.com">
   <link rel="preconnect" crossorigin href="https://i.creativecommons.org">
   <link rel="preconnect" crossorigin href="https://licensebuttons.net">
+  <script type="text/javascript">
+    // attempt to correctly set the base without knowing where we're installed fully...
+    if (document.location.pathname.indexOf('/_sites/') != -1) {
+      document.write("<base href='" + document.location.pathname.substring(0, document.location.pathname.indexOf('/', document.location.pathname.indexOf('/_sites/') + 8)) + "/' />");
+    }
+    else if (document.location.pathname.indexOf('/sites/') != -1) {
+      document.write("<base href='" + document.location.pathname.substring(0, document.location.pathname.indexOf('/', document.location.pathname.indexOf('/sites/') + 7)) + "/' />");
+    }
+  </script>
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,user-scalable=yes">
   <meta name="generator" content="HAXCMS">
-  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
-  <title>HAX-the-web</title>
-  <meta name="description" content="Documentation and learning about how we HAX the web">
-  <base href="/haxtheweb/" />
-  
-  <link rel="icon" href="assets/favicon.ico">
-  
-  <link rel="manifest" href="manifest.json">
-  
-  <meta name="theme-color" content="#009dc7">
-  
+  <meta name="description" content="My HAXCMS site description">
+  <meta name="theme-color" content="#3f51b5">
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="application-name" content="HAX-the-web">
-  
+  <meta name="application-name" content="My site">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="HAX-the-web">
-  
+  <meta name="apple-mobile-web-app-title" content="My App">
+  <meta name="msapplication-TileImage" content="assets/icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#3f51b5">
+  <meta name="msapplication-tap-highlight" content="no">
+  <link rel="icon" href="assets/favicon.ico">
   <link rel="apple-touch-icon" href="assets/icon-48x48.png">
   <link rel="apple-touch-icon" sizes="72x72" href="assets/icon-72x72.png">
   <link rel="apple-touch-icon" sizes="96x96" href="assets/icon-96x96.png">
   <link rel="apple-touch-icon" sizes="144x144" href="assets/icon-144x144.png">
   <link rel="apple-touch-icon" sizes="192x192" href="assets/icon-192x192.png">
-  
-  <meta name="msapplication-TileImage" content="assets/icon-144x144.png">
-  <meta name="msapplication-TileColor" content="#009dc7">
-  <meta name="msapplication-tap-highlight" content="no">
-  
-  <meta name="twitter:card" content="Documentation and learning about how we HAX the web">
-  <meta name="twitter:site" content="">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="HAX-the-web">
-  <meta property="og:image" content="assets/icon-144x144.png" />
-  <!-- Start Single Page Apps for GitHub Pages -->
-  <script>
-    // Single Page Apps for GitHub Pages
-    // https://github.com/rafrex/spa-github-pages
-    // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
-    // ----------------------------------------------------------------------
-    // This script checks to see if a redirect is present in the query string
-    // and converts it back into the correct url and adds it to the
-    // browser's history using window.history.replaceState(...),
-    // which won't cause the browser to attempt to load the new url.
-    // When the single page app is loaded further down in this file,
-    // the correct url will be waiting in the browser's history for
-    // the single page app to route accordingly.
-    (function (l) {
-      if (l.search) {
-        var q = {};
-        l.search.slice(1).split('&').forEach(function (v) {
-          var a = v.split('=');
-          q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
-        });
-        if (q.p !== undefined) {
-          window.history.replaceState(null, null,
-            l.pathname.slice(0, -1) + (q.p || '') +
-            (q.q ? ('?' + q.q) : '') +
-            l.hash
-          );
-        }
-      }
-    }(window.location))
-  </script>
-  <!-- End Single Page Apps for GitHub Pages -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      // service worker scope. If you change the folder name this lives in you need to update this to match
-      // if you deploy this at a domain where it's the top level (so /) then make it / to match
-      // you'll have to manually update this value
-      var sitePath = '/haxtheweb/';
-      // discover this path downstream of the root of the domain
-      var swScope = window.location.pathname.substring(0, window.location.pathname.indexOf(sitePath)) + sitePath;
-      if (swScope != document.head.getElementsByTagName('base')[0].href) {
-        document.head.getElementsByTagName('base')[0].href = swScope;
-      }
-      window.addEventListener('load', function () {
-        navigator.serviceWorker.register('service-worker.js', {
-          scope: swScope
-        }).then(function (registration) {
-          registration.onupdatefound = function () {
-            // The updatefound event implies that registration.installing is set; see
-            // https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#service-worker-container-updatefound-event
-            var installingWorker = registration.installing;
-            installingWorker.onstatechange = function () {
-              switch (installingWorker.state) {
-                case 'installed':
-                  if (!navigator.serviceWorker.controller) {
-                    window.dispatchEvent(new CustomEvent("simple-toast-show", {
-                      bubbles: true,
-                      cancelable: false,
-                      detail: {
-                        text: 'Pages you view are cached for offline use.',
-                        duration: 8000
-                      }
-                    }));
-                  }
-                break;
-                case 'redundant':
-                  throw Error('The installing service worker became redundant.');
-                break;
-              }
-            };
-          };
-        }).catch(function (e) {
-          console.warn('Service worker registration failed:', e);
-        });
-        // Check to see if the service worker controlling the page at initial load
-        // has become redundant, since this implies there's a new service worker with fresh content.
-        if (navigator.serviceWorker.controller) {
-          navigator.serviceWorker.controller.onstatechange = function(event) {
-            if (event.target.state === 'redundant') {
-              var b = document.createElement('paper-button');
-              b.appendChild(document.createTextNode('Reload'));
-              b.raised = true;
-              b.addEventListener('click', function(e){ window.location.reload(true); });
-              window.dispatchEvent(new CustomEvent("simple-toast-show", {
-                bubbles: true,
-                cancelable: false,
-                detail: {
-                  text: 'A site update is available. Reload for latest content.',
-                  duration: 12000,
-                  slot: b,
-                  clone: false
-                }
-              }));
-            }
-          };
-        }
-      });
-    }
-  </script>
+  <title>My site</title>
   <style>
     body {
       margin: 0;
@@ -159,7 +55,7 @@
       display: block;
       position: initial;
       height: 100vh;
-      background: #009dc7;
+      background: orange;
     }
     haxcms-site-builder:not(:defined) div {
       font-size: 6vw;
@@ -175,13 +71,13 @@
       font-family: "Courier New", Courier, monospace;
       color: black;
     }
-    body[no-js] haxcms-site-builder{
+    body[no-js] haxcms-site-builder {
       display: none !important;
     }
   </style>
 </head>
 <body no-js>
-  <haxcms-site-builder id="site" file="site.json"><div class="loading"><div>HAX-the-web</div><div>loading</div></div></haxcms-site-builder>
+  <haxcms-site-builder id="site" file="site.json"><div class="loading"><div>Site</div><div>loading</div></div></haxcms-site-builder>
   <div id="haxcmsoutdatedfallback">
     <haxcms-legacy-player file="site.json"></haxcms-legacy-player>
     <div id="haxcmsoutdatedfallbacksuperold"> 
@@ -192,7 +88,7 @@
         view our website correctly. <a href="http://outdatedbrowser.com/">Update my browser now</a></div>
     </div>
   </div>
-  <script>document.body.removeAttribute('no-js');var cdn="";var old=false;var ancient=false;window.__haxCMSContextPublished=true;
+  <script>document.body.removeAttribute('no-js');var cdn="";var old=false;var ancient=false;
     if (typeof Symbol == "undefined") { // IE 11, at least try to serve a watered down site
       ancient = true;
     }

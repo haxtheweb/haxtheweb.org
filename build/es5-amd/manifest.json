@@ -1,7 +1,7 @@
 {
-    "name": "HAX-the-web",
-    "short_name": "haxtheweb",
-    "description": "Documentation and learning about how we HAX the web",
+    "name": "HAXcms",
+    "short_name": "haxcms",
+    "description": "Microsite manager for your universe!",
     "icons": [
         {
             "src": "assets\/android-icon-36x36.png",
@@ -46,9 +46,8 @@
             "density": "4.0"
         }
     ],
-    "scope": "/haxtheweb/",
-    "start_url": "/haxtheweb/",
+    "start_url": "/",
     "display": "standalone",
-    "theme_color": "#009dc7",
-    "background_color": "#009dc7"
+    "theme_color": "#3f51b5",
+    "background_color": "#3f51b5"
 }
