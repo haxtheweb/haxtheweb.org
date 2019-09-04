@@ -13,18 +13,24 @@
         "site": {
             "name": "haxtheweb",
             "created": 1547138719,
-            "updated": 1565705517,
+            "updated": 1567626139,
             "domain": "https:\/\/haxtheweb.org\/",
             "git": {
                 "vendor": "github",
                 "branch": "master",
                 "staticBranch": "gh-pages",
-                "url": "git@github.com:elmsln\/haxtheweb.org.git"
+                "url": "git@github.com:elmsln\/haxtheweb.org.git",
+                "autoPush": false
             },
             "static": {
-                "cdn": "haxtheweb.org",
+                "cdn": "cdn.waxam.io",
                 "lastPublished": 1565895159,
-                "publishedLocation": "https:\/\/haxtheweb.org\/"
+                "publishedLocation": "https:\/\/haxtheweb.org\/",
+                "offline": true
+            },
+            "settings": {
+                "pathauto": true,
+                "publishPagesOn": false
             }
         },
         "theme": {
@@ -33,9 +39,9 @@
             "name": "Learn",
             "variables": {
                 "image": "assets\/banner.jpg",
-                "icon": "lrn:network",
                 "hexCode": "#009dc7",
-                "cssVariable": "cyan"
+                "cssVariable": "--simple-colors-default-theme-teal-7",
+                "icon": "lrn:network"
             }
         },
         "node": {
