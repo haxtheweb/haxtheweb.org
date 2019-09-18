@@ -21,10 +21,10 @@
                 "staticBranch": "gh-pages",
                 "url": "git@github.com:elmsln\/haxtheweb.org.git",
                 "autoPush": false,
-                "publicRepoUrl": "git@github.com:elmsln\/haxtheweb.org.git"
+                "publicRepoUrl": "https:\/\/github.com\/elmsln\/haxtheweb.org\/tree\/master\/"
             },
             "static": {
-                "cdn": "cdn.waxam.io",
+                "cdn": "haxtheweb.org",
                 "lastPublished": 1565895159,
                 "publishedLocation": "https:\/\/haxtheweb.org\/",
                 "offline": true
