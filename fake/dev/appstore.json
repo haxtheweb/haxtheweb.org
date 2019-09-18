@@ -9,7 +9,10 @@
         "author": "Google, Youtube LLC",
         "description": "The most popular online video sharing and remix site.",
         "status": "available",
-        "tags": ["video", "crowdsourced"]
+        "tags": [
+          "video",
+          "crowdsourced"
+        ]
       },
       "connection": {
         "protocol": "https",
@@ -70,7 +73,10 @@
         "author": "Vimeo Inc.",
         "description": "A high quality video sharing community.",
         "status": "available",
-        "tags": ["video", "crowdsourced"]
+        "tags": [
+          "video",
+          "crowdsourced"
+        ]
       },
       "connection": {
         "protocol": "https",
@@ -134,7 +140,11 @@
         "description": "The original photo sharing platform on the web.",
         "status": "available",
         "rating": "0",
-        "tags": ["images", "creative commons", "crowdsourced"]
+        "tags": [
+          "images",
+          "creative commons",
+          "crowdsourced"
+        ]
       },
       "connection": {
         "protocol": "https",
@@ -215,7 +225,11 @@
         "author": "US Government",
         "description": "The cozmos through one simple API.",
         "status": "available",
-        "tags": ["images", "government", "space"]
+        "tags": [
+          "images",
+          "government",
+          "space"
+        ]
       },
       "connection": {
         "protocol": "https",
@@ -270,7 +284,11 @@
         "author": "Giphy",
         "description": "Crowd sourced memes via animated gifs.",
         "status": "available",
-        "tags": ["gif", "crowdsourced", "meme"]
+        "tags": [
+          "gif",
+          "crowdsourced",
+          "meme"
+        ]
       },
       "connection": {
         "protocol": "https",
@@ -347,7 +365,11 @@
         "author": "Google",
         "description": "Google 3D object sharing service",
         "status": "available",
-        "tags": ["3D", "creative commons", "crowdsourced"]
+        "tags": [
+          "3D",
+          "creative commons",
+          "crowdsourced"
+        ]
       },
       "connection": {
         "protocol": "https",
@@ -424,7 +446,11 @@
         "description": "3D sharing community.",
         "status": "available",
         "rating": "0",
-        "tags": ["3D", "creative commons", "crowdsourced"]
+        "tags": [
+          "3D",
+          "creative commons",
+          "crowdsourced"
+        ]
       },
       "connection": {
         "protocol": "https",
@@ -487,7 +513,12 @@
         "author": "Meme generator",
         "description": "A search engine of popular memes.",
         "status": "available",
-        "tags": ["picture", "crowdsourced", "image", "meme"]
+        "tags": [
+          "picture",
+          "crowdsourced",
+          "image",
+          "meme"
+        ]
       },
       "connection": {
         "protocol": "http",
@@ -544,7 +575,11 @@
         "author": "Unsplash",
         "description": "Crowd sourced, open photos",
         "status": "available",
-        "tags": ["images", "crowdsourced", "cc"]
+        "tags": [
+          "images",
+          "crowdsourced",
+          "cc"
+        ]
       },
       "connection": {
         "protocol": "https",
@@ -601,7 +636,10 @@
         "author": "Dailymotion",
         "description": "A crowdsourced video platform that is ad supported.",
         "status": "available",
-        "tags": ["video", "crowdsourced"]
+        "tags": [
+          "video",
+          "crowdsourced"
+        ]
       },
       "connection": {
         "protocol": "https",
@@ -660,7 +698,10 @@
         "author": "Pixabay",
         "description": "Pixabay open image community",
         "status": "available",
-        "tags": ["images", "crowdsourced"]
+        "tags": [
+          "images",
+          "crowdsourced"
+        ]
       },
       "connection": {
         "protocol": "https",
@@ -717,7 +758,10 @@
         "author": "CC Mixter",
         "description": "User submitted audio files and music.",
         "status": "available",
-        "tags": ["audio", "crowdsourced"]
+        "tags": [
+          "audio",
+          "crowdsourced"
+        ]
       },
       "connection": {
         "protocol": "http",
@@ -783,7 +827,13 @@
         "description": "HTML / CSS / JS sharing community",
         "status": "available",
         "rating": "0",
-        "tags": ["code", "development", "html", "js", "crowdsourced"]
+        "tags": [
+          "code",
+          "development",
+          "html",
+          "js",
+          "crowdsourced"
+        ]
       },
       "connection": {
         "protocol": "https",
@@ -836,7 +886,11 @@
         "author": "Wikimedia",
         "description": "Encyclopedia of the world.",
         "status": "available",
-        "tags": ["content", "encyclopedia", "wiki"]
+        "tags": [
+          "content",
+          "encyclopedia",
+          "wiki"
+        ]
       },
       "connection": {
         "protocol": "https",
@@ -884,6 +938,77 @@
           }
         }
       }
+    },
+    {
+      "details": {
+        "title": "Local files",
+        "icon": "perm-media",
+        "color": "light-blue",
+        "author": "HAXCMS",
+        "description": "HAXCMS integration for HAX",
+        "tags": [
+          "media",
+          "hax"
+        ]
+      },
+      "connection": {
+        "protocol": "http",
+        "url": "haxcms.ddev.local/",
+        "operations": {
+          "browse": {
+            "method": "GET",
+            "endPoint": "system/loadFiles.php",
+            "pagination": {
+              "style": "link",
+              "props": {
+                "first": "page.first",
+                "next": "page.next",
+                "previous": "page.previous",
+                "last": "page.last"
+              }
+            },
+            "search": {},
+            "data": {},
+            "resultMap": {
+              "defaultGizmoType": "image",
+              "items": "list",
+              "preview": {
+                "title": "name",
+                "details": "mime",
+                "image": "url",
+                "id": "uuid"
+              },
+              "gizmo": {
+                "source": "url",
+                "id": "uuid",
+                "title": "name",
+                "type": "type"
+              }
+            }
+          },
+          "add": {
+            "method": "POST",
+            "endPoint": "system/saveFile.php",
+            "acceptsGizmoTypes": [
+              "image",
+              "video",
+              "audio",
+              "pdf",
+              "svg",
+              "document",
+              "csv"
+            ],
+            "resultMap": {
+              "item": "data.file",
+              "defaultGizmoType": "image",
+              "gizmo": {
+                "source": "url",
+                "id": "uuid"
+              }
+            }
+          }
+        }
+      }
     }
   ],
   "stax": [
@@ -895,7 +1020,9 @@
         "description": "An example of what HAX can do",
         "status": "available",
         "rating": "0",
-        "tags": ["example"]
+        "tags": [
+          "example"
+        ]
       },
       "stax": [
         {
@@ -1092,7 +1219,9 @@
         "description": "An example about the course page.",
         "status": "available",
         "rating": "0",
-        "tags": ["example"]
+        "tags": [
+          "example"
+        ]
       },
       "stax": [
         {
@@ -1213,7 +1342,9 @@
         "description": "An example assignment with OER Schema.",
         "status": "available",
         "rating": "0",
-        "tags": ["example"]
+        "tags": [
+          "example"
+        ]
       },
       "stax": [
         {
@@ -1481,6 +1612,10 @@
     "q-r": "@lrnwebcomponents/q-r/q-r.js",
     "full-width-image": "@lrnwebcomponents/full-width-image/full-width-image.js",
     "lrndesign-gallery": "@lrnwebcomponents/lrndesign-gallery/lrndesign-gallery.js",
-    "lrndesign-timeline": "@lrnwebcomponents/lrndesign-timeline/lrndesign-timeline.js"
+    "lrndesign-timeline": "@lrnwebcomponents/lrndesign-timeline/lrndesign-timeline.js",
+    "html-block": "@lrnwebcomponents/html-block/html-block.js",
+    "user-action": "@lrnwebcomponents/user-action/user-action.js",
+    "rss-items": "@lrnwebcomponents/rss-items/rss-items.js",
+    "random-item": "@lrnwebcomponents/random-item/random-item.js"
   }
 }
