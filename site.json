@@ -13,14 +13,15 @@
         "site": {
             "name": "haxtheweb",
             "created": 1547138719,
-            "updated": 1567626139,
+            "updated": 1568767023,
             "domain": "https:\/\/haxtheweb.org\/",
             "git": {
                 "vendor": "github",
                 "branch": "master",
                 "staticBranch": "gh-pages",
                 "url": "git@github.com:elmsln\/haxtheweb.org.git",
-                "autoPush": false
+                "autoPush": false,
+                "publicRepoUrl": "git@github.com:elmsln\/haxtheweb.org.git"
             },
             "static": {
                 "cdn": "cdn.waxam.io",
@@ -85,7 +86,8 @@
                 "html-block": "@lrnwebcomponents\/html-block\/html-block.js",
                 "user-action": "@lrnwebcomponents\/user-action\/user-action.js",
                 "rss-items": "@lrnwebcomponents\/rss-items\/rss-items.js"
-            }
+            },
+            "fields": {}
         }
     },
     "items": [
