@@ -13,7 +13,7 @@
         "site": {
             "name": "haxtheweb",
             "created": 1547138719,
-            "updated": 1568768606,
+            "updated": 1569336933,
             "domain": "https:\/\/haxtheweb.org\/",
             "git": {
                 "vendor": "github",
@@ -41,7 +41,7 @@
             "variables": {
                 "image": "assets\/banner.jpg",
                 "hexCode": "#009dc7",
-                "cssVariable": "--simple-colors-default-theme-teal-7",
+                "cssVariable": "--simple-colors-default-theme-lime-7",
                 "icon": "lrn:network"
             }
         },
