@@ -1,11 +1,15 @@
 {
-  "title": "HAX the web",
-  "links": {
-    "payment": [
-      {
-        "href": "https://github.com/elmsln/haxcms",
-        "type": "text/html"
-      }
-    ]
-  }
+    "title": "HAX-the-web",
+    "description": "Documentation and learning about how we HAX the web",
+    "type": [
+        "website", "HAXcms"
+    ],
+    "links": {
+        "license": [
+            {
+                "href": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "title": "License: Creative Commons: Attribution Share a like"
+            }
+        ]
+    }
 }
