@@ -13,7 +13,7 @@
         "site": {
             "name": "haxtheweb",
             "created": 1547138719,
-            "updated": 1569336933,
+            "updated": 1569614889,
             "domain": "https:\/\/haxtheweb.org\/",
             "git": {
                 "vendor": "github",
@@ -32,7 +32,9 @@
             "settings": {
                 "pathauto": true,
                 "publishPagesOn": false
-            }
+            },
+            "version": "0.11.0",
+            "logo": "files\/3450183.png"
         },
         "theme": {
             "element": "learn-two-theme",
@@ -41,7 +43,7 @@
             "variables": {
                 "image": "assets\/banner.jpg",
                 "hexCode": "#009dc7",
-                "cssVariable": "--simple-colors-default-theme-lime-7",
+                "cssVariable": "--simple-colors-default-theme-green-7",
                 "icon": "lrn:network"
             }
         },
