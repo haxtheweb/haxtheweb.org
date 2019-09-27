@@ -1138,7 +1138,17 @@
             "metadata": {
                 "created": 1548826475,
                 "updated": 1565705513,
-                "readtime": 1
+                "readtime": 1,
+                "files": [
+                    {
+                        "path": "\/var\/www\/html\/sites\/haxtheweb\/files\/3450183.png",
+                        "fullUrl": "\/sites\/haxtheweb\/files\/3450183.png",
+                        "url": "files\/3450183.png",
+                        "type": "image\/png",
+                        "name": "3450183.png",
+                        "size": 9992
+                    }
+                ]
             }
         },
         {
