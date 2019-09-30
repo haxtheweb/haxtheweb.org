@@ -1,47 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <link rel="preload" href="./build/es6/dist/build.js" as="script" crossorigin="anonymous">
+  <link rel="preload" href="https://cdn.waxam.io/build/es6/dist/build.js" as="script" crossorigin="anonymous">
   <link rel="preload" href="./custom/build/custom.es6.js" as="script" crossorigin="anonymous">
-  <link rel="preload" href="./build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-builder.js"
+  <link rel="preload"
+    href="https://cdn.waxam.io/build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/core/haxcms-site-builder.js"
     as="script" crossorigin="anonymous">
-  <link rel="preload" href="./build/es6/dist/my-custom-elements.js" as="script" crossorigin="anonymous">
-  <link rel="preload" href="./build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/base.css" as="style">
+  <link rel="preload" href="https://cdn.waxam.io/build/es6/dist/my-custom-elements.js" as="script" crossorigin="anonymous">
+  <link rel="preload" href="https://cdn.waxam.io/build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/base.css"
+    as="style">
   <link rel="preload" href="./theme/theme.css" as="style">
+  <base href="/" />  
+  <meta charset="utf-8">
   <link rel="preconnect" crossorigin href="https://fonts.googleapis.com">
+  <link rel="preconnect" crossorigin href="https://cdn.waxam.io">
   <link rel="preconnect" crossorigin href="https://cdnjs.cloudflare.com">
   <link rel="preconnect" crossorigin href="https://i.creativecommons.org">
   <link rel="preconnect" crossorigin href="https://licensebuttons.net">
-  <script type="text/javascript">
-    // attempt to correctly set the base without knowing where we're installed fully...
-    if (document.location.pathname.indexOf('/_sites/') != -1) {
-      document.write("<base href='" + document.location.pathname.substring(0, document.location.pathname.indexOf('/', document.location.pathname.indexOf('/_sites/') + 8)) + "/' />");
-    }
-    else if (document.location.pathname.indexOf('/sites/') != -1) {
-      document.write("<base href='" + document.location.pathname.substring(0, document.location.pathname.indexOf('/', document.location.pathname.indexOf('/sites/') + 7)) + "/' />");
-    }
-  </script>
-  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,user-scalable=yes">
   <meta name="generator" content="HAXcms">
-  <meta name="description" content="A HAXCMS site">
-  <meta name="theme-color" content="#3f51b5">
+  <link rel="manifest" href="manifest.json">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+  <title>HAX-the-web</title>
+  <link rel="icon" href="files/haxcms-managed/16x16-3450183.png">
+  <meta name="theme-color" content="#009dc7">
+  <meta name="robots" content="index, follow">
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name=”robots” content=”index, follow”>
-  <meta name="application-name" content="My site">
+  <meta name="application-name" content="HAX-the-web">
+
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="My App">
-  <meta name="msapplication-TileImage" content="assets/icon-144x144.png">
-  <meta name="msapplication-TileColor" content="#3f51b5">
+  <meta name="apple-mobile-web-app-title" content="HAX-the-web">
+
+  <link rel="apple-touch-icon" sizes="48x48" href="files/haxcms-managed/48x48-3450183.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="files/haxcms-managed/72x72-3450183.png">
+  <link rel="apple-touch-icon" sizes="96x96" href="files/haxcms-managed/96x96-3450183.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="files/haxcms-managed/144x144-3450183.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="files/haxcms-managed/192x192-3450183.png">
+
+  <meta name="msapplication-TileImage" content="files/haxcms-managed/144x144-3450183.png">
+  <meta name="msapplication-TileColor" content="#009dc7">
   <meta name="msapplication-tap-highlight" content="no">
-  <link rel="icon" href="assets/favicon.ico">
-  <link rel="apple-touch-icon" href="assets/icon-48x48.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="assets/icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="96x96" href="assets/icon-96x96.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="assets/icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="192x192" href="assets/icon-192x192.png">
-  <title>My site</title>
+        
+  <meta name="description" content="Documentation and learning about how we HAX the web" />
+  <meta name="og:sitename" property="og:sitename" content="HAX-the-web" />
+  <meta name="og:title" property="og:title" content="HAX-the-web" />
+  <meta name="og:type" property="og:type" content="article" />
+  <meta name="og:url" property="og:url" content="https://haxtheweb.org/" />
+  <meta name="og:description" property="og:description" content="Documentation and learning about how we HAX the web" />
+  <meta name="og:image" property="og:image" content="assets/banner.jpg" />
+  <meta name="twitter:card" property="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" property="twitter:site" content="https://haxtheweb.org/" />
+  <meta name="twitter:title" property="twitter:title" content="HAX-the-web" />
+  <meta name="twitter:description" property="twitter:description" content="Documentation and learning about how we HAX the web" />
+  <meta name="twitter:image" property="twitter:image" content="assets/banner.jpg" />
+  <meta rel="cc:license" href="https://creativecommons.org/licenses/by-sa/4.0/" content="License: Creative Commons: Attribution Share a like"/>
+
+  <meta name="twitter:creator" content="@elmsln" />
+  <!-- Start Single Page Apps for GitHub Pages -->
+  <script>
+    // Single Page Apps for GitHub Pages
+    // https://github.com/rafrex/spa-github-pages
+    // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
+    // ----------------------------------------------------------------------
+    // This script checks to see if a redirect is present in the query string
+    // and converts it back into the correct url and adds it to the
+    // browser's history using window.history.replaceState(...),
+    // which won't cause the browser to attempt to load the new url.
+    // When the single page app is loaded further down in this file,
+    // the correct url will be waiting in the browser's history for
+    // the single page app to route accordingly.
+    (function (l) {
+      if (l.search) {
+        var q = {};
+        l.search.slice(1).split('&').forEach(function (v) {
+          var a = v.split('=');
+          q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+        });
+        if (q.p !== undefined) {
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + (q.p || '') +
+            (q.q ? ('?' + q.q) : '') +
+            l.hash
+          );
+        }
+      }
+    }(window.location))
+  </script>
+  <!-- End Single Page Apps for GitHub Pages -->
+  
+  <script>
+    if ('serviceWorker' in navigator) {
+      var sitePath = '/';
+      // discover this path downstream of the root of the domain
+      var swScope = window.location.pathname.substring(0, window.location.pathname.indexOf(sitePath)) + sitePath;
+      if (swScope != document.head.getElementsByTagName('base')[0].href) {
+        document.head.getElementsByTagName('base')[0].href = swScope;
+      }
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('service-worker.js', {
+          scope: swScope
+        }).then(function (registration) {
+          registration.onupdatefound = function () {
+            // The updatefound event implies that registration.installing is set; see
+            // https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#service-worker-container-updatefound-event
+            var installingWorker = registration.installing;
+            installingWorker.onstatechange = function () {
+              switch (installingWorker.state) {
+                case 'installed':
+                  if (!navigator.serviceWorker.controller) {
+                    window.dispatchEvent(new CustomEvent('simple-toast-show', {
+                      bubbles: true,
+                      cancelable: false,
+                      detail: {
+                        text: 'Pages you view are cached for offline use.',
+                        duration: 8000
+                      }
+                    }));
+                  }
+                break;
+                case 'redundant':
+                  throw Error('The installing service worker became redundant.');
+                break;
+              }
+            };
+          };
+        }).catch(function (e) {
+          console.warn('Service worker registration failed:', e);
+        });
+        // Check to see if the service worker controlling the page at initial load
+        // has become redundant, since this implies there's a new service worker with fresh content.
+        if (navigator.serviceWorker.controller) {
+          navigator.serviceWorker.controller.onstatechange = function(event) {
+            if (event.target.state === 'redundant') {
+              var b = document.createElement('paper-button');
+              b.appendChild(document.createTextNode('Reload'));
+              b.raised = true;
+              b.addEventListener('click', function(e){ window.location.reload(true); });
+              window.dispatchEvent(new CustomEvent('simple-toast-show', {
+                bubbles: true,
+                cancelable: false,
+                detail: {
+                  text: 'A site update is available. Reload for latest content.',
+                  duration: 12000,
+                  slot: b,
+                  clone: false
+                }
+              }));
+            }
+          };
+        }
+      });
+    }
+  </script>
   <style>
     body {
       margin: 0;
@@ -56,7 +166,7 @@
       display: block;
       position: initial;
       height: 100vh;
-      background: orange;
+      background: #009dc7;
     }
     haxcms-site-builder:not(:defined) div {
       font-size: 6vw;
@@ -72,13 +182,13 @@
       font-family: "Courier New", Courier, monospace;
       color: black;
     }
-    body[no-js] haxcms-site-builder {
+    body[no-js] haxcms-site-builder{
       display: none !important;
     }
   </style>
 </head>
 <body no-js vocab="http://schema.org/" prefix="oer:http://oerschema.org cc:http://creativecommons.org/ns dc:http://purl.org/dc/terms/">
-  <haxcms-site-builder id="site" file="site.json"><div class="loading"><div>Site</div><div>loading</div></div></haxcms-site-builder>
+  <haxcms-site-builder id="site" file="site.json"><div class="loading"><div>HAX-the-web</div><div>loading</div></div></haxcms-site-builder>
   <div id="haxcmsoutdatedfallback">
     <haxcms-legacy-player file="site.json"></haxcms-legacy-player>
     <div id="haxcmsoutdatedfallbacksuperold"> 
@@ -89,7 +199,36 @@
         view our website correctly. <a href="http://outdatedbrowser.com/">Update my browser now</a></div>
     </div>
   </div>
-  <script>document.body.removeAttribute('no-js');var cdn="";var forceUpgrade=false;var old=false;var ancient=false;
+  <script>
+    // this is in order to fake a connection for development purposes
+    window.appSettings = {
+      "login": "fake\/dev\/login.json",
+      "logout": "fake\/dev\/logout.json",
+      "saveNodePath": "fake\/dev\/saveNode.json",
+      "saveManifestPath": "fake\/dev\/saveManifestPath.json",
+      "createNodePath": "fake\/dev\/saveNode.json",
+      "deleteNodePath": "fake\/dev\/saveNode.json",
+      "saveOutlinePath": "fake\/dev\/saveNode.json",
+      "publishSitePath": "fake\/dev\/saveNode.json",
+      "getNodeFieldsPath": "fake\/dev\/getNodeFieldsPath.json",
+      "getSiteFieldsPath": "fake\/dev\/getSiteFieldsPath.json",
+      "revertSitePath": "fake\/dev\/saveNode.json",
+      "getFieldsToken": "adskjadshjudfu823u823u8fu8fij",
+      "appStore": {
+        "url": "fake\/dev\/appstore.json"
+      },
+      // add your custom theme here if testing locally and wanting to emulate the theme selector
+      // this isn't really nessecary though
+      "themes": {
+        "haxcms-dev-theme": {
+          "element": "haxcms-dev-theme",
+          "path": "@lrnwebcomponents/haxcms-elements/lib/haxcms-dev-theme.js",
+          "name": "Developer theme"
+        }
+      }
+    };
+  </script>
+  <script>document.body.removeAttribute('no-js');var cdn="https://cdn.waxam.io/";var old=false;var ancient=false;window.__haxCMSContextDemo=true;
     if (typeof Symbol == "undefined") { // IE 11, at least try to serve a watered down site
       ancient = true;
     }
@@ -141,9 +280,6 @@
     }
     else {
       old=true;
-      if (forceUpgrade) {
-        window.location = "upgrade-browser.html";
-      }
       // we bombed somewhere above, this implies that it's some odd between version
       // most likely Safari 9ish, IE pre 11 and anything uber old. Serve no JS variation
       document.getElementById('site').style.display = 'none';
@@ -165,12 +301,13 @@
     link2.type = 'text/css';
     def.parentNode.insertBefore(link2, def);
   </script>
+  </script>
   <script>if(old)document.write('<!--');</script>
   <script type="module">
-    import "./build/es6/dist/build.js";
+    import "https://cdn.waxam.io/build/es6/dist/build.js";
     import "./custom/build/custom.es6.js";
   </script>
-  <script async src="build/es6/node_modules/web-animations-js/web-animations-next-lite.min.js">
+  <script async src="https://cdn.waxam.io/build/es6/node_modules/web-animations-js/web-animations-next-lite.min.js">
   //<!--! do not remove -->
   </script>
 </body>
