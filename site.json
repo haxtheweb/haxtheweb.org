@@ -1401,10 +1401,10 @@
             "order": 6,
             "parent": null,
             "title": "Scavenger Hunt",
-            "description": "Become part of our dynasty franchise **by wearing a cool jerseyWe're building the greatest roster of people ever to HAX the complacency of our industry. Take the HAX scavenger hunt at the next eve",
+            "description": "Become part of our dynasty franchise **by wearing a cool jerseyWe're building the greatest roster of people ever to HAX the complacency of our industry. Take the HAX scavenger hunt at the next ev",
             "metadata": {
                 "created": 1563970537,
-                "updated": 1565894044,
+                "updated": 1569878862,
                 "readtime": 1,
                 "contentDetails": {
                     "headings": 1,
@@ -1412,7 +1412,7 @@
                     "schema": [
                         {
                             "typeof": "oer:SupportingMaterial",
-                            "resource": "#eda739ef-9142-c05e-c571",
+                            "resource": "#238ee75a-de4d-02a9-3755",
                             "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
                         }
                     ],
