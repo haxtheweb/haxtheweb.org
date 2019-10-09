@@ -100,10 +100,10 @@
             "order": 0,
             "parent": null,
             "title": "Welcome",
-            "description": "Join us at Duke University October 7th and 8th for < hax-camp >!Headless Authoring eXperience (HAX) is a next generation block editor that frees you of block editor specific code. HAX works by addi",
+            "description": "Headless Authoring eXperience (HAX) is a next generation block editor that frees you of block editor specific code. HAX works by adding a small bit of JSON schema to web components that you author. Th",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1568893216,
+                "updated": 1570597049,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
@@ -133,7 +133,7 @@
                 "readtime": 2,
                 "contentDetails": {
                     "headings": 1,
-                    "paragraphs": 5,
+                    "paragraphs": 4,
                     "schema": [
                         {
                             "resource": "#18d556e9-a1d7-3069-81d9",
@@ -145,14 +145,14 @@
                         }
                     ],
                     "tags": {
-                        "p": 5,
+                        "p": 4,
                         "h3": 1,
                         "ol": 1,
                         "video-player": 1,
                         "a11y-gif-player": 1,
                         "code-sample": 2
                     },
-                    "elements": 11
+                    "elements": 10
                 }
             }
         },
