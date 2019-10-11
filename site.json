@@ -2,18 +2,19 @@
     "id": "95f2b045-cfdb-4e35-b29b-e7f71c859987",
     "title": "HAX-the-web",
     "author": "elmsln",
-    "description": "Documentation and learning about how we HAX the web",
+    "description": "Project home and documentation for all things HAX",
     "license": "by-sa",
     "metadata": {
         "author": {
             "name": "ELMS:LN",
             "image": "",
-            "socialLink": "https:\/\/twitter.com\/elmsln"
+            "socialLink": "https:\/\/twitter.com\/elmsln",
+            "email": ""
         },
         "site": {
             "name": "haxtheweb",
             "created": 1547138719,
-            "updated": 1569614889,
+            "updated": 1570805723,
             "domain": "https:\/\/haxtheweb.org\/",
             "git": {
                 "vendor": "github",
@@ -31,9 +32,11 @@
             },
             "settings": {
                 "pathauto": true,
-                "publishPagesOn": false
+                "publishPagesOn": false,
+                "sw": false,
+                "forceUpgrade": false
             },
-            "version": "0.11.0",
+            "version": "0.12.3",
             "logo": "files\/3450183.png"
         },
         "theme": {
