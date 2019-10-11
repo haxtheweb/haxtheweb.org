@@ -40,7 +40,7 @@
 var precacheConfig = [
     [
         "pages\/home\/index.html",
-        "Fp11UQqqKhHAzZS9hvXlw"
+        "IDWbJFXalEIi38MKvmYRQ"
     ],
     [
         "pages\/what-is-it\/index.html",
@@ -280,7 +280,7 @@ var precacheConfig = [
     ],
     [
         "pages\/scavenger-hunt\/index.html",
-        "HBjmDsSBm49EXBBHORbisw"
+        "jqyX8LlkZVq8W8iSe46NA"
     ],
     [
         "index.html",
@@ -336,11 +336,11 @@ var precacheConfig = [
     ],
     [
         "site.json",
-        "iplcXIHhs946BLmpQJAcIw"
+        "Z3dkwmxZA7wYQCJBZmS0w"
     ],
     [
         "404.html",
-        "dSqOj2FfwLtvzh03W3Gyg"
+        "QEzLbAYRfRrqwxyIGIpfNQ"
     ],
     [
         "files\/Roadmap.jpg",

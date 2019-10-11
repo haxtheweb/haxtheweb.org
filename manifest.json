@@ -1,7 +1,7 @@
 {
     "name": "HAX-the-web",
     "short_name": "haxtheweb",
-    "description": "Documentation and learning about how we HAX the web",
+    "description": "Project home and documentation for all things HAX",
     "icons": [
         {
             "src": "files/haxcms-managed/36x36-3450183.png",
