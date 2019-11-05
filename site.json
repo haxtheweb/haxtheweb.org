@@ -386,10 +386,26 @@
             "order": 6,
             "parent": "item-welcome",
             "title": "I have issues",
-            "description": "Yea yea, we all do.Oh, you have a problem or would like to contribute to HAXcms (that's awesome!). All issues, feature requests and general thumbs up should happen in our issue queue on github:\u00a0http",
+            "description": "You have a problem or would like to contribute to HAXcms? That's awesome! All issues, feature requests and general thumbs up should happen in our issue queue on github:\u00a0https:\/\/github.com\/elmsln\/haxc",
             "metadata": {
                 "created": 1553556295,
-                "updated": 1565705512
+                "updated": 1572928506,
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 1,
+                    "schema": [
+                        {
+                            "resource": "#b54c9847-4d26-90ae-d748",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        }
+                    ],
+                    "tags": {
+                        "p": 1,
+                        "a11y-gif-player": 1
+                    },
+                    "elements": 2
+                }
             }
         },
         {

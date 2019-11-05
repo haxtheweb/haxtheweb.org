@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- generator-class="Icamys\SitemapGenerator\SitemapGenerator" -->
 <!-- generator-version="1.1.0" -->
-<!-- generated-on="2019-10-08T22:59:36-06:00" -->
+<!-- generated-on="2019-11-04T21:35:06-07:00" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//home</loc>
@@ -65,7 +65,7 @@
   </url>
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//i-have-issues</loc>
-    <lastmod>2019-08-13T08:11:52-06:00</lastmod>
+    <lastmod>2019-11-04T21:35:06-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
