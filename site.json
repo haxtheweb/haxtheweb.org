@@ -303,14 +303,14 @@
             "order": 3,
             "parent": "item-welcome",
             "title": "Why HAXcms",
-            "description": "HAXcms, which powers this website, is hard to describe exactly what \"kind\" of system it is. That's because given that it's 100% web components, decoupled, and static by design, it's hard to put it in",
+            "description": "HAXcms powers this website and is a hybrid static site generator, a new class of CMS. It's hybrid in that everything is written to static like a static site generator and it's 100% decoupled via web ",
             "metadata": {
                 "created": 1563972322,
-                "updated": 1565705511,
+                "updated": 1576092861,
                 "readtime": 2,
                 "contentDetails": {
                     "headings": 6,
-                    "paragraphs": 6,
+                    "paragraphs": 5,
                     "schema": [
                         {
                             "typeof": "oer:Assessment",
@@ -322,12 +322,12 @@
                         "grid-plate": 1,
                         "h2": 2,
                         "ul": 3,
-                        "p": 6,
+                        "p": 5,
                         "h4": 4,
                         "img": 1,
                         "multiple-choice": 1
                     },
-                    "elements": 18
+                    "elements": 17
                 }
             }
         },
