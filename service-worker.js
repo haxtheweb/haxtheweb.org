@@ -68,7 +68,7 @@ var precacheConfig = [
     ],
     [
         "pages\/home\/why-haxcms\/index.html",
-        "byToauJw1BPUdlb6ttSrw"
+        "jbJEhg0wMNvgKTdHuybzew"
     ],
     [
         "pages\/try-hax\/index.html",
@@ -284,7 +284,7 @@ var precacheConfig = [
     ],
     [
         "index.html",
-        "NzJOQEHdJPaVVYOl0rqGw"
+        "WGa3vji4VdX4pB29a5rsbQ"
     ],
     [
         "files\/haxcms-managed\/512x512-3450183.png",
@@ -343,20 +343,144 @@ var precacheConfig = [
         "QEzLbAYRfRrqwxyIGIpfNQ"
     ],
     [
-        "files\/Roadmap.jpg",
-        "iFFmAFs0MRszoNRpIOTXTQ"
+        "files\/2019-01-25_14-05-59.png",
+        "6WQ28zgmkTgXqluj7HBNBg"
     ],
     [
-        "files\/mampstart.jpg",
-        "nRZdPZcrLcm67xIp3TYdQ"
+        "files\/2019-01-27_10-10-39.png",
+        "wILedZJIMsevf3B9Q6JnFw"
+    ],
+    [
+        "files\/2019-01-27_17-39-01.png",
+        "6SiXrdVbeaDaffgT317zWg"
+    ],
+    [
+        "files\/2019-01-27_17-39-31.png",
+        "tlYT0GX9y1Q1VmHlddgvmw"
+    ],
+    [
+        "files\/2019-01-27_17-33-57.png",
+        "eC9DC3H2BWSxzcSHHYpuw"
+    ],
+    [
+        "files\/2019-01-27_10-10-58.png",
+        "VdWRH9717QXDzDu6e9imug"
+    ],
+    [
+        "files\/2019-01-25_14-04-31.png",
+        "TbwdTI6FF4xbVdVUEMzK7Q"
+    ],
+    [
+        "files\/2019-03-12_16-45-51.png",
+        "rvEknEJJwwxnbjQ862kg"
+    ],
+    [
+        "files\/._.DS_Store",
+        "A0pQqDXkb1dum938Ip9Mxw"
     ],
     [
         "files\/3450183.png",
         "2vPNkZKZ5sW8UVQoThAcRA"
     ],
     [
+        "files\/2019-01-27_09-23-44.png",
+        "Di9FJlwLIocBUvhnVi4A9w"
+    ],
+    [
         "files\/2019-01-27_09-23-59.png",
         "VEgN6kvHZPbXmOPEYaJA"
+    ],
+    [
+        "files\/gitpublishingdata.jpg",
+        "yKPwn9PbiCrE1nJqiy1JA"
+    ],
+    [
+        "files\/2019-01-27_18-05-51.png",
+        "xXmIr2GwnSmioMUNQolAYQ"
+    ],
+    [
+        "files\/2019-01-29_22-47-53.png",
+        "Lpbo3XZIKV6Dok6o2Afg"
+    ],
+    [
+        "files\/pubwork1.jpg",
+        "L2NfHWUo5GnFhNoKlNr9A"
+    ],
+    [
+        "files\/HAXCms workflow.jpg",
+        "h0QfGEQyTSwbkL9uFWojqw"
+    ],
+    [
+        "files\/2019-01-27_09-23-33.png",
+        "ySz3BTqt0BczeIJKCH4Q"
+    ],
+    [
+        "files\/2019-01-27_10-25-22.png",
+        "4eYa7xjiWdQ59ehcX3XGw"
+    ],
+    [
+        "files\/mamppage.jpg",
+        "EfYuCCY2S2iOlf6VQ9b0w"
+    ],
+    [
+        "files\/d8cdnimage.jpg",
+        "wBPjaGz0B5mZFgb66I3HA"
+    ],
+    [
+        "files\/mampstructure.jpg",
+        "MKuoeUCwGLJrEO0UjmNLw"
+    ],
+    [
+        "files\/2019-03-21_15-12-05.jpg",
+        "TUnlTQRl7ktIFBVcwcPOQ"
+    ],
+    [
+        "files\/pubwork2.jpg",
+        "rTTHXtetyfaaEWHgKBPg"
+    ],
+    [
+        "files\/haxd8simply.jpg",
+        "ZthRjMDItwiLMaIs4UF8A"
+    ],
+    [
+        "files\/mampstart.jpg",
+        "nRZdPZcrLcm67xIp3TYdQ"
+    ],
+    [
+        "files\/Picture1.png",
+        "9xJNkS7qmKy4hufccLOZqg"
+    ],
+    [
+        "files\/2019-02-20_01-26-10.png",
+        "vmeIeTNm1hK7GRG3Zwjp1A"
+    ],
+    [
+        "files\/2019-02-20_01-26-01.png",
+        "xRAxgZYXkmteGfclP7WQg"
+    ],
+    [
+        "files\/sourceviewthispage.jpg",
+        "4uHTjQlOpHSfDXLN1cP8w"
+    ],
+    [
+        "files\/2019-01-27_10-22-28.png",
+        "sTnTmDnmLQ9zb7lJUvukg"
+    ],
+    [
+        "files\/59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
+        "oTxKP22mGGCaMUMvUy4Ew"
+    ],
+    [
+        "files\/IMG_20190127_153429.jpg",
+        "yd4LYpwHWIv1yKGKmkQd4Q"
+    ],
+    [
+        "files\/2019-02-25_16-22-25.png",
+        "9FCh9SAIZNBrikiISCaHcA"
+    ],
+    [
+        "files\/lego.jpg",
+        "VXAkmIpVUqB2wzcVyd3x2Q"
     ],
     [
         "files\/ngdle.png",
@@ -367,152 +491,32 @@ var precacheConfig = [
         "feg5NUoR9fucYByzHfDJXA"
     ],
     [
-        "files\/2019-01-27_18-05-51.png",
-        "xXmIr2GwnSmioMUNQolAYQ"
+        "files\/2019-01-27_09-45-04.png",
+        "zDC1pmhvnlHuW6E51yQE5A"
+    ],
+    [
+        "files\/Roadmap.jpg",
+        "iFFmAFs0MRszoNRpIOTXTQ"
     ],
     [
         "files\/haxrelationships.jpg",
         "qtLhHIKnm1HCCAFnD96mA"
     ],
     [
-        "files\/59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg",
-        "oTxKP22mGGCaMUMvUy4Ew"
-    ],
-    [
-        "files\/2019-03-12_16-45-51.png",
-        "rvEknEJJwwxnbjQ862kg"
-    ],
-    [
-        "files\/mamppage.jpg",
-        "EfYuCCY2S2iOlf6VQ9b0w"
-    ],
-    [
-        "files\/lego.jpg",
-        "VXAkmIpVUqB2wzcVyd3x2Q"
-    ],
-    [
-        "files\/2019-01-25_14-05-59.png",
-        "6WQ28zgmkTgXqluj7HBNBg"
-    ],
-    [
-        "files\/2019-01-25_14-04-31.png",
-        "TbwdTI6FF4xbVdVUEMzK7Q"
-    ],
-    [
-        "files\/2019-02-25_16-22-25.png",
-        "9FCh9SAIZNBrikiISCaHcA"
-    ],
-    [
-        "files\/2019-01-27_17-39-01.png",
-        "6SiXrdVbeaDaffgT317zWg"
-    ],
-    [
-        "files\/IMG_20190127_153429.jpg",
-        "yd4LYpwHWIv1yKGKmkQd4Q"
-    ],
-    [
-        "files\/d8cdnimage.jpg",
-        "wBPjaGz0B5mZFgb66I3HA"
-    ],
-    [
-        "files\/2019-01-27_17-33-57.png",
-        "eC9DC3H2BWSxzcSHHYpuw"
-    ],
-    [
-        "files\/2019-01-27_09-45-04.png",
-        "zDC1pmhvnlHuW6E51yQE5A"
-    ],
-    [
-        "files\/2019-01-27_10-10-39.png",
-        "wILedZJIMsevf3B9Q6JnFw"
-    ],
-    [
         "files\/2019-01-27_10-22-48.png",
         "i3RibHTk0kxkChXembJFGg"
-    ],
-    [
-        "files\/2019-01-27_09-23-33.png",
-        "ySz3BTqt0BczeIJKCH4Q"
-    ],
-    [
-        "files\/HAXCms workflow.jpg",
-        "h0QfGEQyTSwbkL9uFWojqw"
-    ],
-    [
-        "files\/2019-03-21_15-12-05.jpg",
-        "TUnlTQRl7ktIFBVcwcPOQ"
-    ],
-    [
-        "files\/2019-01-27_17-39-31.png",
-        "tlYT0GX9y1Q1VmHlddgvmw"
-    ],
-    [
-        "files\/sourceviewthispage.jpg",
-        "4uHTjQlOpHSfDXLN1cP8w"
-    ],
-    [
-        "files\/demo.csv",
-        "3Id2QkyorDuLUvz6MlRhA"
-    ],
-    [
-        "files\/2019-03-23_10-51-10.jpg",
-        "uA3RmjTPTucU4zU3epjA"
-    ],
-    [
-        "files\/Picture1.png",
-        "9xJNkS7qmKy4hufccLOZqg"
-    ],
-    [
-        "files\/2019-01-27_10-10-58.png",
-        "VdWRH9717QXDzDu6e9imug"
-    ],
-    [
-        "files\/2019-01-27_10-22-28.png",
-        "sTnTmDnmLQ9zb7lJUvukg"
-    ],
-    [
-        "files\/pubwork1.jpg",
-        "L2NfHWUo5GnFhNoKlNr9A"
-    ],
-    [
-        "files\/haxd8simply.jpg",
-        "ZthRjMDItwiLMaIs4UF8A"
-    ],
-    [
-        "files\/2019-02-20_01-26-10.png",
-        "vmeIeTNm1hK7GRG3Zwjp1A"
-    ],
-    [
-        "files\/2019-01-27_10-25-22.png",
-        "4eYa7xjiWdQ59ehcX3XGw"
-    ],
-    [
-        "files\/pubwork2.jpg",
-        "rTTHXtetyfaaEWHgKBPg"
-    ],
-    [
-        "files\/mampstructure.jpg",
-        "MKuoeUCwGLJrEO0UjmNLw"
-    ],
-    [
-        "files\/2019-02-20_01-26-01.png",
-        "xRAxgZYXkmteGfclP7WQg"
-    ],
-    [
-        "files\/2019-01-27_09-23-44.png",
-        "Di9FJlwLIocBUvhnVi4A9w"
     ],
     [
         "files\/HAXshort.vtt",
         "nsneskvQ7H996xTa3DGH7Q"
     ],
     [
-        "files\/2019-01-29_22-47-53.png",
-        "Lpbo3XZIKV6Dok6o2Afg"
+        "files\/2019-03-23_10-51-10.jpg",
+        "uA3RmjTPTucU4zU3epjA"
     ],
     [
-        "files\/gitpublishingdata.jpg",
-        "yKPwn9PbiCrE1nJqiy1JA"
+        "files\/demo.csv",
+        "3Id2QkyorDuLUvz6MlRhA"
     ]
 ];
 var cacheName = 'sw-precache-v3--' + (self.registration ? self.registration.scope : '');
