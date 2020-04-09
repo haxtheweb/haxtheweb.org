@@ -4,9 +4,9 @@
     <title>HAX-the-web</title>
     <link>https://haxtheweb.org//rss.xml</link>
     <description>Project home and documentation for all things HAX</description>
-    <copyright>Copyright (C) 2019 https://haxtheweb.org/</copyright>
+    <copyright>Copyright (C) 2020 https://haxtheweb.org/</copyright>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Nov 2019 21:35:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2020 15:01:28 +0000</lastBuildDate>
     <atom:link href="https://haxtheweb.org//rss.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Roadmap</title>
@@ -24,7 +24,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//home/roadmap</guid>
-      <pubDate>Thu, 08 Aug 2019 12:53:07 -0600</pubDate>
+      <pubDate>Thu, 08 Aug 2019 18:53:07 +0000</pubDate>
     </item>
     <item>
       <title>ClassicPress</title>
@@ -95,7 +95,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//integrations/classicpress</guid>
-      <pubDate>Thu, 08 Aug 2019 09:43:29 -0600</pubDate>
+      <pubDate>Thu, 08 Aug 2019 15:43:29 +0000</pubDate>
     </item>
     <item>
       <title>Why HAXcms</title>
@@ -153,7 +153,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//home/why-haxcms</guid>
-      <pubDate>Wed, 24 Jul 2019 06:45:22 -0600</pubDate>
+      <pubDate>Wed, 24 Jul 2019 12:45:22 +0000</pubDate>
     </item>
     <item>
       <title>Scavenger Hunt</title>
@@ -195,7 +195,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//scavenger-hunt</guid>
-      <pubDate>Wed, 24 Jul 2019 06:15:37 -0600</pubDate>
+      <pubDate>Wed, 24 Jul 2019 12:15:37 +0000</pubDate>
     </item>
     <item>
       <title>HAXiam</title>
@@ -210,7 +210,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//haxiam</guid>
-      <pubDate>Sun, 19 May 2019 20:49:29 -0600</pubDate>
+      <pubDate>Mon, 20 May 2019 02:49:29 +0000</pubDate>
     </item>
     <item>
       <title>Haxor Slevin</title>
@@ -223,7 +223,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//haxor-slevin</guid>
-      <pubDate>Wed, 15 May 2019 13:36:50 -0600</pubDate>
+      <pubDate>Wed, 15 May 2019 19:36:50 +0000</pubDate>
     </item>
     <item>
       <title>Life cycle</title>
@@ -243,7 +243,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//life-cycle</guid>
-      <pubDate>Fri, 05 Apr 2019 14:27:27 -0600</pubDate>
+      <pubDate>Fri, 05 Apr 2019 20:27:27 +0000</pubDate>
     </item>
     <item>
       <title>I have issues</title>
@@ -256,7 +256,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//i-have-issues</guid>
-      <pubDate>Mon, 25 Mar 2019 17:24:55 -0600</pubDate>
+      <pubDate>Mon, 25 Mar 2019 23:24:55 +0000</pubDate>
     </item>
     <item>
       <title>Troubleshooting</title>
@@ -279,7 +279,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//troubleshooting</guid>
-      <pubDate>Mon, 25 Mar 2019 17:16:04 -0600</pubDate>
+      <pubDate>Mon, 25 Mar 2019 23:16:04 +0000</pubDate>
     </item>
     <item>
       <title>Skin a site</title>
@@ -301,7 +301,7 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//skin-a-custom-theme</guid>
-      <pubDate>Sat, 23 Mar 2019 09:21:47 -0600</pubDate>
+      <pubDate>Sat, 23 Mar 2019 15:21:47 +0000</pubDate>
     </item>
     <item>
       <title>Query examples</title>
@@ -419,7 +419,7 @@ that are 2 to 4 levels deep.</span>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//query-examples</guid>
-      <pubDate>Sat, 23 Mar 2019 07:58:38 -0600</pubDate>
+      <pubDate>Sat, 23 Mar 2019 13:58:38 +0000</pubDate>
     </item>
     <item>
       <title>Web components</title>
@@ -489,7 +489,7 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//web-components</guid>
-      <pubDate>Sat, 23 Mar 2019 07:58:38 -0600</pubDate>
+      <pubDate>Sat, 23 Mar 2019 13:58:38 +0000</pubDate>
     </item>
     <item>
       <title>CSS vars</title>
@@ -547,7 +547,7 @@ site-active-title {
       </description>
       <category></category>
       <guid>https://haxtheweb.org//css</guid>
-      <pubDate>Sat, 23 Mar 2019 07:58:38 -0600</pubDate>
+      <pubDate>Sat, 23 Mar 2019 13:58:38 +0000</pubDate>
     </item>
     <item>
       <title>Dev workflows</title>
@@ -607,7 +607,7 @@ site-active-title {
       </description>
       <category></category>
       <guid>https://haxtheweb.org//dev-workflows</guid>
-      <pubDate>Sat, 23 Mar 2019 07:58:38 -0600</pubDate>
+      <pubDate>Sat, 23 Mar 2019 13:58:38 +0000</pubDate>
     </item>
     <item>
       <title>Get Involved!</title>
@@ -748,7 +748,7 @@ site-active-title {
       </description>
       <category></category>
       <guid>https://haxtheweb.org//get-involved-</guid>
-      <pubDate>Thu, 21 Mar 2019 13:46:24 -0600</pubDate>
+      <pubDate>Thu, 21 Mar 2019 19:46:24 +0000</pubDate>
     </item>
     <item>
       <title>Example themes</title>
@@ -767,7 +767,7 @@ site-active-title {
       </description>
       <category></category>
       <guid>https://haxtheweb.org//example-themes</guid>
-      <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
+      <pubDate>Thu, 21 Mar 2019 18:53:16 +0000</pubDate>
     </item>
     <item>
       <title>Simple blog</title>
@@ -781,7 +781,7 @@ site-active-title {
       </description>
       <category></category>
       <guid>https://haxtheweb.org//simple-blog</guid>
-      <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
+      <pubDate>Thu, 21 Mar 2019 18:53:16 +0000</pubDate>
     </item>
     <item>
       <title>Slide player</title>
@@ -794,7 +794,7 @@ site-active-title {
       </description>
       <category></category>
       <guid>https://haxtheweb.org//slide-player</guid>
-      <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
+      <pubDate>Thu, 21 Mar 2019 18:53:16 +0000</pubDate>
     </item>
     <item>
       <title>Outline player</title>
@@ -810,7 +810,7 @@ site-active-title {
       </description>
       <category></category>
       <guid>https://haxtheweb.org//outline-player</guid>
-      <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
+      <pubDate>Thu, 21 Mar 2019 18:53:16 +0000</pubDate>
     </item>
     <item>
       <title>Basic</title>
@@ -829,7 +829,7 @@ site-active-title {
       </description>
       <category></category>
       <guid>https://haxtheweb.org//basic</guid>
-      <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
+      <pubDate>Thu, 21 Mar 2019 18:53:16 +0000</pubDate>
     </item>
     <item>
       <title>Learn two</title>
@@ -843,7 +843,7 @@ site-active-title {
       </description>
       <category></category>
       <guid>https://haxtheweb.org//learn-two</guid>
-      <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
+      <pubDate>Thu, 21 Mar 2019 18:53:16 +0000</pubDate>
     </item>
     <item>
       <title>Dev theme</title>
@@ -856,7 +856,7 @@ site-active-title {
       </description>
       <category></category>
       <guid>https://haxtheweb.org//dev-theme</guid>
-      <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
+      <pubDate>Thu, 21 Mar 2019 18:53:16 +0000</pubDate>
     </item>
     <item>
       <title>Minimalist</title>
@@ -877,7 +877,7 @@ site-active-title {
       </description>
       <category></category>
       <guid>https://haxtheweb.org//minimalist</guid>
-      <pubDate>Thu, 21 Mar 2019 12:53:16 -0600</pubDate>
+      <pubDate>Thu, 21 Mar 2019 18:53:16 +0000</pubDate>
     </item>
     <item>
       <title>Presentations</title>
@@ -891,7 +891,7 @@ site-active-title {
       </description>
       <category></category>
       <guid>https://haxtheweb.org//presentations</guid>
-      <pubDate>Mon, 18 Mar 2019 06:06:57 -0600</pubDate>
+      <pubDate>Mon, 18 Mar 2019 12:06:57 +0000</pubDate>
     </item>
     <item>
       <title>Core elements</title>
@@ -990,7 +990,7 @@ the title of the active item wrapped in a h1 tag
       </description>
       <category></category>
       <guid>https://haxtheweb.org//elements</guid>
-      <pubDate>Tue, 12 Mar 2019 18:45:37 -0600</pubDate>
+      <pubDate>Wed, 13 Mar 2019 00:45:37 +0000</pubDate>
     </item>
   </channel>
 </rss>

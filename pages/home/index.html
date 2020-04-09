@@ -1,6 +1,10 @@
-<p>Headless Authoring eXperience (HAX) is a next generation block editor written in web components. HAX works by adding a small bit of schema to your design assets. This keeps your <b>design pure </b>
+<p>Headless Authoring eXperience (HAX) is a next generation <b>block editor</b>
+ that works anywhere by using web platform standards. Check out a short video or experience the editor yourself by clicking the edit pencil in the top left corner.</p>
+<video-player style="margin: 0px auto; display: block;" accent-color="orange" dark lang="en" preload="metadata" source="https://www.youtube.com/watch?v=LrS7dqokTLE" sticky-corner="top-right" track="files/HAXshort.vtt" youtube-id="LrS7dqokTLE?undefined" iframed="" source-type="youtube" is-a11y-media="" is-youtube="" media-title="Why do I need to go anywhere?" resource="#18d556e9-a1d7-3069-81d9" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " sources="[]" tracks="[]" schema-resource-id="#18d556e9-a1d7-3069-81d9" crossorigin="anonymous">  <track src="files/HAXshort.vtt" kind="subtitles" label="English" slot="track"/></track>
+</video-player>
+<p>HAX works with web component based design assets so you are never tied to HAX. This keeps your <b>design pure </b>
 and without adding platform lock-in as content produced by HAX is semantic HTML.</p>
-<h3>Extending HAX is simple:</h3>
+<h3 id="header-2523335c-8e38-a022-c2ab-ad8fdab8541b">Extending HAX is simple:</h3>
 <ol><li>Make a new web component in any library you want, or VanillaJS</li>
 <li>Add some simple, well documented and flexible <a href="hax-schema">HAXSchema</a>
 <br/></li>
@@ -8,14 +12,12 @@ and without adding platform lock-in as content produced by HAX is semantic HTML.
 </b>
 HAX is around, it'll know how to edit your element but you can use it anywhere regardless!</li>
 </ol>
-<video-player style="width: 100%; margin: 0px auto; display: block;" accent-color="orange" dark lang="en" preload="metadata" source="https://www.youtube.com/watch?v=LrS7dqokTLE" sticky-corner="top-right" track="files/HAXshort.vtt" __stand-alone="" youtube-id="LrS7dqokTLE?undefined" iframed="" source-type="youtube" is-a11y-media="" is-youtube="" media-title="Why do I need to go anywhere?" resource="#18d556e9-a1d7-3069-81d9" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " sources="[]" tracks="[]" schema-resource-id="#18d556e9-a1d7-3069-81d9" __utils="[object HTMLElement]">  <track src="files/HAXshort.vtt" kind="subtitles" label="English" slot="track"/></track>
-</video-player>
 <p><span>HAX is easy for developers to integrate too! Yarn / NPM install the element, place the editable content inside the slot of the h-a-x tag and now you've got an incredible, flexible, future proof editor without platform lock-in! Go forth and HAX the web!</span></p>
-<a11y-gif-player src="https://media1.giphy.com/media/d2TeawtXmQ2OY/giphy.gif" src-without-animation="https://media0.giphy.com/media/d2TeawtXmQ2OY/480w_s.jpg" alt="HEman I have the power animation from tv show" schema-resource-id="#c7edcc4c-d947-ea43-6cfe" resource="#c7edcc4c-d947-ea43-6cfe" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 50%; margin: 0px auto; display: block;"></a11y-gif-player>
-<code-sample copy-clipboard-button style="width: 50%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">yarn add @lrnwebcomponents/h-a-x</template>
+<a11y-gif-player src="https://media1.giphy.com/media/d2TeawtXmQ2OY/giphy.gif" src-without-animation="https://media0.giphy.com/media/d2TeawtXmQ2OY/480w_s.jpg" alt="HEman I have the power animation from tv show" schema-resource-id="#c7edcc4c-d947-ea43-6cfe" resource="#c7edcc4c-d947-ea43-6cfe" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 50%; margin: 0px auto; display: block;" tooltip="Toggle animation"></a11y-gif-player>
+<code-sample copy-clipboard-button="" style="width: 50%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">yarn add @lrnwebcomponents/h-a-x</template>
 </code-sample>
 <p>As an example, the video-player at the top of the page was completely designed and worked on without ever thinking about HAX, same with the a11y-gif-player just above here or the code-sample tag. Then when the visual asset is finished, you write some small HAXSchema and now it's editable and able to be placed in HAX! Hit edit below and click on the video about to see for yourself.</p>
-<code-sample copy-clipboard-button style="width: 50%;">  <template preserve-content="preserve-content">// the tag opening just like normal HTML
+<code-sample copy-clipboard-button="" style="width: 50%;">  <template preserve-content="preserve-content">// the tag opening just like normal HTML
 &lt; video-player
 // a custom property to make the video stick in the corner
 sticky-corner="top-right"
