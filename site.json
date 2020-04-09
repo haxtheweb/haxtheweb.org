@@ -1,6 +1,6 @@
 {
     "id": "95f2b045-cfdb-4e35-b29b-e7f71c859987",
-    "title": "HAX-the-web",
+    "title": "hax-the-web",
     "author": "elmsln",
     "description": "Project home and documentation for all things HAX",
     "license": "by-sa",
@@ -14,7 +14,7 @@
         "site": {
             "name": "haxtheweb",
             "created": 1547138719,
-            "updated": 1583334088,
+            "updated": 1586457646,
             "domain": "https:\/\/haxtheweb.org\/",
             "git": {
                 "vendor": "github",
@@ -36,7 +36,7 @@
                 "sw": false,
                 "forceUpgrade": false
             },
-            "version": "1.0.0",
+            "version": "1.1.2",
             "logo": "files\/3450183.png"
         },
         "theme": {
