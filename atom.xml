@@ -640,7 +640,7 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
   <entry>
     <title>Get Involved!</title>
     <id>https://haxtheweb.org//get-involved-1</id>
-    <updated>2020-04-27T16:30:03+00:00</updated>
+    <updated>2020-04-27T17:08:47+00:00</updated>
     <published>2019-03-21T19:46:24+00:00</published>
     <summary>Join our communityJoin us on the HAXTheWeb Slack channelJoin us for HAXcamp Un-code every Friday 3 pm - 5 pm (EST)Follow / use the #HAXTheWeb hash tagJoin our projectsHAXcms - That which </summary>
     <link href="https://haxtheweb.org//get-involved-1"/>
@@ -668,21 +668,22 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
 </ul>
 <h2 id="header-3d04edbc-0fab-aaa3-c345-f8f78f322f02"><span>Organization that wants to get involved?</span></h2>
 <p><span>Great! Here's some of the best ways for organizations to try "HAX" and get involved in the project.</span></p>
-<ul><li><span>Reach out to any of the members of the core project team or who's listed at the bottom of the <a href="f-a-q-">FAQ</a>
-. We're happy to do conference calls to forge partnerships especially around HAX as a Learning management or OER production solution though it has implications for any public site!</span></li>
+<ul><li>Reach out to any of the members of the core project team on our <a href="https://bit.ly/haxslack">slack</a>
+. We're happy to do conference calls to forge partnerships especially around HAX or OER production solution though it has implications for any public site!</li>
 <li>Try out the <a href="https://www.elmsln.org/demos">HAXcms live demo</a>
  (reset hourly)</li>
-<li>Reach out in in the <a href="https://github.com/elmsln/haxcms">HAXcms issue queue</a>
+<li>Reach out in the <a href="https://github.com/elmsln/issues">issue queue</a>
  with questions</li>
 <li>Bring this website to developers in your organization or other code junkies and tell them to explore</li>
-<li>Host a HAX camp / meet up (ask for more details)</li>
+<li>Host a <a href="https://hax.camp">HAX camp</a>
+ (ask for more details)</li>
 </ul>
 <p>HAX makes up multiple projects across hundreds of web components and various other repos. It can be a bit overwhelming but we want you to imagine something... Imagine being a developer on HAX.</p>
 <meme-maker style="width: 75%; margin: 0px auto; display: block;" alt="happy snoop dogg GIF by Cheezburger" image-url="https://media2.giphy.com/media/Um04iWtX2eby8/giphy.gif" top-text="Step 'ight up" bottom-text="urz te next contrib">
     <div>Step 'ight up</div>
       <img src="https://media2.giphy.com/media/Um04iWtX2eby8/giphy.gif" alt="happy snoop dogg GIF by Cheezburger" preload="lazy"/>
     <div>urz te next contrib</div></meme-maker>
-<p>Because all it takes to get involved in HAX is, that's right, showing up in our repos and getting involved! Yes you too can be just as special and meme-able as we are!</p>
+<p>Because all it takes to get involved in HAX is, that's right, showing up in our repos and getting involved! Yes you too can be just as meme-able as we are!</p>
 <p>All things HAX are powered by people just like you, wanting to make the web a better, more accessible, easier to use, less painful to develop for... place.<span>Help us make that a reality and you too could have Snoop Dawg escorting you over to a brand new car*</span></p>
 <p><span>Anything is possible with HAXTheWeb. <a href="http://www.zombo.com/">The only limit...is yourself</a>
 .</span></p>
