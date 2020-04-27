@@ -133,7 +133,6 @@
     <?php print $site->getPageContent($page); ?>
   </haxcms-site-builder>
   <div id="haxcmsoutdatedfallback">
-    <haxcms-legacy-player file="site.json<?php print $HAXCMS->cacheBusterHash();?>"></haxcms-legacy-player>
     <div id="haxcmsoutdatedfallbacksuperold"> 
       <iframe id="outline" style="width:18%;float:left;height:500px;padding:0;margin:0;" name="outline" id="frame1"
         src="legacy-outline.html"></iframe>

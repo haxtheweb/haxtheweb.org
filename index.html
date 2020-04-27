@@ -27,7 +27,7 @@
   <meta name="description" content="A HAXCMS site">
   <meta name="theme-color" content="#3f51b5">
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name=”robots” content=”index, follow”>
+  <meta name="robots" content="index, follow">
   <meta name="application-name" content="My site">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -87,7 +87,7 @@
       color: white;
       font-family: 'Open Sans', 'arial', 'serif';
       font-size: 40px;
-      background-color: orange;
+      background-color: <?php print $color; ?>;
       transition: .4s ease-in-out all;
     }
     #loading img {
@@ -96,7 +96,7 @@
       height: 300px;
       margin-bottom: 50px;
       border-radius: 50%;
-      border: 8px solid orange;
+      border: 8px solid <?php print $color;?>;
       box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.45);
       -moz-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.45);
 	    -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.45);
@@ -115,7 +115,7 @@
       width: 300px;
     }
     .progress-line:before {
-      background-color: orange;
+      background-color: <?php print $color;?>;
       content: '';
       animation: running-progress 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
     }

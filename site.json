@@ -7,14 +7,14 @@
     "metadata": {
         "author": {
             "name": "ELMS:LN",
-            "image": "null",
+            "image": "",
             "socialLink": "https:\/\/twitter.com\/elmsln",
             "email": "hax@psu.edu"
         },
         "site": {
             "name": "haxtheweb",
             "created": 1547138719,
-            "updated": 1586457705,
+            "updated": 1588002936,
             "domain": "https:\/\/haxtheweb.org\/",
             "git": {
                 "vendor": "github",
@@ -25,10 +25,10 @@
                 "publicRepoUrl": "https:\/\/github.com\/elmsln\/haxtheweb.org\/tree\/master\/"
             },
             "static": {
-                "cdn": "haxtheweb.org",
+                "cdn": "cdn.waxam.io",
                 "lastPublished": 1576092878,
                 "publishedLocation": "https:\/\/haxtheweb.org\/",
-                "offline": true
+                "offline": false
             },
             "settings": {
                 "pathauto": true,
@@ -36,7 +36,7 @@
                 "sw": false,
                 "forceUpgrade": false
             },
-            "version": "1.1.2",
+            "version": "1.1.3",
             "logo": "files\/3450183.png"
         },
         "theme": {
@@ -46,7 +46,7 @@
             "variables": {
                 "image": "assets\/banner.jpg",
                 "hexCode": "#009dc7",
-                "cssVariable": "--simple-colors-default-theme-pink-7",
+                "cssVariable": "--simple-colors-default-theme-deep-orange-7",
                 "icon": "lrn:network"
             }
         },
