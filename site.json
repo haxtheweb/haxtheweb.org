@@ -1194,10 +1194,10 @@
             "order": "4",
             "parent": null,
             "title": "Documentation",
-            "description": "HAX may seem complex, but it's built on a series of standards that will never break. As a result of the complexity of these standards, there are things you should know prior to digging into HAXedi",
+            "description": "HAX may seem complex, but it's built on a series of standards that will never break. As a result of the complexity of these standards, there are things you should know prior to digging into HAXedito",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1588004469,
+                "updated": 1588004641,
                 "readtime": 1,
                 "files": [
                     {
@@ -1208,7 +1208,16 @@
                         "name": "3450183.png",
                         "size": 9992
                     }
-                ]
+                ],
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 1,
+                    "schema": [],
+                    "tags": {
+                        "p": 1
+                    },
+                    "elements": 1
+                }
             }
         },
         {
