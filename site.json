@@ -191,10 +191,21 @@
             "order": "0",
             "parent": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
             "title": "HAXeditor",
-            "description": "",
+            "description": "HAX or HAXeditor is the editor of the future you're using in this site! It's all the editing capabilities you've come for with HAX and the core solution that all other projects are based on here. The ",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1588004469
+                "updated": 1588004662,
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 1,
+                    "schema": [],
+                    "tags": {
+                        "p": 1,
+                        "meme-maker": 1
+                    },
+                    "elements": 2
+                }
             }
         },
         {
