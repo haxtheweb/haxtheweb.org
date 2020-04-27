@@ -1006,23 +1006,22 @@
             "order": "3",
             "parent": null,
             "title": "Integrations",
-            "description": "HAX provides plenty of ways to integrate into the platforms you already use! Here's a list of currently supported ones with links off to their associated pluginsHAXcms (duh, it's powering this websit",
+            "description": "HAX provides plenty of ways to integrate into the platforms you already use! Here's a list of currently supported ones with links off to their associated pluginsHAXcms (powering this website)HAX1",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1588004469,
-                "readtime": 18,
+                "updated": 1588004799,
+                "readtime": 1,
                 "contentDetails": {
                     "headings": 1,
-                    "paragraphs": 2,
+                    "paragraphs": 1,
                     "schema": [],
                     "tags": {
-                        "p": 2,
-                        "li": 6,
+                        "p": 1,
+                        "li": 7,
                         "h2": 1,
-                        "ul": 1,
-                        "code-sample": 1
+                        "ul": 1
                     },
-                    "elements": 11
+                    "elements": 10
                 }
             }
         },
