@@ -129,10 +129,10 @@
             "order": "0",
             "parent": null,
             "title": "Welcome",
-            "description": "Headless Authoring eXperience (HAX) is a next generation block editor that works anywhere by using web platform standards. Check out a short video or experience the editor yourself by clicking the ed",
+            "description": "Headless Authoring eXperience (HAX) is a next generation block editor that works anywhere via web components!  HAX works with web component based design assets so you are never tied to HAX. Th",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1588004469,
+                "updated": 1588007438,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
@@ -159,28 +159,23 @@
                         "size": 307196
                     }
                 ],
-                "readtime": 2,
+                "readtime": 1,
                 "contentDetails": {
                     "headings": 1,
-                    "paragraphs": 5,
+                    "paragraphs": 3,
                     "schema": [
                         {
                             "resource": "#18d556e9-a1d7-3069-81d9",
                             "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
-                        },
-                        {
-                            "resource": "#c7edcc4c-d947-ea43-6cfe",
-                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
                         }
                     ],
                     "tags": {
-                        "p": 5,
+                        "p": 3,
                         "video-player": 1,
                         "h3": 1,
-                        "ol": 1,
-                        "a11y-gif-player": 1
+                        "ol": 1
                     },
-                    "elements": 9
+                    "elements": 6
                 }
             }
         },
