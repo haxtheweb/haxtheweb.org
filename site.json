@@ -26,7 +26,7 @@
             },
             "static": {
                 "cdn": "cdn.waxam.io",
-                "lastPublished": 1588007454,
+                "lastPublished": 1594761468,
                 "publishedLocation": "https:\/\/haxtheweb.org\/",
                 "offline": false
             },
@@ -40,9 +40,9 @@
             "logo": "files\/3450183.png"
         },
         "theme": {
-            "element": "clean-two",
-            "path": "@lrnwebcomponents\/clean-two\/clean-two.js",
-            "name": "Clean Two",
+            "element": "clean-one",
+            "path": "@lrnwebcomponents\/clean-one\/clean-one.js",
+            "name": "Clean one",
             "variables": {
                 "image": "assets\/banner.jpg",
                 "hexCode": "#009dc7",
@@ -61,7 +61,6 @@
                 "image-compare-slider": "@lrnwebcomponents\/image-compare-slider\/image-compare-slider.js",
                 "license-element": "@lrnwebcomponents\/license-element\/license-element.js",
                 "lrn-aside": "@lrnwebcomponents\/lrn-aside\/lrn-aside.js",
-                "lrn-calendar": "@lrnwebcomponents\/lrn-calendar\/lrn-calendar.js",
                 "lrn-math": "@lrnwebcomponents\/lrn-math\/lrn-math.js",
                 "lrn-table": "@lrnwebcomponents\/lrn-table\/lrn-table.js",
                 "lrn-vocab": "@lrnwebcomponents\/lrn-vocab\/lrn-vocab.js",
