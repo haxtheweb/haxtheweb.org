@@ -648,7 +648,17 @@
             "metadata": {
                 "created": 1548826475,
                 "updated": 1597689343,
-                "published": true
+                "published": true,
+                "files": [
+                    {
+                        "path": "\/var\/www\/html\/sites\/haxtheweb\/files\/Screenshot from 2020-08-17 14-36-15.png",
+                        "fullUrl": "\/sites\/haxtheweb\/files\/Screenshot from 2020-08-17 14-36-15.png",
+                        "url": "files\/Screenshot from 2020-08-17 14-36-15.png",
+                        "type": "image\/png",
+                        "name": "Screenshot from 2020-08-17 14-36-15.png",
+                        "size": 135869
+                    }
+                ]
             }
         },
         {
