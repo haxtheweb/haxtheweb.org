@@ -644,10 +644,10 @@
             "order": "2",
             "parent": "item-06233713-d866-3351-81da-841d3931144c",
             "title": "Search",
-            "description": "",
+            "description": "Find is a data interoperability layer to HAX where web components data binding shines. Find is able to stitch remote data together with local web components in order to streamline workflows.",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1597689343,
+                "updated": 1597689400,
                 "published": true,
                 "files": [
                     {
@@ -658,7 +658,18 @@
                         "name": "Screenshot from 2020-08-17 14-36-15.png",
                         "size": 135869
                     }
-                ]
+                ],
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 1,
+                    "schema": [],
+                    "tags": {
+                        "p": 1,
+                        "img": 1
+                    },
+                    "elements": 2
+                }
             }
         },
         {
