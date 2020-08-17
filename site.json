@@ -246,7 +246,7 @@
             "description": "HAX - Headless Authoring eXperienceHAX is a decoupled authoring experience built using  web components. Web components is a standard way of developers creating new HTML tags. It's a layer below trad",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1594071706,
+                "updated": 1597686032,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/sites\/haxtheweb\/files\/\/sourceviewthispage.jpg",
@@ -266,11 +266,12 @@
                         "full-width-image": 1,
                         "h2": 4,
                         "p": 8,
+                        "code-sample": 1,
                         "meme-maker": 1,
                         "ul": 1,
                         "img": 1
                     },
-                    "elements": 16
+                    "elements": 17
                 }
             }
         },
