@@ -183,31 +183,6 @@
             }
         },
         {
-            "id": "item-d6551870-1c08-da0a-6e2d-e24e919fa628",
-            "indent": "2",
-            "location": "pages\/welcome\/solutions\/haxeditor\/index.html",
-            "slug": "welcome\/solutions\/haxeditor",
-            "order": "0",
-            "parent": "item-29e7d7f5-db3e-3ef0-733a-ed41d88f2835",
-            "title": "HAXeditor",
-            "description": "HAX or HAXeditor is the editor of the future you're using in this site! It's all the editing capabilities you've come for with HAX and the core solution that all other projects are based on here. The ",
-            "metadata": {
-                "created": 1548826475,
-                "updated": 1588004662,
-                "readtime": 1,
-                "contentDetails": {
-                    "headings": 0,
-                    "paragraphs": 1,
-                    "schema": [],
-                    "tags": {
-                        "p": 1,
-                        "meme-maker": 1
-                    },
-                    "elements": 2
-                }
-            }
-        },
-        {
             "id": "item-4824986b-1897-568d-fdd9-4b882ea6ee1f",
             "indent": "1",
             "location": "pages\/integrations-1\/backdropcms\/index.html",
