@@ -643,11 +643,12 @@
             "slug": "documentation-1\/ux-concepts\/find",
             "order": "2",
             "parent": "item-06233713-d866-3351-81da-841d3931144c",
-            "title": "Find",
+            "title": "Search",
             "description": "",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1597687135
+                "updated": 1597689343,
+                "published": true
             }
         },
         {
