@@ -134,7 +134,7 @@
             "description": "Developer quick start    # HAX editor stand alone for use in appsyarn add @lrnwebcomponents\/h-a-x# or Integrate with a textarea like older wysiwyg editorsyarn add @lrnwebcomponents\/wysiwyg-haxC",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1597685865,
+                "updated": 1597685898,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
@@ -163,8 +163,8 @@
                 ],
                 "readtime": 1,
                 "contentDetails": {
-                    "headings": 4,
-                    "paragraphs": 5,
+                    "headings": 5,
+                    "paragraphs": 4,
                     "schema": [
                         {
                             "resource": "#18d556e9-a1d7-3069-81d9",
@@ -172,10 +172,10 @@
                         }
                     ],
                     "tags": {
-                        "h3": 4,
+                        "h3": 5,
                         "code-sample": 2,
                         "ul": 2,
-                        "p": 5,
+                        "p": 4,
                         "video-player": 1
                     },
                     "elements": 14
