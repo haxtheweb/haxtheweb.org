@@ -134,7 +134,7 @@
             "description": "Live demoSeeing is believing! Thanks to Penn State College of Arts & Architecture for sponsoring this demo!HAXcms live demo (admin \/ admin as login info)Developer quick start    # HAX editor st",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1597686212,
+                "updated": 1597686599,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
@@ -164,7 +164,7 @@
                 "readtime": 1,
                 "contentDetails": {
                     "headings": 6,
-                    "paragraphs": 6,
+                    "paragraphs": 7,
                     "schema": [
                         {
                             "resource": "#18d556e9-a1d7-3069-81d9",
@@ -173,12 +173,12 @@
                     ],
                     "tags": {
                         "h3": 6,
-                        "p": 6,
+                        "p": 7,
                         "code-sample": 2,
                         "ul": 2,
                         "video-player": 1
                     },
-                    "elements": 17
+                    "elements": 18
                 }
             }
         },
