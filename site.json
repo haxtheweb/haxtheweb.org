@@ -14,7 +14,7 @@
         "site": {
             "name": "haxtheweb",
             "created": 1547138719,
-            "updated": 1588004469,
+            "updated": 1597685043,
             "domain": "https:\/\/haxtheweb.org\/",
             "git": {
                 "vendor": "github",
@@ -36,13 +36,13 @@
                 "sw": false,
                 "forceUpgrade": false
             },
-            "version": "1.1.3",
+            "version": "1.3.0",
             "logo": "files\/3450183.png"
         },
         "theme": {
-            "element": "clean-one",
-            "path": "@lrnwebcomponents\/clean-one\/clean-one.js",
-            "name": "Clean one",
+            "element": "clean-two",
+            "path": "@lrnwebcomponents\/clean-two\/clean-two.js",
+            "name": "Course theme 2",
             "variables": {
                 "image": "assets\/banner.jpg",
                 "hexCode": "#009dc7",
@@ -274,26 +274,6 @@
             }
         },
         {
-            "id": "item-6dfbc25d-96f9-4671-a076-69986c44744f",
-            "indent": "1",
-            "location": "pages\/example-themes-1\/basic\/index.html",
-            "slug": "example-themes-1\/basic",
-            "order": "0",
-            "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
-            "title": "Basic",
-            "description": "The Basic theme provides a simple yet highly themable structure. It's leveraging the bulk of our custom elements specifically geared toward HAXcms state encapsulationThe theme elements in HAXcms can",
-            "metadata": {
-                "created": 1553194396,
-                "updated": 1588004469,
-                "theme": {
-                    "element": "haxcms-basic-theme",
-                    "path": "@lrnwebcomponents\/haxcms-elements\/lib\/core\/themes\/haxcms-basic-theme.js",
-                    "name": "Basic site",
-                    "key": "haxcms-basic-theme"
-                }
-            }
-        },
-        {
             "id": "item-96d00871-d866-c65e-b7f0-4e242bde5b15",
             "indent": "3",
             "location": "pages\/documentation-1\/hax-development\/hax-app-store\/apps\/index.html",
@@ -371,26 +351,6 @@
             "metadata": {
                 "created": 1548826475,
                 "updated": 1588004469
-            }
-        },
-        {
-            "id": "item-ed88bc56-c136-4839-8505-aaeaba374fd5",
-            "indent": "1",
-            "location": "pages\/example-themes-1\/minimalist\/index.html",
-            "slug": "example-themes-1\/minimalist",
-            "order": "1",
-            "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
-            "title": "Minimalist",
-            "description": "As you can see, the minimalist theme is for trying to give you a straight forward, linear design pattern.Pages are ordered based on the very 1 page's child pages.So you'd have a structure like this:",
-            "metadata": {
-                "created": 1553194396,
-                "updated": 1588004469,
-                "theme": {
-                    "element": "haxcms-minimalist-theme",
-                    "path": "@lrnwebcomponents\/haxcms-elements\/lib\/core\/themes\/haxcms-minimalist-theme.js",
-                    "name": "Minimalist site",
-                    "key": "haxcms-minimalist-theme"
-                }
             }
         },
         {
@@ -696,20 +656,6 @@
             }
         },
         {
-            "id": "item-1ba9e275-eca6-4911-8cb3-23dd6b039389",
-            "indent": "1",
-            "location": "pages\/example-themes-1\/learn-two\/index.html",
-            "slug": "example-themes-1\/learn-two",
-            "order": "2",
-            "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
-            "title": "Learn two",
-            "description": "Learn two is a straight forward way of presenting material for learning about a topic. With a breadcrumb trail `` and a simple `` that tracks visually as you activate new items, it's a great way to pr",
-            "metadata": {
-                "created": 1553194396,
-                "updated": 1588004469
-            }
-        },
-        {
             "id": "item-504d6323-873d-49e3-9de0-ffa56c28fdf5",
             "indent": 0,
             "location": "pages\/get-involved-1\/index.html",
@@ -994,44 +940,6 @@
             }
         },
         {
-            "id": "item-dfb1fdc8-8464-4ae4-96dc-42bf6095c05d",
-            "indent": "1",
-            "location": "pages\/example-themes-1\/simple-blog\/index.html",
-            "slug": "example-themes-1\/simple-blog",
-            "order": "3",
-            "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
-            "title": "Simple blog",
-            "description": "This one definitely just broke your world view... cause... it's... a.... blog.It also just broke the navigation cause Simple Blog is about viewing a listing of blog posts and then when you are inside",
-            "metadata": {
-                "created": 1553194396,
-                "updated": 1588004469,
-                "files": [
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-03-21_15-12-05.png",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-03-21_15-12-05.png",
-                        "url": "files\/2019-03-21_15-12-05.png",
-                        "type": "image\/png",
-                        "name": "2019-03-21_15-12-05.png",
-                        "size": 745125
-                    },
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/2019-03-21_15-12-05.jpg",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/2019-03-21_15-12-05.jpg",
-                        "url": "files\/2019-03-21_15-12-05.jpg",
-                        "type": "image\/jpeg",
-                        "name": "2019-03-21_15-12-05.jpg",
-                        "size": 60607
-                    }
-                ],
-                "theme": {
-                    "element": "simple-blog",
-                    "path": "@lrnwebcomponents\/simple-blog\/simple-blog.js",
-                    "name": "Simple blog",
-                    "key": "simple-blog"
-                }
-            }
-        },
-        {
             "id": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "indent": 0,
             "location": "pages\/integrations-1\/index.html",
@@ -1190,27 +1098,6 @@
             }
         },
         {
-            "id": "item-e15602be-f062-45e2-adf3-8f5d9b37702a",
-            "indent": "1",
-            "location": "pages\/example-themes-1\/haxor-slevin\/index.html",
-            "slug": "example-themes-1\/haxor-slevin",
-            "order": "4",
-            "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
-            "title": "Haxor Slevin",
-            "description": "Oh? So you think you're 1337 3l33t 3H?Well step right up and jump into the world of hackers and numbers. Ones. Zeros. It's a whole universe of them. You're fighting for control of your online digital",
-            "metadata": {
-                "created": 1557949010,
-                "updated": 1588004469,
-                "theme": {
-                    "element": "haxor-slevin",
-                    "path": "@lrnwebcomponents\/haxor-slevin\/haxor-slevin.js",
-                    "name": "Coder blog",
-                    "key": "haxor-slevin"
-                },
-                "readtime": 1
-            }
-        },
-        {
             "id": "item-e6daa06e-dfd2-43a4-ade8-0c0ded24e0b4",
             "indent": "2",
             "location": "pages\/documentation-1\/haxcms\/life-cycle\/index.html",
@@ -1300,50 +1187,6 @@
                     },
                     "elements": 2
                 }
-            }
-        },
-        {
-            "id": "item-6e62c525-da4e-4b77-bcb7-d752d54f9929",
-            "indent": "1",
-            "location": "pages\/example-themes-1\/slide-player\/index.html",
-            "slug": "example-themes-1\/slide-player",
-            "order": "5",
-            "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
-            "title": "Slide player",
-            "description": "Slide player is great for lectures and presentation style sites (or parts of sites). It lets you focus on the content and has almost no UI.",
-            "metadata": {
-                "created": 1553194396,
-                "updated": 1588004469,
-                "theme": {
-                    "element": "haxcms-slide-theme",
-                    "path": "@lrnwebcomponents\/haxcms-elements\/lib\/core\/themes\/haxcms-slide-theme.js",
-                    "name": "Slide deck",
-                    "key": "haxcms-slide-theme"
-                },
-                "files": [
-                    {
-                        "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
-                        "fullUrl": "\/_sites\/haxtheweb\/files\/demo.csv",
-                        "url": "files\/demo.csv",
-                        "type": "text\/plain",
-                        "name": "demo.csv",
-                        "size": 830
-                    }
-                ]
-            }
-        },
-        {
-            "id": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
-            "indent": 0,
-            "location": "pages\/example-themes-1\/index.html",
-            "slug": "example-themes-1",
-            "order": "5",
-            "parent": null,
-            "title": "Example themes",
-            "description": "Explore some of the themes built for HAXcms that you get out of the box. This is a great demonstration of the performance and power of both web components and HAXcms (the system powering this site!).",
-            "metadata": {
-                "created": 1553194396,
-                "updated": 1588004469
             }
         },
         {
@@ -1444,26 +1287,6 @@
             }
         },
         {
-            "id": "item-9c331aaf-b94e-4455-a206-057797dfab80",
-            "indent": "1",
-            "location": "pages\/example-themes-1\/outline-player\/index.html",
-            "slug": "example-themes-1\/outline-player",
-            "order": "6",
-            "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
-            "title": "Outline player",
-            "description": "Outline player is an even more basic form of Learn two. It's for those seeking something even more minimalist in design and capabilities.Fun things about this include... ok well very little. Let's fa",
-            "metadata": {
-                "created": 1553194396,
-                "updated": 1588004469,
-                "theme": {
-                    "element": "outline-player",
-                    "path": "@lrnwebcomponents\/outline-player\/outline-player.js",
-                    "name": "Documentation",
-                    "key": "outline-player"
-                }
-            }
-        },
-        {
             "id": "item-7ab2e2fd-622f-4a0f-9967-599410c6cd43",
             "indent": 0,
             "location": "pages\/scavenger-hunt-1\/index.html",
@@ -1494,26 +1317,6 @@
                         "meme-maker": 1
                     },
                     "elements": 6
-                }
-            }
-        },
-        {
-            "id": "item-1c523534-3b59-4e3a-880a-8af81f5e7e99",
-            "indent": "1",
-            "location": "pages\/example-themes-1\/dev-theme\/index.html",
-            "slug": "example-themes-1\/dev-theme",
-            "order": "7",
-            "parent": "item-57610c36-a78a-416a-a01d-6d38a692b0f3",
-            "title": "Dev theme",
-            "description": "EEK! You were NOT supposed to see this...except that this is what HAXcms sees. This is your just barebones components with almost 0 css baseline theme play space. This is a great one to fork and rewri",
-            "metadata": {
-                "created": 1553194396,
-                "updated": 1588004469,
-                "theme": {
-                    "element": "haxcms-dev-theme",
-                    "path": "@lrnwebcomponents\/haxcms-elements\/lib\/development\/haxcms-dev-theme.js",
-                    "name": "DEVELOPER: Test theme",
-                    "key": "haxcms-dev-theme"
                 }
             }
         }
