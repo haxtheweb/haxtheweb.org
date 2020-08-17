@@ -967,10 +967,21 @@
             "order": "3",
             "parent": "item-06233713-d866-3351-81da-841d3931144c",
             "title": "Templates and Layouts",
-            "description": "",
+            "description": "Templates and layouts allow you to drop in pre-built pieces of content structure. This might be a series of images or an example of content that could be written.",
             "metadata": {
                 "created": 1597689709,
-                "updated": 1597689709
+                "updated": 1597690015,
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 1,
+                    "schema": [],
+                    "tags": {
+                        "p": 1,
+                        "img": 1
+                    },
+                    "elements": 2
+                }
             }
         },
         {

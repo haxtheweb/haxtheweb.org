@@ -11,13 +11,14 @@
   <entry>
     <title>Templates and Layouts</title>
     <id>https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2</id>
-    <updated>2020-08-17T18:41:49+00:00</updated>
+    <updated>2020-08-17T18:46:55+00:00</updated>
     <published>2020-08-17T18:41:49+00:00</published>
-    <summary></summary>
+    <summary>Templates and layouts allow you to drop in pre-built pieces of content structure. This might be a series of images or an example of content that could be written.</summary>
     <link href="https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2"/>
     
     <content type="html">
-      <![CDATA[ <p></p> ]]>
+      <![CDATA[ <p>Templates and layouts allow you to drop in pre-built pieces of content structure. This might be a series of images or an example of content that could be written.</p>
+<img src="files/Screenshot from 2020-08-17 14-46-06.png"/> ]]>
     </content>
   </entry>
   <entry>
