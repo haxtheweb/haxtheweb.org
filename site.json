@@ -539,20 +539,6 @@
             }
         },
         {
-            "id": "item-e29af6f1-f392-4a0b-3284-b4c4fc90703b",
-            "indent": "2",
-            "location": "pages\/documentation-1\/ux-concepts\/make\/index.html",
-            "slug": "documentation-1\/ux-concepts\/make",
-            "order": "1",
-            "parent": "item-06233713-d866-3351-81da-841d3931144c",
-            "title": "Make",
-            "description": "",
-            "metadata": {
-                "created": 1548826475,
-                "updated": 1597687135
-            }
-        },
-        {
             "id": "item-39074718-758f-d51b-1dc5-15cfbb79e44c",
             "indent": "2",
             "location": "pages\/documentation-1\/hax-development\/hello-world-element\/index.html",
