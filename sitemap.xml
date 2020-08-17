@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- generator-class="Icamys\SitemapGenerator\SitemapGenerator" -->
 <!-- generator-version="1.1.0" -->
-<!-- generated-on="2020-08-17T17:58:55+00:00" -->
+<!-- generated-on="2020-08-17T18:18:45+00:00" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/hax-development</loc>
@@ -10,22 +10,10 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/hax-development/wcfactory-tooling</loc>
-    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//welcome</loc>
     <lastmod>2020-08-17T17:58:55+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//integrations-1/backdropcms</loc>
-    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/haxcms/concepts</loc>
@@ -64,31 +52,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/core-concepts</loc>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//integrations-1/wordpress</loc>
     <lastmod>2020-08-17T17:58:55+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//integrations-1/drupal</loc>
-    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/haxcms/theming/skin-a-site</loc>
-    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/hax-development/hello-world-element</loc>
-    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/ux-concepts/make</loc>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/hax-development/wcfactory-tooling</loc>
     <lastmod>2020-08-17T17:58:55+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -100,10 +70,10 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/haxcms/installation</loc>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//get-involved-1</loc>
     <lastmod>2020-08-17T17:58:55+00:00</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//welcome/solutions</loc>
@@ -112,49 +82,37 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//integrations-1/gravcms</loc>
-    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//welcome/roadmap-1</loc>
-    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//get-involved-1</loc>
-    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/haxcms/structure</loc>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/haxcms/installation</loc>
     <lastmod>2020-08-17T17:58:55+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/haxcms/theming/web-components</loc>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//integrations-1/drupal</loc>
     <lastmod>2020-08-17T17:58:55+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/hax-development/hax-schema</loc>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/ux-concepts/make</loc>
     <lastmod>2020-08-17T17:58:55+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/ux-concepts/find</loc>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/hax-development/hello-world-element</loc>
     <lastmod>2020-08-17T17:58:55+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/hax-development/hax-app-store/stax</loc>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/haxcms/theming/skin-a-site</loc>
+    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/core-concepts</loc>
     <lastmod>2020-08-17T17:58:55+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -166,7 +124,55 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//integrations-1/wordpress</loc>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//integrations-1</loc>
+    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/hax-development/hax-app-store/stax</loc>
+    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/ux-concepts/find</loc>
+    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/hax-development/hax-schema</loc>
+    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/haxcms/structure</loc>
+    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//welcome/roadmap-1</loc>
+    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//integrations-1/backdropcms</loc>
+    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/haxcms/theming/web-components</loc>
+    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//welcome/presentations</loc>
     <lastmod>2020-08-17T17:58:55+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -202,13 +208,25 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//integrations-1</loc>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1</loc>
     <lastmod>2020-08-17T17:58:55+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//welcome/why-haxcms-1</loc>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//integrations-1/classicpress-1</loc>
+    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//f-a-q-1</loc>
+    <lastmod>2020-08-17T18:18:45+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/haxcms/theming/dev-workflows</loc>
     <lastmod>2020-08-17T17:58:55+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -220,10 +238,10 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//integrations-1/classicpress-1</loc>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/haxcms/life-cycle</loc>
     <lastmod>2020-08-17T17:58:55+00:00</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.5</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/haxcms</loc>
@@ -232,28 +250,16 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//welcome/presentations</loc>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//welcome/why-haxcms-1</loc>
     <lastmod>2020-08-17T17:58:55+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/haxcms/life-cycle</loc>
-    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/haxcms/theming/dev-workflows</loc>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//integrations-1/gravcms</loc>
     <lastmod>2020-08-17T17:58:55+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1</loc>
-    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//welcome/i-have-issues</loc>
@@ -274,7 +280,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//f-a-q-1</loc>
+    <loc>https://haxtheweb.org/https://haxtheweb.org//scavenger-hunt-1</loc>
     <lastmod>2020-08-17T17:58:55+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -284,11 +290,5 @@
     <lastmod>2020-08-17T17:58:55+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//scavenger-hunt-1</loc>
-    <lastmod>2020-08-17T17:58:55+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
   </url>
 </urlset>

@@ -992,10 +992,10 @@
             "order": "4",
             "parent": null,
             "title": "F.A.Q.",
-            "description": "Are web components legit? Is this really possible?Yes. Web components effectively\u00a0turn the HTML of a site into a consistent API. HAXeditor leverages this approach and standardizes its usage in orde",
+            "description": "Are web components ready for prime time?Yes. Web components effectively\u00a0turn the HTML of a site into a consistent API. HAXeditor leverages this approach and standardizes its usage in order to suppl",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1597687135,
+                "updated": 1597688325,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/pubwork1.jpg",
