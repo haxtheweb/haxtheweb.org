@@ -282,10 +282,10 @@
             "order": "0",
             "parent": "item-06233713-d866-3351-81da-841d3931144c",
             "title": "Add",
-            "description": "Add is how you add new assets to HAX from remote places. If you paste a URL, you can hit configure item and have it added. HAX will see if it has any way of guessing what the link is (for example a",
+            "description": "Add Content\u00a0is how you create and add complex blocks to the HAX page editor. These blocks can be variable based on what you chose to include (see appstore) but ultimately are just adding web compon",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1597689309,
+                "updated": 1597689588,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/sites\/haxtheweb\/files\/Screenshot from 2020-08-17 14-34-32.png",
