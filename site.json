@@ -1003,11 +1003,11 @@
             "description": "ClassicPress is a popular fork of WordPress that's even easier to get HAX up and running then it is in the original!Get the HAX plugin\u00a0from the wordpress registryGo to edit \/ create a page\/post ",
             "metadata": {
                 "created": 1565279009,
-                "updated": 1597686308,
+                "updated": 1597686342,
                 "readtime": 1,
                 "contentDetails": {
                     "headings": 1,
-                    "paragraphs": 1,
+                    "paragraphs": 2,
                     "schema": [
                         {
                             "resource": "#85219ed3-d806-24d7-5c02",
@@ -1015,12 +1015,12 @@
                         }
                     ],
                     "tags": {
-                        "p": 1,
+                        "p": 2,
                         "ol": 1,
                         "h2": 1,
                         "video-player": 1
                     },
-                    "elements": 4
+                    "elements": 5
                 }
             }
         },
