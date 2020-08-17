@@ -588,10 +588,21 @@
             "order": "2",
             "parent": "item-db25d465-f8ee-6d9b-a738-f9e94305d89d",
             "title": "UX concepts",
-            "description": "",
+            "description": "The HAX UI can be broken down into three major production concepts. Content authors are either:Adding something they already haveEditing the Settings of the activated element on the pageSearch for ",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1597687135
+                "updated": 1597689668,
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 1,
+                    "schema": [],
+                    "tags": {
+                        "p": 1,
+                        "ol": 1
+                    },
+                    "elements": 2
+                }
             }
         },
         {
