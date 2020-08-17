@@ -561,10 +561,10 @@
             "order": "1",
             "parent": "item-06233713-d866-3351-81da-841d3931144c",
             "title": "Block settings",
-            "description": "",
+            "description": "Block settings will change contextually based on which block has been selected in the editable area of the page. In this screenshot, a paragraph has been selected and so the icon associated with it is",
             "metadata": {
                 "created": 1597689709,
-                "updated": 1597689709,
+                "updated": 1597689926,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/sites\/haxtheweb\/files\/Screenshot from 2020-08-17 14-42-07.png",
@@ -574,7 +574,19 @@
                         "name": "Screenshot from 2020-08-17 14-42-07.png",
                         "size": 46191
                     }
-                ]
+                ],
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 2,
+                    "paragraphs": 2,
+                    "schema": [],
+                    "tags": {
+                        "p": 2,
+                        "h2": 2,
+                        "img": 2
+                    },
+                    "elements": 6
+                }
             }
         },
         {
