@@ -282,10 +282,10 @@
             "order": "0",
             "parent": "item-06233713-d866-3351-81da-841d3931144c",
             "title": "Add",
-            "description": "",
+            "description": "Add is how you add new assets to HAX from remote places. If you paste a URL, you can hit configure item and have it added. HAX will see if it has any way of guessing what the link is (for example a",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1597687135,
+                "updated": 1597689309,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/sites\/haxtheweb\/files\/Screenshot from 2020-08-17 14-34-32.png",
@@ -295,7 +295,18 @@
                         "name": "Screenshot from 2020-08-17 14-34-32.png",
                         "size": 78391
                     }
-                ]
+                ],
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 1,
+                    "schema": [],
+                    "tags": {
+                        "p": 1,
+                        "img": 1
+                    },
+                    "elements": 2
+                }
             }
         },
         {
