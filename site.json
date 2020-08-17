@@ -1075,7 +1075,7 @@
             "description": "HAX may seem complex, but it's built on a series of standards that will never break. As a result of the complexity of these standards, there are things you should know prior to digging into HAXedito",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1597690877,
+                "updated": 1597691346,
                 "readtime": 1,
                 "files": [
                     {
@@ -1088,13 +1088,20 @@
                     }
                 ],
                 "contentDetails": {
-                    "headings": 0,
-                    "paragraphs": 1,
-                    "schema": [],
+                    "headings": 1,
+                    "paragraphs": 3,
+                    "schema": [
+                        {
+                            "resource": "#5749cf56-70cf-cf6f-508a-b3bc12320734",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        }
+                    ],
                     "tags": {
-                        "p": 1
+                        "p": 3,
+                        "h2": 1,
+                        "video-player": 1
                     },
-                    "elements": 1
+                    "elements": 5
                 }
             }
         },
