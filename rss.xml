@@ -9,15 +9,14 @@
     <lastBuildDate>Mon, 17 Aug 2020 18:41:49 +0000</lastBuildDate>
     <atom:link href="https://haxtheweb.org//rss.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Templates and Layouts</title>
-      <link>https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2</link>
+      <title>HAX11ty</title>
+      <link>https://haxtheweb.org//item-587de126-437b-4864-a3ea-54078837127c</link>
       <description>
-          <![CDATA[ <p>Templates and layouts allow you to drop in pre-built pieces of content structure. This might be a series of images or an example of content that could be written.</p>
-<img src="files/Screenshot from 2020-08-17 14-46-06.png"/> ]]>
+          <![CDATA[ <p></p> ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2</guid>
-      <pubDate>Mon, 17 Aug 2020 18:41:49 +0000</pubDate>
+      <guid>https://haxtheweb.org//item-587de126-437b-4864-a3ea-54078837127c</guid>
+      <pubDate>Mon, 17 Aug 2020 19:01:17 +0000</pubDate>
     </item>
     <item>
       <title>Block settings</title>
@@ -31,6 +30,17 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//item-eca7c8a4-393a-4e68-8cb4-440e94683738</guid>
+      <pubDate>Mon, 17 Aug 2020 18:41:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Templates and Layouts</title>
+      <link>https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2</link>
+      <description>
+          <![CDATA[ <p>Templates and layouts allow you to drop in pre-built pieces of content structure. This might be a series of images or an example of content that could be written.</p>
+<img src="files/Screenshot from 2020-08-17 14-46-06.png"/> ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2</guid>
       <pubDate>Mon, 17 Aug 2020 18:41:49 +0000</pubDate>
     </item>
     <item>
@@ -250,6 +260,184 @@
       <pubDate>Sat, 23 Mar 2019 15:21:47 +0000</pubDate>
     </item>
     <item>
+      <title>Query examples</title>
+      <link>https://haxtheweb.org//documentation-1/haxcms/theming/core-elements/query-examples</link>
+      <description>
+          <![CDATA[ <person-testimonial style="width: 75%; margin: 0px auto; display: block;" elevation="1" image="https://media1.giphy.com/media/3t7RAFhu75Wwg/giphy.gif" name="Dwight K Schrute" position="Assistant to the regional Web component developer manager" accent-color="grey">  <span>Hold up there. You didn't cover any of the query tags in that last section!</span>
+</person-testimonial>
+<p>Ok ok, here's the deal. Queries are so important that they needed their own section. Calm down Dwight we'll handle that now.<span style="caret-color: rgb(25, 30, 35);"> </span><span style="caret-color: rgb(0, 0, 0);">The <b><i>site-</i>
+
+</b>
+
+ query elements are incredibly powerful aspects of HAXcms theming that deserve their own section anyway.</span></p>
+<h2><a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/ui-components/query/site-query.js">site-query</a>
+
+</h2>
+<h3>Code Example</h3>
+<code-sample>  <template preserve-content="preserve-content">&lt; site-query
+result="{{result}}"
+conditions='{"metadata.tag": "funny"}'
+&gt;
+&lt; /site-query&gt;
+
+<iron-list id="list" items="[[__items]]" grid="" mutable-data="">
+  <slot></slot>
+</iron-list></template>
+</code-sample>
+<h3 class="hax-active">Spoken Example</h3>
+<p>"Give me all of the </p>
+<person-testimonial elevation="1" image="https://media1.giphy.com/media/3o6wrgksPVF3SMrLHO/giphy.gif" name="sacha baron cohen" position="King of castles" accent-color="light-blue" style="width: 75%; margin: 0px auto; display: block;">  <span>Give me all of the pages who have a tag "Funny"</span>
+</person-testimonial>
+<h3 class="hax-active">When it's useful</h3>
+<p>Always. This is by far the most powerful element in our library. It can query the site structure and effectively return anything, anywhere that matches the criteria. It is for exact criteria matching though so you won't be getting children of page X unless you specifically requested them.</p>
+<p>This is great for getting things like getting all the pages that don't have parents (top level items) which is exactly how the <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/ui-components/navigation/site-top-menu.js#L116">site-top-menu</a>
+
+ tag does it in conjunction with a dom-repeat tag (in that example).</p>
+<h3 class="hax-active">Caveats</h3>
+<ul><li>This doesn't render anything by itself</li>
+
+
+<li>You have to then know how to do a two way template bind (Polymer convention looking like <b>{{result}} </b>
+
+or know how to use javascript in order to bind the results to visual output</li>
+
+<li>Its incredibly powerful</li>
+
+</ul>
+<p><a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/ui-components/query/site-query-menu-slice.js">site-query-menu-slice</a>
+
+<br/></p>
+<p>A menu slice query is one which takes part of a hierarchy and chops it out to return the items.</p>
+<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 100%;">  <template preserve-content="preserve-content"> &lt;
+    site-query-menu-slice
+    result="{{__items}}"
+    dynamic-methodology="[[dynamicMethodology]]"
+    start="[[start]]"
+    end="[[end]]"
+    parent="[[parent]]"
+    fixed-id="[[fixedId]]"
+    &gt;
+    &lt; /site-query-menu-slice&gt;
+    <dom-repeat items="[[__items]]">
+        <template>
+        <div class="spacing">
+            <a data-id$="[[item.id]]" class="link" tabindex="-1" href$="[[item.location]]">
+            <paper-button noink="[[noink]]">
+                <div class$="indent indent-[[item.indent]]"></div>
+                [[item.title]]
+            </paper-button>
+            </a>
+        </div>
+        </template>
+    </dom-repeat></template>
+</code-sample>
+<h3>Spoken example</h3>
+<lrndesign-blockquote style="width: 100%;" citation="America's Funniest Home Videos" image="https://media1.giphy.com/media/26tP972jcNs3V4bKw/giphy.gif" author="Bunch of kids falling" display-mode="leather" resource="#a8847fad-d94f-7e9b-6dd5" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org ">  <span>Give me all child pages<br/>
+that are 2 to 4 levels deep.</span>
+</lrndesign-blockquote>
+<h3>Delivered results</h3>
+<self-check title="Paying attention check" image="files/2019-03-23_10-51-10.jpg" alt="Another part of the same site illustrating that the theme block is generated by the type of query we're talking about." link="elements" accent-color="purple" resource="#d81c3a76-d1d3-2817-d2d8" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 75%; margin: 0px auto; display: block;">  <span slot="question">What type of query is this leveraging again?</span>
+  <span>site-query-menu-slice</span>
+</self-check>
+<h3 class="hax-active">Dynamic leveling</h3>
+<p>The dynamic leveling flag would allow you to create a query that analyzes the current active item (as example). And then say "Always give me 2-3 levels below this". In that instance you've got a dynamic sub-set of children being returned.</p>
+<h3>When it's useful</h3>
+<p>This can be useful for a block that always shows the children of the current page in a documentation site.</p>
+<h2><a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/ui-components/query/site-render-query.js">site-render-query</a>
+
+</h2>
+<p>A site render query attempts to standardize the practice of wiring site-query up to something visual. It requires you supply something visual to get going and has the unfortunate limitation though that what you render must not be dynamic in nature.</p>
+<p>Example</p>
+<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 100%;">  <template preserve-content="preserve-content"><site-render-query class="cardlist" grid="">
+        <template>
+          <div style="padding:8px;">
+            <paper-card heading="[[item.title]]" image="[[item.metadata.image]]" elevation="1" animated-shadow="false">
+              <div class="card-content">
+                <div>description: [[item.description]]</div>
+                <div>location: [[item.location]]</div>
+                <div>changed: [[item.metadata.updated]]</div>
+              </div>
+              <div class="card-actions">
+                <a tabindex="-1" href$="[[item.location]]"><paper-button data-id$="[[item.id]]">Set as active</paper-button></a>
+              </div>
+            </paper-card>
+          </div>
+        </template>
+      </site-render-query></template>
+</code-sample>
+<p><br/></p>
+<magazine-cover header="Spoken query" text="Pull in everything in the site and then render each result based on what's in this template tag." image="https://media3.giphy.com/media/5xtDarAUbabd4JvWpaM/giphy.gif" action="Why is this falling heads?" icon="icons:thumb-up" link="https://www.youtube.com/watch?v=StTqXEQ2l-Y" style="width: 75%; margin: 0px auto; display: block;"></magazine-cover>
+<h3 class="hax-active">When it's useful</h3>
+<p>When you have a static set of items you want to query once and have it be dynamic based on site infrastructure yet not be changing dynamically during site view.</p>
+<h3 class="hax-active">Possible usage</h3>
+<p>As we haven't rolled this into any themes at the time, this could be useful for placing a "latest posts" block or "upcoming events" block. Anything that's dynamic based on the data being passed in but yet unchanging once it's loaded. Think of this as a simple "views" construct if you are from the Drupal worldview.</p>
+ ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//documentation-1/haxcms/theming/core-elements/query-examples</guid>
+      <pubDate>Sat, 23 Mar 2019 13:58:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dev workflows</title>
+      <link>https://haxtheweb.org//documentation-1/haxcms/theming/dev-workflows</link>
+      <description>
+          <![CDATA[ <p>Our development workflow is as follows (for themes)</p>
+<ol><li>All custom theme work happens in your _config directory</li>
+
+<li>Make my-theme.js, pull everything together, either in this directory or in a <a href="https://github.com/elmsln/wcfactory">wcfactory</a>
+ catalog  of elements you've made</li>
+<li>Reference this in you _config/my-custom-elements.js element</li>
+<li>Update the _config/config.json block that says <b>themes</b>
+ to include something like...</li>
+</ol>
+<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 100%;">  <template preserve-content="preserve-content">"themes": {
+    "odl-haxtheme": {
+      "element": "odl-haxtheme",
+      "path": "@myorganization/odl-haxtheme/odl-haxtheme.js",
+      "name": "Eberly ODL"
+    }
+  },</template>
+</code-sample>
+<p>This tells HAXcms UI that you can now select the theme (but don't yet, it won't be valid)</p>
+<h2 class="hax-active">Local development workflow during theme development</h2>
+<p>We use polymer cli to serve up and work on web components locally and while you don't have to, it's recommended as part of the WCFactory workflow.</p>
+<ol><li>Make a new site in the HAXcms UI</li>
+
+<li>Go to _sites/mynewsite and run <i><b>polymer serve --npm --open --entrypoint dist/dev.html</b>
+</i>
+</li>
+<li>Adjust the URL that opens to only be the IP address with no path after it</li>
+<li>You'll see your site open up for local development work, which will be leveraging any assets referenced in your node_modules directory at the HAXcms project root.</li>
+<li>To add / install new assets run yarn (or npm) <i style="font-weight: bold;">add @what/ever-you-want --save </i>
+, just like you would any other project you work on in FE dev</li>
+<li>edit your site's site.json manually to update the theme to point to the theme location your actively working on</li>
+<li>Develop away until it is to your liking</li>
+</ol>
+<h2>Shipping the theme</h2>
+<p>To ship the theme, you'll need to do a polymer build routine</p>
+<h3 class="hax-active">important note</h3>
+<p>This currently forks you from the original source of HAXcms core (because it will recompile the assets). If you're ok with this cool, just know <a href="https://github.com/elmsln/HAXcms/issues/145">we're trying to find ways around this involving rollup</a>
+.</p>
+<ol><li>Go to the HAXcms project root</li>
+
+<li>run <b><i>polymer build</i>
+</b>
+</li>
+<li>Copy the build directory and go to your site</li>
+<li>Delete the symlink and replace it with your build directory</li>
+<li>Now you can publish via the UI so long as you do not leverage a CDN</li>
+</ol>
+<h2 class="hax-active">The future</h2>
+<p>Admittedly, the full on custom theme / web component development workflow is rough. It's hard to maintain a built copy in a modular system without tooling. In the future we plan on having tooling workflows built directly into WCFactory that allow you to streamline the development and creation of HAXcms themes.</p>
+<h2 class="hax-active">Current limitations</h2>
+<p>You can't leverage existing CDNs (like webcomponents.psu.edu and whatever else is out there) that are pegged to the HAXcms project's source. You'll be creating a custom theme which then creates a custom build in effect so you'll want to ensure that you have some place that you can host the assets in order to power your site.</p>
+ ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//documentation-1/haxcms/theming/dev-workflows</guid>
+      <pubDate>Sat, 23 Mar 2019 13:58:38 +0000</pubDate>
+    </item>
+    <item>
       <title>Web components</title>
       <link>https://haxtheweb.org//documentation-1/haxcms/theming/web-components</link>
       <description>
@@ -375,184 +563,6 @@ site-active-title {
       </description>
       <category></category>
       <guid>https://haxtheweb.org//documentation-1/haxcms/theming/css-vars</guid>
-      <pubDate>Sat, 23 Mar 2019 13:58:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Dev workflows</title>
-      <link>https://haxtheweb.org//documentation-1/haxcms/theming/dev-workflows</link>
-      <description>
-          <![CDATA[ <p>Our development workflow is as follows (for themes)</p>
-<ol><li>All custom theme work happens in your _config directory</li>
-
-<li>Make my-theme.js, pull everything together, either in this directory or in a <a href="https://github.com/elmsln/wcfactory">wcfactory</a>
- catalog  of elements you've made</li>
-<li>Reference this in you _config/my-custom-elements.js element</li>
-<li>Update the _config/config.json block that says <b>themes</b>
- to include something like...</li>
-</ol>
-<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 100%;">  <template preserve-content="preserve-content">"themes": {
-    "odl-haxtheme": {
-      "element": "odl-haxtheme",
-      "path": "@myorganization/odl-haxtheme/odl-haxtheme.js",
-      "name": "Eberly ODL"
-    }
-  },</template>
-</code-sample>
-<p>This tells HAXcms UI that you can now select the theme (but don't yet, it won't be valid)</p>
-<h2 class="hax-active">Local development workflow during theme development</h2>
-<p>We use polymer cli to serve up and work on web components locally and while you don't have to, it's recommended as part of the WCFactory workflow.</p>
-<ol><li>Make a new site in the HAXcms UI</li>
-
-<li>Go to _sites/mynewsite and run <i><b>polymer serve --npm --open --entrypoint dist/dev.html</b>
-</i>
-</li>
-<li>Adjust the URL that opens to only be the IP address with no path after it</li>
-<li>You'll see your site open up for local development work, which will be leveraging any assets referenced in your node_modules directory at the HAXcms project root.</li>
-<li>To add / install new assets run yarn (or npm) <i style="font-weight: bold;">add @what/ever-you-want --save </i>
-, just like you would any other project you work on in FE dev</li>
-<li>edit your site's site.json manually to update the theme to point to the theme location your actively working on</li>
-<li>Develop away until it is to your liking</li>
-</ol>
-<h2>Shipping the theme</h2>
-<p>To ship the theme, you'll need to do a polymer build routine</p>
-<h3 class="hax-active">important note</h3>
-<p>This currently forks you from the original source of HAXcms core (because it will recompile the assets). If you're ok with this cool, just know <a href="https://github.com/elmsln/HAXcms/issues/145">we're trying to find ways around this involving rollup</a>
-.</p>
-<ol><li>Go to the HAXcms project root</li>
-
-<li>run <b><i>polymer build</i>
-</b>
-</li>
-<li>Copy the build directory and go to your site</li>
-<li>Delete the symlink and replace it with your build directory</li>
-<li>Now you can publish via the UI so long as you do not leverage a CDN</li>
-</ol>
-<h2 class="hax-active">The future</h2>
-<p>Admittedly, the full on custom theme / web component development workflow is rough. It's hard to maintain a built copy in a modular system without tooling. In the future we plan on having tooling workflows built directly into WCFactory that allow you to streamline the development and creation of HAXcms themes.</p>
-<h2 class="hax-active">Current limitations</h2>
-<p>You can't leverage existing CDNs (like webcomponents.psu.edu and whatever else is out there) that are pegged to the HAXcms project's source. You'll be creating a custom theme which then creates a custom build in effect so you'll want to ensure that you have some place that you can host the assets in order to power your site.</p>
- ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//documentation-1/haxcms/theming/dev-workflows</guid>
-      <pubDate>Sat, 23 Mar 2019 13:58:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Query examples</title>
-      <link>https://haxtheweb.org//documentation-1/haxcms/theming/core-elements/query-examples</link>
-      <description>
-          <![CDATA[ <person-testimonial style="width: 75%; margin: 0px auto; display: block;" elevation="1" image="https://media1.giphy.com/media/3t7RAFhu75Wwg/giphy.gif" name="Dwight K Schrute" position="Assistant to the regional Web component developer manager" accent-color="grey">  <span>Hold up there. You didn't cover any of the query tags in that last section!</span>
-</person-testimonial>
-<p>Ok ok, here's the deal. Queries are so important that they needed their own section. Calm down Dwight we'll handle that now.<span style="caret-color: rgb(25, 30, 35);"> </span><span style="caret-color: rgb(0, 0, 0);">The <b><i>site-</i>
-
-</b>
-
- query elements are incredibly powerful aspects of HAXcms theming that deserve their own section anyway.</span></p>
-<h2><a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/ui-components/query/site-query.js">site-query</a>
-
-</h2>
-<h3>Code Example</h3>
-<code-sample>  <template preserve-content="preserve-content">&lt; site-query
-result="{{result}}"
-conditions='{"metadata.tag": "funny"}'
-&gt;
-&lt; /site-query&gt;
-
-<iron-list id="list" items="[[__items]]" grid="" mutable-data="">
-  <slot></slot>
-</iron-list></template>
-</code-sample>
-<h3 class="hax-active">Spoken Example</h3>
-<p>"Give me all of the </p>
-<person-testimonial elevation="1" image="https://media1.giphy.com/media/3o6wrgksPVF3SMrLHO/giphy.gif" name="sacha baron cohen" position="King of castles" accent-color="light-blue" style="width: 75%; margin: 0px auto; display: block;">  <span>Give me all of the pages who have a tag "Funny"</span>
-</person-testimonial>
-<h3 class="hax-active">When it's useful</h3>
-<p>Always. This is by far the most powerful element in our library. It can query the site structure and effectively return anything, anywhere that matches the criteria. It is for exact criteria matching though so you won't be getting children of page X unless you specifically requested them.</p>
-<p>This is great for getting things like getting all the pages that don't have parents (top level items) which is exactly how the <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/ui-components/navigation/site-top-menu.js#L116">site-top-menu</a>
-
- tag does it in conjunction with a dom-repeat tag (in that example).</p>
-<h3 class="hax-active">Caveats</h3>
-<ul><li>This doesn't render anything by itself</li>
-
-
-<li>You have to then know how to do a two way template bind (Polymer convention looking like <b>{{result}} </b>
-
-or know how to use javascript in order to bind the results to visual output</li>
-
-<li>Its incredibly powerful</li>
-
-</ul>
-<p><a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/ui-components/query/site-query-menu-slice.js">site-query-menu-slice</a>
-
-<br/></p>
-<p>A menu slice query is one which takes part of a hierarchy and chops it out to return the items.</p>
-<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 100%;">  <template preserve-content="preserve-content"> &lt;
-    site-query-menu-slice
-    result="{{__items}}"
-    dynamic-methodology="[[dynamicMethodology]]"
-    start="[[start]]"
-    end="[[end]]"
-    parent="[[parent]]"
-    fixed-id="[[fixedId]]"
-    &gt;
-    &lt; /site-query-menu-slice&gt;
-    <dom-repeat items="[[__items]]">
-        <template>
-        <div class="spacing">
-            <a data-id$="[[item.id]]" class="link" tabindex="-1" href$="[[item.location]]">
-            <paper-button noink="[[noink]]">
-                <div class$="indent indent-[[item.indent]]"></div>
-                [[item.title]]
-            </paper-button>
-            </a>
-        </div>
-        </template>
-    </dom-repeat></template>
-</code-sample>
-<h3>Spoken example</h3>
-<lrndesign-blockquote style="width: 100%;" citation="America's Funniest Home Videos" image="https://media1.giphy.com/media/26tP972jcNs3V4bKw/giphy.gif" author="Bunch of kids falling" display-mode="leather" resource="#a8847fad-d94f-7e9b-6dd5" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org ">  <span>Give me all child pages<br/>
-that are 2 to 4 levels deep.</span>
-</lrndesign-blockquote>
-<h3>Delivered results</h3>
-<self-check title="Paying attention check" image="files/2019-03-23_10-51-10.jpg" alt="Another part of the same site illustrating that the theme block is generated by the type of query we're talking about." link="elements" accent-color="purple" resource="#d81c3a76-d1d3-2817-d2d8" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 75%; margin: 0px auto; display: block;">  <span slot="question">What type of query is this leveraging again?</span>
-  <span>site-query-menu-slice</span>
-</self-check>
-<h3 class="hax-active">Dynamic leveling</h3>
-<p>The dynamic leveling flag would allow you to create a query that analyzes the current active item (as example). And then say "Always give me 2-3 levels below this". In that instance you've got a dynamic sub-set of children being returned.</p>
-<h3>When it's useful</h3>
-<p>This can be useful for a block that always shows the children of the current page in a documentation site.</p>
-<h2><a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/ui-components/query/site-render-query.js">site-render-query</a>
-
-</h2>
-<p>A site render query attempts to standardize the practice of wiring site-query up to something visual. It requires you supply something visual to get going and has the unfortunate limitation though that what you render must not be dynamic in nature.</p>
-<p>Example</p>
-<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 100%;">  <template preserve-content="preserve-content"><site-render-query class="cardlist" grid="">
-        <template>
-          <div style="padding:8px;">
-            <paper-card heading="[[item.title]]" image="[[item.metadata.image]]" elevation="1" animated-shadow="false">
-              <div class="card-content">
-                <div>description: [[item.description]]</div>
-                <div>location: [[item.location]]</div>
-                <div>changed: [[item.metadata.updated]]</div>
-              </div>
-              <div class="card-actions">
-                <a tabindex="-1" href$="[[item.location]]"><paper-button data-id$="[[item.id]]">Set as active</paper-button></a>
-              </div>
-            </paper-card>
-          </div>
-        </template>
-      </site-render-query></template>
-</code-sample>
-<p><br/></p>
-<magazine-cover header="Spoken query" text="Pull in everything in the site and then render each result based on what's in this template tag." image="https://media3.giphy.com/media/5xtDarAUbabd4JvWpaM/giphy.gif" action="Why is this falling heads?" icon="icons:thumb-up" link="https://www.youtube.com/watch?v=StTqXEQ2l-Y" style="width: 75%; margin: 0px auto; display: block;"></magazine-cover>
-<h3 class="hax-active">When it's useful</h3>
-<p>When you have a static set of items you want to query once and have it be dynamic based on site infrastructure yet not be changing dynamically during site view.</p>
-<h3 class="hax-active">Possible usage</h3>
-<p>As we haven't rolled this into any themes at the time, this could be useful for placing a "latest posts" block or "upcoming events" block. Anything that's dynamic based on the data being passed in but yet unchanging once it's loaded. Think of this as a simple "views" construct if you are from the Drupal worldview.</p>
- ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//documentation-1/haxcms/theming/core-elements/query-examples</guid>
       <pubDate>Sat, 23 Mar 2019 13:58:38 +0000</pubDate>
     </item>
     <item>
@@ -720,60 +730,6 @@ the title of the active item wrapped in a h1 tag
       <category></category>
       <guid>https://haxtheweb.org//documentation-1/haxcms/theming/core-elements</guid>
       <pubDate>Wed, 13 Mar 2019 00:45:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Publishing</title>
-      <link>https://haxtheweb.org//documentation-1/haxcms/publishing</link>
-      <description>
-          <![CDATA[ <p>HAXcms requires being published in order to be visible to other people. Working locally or on Desktop or on a server, is akin to you writing a document on your computer. It's not shared with anyone. We recommend you setup publishing ahead of time to save hassle later.</p>
-<h2>Setting up publishing</h2>
-<p>From the HAXcms <i>site listing</i>
- page, click the settings gear in the top right corner.</p>
-<img src="files/pubwork1.jpg" style="width: 100%;"/><p>Next you'll see a modal that has options for plugging in your github credentials. We don't save your password and this aspect is optional. If you do enter your password, a one time API call is made on your behalf from your container which will setup an ssh key pair. This allows for all future requests to publish to happen automatically on your behalf. Your password is not stored. If you don't want to set this part up, you can plug in the rest of the git settings, save, and then manually publish files after using the UI (see last heading on this page).<br/></p>
-N<img src="files/pubwork2.jpg" style="width: 100%;"/><h2>Publishing from your sites / new sites</h2>
-<p>When you want to share your site with people or update your website, hitting the Publish button inside of your site is how to do this. Click the settings gear in the bottom right to get started.<br/></p>
-<img src="files/2019-02-20_01-26-01.png" alt="Select the settings gear under the additional menu options as an editor." style="width: 25%;"/><p>Currently GitHub is the only provider supported in the local installation method (or from DDEV / one of the supported container providers). In the future hitting publish will have additional development flexibility.</p>
-<img src="files/2019-02-20_01-26-10.png" alt="Edit site settings modal showing the Publish button." style="width: 75%; margin: 0px auto; display: block;"/><h2>Understanding what's actually happening</h2>
-<media-image source="files/gitpublishingdata.jpg" caption="This is a typical publishing area within your site.json file" alt="Screenshot of a piece of a JSON file that's powering the publishing settings for the workflow" size="wide" card box resource="#f73a7020-4b02-7471-fa7c" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 75%; margin: 0px auto; display: block;"></media-image>
-<p>When you hit publish, a few things happen to make your site "web ready". This is the general order of those operations:</p>
-<ol><li>HAXcms takes the underlying files and commits them all to version control (though they already should be)</li>
-
-
-<li>It then pushes these to the origin of the git repository (likely github)</li>
-
-<li>Then it switches to the branch you do your publishing from. In github, this is the <b>gh-pages</b>
-
- branch, but can deviate as needed.</li>
-
-<li>Next it deletes symlinks and replaces them with the correct references as needed and leverages the "cdn provider" you specified when setting up HAXcms in order to super charge your files for end users.</li>
-
-<li>It uses <a href="https://twig.symfony.com/">twig</a>
-
- to step through and correctly rewrite references in the index.html of your site to match the paths of where it's going to be sent</li>
-
-<li>Then it adds all this to version control and sends it up to your gh-pages branch.</li>
-
-<li>It does some local file clean up and sets things back to master branch for the next time you go to work on everything</li>
-
-</ol>
-<p>When this is all done, in the UI you'll see a link to your site after it's indicated a successful publish (meaning it pushed the files up there). Depending on where you host your content it may take a few minutes to see the change, though GitHub is usually up within about 2 minutes.</p>
-<p>Once about 2 minutes or so has passed, refresh your live site address or type in the URL of the site. If you've been there previously, you'll probably see the same content / theme as the last time you were there. After about 5 seconds, a message will pop up indicating "new content available" and clicking it (or refreshing the browser) will give you your updated content.</p>
-<p>This last step happens because of what's called a "service worker". This enables your site to be 100% offline capable and ensures that your site only uses traffic and data when it's absolutely necessary.</p>
-<h2 class="hax-active">A note on non UI publishing workflows</h2>
-<p>You might not have (or want to) setup the credentials between HAXcms and github / your git repo. That's ok. After you hit publish go to terminal / a Git GUI and run the following to publish your site:</p>
-<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 50%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">cd haxcms/_sites/YOURSITE
-git checkout gh-pages
-git push origin gh-pages
-git checkout master
-git push origin master</template>
-</code-sample>
-<p>HAXcms will have made sure that the gh-pages and master branches are valid for distribution, even if it wasn't able to actually send these files to their publishing destination.</p>
-<a11y-gif-player src="https://media0.giphy.com/media/QYPvVL1CheVXO/giphy.gif" src-without-animation="https://media3.giphy.com/media/QYPvVL1CheVXO/480w_s.jpg" alt="Monkeys publishing on keyboards with internet info graphic in the background" resource="#d430faf1-2a0a-3ffc-ded5" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 50%;"></a11y-gif-player>
- ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//documentation-1/haxcms/publishing</guid>
-      <pubDate>Wed, 20 Feb 2019 06:10:05 +0000</pubDate>
     </item>
     <item>
       <title>Theming</title>
@@ -1123,23 +1079,22 @@ export { LearnTwoTheme };</template>
       <pubDate>Wed, 20 Feb 2019 06:10:05 +0000</pubDate>
     </item>
     <item>
-      <title>Structure</title>
-      <link>https://haxtheweb.org//documentation-1/haxcms/structure</link>
+      <title>Concepts</title>
+      <link>https://haxtheweb.org//documentation-1/haxcms/concepts</link>
       <description>
-          <![CDATA[ <p>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.</p>
-<p>The key directories / files include:</p>
-<ul><li>files - any files you've uploaded through the HAX interface</li>
-
-<li>pages - folders named by their content uri that have index.html in it, no structure other then what you created when hitting save</li>
-<li>site.json - JSON Outline Schema object that defines the pages in your site and their relationship to each other<br/></li>
-<li>index.html - front page of the PWA that stitch it all together</li>
-<li>service-worker.js - makes it a PWA, no need to edi this</li>
+          <![CDATA[ <p>HAXcms seeks to be a microsite generator and manager that <b>doesn't require any command line in order to operate</b>
+. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to eliminate all the barriers to then publishing that content online.</p>
+<h3 class="hax-active">Some words and phrases worth understanding in HAXcms</h3>
+<ul><li>HAXeditor - the HAX editor</li>
+<li>microsite - An individual site that's been created by a user</li>
+<li>Outline - All sites are an outline, we use JSON Outline Schema to manage this</li>
+<li>Theme - A single web component based theme that's agnostic of content</li>
+<li>Elements / web components - design assets that work anywhere</li>
 </ul>
-<h3><span style="caret-color: rgb(0, 0, 0);">Screen grab of a microsite</span></h3>
-<img src="files/2019-02-25_16-22-25.png" alt="File structure of a typical HAXcms micro-site after being generated." style="width: 25%; margin: 0px auto; display: block;"/> ]]>
+ ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//documentation-1/haxcms/structure</guid>
+      <guid>https://haxtheweb.org//documentation-1/haxcms/concepts</guid>
       <pubDate>Wed, 20 Feb 2019 06:10:05 +0000</pubDate>
     </item>
     <item>
@@ -1159,22 +1114,23 @@ export { LearnTwoTheme };</template>
       <pubDate>Wed, 20 Feb 2019 06:10:05 +0000</pubDate>
     </item>
     <item>
-      <title>Concepts</title>
-      <link>https://haxtheweb.org//documentation-1/haxcms/concepts</link>
+      <title>Structure</title>
+      <link>https://haxtheweb.org//documentation-1/haxcms/structure</link>
       <description>
-          <![CDATA[ <p>HAXcms seeks to be a microsite generator and manager that <b>doesn't require any command line in order to operate</b>
-. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to eliminate all the barriers to then publishing that content online.</p>
-<h3 class="hax-active">Some words and phrases worth understanding in HAXcms</h3>
-<ul><li>HAXeditor - the HAX editor</li>
-<li>microsite - An individual site that's been created by a user</li>
-<li>Outline - All sites are an outline, we use JSON Outline Schema to manage this</li>
-<li>Theme - A single web component based theme that's agnostic of content</li>
-<li>Elements / web components - design assets that work anywhere</li>
+          <![CDATA[ <p>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.</p>
+<p>The key directories / files include:</p>
+<ul><li>files - any files you've uploaded through the HAX interface</li>
+
+<li>pages - folders named by their content uri that have index.html in it, no structure other then what you created when hitting save</li>
+<li>site.json - JSON Outline Schema object that defines the pages in your site and their relationship to each other<br/></li>
+<li>index.html - front page of the PWA that stitch it all together</li>
+<li>service-worker.js - makes it a PWA, no need to edi this</li>
 </ul>
- ]]>
+<h3><span style="caret-color: rgb(0, 0, 0);">Screen grab of a microsite</span></h3>
+<img src="files/2019-02-25_16-22-25.png" alt="File structure of a typical HAXcms micro-site after being generated." style="width: 25%; margin: 0px auto; display: block;"/> ]]>
       </description>
       <category></category>
-      <guid>https://haxtheweb.org//documentation-1/haxcms/concepts</guid>
+      <guid>https://haxtheweb.org//documentation-1/haxcms/structure</guid>
       <pubDate>Wed, 20 Feb 2019 06:10:05 +0000</pubDate>
     </item>
     <item>
@@ -1416,6 +1372,60 @@ bash scripts/haxtheweb.sh</template>
       <pubDate>Wed, 20 Feb 2019 06:10:05 +0000</pubDate>
     </item>
     <item>
+      <title>Publishing</title>
+      <link>https://haxtheweb.org//documentation-1/haxcms/publishing</link>
+      <description>
+          <![CDATA[ <p>HAXcms requires being published in order to be visible to other people. Working locally or on Desktop or on a server, is akin to you writing a document on your computer. It's not shared with anyone. We recommend you setup publishing ahead of time to save hassle later.</p>
+<h2>Setting up publishing</h2>
+<p>From the HAXcms <i>site listing</i>
+ page, click the settings gear in the top right corner.</p>
+<img src="files/pubwork1.jpg" style="width: 100%;"/><p>Next you'll see a modal that has options for plugging in your github credentials. We don't save your password and this aspect is optional. If you do enter your password, a one time API call is made on your behalf from your container which will setup an ssh key pair. This allows for all future requests to publish to happen automatically on your behalf. Your password is not stored. If you don't want to set this part up, you can plug in the rest of the git settings, save, and then manually publish files after using the UI (see last heading on this page).<br/></p>
+N<img src="files/pubwork2.jpg" style="width: 100%;"/><h2>Publishing from your sites / new sites</h2>
+<p>When you want to share your site with people or update your website, hitting the Publish button inside of your site is how to do this. Click the settings gear in the bottom right to get started.<br/></p>
+<img src="files/2019-02-20_01-26-01.png" alt="Select the settings gear under the additional menu options as an editor." style="width: 25%;"/><p>Currently GitHub is the only provider supported in the local installation method (or from DDEV / one of the supported container providers). In the future hitting publish will have additional development flexibility.</p>
+<img src="files/2019-02-20_01-26-10.png" alt="Edit site settings modal showing the Publish button." style="width: 75%; margin: 0px auto; display: block;"/><h2>Understanding what's actually happening</h2>
+<media-image source="files/gitpublishingdata.jpg" caption="This is a typical publishing area within your site.json file" alt="Screenshot of a piece of a JSON file that's powering the publishing settings for the workflow" size="wide" card box resource="#f73a7020-4b02-7471-fa7c" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 75%; margin: 0px auto; display: block;"></media-image>
+<p>When you hit publish, a few things happen to make your site "web ready". This is the general order of those operations:</p>
+<ol><li>HAXcms takes the underlying files and commits them all to version control (though they already should be)</li>
+
+
+<li>It then pushes these to the origin of the git repository (likely github)</li>
+
+<li>Then it switches to the branch you do your publishing from. In github, this is the <b>gh-pages</b>
+
+ branch, but can deviate as needed.</li>
+
+<li>Next it deletes symlinks and replaces them with the correct references as needed and leverages the "cdn provider" you specified when setting up HAXcms in order to super charge your files for end users.</li>
+
+<li>It uses <a href="https://twig.symfony.com/">twig</a>
+
+ to step through and correctly rewrite references in the index.html of your site to match the paths of where it's going to be sent</li>
+
+<li>Then it adds all this to version control and sends it up to your gh-pages branch.</li>
+
+<li>It does some local file clean up and sets things back to master branch for the next time you go to work on everything</li>
+
+</ol>
+<p>When this is all done, in the UI you'll see a link to your site after it's indicated a successful publish (meaning it pushed the files up there). Depending on where you host your content it may take a few minutes to see the change, though GitHub is usually up within about 2 minutes.</p>
+<p>Once about 2 minutes or so has passed, refresh your live site address or type in the URL of the site. If you've been there previously, you'll probably see the same content / theme as the last time you were there. After about 5 seconds, a message will pop up indicating "new content available" and clicking it (or refreshing the browser) will give you your updated content.</p>
+<p>This last step happens because of what's called a "service worker". This enables your site to be 100% offline capable and ensures that your site only uses traffic and data when it's absolutely necessary.</p>
+<h2 class="hax-active">A note on non UI publishing workflows</h2>
+<p>You might not have (or want to) setup the credentials between HAXcms and github / your git repo. That's ok. After you hit publish go to terminal / a Git GUI and run the following to publish your site:</p>
+<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 50%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">cd haxcms/_sites/YOURSITE
+git checkout gh-pages
+git push origin gh-pages
+git checkout master
+git push origin master</template>
+</code-sample>
+<p>HAXcms will have made sure that the gh-pages and master branches are valid for distribution, even if it wasn't able to actually send these files to their publishing destination.</p>
+<a11y-gif-player src="https://media0.giphy.com/media/QYPvVL1CheVXO/giphy.gif" src-without-animation="https://media3.giphy.com/media/QYPvVL1CheVXO/480w_s.jpg" alt="Monkeys publishing on keyboards with internet info graphic in the background" resource="#d430faf1-2a0a-3ffc-ded5" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 50%;"></a11y-gif-player>
+ ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//documentation-1/haxcms/publishing</guid>
+      <pubDate>Wed, 20 Feb 2019 06:10:05 +0000</pubDate>
+    </item>
+    <item>
       <title>WordPress</title>
       <link>https://haxtheweb.org//integrations-1/wordpress</link>
       <description>
@@ -1431,65 +1441,6 @@ bash scripts/haxtheweb.sh</template>
       <category></category>
       <guid>https://haxtheweb.org//integrations-1/wordpress</guid>
       <pubDate>Wed, 06 Feb 2019 04:48:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>Creating new ones!</title>
-      <link>https://haxtheweb.org//integrations-1/creating-new-ones</link>
-      <description>
-          <![CDATA[ <p>The main piece to our integrations is wrapped up in something we call "The magic script". The magic script is a standard way of dynamically discovering and importing the definitions of web components on the fly. We leverage this approach in all of our HAX platform integrations because it simplifies the initial question of how to teach the CMS / app about web components.</p>
-<p>There's an entire <a href="https://dev.to/btopro/uwc-part-3-the-magic-script-122a">Dev.to Series about our integration</a>
- methodology if you'd like more detail about why we do this or how it works. The integration methodology is a stand alone repo you can use for custom builds, found in our <a href="https://github.com/elmsln/unbundled-webcomponents">Unbundled Web components repo</a>
-. Below is what is recommended if you want to leverage our CDN and wide array of elements we already include in our builds.</p>
-<code-sample copy-clipboard-button><template preserve-content="preserve-content"><script>window.__appCDN="https://cdn.webcomponents.psu.edu/cdn/";</script>
-&lt;script&gt;&lt;/script&gt;</template></code-sample>
-<p>This script will load off of the Penn State CDN and automatically hydrate the web components discovered on the page, including h-a-x and the HAX family of tags.</p>
-<full-width-image source="files/59453a821222752c90fa970c937c2c396bff61f5-ngdle-university-faculty-side.jpg" caption="Wiring up new universes to HAX"></full-width-image>
-<p><a href="https://github.com/elmsln/hax-all-the-things">HAX All the Things</a>
- repo has every integration we support as well as some examples of including HAX in Angular and other frameworks (see platform folder in that repo). For a common CMS integration example see this part of the WordPress plugin (code below)</p>
-<h2 id="header-f8635cb3-20a5-1656-35fb-d7bc200ac952">WordPress integration example</h2>
-<code-sample copy-clipboard-button><template preserve-content="preserve-content">(function ($) {
-	$(document).ready(function () {
-    // HAX the Press
-    var haxThePress = document.createElement('wysiwyg-hax');
-    var temp = document.createElement('template');
-    // target the TinyMCE area
-    const content = document.querySelector('textarea#content');
-    // replicate what it was providing to the light DOM
-    haxThePress.fieldClass = 'wp-editor-area';
-    haxThePress.fieldName = 'content';
-    haxThePress.fieldId = 'content';
-    haxThePress.openDefault = true;
-    haxThePress.elementAlign = 'left';
-    haxThePress.saveButtonSelector = document.querySelector('input[type="submit"]#publish');
-    if (window.haxThePressConnector) {
-      haxThePress.appStoreConnection = window.haxThePressConnector;
-    }
-    // set the template tag to the content previously in the textarea
-    temp.innerHTML = content.value;
-    // append the template tag into the wysiwyg
-    haxThePress.appendChild(temp.cloneNode(true));
-    // insert the field exactly where the tinymce was
-    content.parentNode.insertBefore(haxThePress, content);
-    // HAX the web
-    content.parentNode.removeChild(content);
-	});
-})(jQuery);</template></code-sample>
-<p>In this example we can see that WordPress is able to integrate with the wysiwyg-hax tag by using jQuery to correctly time when the WordPress loaded DOM is ready, then replacing the "content" area (a textarea with id="content") at run time with our light-dom capable wysiwyg-hax tag.</p>
-<h2 id="header-4fd4b2de-81c4-18aa-0ac1-4e2dbb54c929">General integration advisement</h2>
-<p>HAXeditor keeps so much functionality on the front-end that there's really very little tying it to..well.. anything. As a result, HAX is easy to integrate into systems that currently have WYSIWYG capabilities.</p>
-<p>All integrations effectively boil down to four things</p>
-<ol><li>End point to load content</li>
-<li>End point to save content</li>
-<li>End point to load the appstore specification</li>
-<li>End point to upload files (optional)</li>
-</ol>
-<h2 id="header-91865b4b-0eab-e9f8-bda4-e41889517d92">Content filtering</h2>
-<p>Because web components are valid HTML tags your system may accept them when saved into your database but you may also be doing tag filtering or other XSS sanitation prior to storage. If you do process prior to storage (and you should) but it strips the web components out of the mark up, you'll need to add some filtering / white-listing capabilities to your system in order to ensure that the web component html tags pass through that should.</p>
- ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//integrations-1/creating-new-ones</guid>
-      <pubDate>Wed, 30 Jan 2019 06:07:14 +0000</pubDate>
     </item>
   </channel>
 </rss>
