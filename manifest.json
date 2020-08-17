@@ -37,7 +37,8 @@
             "src": "files/haxcms-managed/192x192-3450183.png",
             "sizes": "192x192",
             "type": "image\/png",
-            "density": "4.0"
+            "density": "4.0",
+            "purpose": "any maskable"
         },
         {
             "src": "files/haxcms-managed/512x512-3450183.png",
@@ -46,8 +47,8 @@
             "density": "4.0"
         }
     ],
-    "scope": "",
-    "start_url": "",
+    "scope": "/sites/haxtheweb/",
+    "start_url": "/sites/haxtheweb/",
     "display": "standalone",
     "theme_color": "#009dc7",
     "background_color": "#009dc7"
