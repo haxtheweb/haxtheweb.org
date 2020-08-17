@@ -554,21 +554,27 @@
             "order": "1",
             "parent": "item-welcome",
             "title": "Solutions",
-            "description": "Modularity is key to HAX success. Here are some of the solutions that HAX provides which leverage the HAXeditor interface.HAX editorintegrations\u00a0page to find one that works best for youHAXcmsH",
+            "description": "Modularity is key to HAX success. Here are some of the solutions that HAX provides which leverage the HAXeditor interface.HAX editorHAXcmsHAXcms is the slimmest possible Content Management System ",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1597686794,
-                "readtime": 1,
+                "updated": 1597686916,
+                "readtime": 2,
                 "contentDetails": {
-                    "headings": 3,
+                    "headings": 4,
                     "paragraphs": 9,
-                    "schema": [],
+                    "schema": [
+                        {
+                            "resource": "#832335f3-7442-7d40-0d56",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        }
+                    ],
                     "tags": {
                         "p": 9,
                         "h2": 3,
-                        "span": 1
+                        "h3": 1,
+                        "media-image": 1
                     },
-                    "elements": 13
+                    "elements": 14
                 }
             }
         },
