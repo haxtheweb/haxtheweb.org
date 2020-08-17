@@ -131,10 +131,10 @@
             "order": "0",
             "parent": null,
             "title": "Welcome",
-            "description": "Headless Authoring eXperience (HAX) is a next generation block editor that works anywhere via web components!  HAX works with web component based design assets so you are never tied to HAX. Th",
+            "description": "Developer quick start    # HAX editor stand alone for use in appsyarn add @lrnwebcomponents\/h-a-x# or Integrate with a textarea like older wysiwyg editorsyarn add @lrnwebcomponents\/wysiwyg-haxC",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1588007438,
+                "updated": 1597685865,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
@@ -163,8 +163,8 @@
                 ],
                 "readtime": 1,
                 "contentDetails": {
-                    "headings": 1,
-                    "paragraphs": 3,
+                    "headings": 4,
+                    "paragraphs": 5,
                     "schema": [
                         {
                             "resource": "#18d556e9-a1d7-3069-81d9",
@@ -172,12 +172,13 @@
                         }
                     ],
                     "tags": {
-                        "p": 3,
-                        "video-player": 1,
-                        "h3": 1,
-                        "ol": 1
+                        "h3": 4,
+                        "code-sample": 2,
+                        "ul": 2,
+                        "p": 5,
+                        "video-player": 1
                     },
-                    "elements": 6
+                    "elements": 14
                 }
             }
         },

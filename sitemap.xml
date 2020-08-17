@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- generator-class="Icamys\SitemapGenerator\SitemapGenerator" -->
 <!-- generator-version="1.1.0" -->
-<!-- generated-on="2020-07-06T21:41:46+00:00" -->
+<!-- generated-on="2020-08-17T17:37:45+00:00" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/hax-development</loc>
@@ -17,7 +17,7 @@
   </url>
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//welcome</loc>
-    <lastmod>2020-04-27T17:10:38+00:00</lastmod>
+    <lastmod>2020-08-17T17:37:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -42,12 +42,6 @@
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//welcome/what-is-hax</loc>
     <lastmod>2020-07-06T21:41:46+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//example-themes-1/basic</loc>
-    <lastmod>2020-04-27T16:21:09+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -77,12 +71,6 @@
   </url>
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/core-concepts</loc>
-    <lastmod>2020-04-27T16:21:09+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//example-themes-1/minimalist</loc>
     <lastmod>2020-04-27T16:21:09+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -149,12 +137,6 @@
   </url>
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//welcome/roadmap-1</loc>
-    <lastmod>2020-04-27T16:21:09+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//example-themes-1/learn-two</loc>
     <lastmod>2020-04-27T16:21:09+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -244,12 +226,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//example-themes-1/simple-blog</loc>
-    <lastmod>2020-04-27T16:21:09+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//integrations-1</loc>
     <lastmod>2020-04-27T16:26:39+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -286,12 +262,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//example-themes-1/haxor-slevin</loc>
-    <lastmod>2020-04-27T16:21:09+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/haxcms/life-cycle</loc>
     <lastmod>2020-04-27T16:21:09+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -314,18 +284,6 @@
     <lastmod>2020-04-27T16:21:09+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//example-themes-1/slide-player</loc>
-    <lastmod>2020-04-27T16:21:09+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//example-themes-1</loc>
-    <lastmod>2020-04-27T16:21:09+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/haxcms/troubleshooting</loc>
@@ -352,21 +310,9 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//example-themes-1/outline-player</loc>
-    <lastmod>2020-04-27T16:21:09+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//scavenger-hunt-1</loc>
     <lastmod>2020-04-27T16:21:09+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/https://haxtheweb.org//example-themes-1/dev-theme</loc>
-    <lastmod>2020-04-27T16:21:09+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
   </url>
 </urlset>

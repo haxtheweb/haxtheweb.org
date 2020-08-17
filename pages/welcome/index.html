@@ -1,21 +1,45 @@
+<h3 id="header-df8ea773-4e2c-f750-ba6a-85937982bec8">Developer quick start</h3>
+<code-sample style="width: 90%; margin: 0px auto; display: block;" copy-clipboard-button>  
+  
+<template preserve-content="preserve-content"># HAX editor stand alone for use in apps
+yarn add @lrnwebcomponents/h-a-x
+# or Integrate with a textarea like older wysiwyg editors
+yarn add @lrnwebcomponents/wysiwyg-hax</template></code-sample>
+<h3 id="header-21b7a780-773c-4637-9c12-debee2a699aa"><b>CMS integrations</b>
+</h3>
+<ul><li><li><span style="font-size: var(--hax-base-styles-list-font-size,var(--hax-base-styles-p-font-size)); font-family: var(--haxcms-base-styles-body-font-family); letter-spacing: var(--haxcms-base-styles-body-letter-spacing);"><a href="integrations-1/wordpress">WordPress</a>
+ / <a href="integrations-1/classicpress-1">ClassicPress</a>
+</span></li>
+</li>
+<li><a href="integrations-1/drupal">Drupal 7,8 or 9</a>
+</li>
+<li><a href="integrations-1/backdropcms">BackdropCMS</a>
+</li>
+<li><a href="integrations-1/gravcms">GravCMS</a>
+</li>
+<li><a href="https://github.com/elmsln/haxcms">HAXcms</a>
+</li>
+</ul>
 <p><b>H</b>
 eadless <b>A</b>
 uthoring e<b>X</b>
 perience (HAX) is a next generation <b>block editor</b>
  that works anywhere via <i>web components</i>
 !</p>
+<h3 id="header-49cdb859-5257-033f-1bb7-ef08f8cc8ad7">What is this?</h3>
 <video-player style="margin: 0px auto; display: block;" accent-color="cyan" lang="en" preload="metadata" source="https://www.youtube.com/watch?v=LrS7dqokTLE" sticky-corner="top-right" track="files/HAXshort.vtt" youtube-id="LrS7dqokTLE?undefined" iframed="" source-type="youtube" is-a11y-media="" is-youtube="" media-title="Why do I need to go anywhere?" resource="#18d556e9-a1d7-3069-81d9" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " sources="[]" tracks="[]" schema-resource-id="#18d556e9-a1d7-3069-81d9" crossorigin="anonymous" dark>  <track src="files/HAXshort.vtt" kind="subtitles" label="English" slot="track"/></track>
 </video-player>
 <p>HAX works with web component based design assets so you are never tied to HAX. This keeps your <b>design pure </b>
-and without adding platform lock-in as content produced by HAX is semantic HTML.</p>
-<h3 id="header-2523335c-8e38-a022-c2ab-ad8fdab8541b">Extending HAX is simple:</h3>
-<ol><li>Make a new web component in any library you want, or VanillaJS</li>
-<li>Add some simple, well documented and flexible <a href="hax-schema">HAXSchema</a>
-<br/></li>
-<li><b><i>When </i>
-</b>
-HAX is around, it'll know how to edit your element but you can use it anywhere regardless!</li>
-</ol>
-<code-sample copy-clipboard-button style="width: 50%; margin: 0px auto; display: block;" theme="{}">  <template preserve-content="preserve-content">yarn add @lrnwebcomponents/h-a-x</template>
-</code-sample>
-<p><span>HAX is easy for developers to integrate too! Yarn / NPM install the element, place the editable content inside the slot of the h-a-x tag and now you've got an incredible, flexible, future proof editor without platform lock-in! Go forth and HAX the web!</span></p>
+and without adding platform lock-in as content produced by HAX is semantic HTML. Want the video player above this? Then just run this:</p>
+<code-sample><template preserve-content="preserve-content"># the video-player tag works with HAX but works ANYWHERE regardless of it
+yarn add @lrnwebcomponents/video-player</template></code-sample>
+<h3 id="header-2523335c-8e38-a022-c2ab-ad8fdab8541b">Get involved!</h3>
+<p><a href="https://bit.ly/haxslack">Join us on our slack channel</a>
+ and get involved in all things HAX and web components.</p>
+<p>Who's involved</p>
+<p>HAX is the brainchild of Bryan Ollendyke and has seen contributions from:</p>
+<ul><li>Arizona State University (Drupal 8 plugin), The National Archives (UX Audit, Drupal 8 plugin)</li>
+<li>Penn State Libraries (HAX11ty)</li>
+<li>Penn State Eberly College of Science (core contributor / maintainers)</li>
+<li>Penn State Arts and Architecture (core contributors / maintainers)</li>
+</ul>
