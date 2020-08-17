@@ -791,10 +791,10 @@
             "order": "2",
             "parent": null,
             "title": "Integrations",
-            "description": "HAX provides plenty of ways to integrate into the platforms you already use! Here's a list of currently supported ones with links off to their associated pluginsHAXcms (powering this website)HAX11t",
+            "description": "HAX provides plenty of ways to integrate into the platforms you already use! Here are some of the plugins and integrations below this heading.Some things a liittle bit crazyCode Pen?!Demonstration",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1597690811,
+                "updated": 1597690859,
                 "readtime": 1,
                 "contentDetails": {
                     "headings": 1,
@@ -802,11 +802,10 @@
                     "schema": [],
                     "tags": {
                         "p": 1,
-                        "li": 7,
                         "h2": 1,
                         "ul": 1
                     },
-                    "elements": 10
+                    "elements": 3
                 }
             }
         },
