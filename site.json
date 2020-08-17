@@ -131,10 +131,10 @@
             "order": "0",
             "parent": null,
             "title": "Welcome",
-            "description": "Developer quick start    # HAX editor stand alone for use in appsyarn add @lrnwebcomponents\/h-a-x# or Integrate with a textarea like older wysiwyg editorsyarn add @lrnwebcomponents\/wysiwyg-haxC",
+            "description": "Live demoSeeing is believing! Thanks to Penn State College of Arts & Architecture for sponsoring this demo!HAXcms live demo (admin \/ admin as login info)Developer quick start    # HAX editor st",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1597685898,
+                "updated": 1597686212,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
@@ -163,8 +163,8 @@
                 ],
                 "readtime": 1,
                 "contentDetails": {
-                    "headings": 5,
-                    "paragraphs": 4,
+                    "headings": 6,
+                    "paragraphs": 6,
                     "schema": [
                         {
                             "resource": "#18d556e9-a1d7-3069-81d9",
@@ -172,13 +172,13 @@
                         }
                     ],
                     "tags": {
-                        "h3": 5,
+                        "h3": 6,
+                        "p": 6,
                         "code-sample": 2,
                         "ul": 2,
-                        "p": 4,
                         "video-player": 1
                     },
-                    "elements": 14
+                    "elements": 17
                 }
             }
         },
