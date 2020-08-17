@@ -356,32 +356,6 @@
             }
         },
         {
-            "id": "item-3f7d815c-5020-b7f0-dc79-d13499775ec8",
-            "indent": 0,
-            "location": "pages\/welcome\/try-hax\/index.html",
-            "slug": "welcome\/try-hax",
-            "order": "1",
-            "parent": null,
-            "title": "Try hax",
-            "description": "Live Demo \/ ways to try haxThe Penn State's Office of Digital Learning sponsors the hosting of a HAXcms demo which runs the latest code at all times.Address:\u00a0http:\/\/haxcms.do1.demos.elmsln.org\/U",
-            "metadata": {
-                "created": 1548826475,
-                "updated": 1588004469,
-                "readtime": 1,
-                "contentDetails": {
-                    "headings": 2,
-                    "paragraphs": 5,
-                    "schema": [],
-                    "tags": {
-                        "h2": 1,
-                        "p": 5,
-                        "h3": 1
-                    },
-                    "elements": 7
-                }
-            }
-        },
-        {
             "id": "item-ca8c6ba8-c012-8ace-343a-3701f20609e9",
             "indent": "1",
             "location": "pages\/integrations-1\/drupal\/index.html",

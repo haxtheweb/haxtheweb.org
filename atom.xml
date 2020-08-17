@@ -443,6 +443,66 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
     </content>
   </entry>
   <entry>
+    <title>CSS vars</title>
+    <id>https://haxtheweb.org//documentation-1/haxcms/theming/css-vars</id>
+    <updated>2020-04-27T16:21:09+00:00</updated>
+    <published>2019-03-23T13:58:38+00:00</published>
+    <summary>CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a</summary>
+    <link href="https://haxtheweb.org//documentation-1/haxcms/theming/css-vars"/>
+    
+    <content type="html">
+      <![CDATA[ <p>CSS can be modified via <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties">CSS variables</a>
+. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility and control over design. We leverage CSS variables heavily in our template layer to allow you to "skin" just about any theme we have already.</p>
+<h2>A note about @apply</h2>
+<p>Unlike normal css variables, Polymer (the library we build our theme layer on) supports a convention for CSS variables that operate a bit more like Saas mixins. You can write blocks of code like <b>@apply --my-variable-blob;</b>
+ which will then allow someone to mix in and apply whatever valid CSS attributes they want at that level. You can see several implemented below (both CSS variables and @apply blocks).</p>
+<h2 class="hax-active">Example</h2>
+<p>This is an example from the <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/themes/haxcms-basic-theme.js#L23">haxcms-basic-theme </a>
+which forms a clean baseline for most sites.</p>
+<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 75%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">// this is from the haxcms-basic-theme
+site-top-menu {
+    --site-top-menu-bg: #37474f;
+    --site-top-menu-link-color: #ffffff;
+    --site-top-menu-indicator-color: #ffffff;
+    --site-top-menu-link-active-color: var(
+    --haxcms-basic-theme-accent-color
+    );
+    --site-top-menu-indicator-arrow: 8px;
+}
+site-children-block {
+    --site-children-block-button: {
+    color: #ffffff;
+    }
+    --site-children-block-button-active: {
+    background-color: #37474f;
+    color: var(--haxcms-basic-theme-accent-color);
+    }
+}
+.left-col {
+    min-height: 250px;
+    border: 2px solid black;
+    background-color: #37474f;
+    color: white;
+    padding: 16px;
+}
+site-active-title {
+    display: inline-flex;
+    --site-active-title-heading: {
+    font-family: "Montserrat", "Helvetica", "Tahoma", "Geneva", "Arial",
+        sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 8px;
+    text-rendering: optimizelegibility;
+    font-weight: 600;
+    color: white;
+    }
+}</template>
+</code-sample>
+ ]]>
+    </content>
+  </entry>
+  <entry>
     <title>Query examples</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming/core-elements/query-examples</id>
     <updated>2020-04-27T16:21:09+00:00</updated>
@@ -559,66 +619,6 @@ that are 2 to 4 levels deep.</span>
 <p>When you have a static set of items you want to query once and have it be dynamic based on site infrastructure yet not be changing dynamically during site view.</p>
 <h3 class="hax-active">Possible usage</h3>
 <p>As we haven't rolled this into any themes at the time, this could be useful for placing a "latest posts" block or "upcoming events" block. Anything that's dynamic based on the data being passed in but yet unchanging once it's loaded. Think of this as a simple "views" construct if you are from the Drupal worldview.</p>
- ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>CSS vars</title>
-    <id>https://haxtheweb.org//documentation-1/haxcms/theming/css-vars</id>
-    <updated>2020-04-27T16:21:09+00:00</updated>
-    <published>2019-03-23T13:58:38+00:00</published>
-    <summary>CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a</summary>
-    <link href="https://haxtheweb.org//documentation-1/haxcms/theming/css-vars"/>
-    
-    <content type="html">
-      <![CDATA[ <p>CSS can be modified via <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties">CSS variables</a>
-. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility and control over design. We leverage CSS variables heavily in our template layer to allow you to "skin" just about any theme we have already.</p>
-<h2>A note about @apply</h2>
-<p>Unlike normal css variables, Polymer (the library we build our theme layer on) supports a convention for CSS variables that operate a bit more like Saas mixins. You can write blocks of code like <b>@apply --my-variable-blob;</b>
- which will then allow someone to mix in and apply whatever valid CSS attributes they want at that level. You can see several implemented below (both CSS variables and @apply blocks).</p>
-<h2 class="hax-active">Example</h2>
-<p>This is an example from the <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/themes/haxcms-basic-theme.js#L23">haxcms-basic-theme </a>
-which forms a clean baseline for most sites.</p>
-<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 75%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">// this is from the haxcms-basic-theme
-site-top-menu {
-    --site-top-menu-bg: #37474f;
-    --site-top-menu-link-color: #ffffff;
-    --site-top-menu-indicator-color: #ffffff;
-    --site-top-menu-link-active-color: var(
-    --haxcms-basic-theme-accent-color
-    );
-    --site-top-menu-indicator-arrow: 8px;
-}
-site-children-block {
-    --site-children-block-button: {
-    color: #ffffff;
-    }
-    --site-children-block-button-active: {
-    background-color: #37474f;
-    color: var(--haxcms-basic-theme-accent-color);
-    }
-}
-.left-col {
-    min-height: 250px;
-    border: 2px solid black;
-    background-color: #37474f;
-    color: white;
-    padding: 16px;
-}
-site-active-title {
-    display: inline-flex;
-    --site-active-title-heading: {
-    font-family: "Montserrat", "Helvetica", "Tahoma", "Geneva", "Arial",
-        sans-serif;
-    font-size: 16px;
-    line-height: 32px;
-    margin-bottom: 8px;
-    text-rendering: optimizelegibility;
-    font-weight: 600;
-    color: white;
-    }
-}</template>
-</code-sample>
  ]]>
     </content>
   </entry>
@@ -848,6 +848,46 @@ git push origin master</template>
 <p>HAXcms will have made sure that the gh-pages and master branches are valid for distribution, even if it wasn't able to actually send these files to their publishing destination.</p>
 <a11y-gif-player src="https://media0.giphy.com/media/QYPvVL1CheVXO/giphy.gif" src-without-animation="https://media3.giphy.com/media/QYPvVL1CheVXO/480w_s.jpg" alt="Monkeys publishing on keyboards with internet info graphic in the background" resource="#d430faf1-2a0a-3ffc-ded5" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 50%;"></a11y-gif-player>
  ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Structure</title>
+    <id>https://haxtheweb.org//documentation-1/haxcms/structure</id>
+    <updated>2020-04-27T16:21:09+00:00</updated>
+    <published>2019-02-20T06:10:05+00:00</published>
+    <summary>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories / files include:fi</summary>
+    <link href="https://haxtheweb.org//documentation-1/haxcms/structure"/>
+    
+    <content type="html">
+      <![CDATA[ <p>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.</p>
+<p>The key directories / files include:</p>
+<ul><li>files - any files you've uploaded through the HAX interface</li>
+
+<li>pages - folders named by their content uri that have index.html in it, no structure other then what you created when hitting save</li>
+<li>site.json - JSON Outline Schema object that defines the pages in your site and their relationship to each other<br/></li>
+<li>index.html - front page of the PWA that stitch it all together</li>
+<li>service-worker.js - makes it a PWA, no need to edi this</li>
+</ul>
+<h3><span style="caret-color: rgb(0, 0, 0);">Screen grab of a microsite</span></h3>
+<img src="files/2019-02-25_16-22-25.png" alt="File structure of a typical HAXcms micro-site after being generated." style="width: 25%; margin: 0px auto; display: block;"/> ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>HAXcms</title>
+    <id>https://haxtheweb.org//documentation-1/haxcms</id>
+    <updated>2020-04-27T16:21:09+00:00</updated>
+    <published>2019-02-20T06:10:05+00:00</published>
+    <summary>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server"</summary>
+    <link href="https://haxtheweb.org//documentation-1/haxcms"/>
+    
+    <content type="html">
+      <![CDATA[ <p>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server" is only used when needed for a user to securely develop their content.</p>
+<h2>Difference from past static generators</h2>
+<p>Unlike solutions like <a href="https://jekyllrb.com/">Jekyll</a>
+
+, HAXcms is for anyone to publish a website, not just those that understand command line. HAXcms is intended to be installed and then allow users to entirely use a UI to create, publish and manage micro-sites.</p>
+<h2>Visualization</h2>
+<img src="files/HAXCms workflow.jpg" alt="HAXcms visualization of publishing workflow at a data layer. Static sites are published from the files you work with yet whatever you edit via the UI is always saved into a static format that works anywhere." style="width: 75%; margin: 0px auto; display: block;"/> ]]>
     </content>
   </entry>
   <entry>
@@ -1200,24 +1240,6 @@ export { LearnTwoTheme };</template>
     </content>
   </entry>
   <entry>
-    <title>HAXcms</title>
-    <id>https://haxtheweb.org//documentation-1/haxcms</id>
-    <updated>2020-04-27T16:21:09+00:00</updated>
-    <published>2019-02-20T06:10:05+00:00</published>
-    <summary>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server"</summary>
-    <link href="https://haxtheweb.org//documentation-1/haxcms"/>
-    
-    <content type="html">
-      <![CDATA[ <p>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server" is only used when needed for a user to securely develop their content.</p>
-<h2>Difference from past static generators</h2>
-<p>Unlike solutions like <a href="https://jekyllrb.com/">Jekyll</a>
-
-, HAXcms is for anyone to publish a website, not just those that understand command line. HAXcms is intended to be installed and then allow users to entirely use a UI to create, publish and manage micro-sites.</p>
-<h2>Visualization</h2>
-<img src="files/HAXCms workflow.jpg" alt="HAXcms visualization of publishing workflow at a data layer. Static sites are published from the files you work with yet whatever you edit via the UI is always saved into a static format that works anywhere." style="width: 75%; margin: 0px auto; display: block;"/> ]]>
-    </content>
-  </entry>
-  <entry>
     <title>Installation</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/installation</id>
     <updated>2020-04-27T16:21:09+00:00</updated>
@@ -1458,28 +1480,6 @@ bash scripts/haxtheweb.sh</template>
     </content>
   </entry>
   <entry>
-    <title>Structure</title>
-    <id>https://haxtheweb.org//documentation-1/haxcms/structure</id>
-    <updated>2020-04-27T16:21:09+00:00</updated>
-    <published>2019-02-20T06:10:05+00:00</published>
-    <summary>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories / files include:fi</summary>
-    <link href="https://haxtheweb.org//documentation-1/haxcms/structure"/>
-    
-    <content type="html">
-      <![CDATA[ <p>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.</p>
-<p>The key directories / files include:</p>
-<ul><li>files - any files you've uploaded through the HAX interface</li>
-
-<li>pages - folders named by their content uri that have index.html in it, no structure other then what you created when hitting save</li>
-<li>site.json - JSON Outline Schema object that defines the pages in your site and their relationship to each other<br/></li>
-<li>index.html - front page of the PWA that stitch it all together</li>
-<li>service-worker.js - makes it a PWA, no need to edi this</li>
-</ul>
-<h3><span style="caret-color: rgb(0, 0, 0);">Screen grab of a microsite</span></h3>
-<img src="files/2019-02-25_16-22-25.png" alt="File structure of a typical HAXcms micro-site after being generated." style="width: 25%; margin: 0px auto; display: block;"/> ]]>
-    </content>
-  </entry>
-  <entry>
     <title>Concepts</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/concepts</id>
     <updated>2020-04-27T16:21:09+00:00</updated>
@@ -1572,27 +1572,60 @@ HAXeditor keeps so much functionality on the front-end that there's really very 
     </content>
   </entry>
   <entry>
-    <title>BackdropCMS</title>
-    <id>https://haxtheweb.org//integrations-1/backdropcms</id>
+    <title>HAX Element Schema</title>
+    <id>https://haxtheweb.org//documentation-1/hax-development/hax-element-schema</id>
     <updated>2020-04-27T16:21:09+00:00</updated>
     <published>2019-01-30T05:34:35+00:00</published>
     <summary></summary>
-    <link href="https://haxtheweb.org//integrations-1/backdropcms"/>
+    <link href="https://haxtheweb.org//documentation-1/hax-development/hax-element-schema"/>
     
     <content type="html">
-      <![CDATA[ <p></p>
-<h2>Getting HAX setup in BackdropCMS</h2>
-<ol><li>Search for <a href="https://backdropcms.org/modules?s=HAX">HAX on BackdropCMS.org</a>
- or from within your Backdrop site</li>
-<li>Follow the instructions in the <a href="https://github.com/backdrop-contrib/webcomponents">Web components module README</a>
- for building</li>
-<ul><li>Don't worry, HAX requires Web components module but the module comes with files that supply details to install HAX</li>
-</ul>
-<li>Enable the HAX and Web components modules</li>
-<li>Go to a node in your site, you should see a tab that says "HAX mode"</li>
-<li>Enjoy HAXing your BackDropCMS site</li>
-</ol>
-<media-image source="files/2019-01-25_14-04-31.png" caption="Search area on BackdropCMS website" alt="Screenshot of the search page on backdropcms.org that allows users to find the HAX plugin." size="wide" card box resource="#5b790bef-7d78-f85e-104d" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 25%;"></media-image>
+      <![CDATA[ <p>Example of HAX element schema JSON object. It's a pretty simple abstraction of HTML elements that helps with packaging and sanitization.</p>
+<h2>h2 tag (core HTML)</h2>
+<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 75%;">  <template preserve-content="preserve-content">{
+"tag": "h2",
+"properties": {},
+"content": "Introduction to ELMS: Learning Network"
+}</template>
+</code-sample>
+<h2>p tag (core HTML)</h2>
+<code-sample style="width: 75%;" copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content">{
+"tag": "p",
+"properties": {},
+"content": "What is ELMS: Learning Network? How is it fundamentally different from other learning technologies? Why is it your reading this when it's example text that you've just added to see how to make a really solid introduction to a new unit of instruction? Let's keep reading to find out!"
+}</template>
+</code-sample>
+<h2>video-player (web component)</h2>
+<code-sample style="width: 75%;">  <template preserve-content="preserve-content">{
+"tag": "video-player",
+"properties": {
+"style": "width: 75%; margin: 0px auto; display: block;",
+"source": "https://www.youtube.com/watch?v=pKLPQ4ufo64",
+"src": "https://www.youtube-nocookie.com/embed/pKLPQ4ufo64?showinfo=0&amp;controls=1&amp;rel=0",
+"iframed": true,
+"sandboxed": false,
+"width": "560",
+"height": "315",
+"responsive": true,
+"caption": "What is ELMS:LN? Why is it fundamentally different from any other educational technology that's ever existed? What is sustainable innovation? Why is this so ...",
+"secondaryColor": "#fff9c4",
+"textColor": "#000000",
+"secondaryColorClass": "yellow lighten-4",
+"textColorClass": "black-text",
+"ytNocookie": true,
+"ytSuggested": false,
+"ytControls": true,
+"ytTitle": false,
+"vimeoTitle": false,
+"vimeoByline": false,
+"vimeoPortrait": false,
+"videoColor": "FF031D",
+"resource": "#86bfd28d-8b57-a3b9-b2e5",
+"prefix": "oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org "
+},
+"content": ""
+}</template>
+</code-sample>
  ]]>
     </content>
   </entry>
