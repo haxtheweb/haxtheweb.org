@@ -215,10 +215,28 @@
             "order": "0",
             "parent": "item-ac67dab5-8208-65e3-c3e4-267b1bf6079f",
             "title": "BackdropCMS",
-            "description": "",
+            "description": "Getting HAX setup in BackdropCMSSearch for HAX on BackdropCMS.org\u00a0or from within your Backdrop siteFollow the instructions in the Web components module README\u00a0for buildingDon't worry, HAX requ",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1588004469
+                "updated": 1597686490,
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 1,
+                    "paragraphs": 1,
+                    "schema": [
+                        {
+                            "resource": "#5b790bef-7d78-f85e-104d",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        }
+                    ],
+                    "tags": {
+                        "p": 1,
+                        "h2": 1,
+                        "ol": 1,
+                        "media-image": 1
+                    },
+                    "elements": 4
+                }
             }
         },
         {
