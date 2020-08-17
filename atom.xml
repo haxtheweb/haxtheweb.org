@@ -9,9 +9,33 @@
   </author>
   <id>https://haxtheweb.org//feed</id>
   <entry>
+    <title>Templates and Layouts</title>
+    <id>https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2</id>
+    <updated>2020-08-17T18:41:49+00:00</updated>
+    <published>2020-08-17T18:41:49+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2"/>
+    
+    <content type="html">
+      <![CDATA[ <p></p> ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Block settings</title>
+    <id>https://haxtheweb.org//item-eca7c8a4-393a-4e68-8cb4-440e94683738</id>
+    <updated>2020-08-17T18:41:49+00:00</updated>
+    <published>2020-08-17T18:41:49+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//item-eca7c8a4-393a-4e68-8cb4-440e94683738"/>
+    
+    <content type="html">
+      <![CDATA[ <p></p> ]]>
+    </content>
+  </entry>
+  <entry>
     <title>Roadmap</title>
     <id>https://haxtheweb.org//welcome/roadmap-1</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-08-08T18:53:07+00:00</published>
     <summary>HAX encompasses many different projectsThis roadmap illustrates all the projects related to HAX and ELMS:LN, which HAX comes from. The little settings gears found throughout illustrate enhancements a</summary>
     <link href="https://haxtheweb.org//welcome/roadmap-1"/>
@@ -31,7 +55,7 @@
   <entry>
     <title>ClassicPress</title>
     <id>https://haxtheweb.org//integrations-1/classicpress-1</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-08-08T15:43:29+00:00</published>
     <summary>ClassicPress is a popular fork of WordPress that's even easier to get HAX up and running then it is in the original!Get the HAX plugin from the wordpress registryGo to edit / create a page/post </summary>
     <link href="https://haxtheweb.org//integrations-1/classicpress-1"/>
@@ -53,7 +77,7 @@
   <entry>
     <title>Why HAXcms</title>
     <id>https://haxtheweb.org//welcome/why-haxcms-1</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-07-24T12:45:22+00:00</published>
     <summary>HAXcms powers this website and is a hybrid static site generator, a new class of CMS. It's hybrid in that everything is written to static like a static site generator and it's 100% decoupled via web </summary>
     <link href="https://haxtheweb.org//welcome/why-haxcms-1"/>
@@ -113,7 +137,7 @@
   <entry>
     <title>Scavenger Hunt</title>
     <id>https://haxtheweb.org//scavenger-hunt-1</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-07-24T12:15:37+00:00</published>
     <summary>Become part of our dynasty franchise **by wearing a cool jerseyWe're building the greatest roster of people ever to HAX the complacency of our industry. Take the HAX scavenger hunt at the next ev</summary>
     <link href="https://haxtheweb.org//scavenger-hunt-1"/>
@@ -157,7 +181,7 @@
   <entry>
     <title>Life cycle</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/life-cycle</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-04-05T20:27:27+00:00</published>
     <summary>This is a general life cycle that happens when HAXcms "boots up". When web components are unpacking the contents of what to do it generally will work this way.page load, should it be no-js or a web c</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/life-cycle"/>
@@ -179,7 +203,7 @@
   <entry>
     <title>I have issues</title>
     <id>https://haxtheweb.org//welcome/i-have-issues</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-03-25T23:24:55+00:00</published>
     <summary>You have a problem or would like to contribute to HAXcms? That's awesome! All issues, feature requests and general thumbs up should happen in our issue queue on github: https://github.com/elmsln/haxc</summary>
     <link href="https://haxtheweb.org//welcome/i-have-issues"/>
@@ -194,7 +218,7 @@
   <entry>
     <title>Troubleshooting</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/troubleshooting</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-03-25T23:16:04+00:00</published>
     <summary>These are some common issues / resolutions in HAXcms related to installation, publishing, etc.I installed HAXcms and forgot my passwordYour username and password can be found in _config/config.php o</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/troubleshooting"/>
@@ -219,7 +243,7 @@
   <entry>
     <title>Skin a site</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming/skin-a-site</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-03-23T15:21:47+00:00</published>
     <summary>Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can&#39;t get into the weeds of web components or javascript.Wo</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/theming/skin-a-site"/>
@@ -243,7 +267,7 @@
   <entry>
     <title>Dev workflows</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming/dev-workflows</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-03-23T13:58:38+00:00</published>
     <summary>Our development workflow is as follows (for themes)All custom theme work happens in your _config directoryMake my-theme.js, pull everything together, either in this directory or in a wcfactory cat</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/theming/dev-workflows"/>
@@ -305,7 +329,7 @@
   <entry>
     <title>Web components</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming/web-components</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-03-23T13:58:38+00:00</published>
     <summary>Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the haxcms-slide-th</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/theming/web-components"/>
@@ -375,9 +399,69 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
     </content>
   </entry>
   <entry>
+    <title>CSS vars</title>
+    <id>https://haxtheweb.org//documentation-1/haxcms/theming/css-vars</id>
+    <updated>2020-08-17T18:41:49+00:00</updated>
+    <published>2019-03-23T13:58:38+00:00</published>
+    <summary>CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a</summary>
+    <link href="https://haxtheweb.org//documentation-1/haxcms/theming/css-vars"/>
+    
+    <content type="html">
+      <![CDATA[ <p>CSS can be modified via <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties">CSS variables</a>
+. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility and control over design. We leverage CSS variables heavily in our template layer to allow you to "skin" just about any theme we have already.</p>
+<h2>A note about @apply</h2>
+<p>Unlike normal css variables, Polymer (the library we build our theme layer on) supports a convention for CSS variables that operate a bit more like Saas mixins. You can write blocks of code like <b>@apply --my-variable-blob;</b>
+ which will then allow someone to mix in and apply whatever valid CSS attributes they want at that level. You can see several implemented below (both CSS variables and @apply blocks).</p>
+<h2 class="hax-active">Example</h2>
+<p>This is an example from the <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/themes/haxcms-basic-theme.js#L23">haxcms-basic-theme </a>
+which forms a clean baseline for most sites.</p>
+<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 75%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">// this is from the haxcms-basic-theme
+site-top-menu {
+    --site-top-menu-bg: #37474f;
+    --site-top-menu-link-color: #ffffff;
+    --site-top-menu-indicator-color: #ffffff;
+    --site-top-menu-link-active-color: var(
+    --haxcms-basic-theme-accent-color
+    );
+    --site-top-menu-indicator-arrow: 8px;
+}
+site-children-block {
+    --site-children-block-button: {
+    color: #ffffff;
+    }
+    --site-children-block-button-active: {
+    background-color: #37474f;
+    color: var(--haxcms-basic-theme-accent-color);
+    }
+}
+.left-col {
+    min-height: 250px;
+    border: 2px solid black;
+    background-color: #37474f;
+    color: white;
+    padding: 16px;
+}
+site-active-title {
+    display: inline-flex;
+    --site-active-title-heading: {
+    font-family: "Montserrat", "Helvetica", "Tahoma", "Geneva", "Arial",
+        sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 8px;
+    text-rendering: optimizelegibility;
+    font-weight: 600;
+    color: white;
+    }
+}</template>
+</code-sample>
+ ]]>
+    </content>
+  </entry>
+  <entry>
     <title>Query examples</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming/core-elements/query-examples</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-03-23T13:58:38+00:00</published>
     <summary>  Hold up there. You didn't cover any of the query tags in that last section!Ok ok, here's the deal. Queries are so important that they needed their own section. Calm down Dwight we'll handle that n</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/theming/core-elements/query-examples"/>
@@ -495,69 +579,9 @@ that are 2 to 4 levels deep.</span>
     </content>
   </entry>
   <entry>
-    <title>CSS vars</title>
-    <id>https://haxtheweb.org//documentation-1/haxcms/theming/css-vars</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
-    <published>2019-03-23T13:58:38+00:00</published>
-    <summary>CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a</summary>
-    <link href="https://haxtheweb.org//documentation-1/haxcms/theming/css-vars"/>
-    
-    <content type="html">
-      <![CDATA[ <p>CSS can be modified via <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties">CSS variables</a>
-. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility and control over design. We leverage CSS variables heavily in our template layer to allow you to "skin" just about any theme we have already.</p>
-<h2>A note about @apply</h2>
-<p>Unlike normal css variables, Polymer (the library we build our theme layer on) supports a convention for CSS variables that operate a bit more like Saas mixins. You can write blocks of code like <b>@apply --my-variable-blob;</b>
- which will then allow someone to mix in and apply whatever valid CSS attributes they want at that level. You can see several implemented below (both CSS variables and @apply blocks).</p>
-<h2 class="hax-active">Example</h2>
-<p>This is an example from the <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/themes/haxcms-basic-theme.js#L23">haxcms-basic-theme </a>
-which forms a clean baseline for most sites.</p>
-<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 75%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">// this is from the haxcms-basic-theme
-site-top-menu {
-    --site-top-menu-bg: #37474f;
-    --site-top-menu-link-color: #ffffff;
-    --site-top-menu-indicator-color: #ffffff;
-    --site-top-menu-link-active-color: var(
-    --haxcms-basic-theme-accent-color
-    );
-    --site-top-menu-indicator-arrow: 8px;
-}
-site-children-block {
-    --site-children-block-button: {
-    color: #ffffff;
-    }
-    --site-children-block-button-active: {
-    background-color: #37474f;
-    color: var(--haxcms-basic-theme-accent-color);
-    }
-}
-.left-col {
-    min-height: 250px;
-    border: 2px solid black;
-    background-color: #37474f;
-    color: white;
-    padding: 16px;
-}
-site-active-title {
-    display: inline-flex;
-    --site-active-title-heading: {
-    font-family: "Montserrat", "Helvetica", "Tahoma", "Geneva", "Arial",
-        sans-serif;
-    font-size: 16px;
-    line-height: 32px;
-    margin-bottom: 8px;
-    text-rendering: optimizelegibility;
-    font-weight: 600;
-    color: white;
-    }
-}</template>
-</code-sample>
- ]]>
-    </content>
-  </entry>
-  <entry>
     <title>Get Involved!</title>
     <id>https://haxtheweb.org//get-involved-1</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-03-21T19:46:24+00:00</published>
     <summary>Join our communityJoin us on the HAXTheWeb Slack channelJoin us for HAXcamp Un-code every Friday 3 pm - 5 pm (EST)Follow / use the #HAXTheWeb hash tagJoin our projectsHAXcms - That which </summary>
     <link href="https://haxtheweb.org//get-involved-1"/>
@@ -612,7 +636,7 @@ site-active-title {
   <entry>
     <title>Presentations</title>
     <id>https://haxtheweb.org//welcome/presentations</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-03-18T12:06:57+00:00</published>
     <summary>This is the youtube playlist of all things HAXTheWebThis playlist is updated on a regular basis so make sure to subscribe to the youtube channel for updates. There's also many other playlists relat</summary>
     <link href="https://haxtheweb.org//welcome/presentations"/>
@@ -628,7 +652,7 @@ site-active-title {
   <entry>
     <title>Core elements</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming/core-elements</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-03-13T00:45:37+00:00</published>
     <summary>While you're not required to use them, HAXcms supplies a series of elements that can make theme development effortless. You can see the source of these in greater detail under the theme directory of h</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/theming/core-elements"/>
@@ -727,83 +751,9 @@ the title of the active item wrapped in a h1 tag
     </content>
   </entry>
   <entry>
-    <title>HAXcms</title>
-    <id>https://haxtheweb.org//documentation-1/haxcms</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
-    <published>2019-02-20T06:10:05+00:00</published>
-    <summary>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server"</summary>
-    <link href="https://haxtheweb.org//documentation-1/haxcms"/>
-    
-    <content type="html">
-      <![CDATA[ <p>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server" is only used when needed for a user to securely develop their content.</p>
-<h2>Difference from past static generators</h2>
-<p>Unlike solutions like <a href="https://jekyllrb.com/">Jekyll</a>
-
-, HAXcms is for anyone to publish a website, not just those that understand command line. HAXcms is intended to be installed and then allow users to entirely use a UI to create, publish and manage micro-sites.</p>
-<h2>Visualization</h2>
-<img src="files/HAXCms workflow.jpg" alt="HAXcms visualization of publishing workflow at a data layer. Static sites are published from the files you work with yet whatever you edit via the UI is always saved into a static format that works anywhere." style="width: 75%; margin: 0px auto; display: block;"/> ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Publishing</title>
-    <id>https://haxtheweb.org//documentation-1/haxcms/publishing</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
-    <published>2019-02-20T06:10:05+00:00</published>
-    <summary>HAXcms requires being published in order to be visible to other people. Working locally or on Desktop or on a server, is akin to you writing a document on your computer. It's not shared with anyone. W</summary>
-    <link href="https://haxtheweb.org//documentation-1/haxcms/publishing"/>
-    
-    <content type="html">
-      <![CDATA[ <p>HAXcms requires being published in order to be visible to other people. Working locally or on Desktop or on a server, is akin to you writing a document on your computer. It's not shared with anyone. We recommend you setup publishing ahead of time to save hassle later.</p>
-<h2>Setting up publishing</h2>
-<p>From the HAXcms <i>site listing</i>
- page, click the settings gear in the top right corner.</p>
-<img src="files/pubwork1.jpg" style="width: 100%;"/><p>Next you'll see a modal that has options for plugging in your github credentials. We don't save your password and this aspect is optional. If you do enter your password, a one time API call is made on your behalf from your container which will setup an ssh key pair. This allows for all future requests to publish to happen automatically on your behalf. Your password is not stored. If you don't want to set this part up, you can plug in the rest of the git settings, save, and then manually publish files after using the UI (see last heading on this page).<br/></p>
-N<img src="files/pubwork2.jpg" style="width: 100%;"/><h2>Publishing from your sites / new sites</h2>
-<p>When you want to share your site with people or update your website, hitting the Publish button inside of your site is how to do this. Click the settings gear in the bottom right to get started.<br/></p>
-<img src="files/2019-02-20_01-26-01.png" alt="Select the settings gear under the additional menu options as an editor." style="width: 25%;"/><p>Currently GitHub is the only provider supported in the local installation method (or from DDEV / one of the supported container providers). In the future hitting publish will have additional development flexibility.</p>
-<img src="files/2019-02-20_01-26-10.png" alt="Edit site settings modal showing the Publish button." style="width: 75%; margin: 0px auto; display: block;"/><h2>Understanding what's actually happening</h2>
-<media-image source="files/gitpublishingdata.jpg" caption="This is a typical publishing area within your site.json file" alt="Screenshot of a piece of a JSON file that's powering the publishing settings for the workflow" size="wide" card box resource="#f73a7020-4b02-7471-fa7c" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 75%; margin: 0px auto; display: block;"></media-image>
-<p>When you hit publish, a few things happen to make your site "web ready". This is the general order of those operations:</p>
-<ol><li>HAXcms takes the underlying files and commits them all to version control (though they already should be)</li>
-
-
-<li>It then pushes these to the origin of the git repository (likely github)</li>
-
-<li>Then it switches to the branch you do your publishing from. In github, this is the <b>gh-pages</b>
-
- branch, but can deviate as needed.</li>
-
-<li>Next it deletes symlinks and replaces them with the correct references as needed and leverages the "cdn provider" you specified when setting up HAXcms in order to super charge your files for end users.</li>
-
-<li>It uses <a href="https://twig.symfony.com/">twig</a>
-
- to step through and correctly rewrite references in the index.html of your site to match the paths of where it's going to be sent</li>
-
-<li>Then it adds all this to version control and sends it up to your gh-pages branch.</li>
-
-<li>It does some local file clean up and sets things back to master branch for the next time you go to work on everything</li>
-
-</ol>
-<p>When this is all done, in the UI you'll see a link to your site after it's indicated a successful publish (meaning it pushed the files up there). Depending on where you host your content it may take a few minutes to see the change, though GitHub is usually up within about 2 minutes.</p>
-<p>Once about 2 minutes or so has passed, refresh your live site address or type in the URL of the site. If you've been there previously, you'll probably see the same content / theme as the last time you were there. After about 5 seconds, a message will pop up indicating "new content available" and clicking it (or refreshing the browser) will give you your updated content.</p>
-<p>This last step happens because of what's called a "service worker". This enables your site to be 100% offline capable and ensures that your site only uses traffic and data when it's absolutely necessary.</p>
-<h2 class="hax-active">A note on non UI publishing workflows</h2>
-<p>You might not have (or want to) setup the credentials between HAXcms and github / your git repo. That's ok. After you hit publish go to terminal / a Git GUI and run the following to publish your site:</p>
-<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 50%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">cd haxcms/_sites/YOURSITE
-git checkout gh-pages
-git push origin gh-pages
-git checkout master
-git push origin master</template>
-</code-sample>
-<p>HAXcms will have made sure that the gh-pages and master branches are valid for distribution, even if it wasn't able to actually send these files to their publishing destination.</p>
-<a11y-gif-player src="https://media0.giphy.com/media/QYPvVL1CheVXO/giphy.gif" src-without-animation="https://media3.giphy.com/media/QYPvVL1CheVXO/480w_s.jpg" alt="Monkeys publishing on keyboards with internet info graphic in the background" resource="#d430faf1-2a0a-3ffc-ded5" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 50%;"></a11y-gif-player>
- ]]>
-    </content>
-  </entry>
-  <entry>
     <title>Theming</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-02-20T06:10:05+00:00</published>
     <summary>There are multiple ways to "theme" in HAXcms that align with the skillsets of the person doing the theme development. Know web components? Cool. Know basic CSS and HTML? Cool. Want to build something </summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/theming"/>
@@ -1150,31 +1100,83 @@ export { LearnTwoTheme };</template>
     </content>
   </entry>
   <entry>
-    <title>Structure</title>
-    <id>https://haxtheweb.org//documentation-1/haxcms/structure</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <title>Publishing</title>
+    <id>https://haxtheweb.org//documentation-1/haxcms/publishing</id>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-02-20T06:10:05+00:00</published>
-    <summary>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories / files include:fi</summary>
-    <link href="https://haxtheweb.org//documentation-1/haxcms/structure"/>
+    <summary>HAXcms requires being published in order to be visible to other people. Working locally or on Desktop or on a server, is akin to you writing a document on your computer. It's not shared with anyone. W</summary>
+    <link href="https://haxtheweb.org//documentation-1/haxcms/publishing"/>
     
     <content type="html">
-      <![CDATA[ <p>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.</p>
-<p>The key directories / files include:</p>
-<ul><li>files - any files you've uploaded through the HAX interface</li>
+      <![CDATA[ <p>HAXcms requires being published in order to be visible to other people. Working locally or on Desktop or on a server, is akin to you writing a document on your computer. It's not shared with anyone. We recommend you setup publishing ahead of time to save hassle later.</p>
+<h2>Setting up publishing</h2>
+<p>From the HAXcms <i>site listing</i>
+ page, click the settings gear in the top right corner.</p>
+<img src="files/pubwork1.jpg" style="width: 100%;"/><p>Next you'll see a modal that has options for plugging in your github credentials. We don't save your password and this aspect is optional. If you do enter your password, a one time API call is made on your behalf from your container which will setup an ssh key pair. This allows for all future requests to publish to happen automatically on your behalf. Your password is not stored. If you don't want to set this part up, you can plug in the rest of the git settings, save, and then manually publish files after using the UI (see last heading on this page).<br/></p>
+N<img src="files/pubwork2.jpg" style="width: 100%;"/><h2>Publishing from your sites / new sites</h2>
+<p>When you want to share your site with people or update your website, hitting the Publish button inside of your site is how to do this. Click the settings gear in the bottom right to get started.<br/></p>
+<img src="files/2019-02-20_01-26-01.png" alt="Select the settings gear under the additional menu options as an editor." style="width: 25%;"/><p>Currently GitHub is the only provider supported in the local installation method (or from DDEV / one of the supported container providers). In the future hitting publish will have additional development flexibility.</p>
+<img src="files/2019-02-20_01-26-10.png" alt="Edit site settings modal showing the Publish button." style="width: 75%; margin: 0px auto; display: block;"/><h2>Understanding what's actually happening</h2>
+<media-image source="files/gitpublishingdata.jpg" caption="This is a typical publishing area within your site.json file" alt="Screenshot of a piece of a JSON file that's powering the publishing settings for the workflow" size="wide" card box resource="#f73a7020-4b02-7471-fa7c" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 75%; margin: 0px auto; display: block;"></media-image>
+<p>When you hit publish, a few things happen to make your site "web ready". This is the general order of those operations:</p>
+<ol><li>HAXcms takes the underlying files and commits them all to version control (though they already should be)</li>
 
-<li>pages - folders named by their content uri that have index.html in it, no structure other then what you created when hitting save</li>
-<li>site.json - JSON Outline Schema object that defines the pages in your site and their relationship to each other<br/></li>
-<li>index.html - front page of the PWA that stitch it all together</li>
-<li>service-worker.js - makes it a PWA, no need to edi this</li>
-</ul>
-<h3><span style="caret-color: rgb(0, 0, 0);">Screen grab of a microsite</span></h3>
-<img src="files/2019-02-25_16-22-25.png" alt="File structure of a typical HAXcms micro-site after being generated." style="width: 25%; margin: 0px auto; display: block;"/> ]]>
+
+<li>It then pushes these to the origin of the git repository (likely github)</li>
+
+<li>Then it switches to the branch you do your publishing from. In github, this is the <b>gh-pages</b>
+
+ branch, but can deviate as needed.</li>
+
+<li>Next it deletes symlinks and replaces them with the correct references as needed and leverages the "cdn provider" you specified when setting up HAXcms in order to super charge your files for end users.</li>
+
+<li>It uses <a href="https://twig.symfony.com/">twig</a>
+
+ to step through and correctly rewrite references in the index.html of your site to match the paths of where it's going to be sent</li>
+
+<li>Then it adds all this to version control and sends it up to your gh-pages branch.</li>
+
+<li>It does some local file clean up and sets things back to master branch for the next time you go to work on everything</li>
+
+</ol>
+<p>When this is all done, in the UI you'll see a link to your site after it's indicated a successful publish (meaning it pushed the files up there). Depending on where you host your content it may take a few minutes to see the change, though GitHub is usually up within about 2 minutes.</p>
+<p>Once about 2 minutes or so has passed, refresh your live site address or type in the URL of the site. If you've been there previously, you'll probably see the same content / theme as the last time you were there. After about 5 seconds, a message will pop up indicating "new content available" and clicking it (or refreshing the browser) will give you your updated content.</p>
+<p>This last step happens because of what's called a "service worker". This enables your site to be 100% offline capable and ensures that your site only uses traffic and data when it's absolutely necessary.</p>
+<h2 class="hax-active">A note on non UI publishing workflows</h2>
+<p>You might not have (or want to) setup the credentials between HAXcms and github / your git repo. That's ok. After you hit publish go to terminal / a Git GUI and run the following to publish your site:</p>
+<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 50%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content">cd haxcms/_sites/YOURSITE
+git checkout gh-pages
+git push origin gh-pages
+git checkout master
+git push origin master</template>
+</code-sample>
+<p>HAXcms will have made sure that the gh-pages and master branches are valid for distribution, even if it wasn't able to actually send these files to their publishing destination.</p>
+<a11y-gif-player src="https://media0.giphy.com/media/QYPvVL1CheVXO/giphy.gif" src-without-animation="https://media3.giphy.com/media/QYPvVL1CheVXO/480w_s.jpg" alt="Monkeys publishing on keyboards with internet info graphic in the background" resource="#d430faf1-2a0a-3ffc-ded5" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 50%;"></a11y-gif-player>
+ ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>HAXcms</title>
+    <id>https://haxtheweb.org//documentation-1/haxcms</id>
+    <updated>2020-08-17T18:41:49+00:00</updated>
+    <published>2019-02-20T06:10:05+00:00</published>
+    <summary>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server"</summary>
+    <link href="https://haxtheweb.org//documentation-1/haxcms"/>
+    
+    <content type="html">
+      <![CDATA[ <p>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server" is only used when needed for a user to securely develop their content.</p>
+<h2>Difference from past static generators</h2>
+<p>Unlike solutions like <a href="https://jekyllrb.com/">Jekyll</a>
+
+, HAXcms is for anyone to publish a website, not just those that understand command line. HAXcms is intended to be installed and then allow users to entirely use a UI to create, publish and manage micro-sites.</p>
+<h2>Visualization</h2>
+<img src="files/HAXCms workflow.jpg" alt="HAXcms visualization of publishing workflow at a data layer. Static sites are published from the files you work with yet whatever you edit via the UI is always saved into a static format that works anywhere." style="width: 75%; margin: 0px auto; display: block;"/> ]]>
     </content>
   </entry>
   <entry>
     <title>Concepts</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/concepts</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-02-20T06:10:05+00:00</published>
     <summary>HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/concepts"/>
@@ -1195,7 +1197,7 @@ export { LearnTwoTheme };</template>
   <entry>
     <title>Installation</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/installation</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-02-20T06:10:05+00:00</published>
     <summary>Generic PHP install directionsHave PHP? well then you can setup HAXcms pretty quick. Just download HAXcms and navigate to its directory in a browser. It'll attempt to automatically install (which is </summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/installation"/>
@@ -1433,9 +1435,31 @@ bash scripts/haxtheweb.sh</template>
     </content>
   </entry>
   <entry>
+    <title>Structure</title>
+    <id>https://haxtheweb.org//documentation-1/haxcms/structure</id>
+    <updated>2020-08-17T18:41:49+00:00</updated>
+    <published>2019-02-20T06:10:05+00:00</published>
+    <summary>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories / files include:fi</summary>
+    <link href="https://haxtheweb.org//documentation-1/haxcms/structure"/>
+    
+    <content type="html">
+      <![CDATA[ <p>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.</p>
+<p>The key directories / files include:</p>
+<ul><li>files - any files you've uploaded through the HAX interface</li>
+
+<li>pages - folders named by their content uri that have index.html in it, no structure other then what you created when hitting save</li>
+<li>site.json - JSON Outline Schema object that defines the pages in your site and their relationship to each other<br/></li>
+<li>index.html - front page of the PWA that stitch it all together</li>
+<li>service-worker.js - makes it a PWA, no need to edi this</li>
+</ul>
+<h3><span style="caret-color: rgb(0, 0, 0);">Screen grab of a microsite</span></h3>
+<img src="files/2019-02-25_16-22-25.png" alt="File structure of a typical HAXcms micro-site after being generated." style="width: 25%; margin: 0px auto; display: block;"/> ]]>
+    </content>
+  </entry>
+  <entry>
     <title>WordPress</title>
     <id>https://haxtheweb.org//integrations-1/wordpress</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-02-06T04:48:23+00:00</published>
     <summary>We support WordPress too! In order to use HAX though you'll want to replace the Gutenberg editor. The following steps will help you get it up and running.Get the Classic Editor. This plugin helps re</summary>
     <link href="https://haxtheweb.org//integrations-1/wordpress"/>
@@ -1454,7 +1478,7 @@ bash scripts/haxtheweb.sh</template>
   <entry>
     <title>Creating new ones!</title>
     <id>https://haxtheweb.org//integrations-1/creating-new-ones</id>
-    <updated>2020-08-17T18:33:27+00:00</updated>
+    <updated>2020-08-17T18:41:49+00:00</updated>
     <published>2019-01-30T06:07:14+00:00</published>
     <summary>The main piece to our integrations is wrapped up in something we call "The magic script". The magic script is a standard way of dynamically discovering and importing the definitions of web components </summary>
     <link href="https://haxtheweb.org//integrations-1/creating-new-ones"/>
@@ -1509,86 +1533,6 @@ bash scripts/haxtheweb.sh</template>
 </ol>
 <h2 id="header-91865b4b-0eab-e9f8-bda4-e41889517d92">Content filtering</h2>
 <p>Because web components are valid HTML tags your system may accept them when saved into your database but you may also be doing tag filtering or other XSS sanitation prior to storage. If you do process prior to storage (and you should) but it strips the web components out of the mark up, you'll need to add some filtering / white-listing capabilities to your system in order to ensure that the web component html tags pass through that should.</p>
- ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Integrations</title>
-    <id>https://haxtheweb.org//integrations-1</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
-    <published>2019-01-30T05:34:35+00:00</published>
-    <summary>HAX provides plenty of ways to integrate into the platforms you already use! Here's a list of currently supported ones with links off to their associated pluginsHAXcms (powering this website)HAX1</summary>
-    <link href="https://haxtheweb.org//integrations-1"/>
-    
-    <content type="html">
-      <![CDATA[ <p>HAX provides plenty of ways to integrate into the platforms you already use! Here's a list of currently supported ones with links off to their associated plugins</p>
-<li><a target="_blank" href="https://github.com/elmsln/haxcms">HAXcms (powering this website)</a>
-
-
-</li>
-<li><a href="https://github.com/elmsln/hax11ty">HAX11ty</a>
- - HAX + Eleventy</li>
-<li><a target="_blank" href="https://github.com/backdrop-contrib/hax">BackdropCMS</a>
-
-
-</li>
-<li><a target="_blank" href="https://drupal.org/project/hax">Drupal 8, 7, and 6!</a>
-
-
-</li>
-<li><a target="_blank" href="https://github.com/elmsln/grav-plugin-hax">GravCMS</a>
-
-</li>
-<li><a href="https://github.com/elmsln/wp-plugin-hax">WordPress</a>
-</li>
-<li><a href="integrations/classicpress">ClassicPress</a>
-</li>
-<h2 id="header-e8382de5-f190-ba74-39eb-1a44ee0c1d02">Some things a liittle bit crazy</h2>
-<ul><li><a target="_blank" href="https://codepen.io/btopro/pen/VqBjPw">Code Pen</a>
-?!<br/></li>
-<li><a href="https://codepen.io/btopro/pen/yLNmVbw" target="_blank">Demonstration of Autoloading any web component</a>
- in codepen from a CDN</li>
-
-<li><a href="https://github.com/elmsln/lrnwebcomponents/tree/master/elements/hax-bookmarklet" target="_blank">HAX bookmarklet</a>
- (allows injecting HAX into any website, see below for details)</li>
-<li><a href="https://github.com/elmsln/lrnwebcomponents/tree/master/elements/to-element#copy-the-following-into-a-bookmark" target="_blank">Web-component-izer</a>
- - Inject and clip parts of web sites (good for exploring the web component ecosystem we ride on)</li>
-
-
-<li>Electron Apps - once ours reaches maturity you'll know!</li>
-
-
-</ul>
- ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Solutions</title>
-    <id>https://haxtheweb.org//welcome/solutions</id>
-    <updated>2020-08-17T17:58:55+00:00</updated>
-    <published>2019-01-30T05:34:35+00:00</published>
-    <summary>Modularity is key to HAX success. Here are some of the solutions that HAX provides which leverage the HAXeditor interface.HAX editorHAX or HAXeditor is the editor of the future you're using in this </summary>
-    <link href="https://haxtheweb.org//welcome/solutions"/>
-    
-    <content type="html">
-      <![CDATA[ <p><span>Modularity is key to HAX success. Here are some of the solutions that HAX provides which leverage the HAXeditor interface.</span><br/></p>
-<h2 id="header-19332f21-b9f6-8b6e-8666-005c9294f1e3">HAX editor</h2>
-<p><span>HAX or HAXeditor is the editor of the future you're using in this site! It's all the editing capabilities you've come for with HAX and the core solution that all other projects are based on here. The most common way of using HAXeditor is via one of it's many integrations. Check out the </span><a href="https://haxcms.ddev.site/sites/haxtheweb/integrations-1" style="font-size: 16px; letter-spacing: 0.2px;">integrations</a>
-<span> page to find one that works best for you</span></p>
-<h2 id="header-d636e0be-58e4-72c6-ce92-a787874f2681">HAXcms</h2>
-<p>HAXcms is the slimmest possible Content Management System possible thanks to the awesome power of HAX. HAXcms boils content creation down to a handful of files behind the scenes, all of which are highly readable and small.</p>
-<p>HAXcms works by loading a single "site.json" file which contains all the relationships between the pages in your site. The content of those pages is stored in single html files, which HAX is used as the editor to manipulate. The CMS then acts as a simple server technology to basically update those two files, making for easy publishing.</p>
-<p>HAXcms has publishing baked in for Github pages. <a href="haxcms-1">Read the documentation</a>
- section to get in deeper. <span>This website you're viewing is powered by HAXcms and the edit controls in the bottom right would update the site if this were a live HAXcms implementation (this site is demo'ing the capabilities).</span></p>
-<h3 id="header-153a9b41-e2f0-6906-708a-25108993dfbc">How HAX fits into your organization</h3>
-<p>HAX (and HAXCMS) are trying to lead you to education's "Roku Remote" moment. By that I mean, a world where you have a very simple little box (HAXCMS) that can be controlled in a completely uniform, simple manner (HAX) that actually pulls together a universe of content and media from across your organization. HAX helps bridge the knowledge gap between content creators and content publishers. It eliminates most of the work involved in publishing (that none of us want to do anyway)!</p>
-<media-image source="files/Picture1.png" caption="NGDLE as it relates to HAX" alt="A large diagram that is showcasing the relationships between HAX and the user flow for students to instructors to the institutions they live and work in." size="wide" card resource="#832335f3-7442-7d40-0d56" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 75%;" offset="none" modal-title="NGDLE as it relates to HAX" _has-caption></media-image>
-<h2 id="header-49ca8eea-47cc-be91-febf-d8e98890c524">HAXiam</h2>
-<p>HAXiam (<i>HAX-I-Am</i>
- ) is a SaaS platform code base that's used to deploy HAXcms to multiple people. It is an abstraction on the HAXcms code base that enables it to be used by multiple users from a single point of deployment.</p>
-<p>HAXiam leverages the hooks built into HAXcms to allow for integration with Enterprise login providers, making it a perfect fit for organizations looking to provide their users with micro-site publishing.</p>
-<p>It's still early on but you can <a href="https://github.com/elmsln/HAXiam/">check out HAXiam on github</a>
- .</p>
  ]]>
     </content>
   </entry>
