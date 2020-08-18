@@ -11,7 +11,7 @@
   <entry>
     <title>HAX11ty</title>
     <id>https://haxtheweb.org//item-587de126-437b-4864-a3ea-54078837127c</id>
-    <updated>2020-08-17T19:04:54+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2020-08-17T19:01:17+00:00</published>
     <summary>HAX + 11ty = HAX11ty! HAX11ty gives you the best of SEO from 11ty while using the HAX editor and the HAXcms theme engine for presenting material. This gives you the SPA capabilities of fast loading r</summary>
     <link href="https://haxtheweb.org//item-587de126-437b-4864-a3ea-54078837127c"/>
@@ -31,7 +31,7 @@
   <entry>
     <title>Block settings</title>
     <id>https://haxtheweb.org//item-eca7c8a4-393a-4e68-8cb4-440e94683738</id>
-    <updated>2020-08-17T19:01:18+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2020-08-17T18:41:49+00:00</published>
     <summary>Block settings will change contextually based on which block has been selected in the editable area of the page. In this screenshot, a paragraph has been selected and so the icon associated with it is</summary>
     <link href="https://haxtheweb.org//item-eca7c8a4-393a-4e68-8cb4-440e94683738"/>
@@ -47,7 +47,7 @@
   <entry>
     <title>Templates and Layouts</title>
     <id>https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2</id>
-    <updated>2020-08-17T19:01:18+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2020-08-17T18:41:49+00:00</published>
     <summary>Templates and layouts allow you to drop in pre-built pieces of content structure. This might be a series of images or an example of content that could be written.</summary>
     <link href="https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2"/>
@@ -60,7 +60,7 @@
   <entry>
     <title>Roadmap</title>
     <id>https://haxtheweb.org//welcome/roadmap-1</id>
-    <updated>2020-08-17T19:01:17+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-08-08T18:53:07+00:00</published>
     <summary>HAX encompasses many different projectsThis roadmap illustrates all the projects related to HAX and ELMS:LN, which HAX comes from. The little settings gears found throughout illustrate enhancements a</summary>
     <link href="https://haxtheweb.org//welcome/roadmap-1"/>
@@ -80,7 +80,7 @@
   <entry>
     <title>ClassicPress</title>
     <id>https://haxtheweb.org//integrations-1/classicpress-1</id>
-    <updated>2020-08-17T19:01:17+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-08-08T15:43:29+00:00</published>
     <summary>ClassicPress is a popular fork of WordPress that's even easier to get HAX up and running then it is in the original!Get the HAX plugin from the wordpress registryGo to edit / create a page/post </summary>
     <link href="https://haxtheweb.org//integrations-1/classicpress-1"/>
@@ -100,9 +100,9 @@
     </content>
   </entry>
   <entry>
-    <title>Why HAXcms</title>
+    <title>HAXcms</title>
     <id>https://haxtheweb.org//welcome/why-haxcms-1</id>
-    <updated>2020-08-17T19:01:17+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-07-24T12:45:22+00:00</published>
     <summary>HAXcms powers this website and is a hybrid static site generator, a new class of CMS. It's hybrid in that everything is written to static like a static site generator and it's 100% decoupled via web </summary>
     <link href="https://haxtheweb.org//welcome/why-haxcms-1"/>
@@ -162,7 +162,7 @@
   <entry>
     <title>Scavenger Hunt</title>
     <id>https://haxtheweb.org//scavenger-hunt-1</id>
-    <updated>2020-08-17T19:01:18+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-07-24T12:15:37+00:00</published>
     <summary>Become part of our dynasty franchise **by wearing a cool jerseyWe're building the greatest roster of people ever to HAX the complacency of our industry. Take the HAX scavenger hunt at the next ev</summary>
     <link href="https://haxtheweb.org//scavenger-hunt-1"/>
@@ -206,7 +206,7 @@
   <entry>
     <title>Life cycle</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/life-cycle</id>
-    <updated>2020-08-17T19:01:18+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-04-05T20:27:27+00:00</published>
     <summary>This is a general life cycle that happens when HAXcms "boots up". When web components are unpacking the contents of what to do it generally will work this way.page load, should it be no-js or a web c</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/life-cycle"/>
@@ -228,7 +228,7 @@
   <entry>
     <title>I have issues</title>
     <id>https://haxtheweb.org//welcome/i-have-issues</id>
-    <updated>2020-08-17T19:01:17+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-03-25T23:24:55+00:00</published>
     <summary>You have a problem or would like to contribute to HAXcms? That's awesome! All issues, feature requests and general thumbs up should happen in our issue queue on github: https://github.com/elmsln/haxc</summary>
     <link href="https://haxtheweb.org//welcome/i-have-issues"/>
@@ -243,7 +243,7 @@
   <entry>
     <title>Troubleshooting</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/troubleshooting</id>
-    <updated>2020-08-17T19:01:18+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-03-25T23:16:04+00:00</published>
     <summary>These are some common issues / resolutions in HAXcms related to installation, publishing, etc.I installed HAXcms and forgot my passwordYour username and password can be found in _config/config.php o</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/troubleshooting"/>
@@ -268,7 +268,7 @@
   <entry>
     <title>Skin a site</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming/skin-a-site</id>
-    <updated>2020-08-17T19:01:18+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-03-23T15:21:47+00:00</published>
     <summary>Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can&#39;t get into the weeds of web components or javascript.Wo</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/theming/skin-a-site"/>
@@ -292,7 +292,7 @@
   <entry>
     <title>Dev workflows</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming/dev-workflows</id>
-    <updated>2020-08-17T19:01:18+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-03-23T13:58:38+00:00</published>
     <summary>Our development workflow is as follows (for themes)All custom theme work happens in your _config directoryMake my-theme.js, pull everything together, either in this directory or in a wcfactory cat</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/theming/dev-workflows"/>
@@ -354,7 +354,7 @@
   <entry>
     <title>Query examples</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming/core-elements/query-examples</id>
-    <updated>2020-08-17T19:01:18+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-03-23T13:58:38+00:00</published>
     <summary>  Hold up there. You didn't cover any of the query tags in that last section!Ok ok, here's the deal. Queries are so important that they needed their own section. Calm down Dwight we'll handle that n</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/theming/core-elements/query-examples"/>
@@ -474,7 +474,7 @@ that are 2 to 4 levels deep.</span>
   <entry>
     <title>CSS vars</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming/css-vars</id>
-    <updated>2020-08-17T19:01:18+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-03-23T13:58:38+00:00</published>
     <summary>CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/theming/css-vars"/>
@@ -534,7 +534,7 @@ site-active-title {
   <entry>
     <title>Web components</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming/web-components</id>
-    <updated>2020-08-17T19:01:18+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-03-23T13:58:38+00:00</published>
     <summary>Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the haxcms-slide-th</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/theming/web-components"/>
@@ -606,7 +606,7 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
   <entry>
     <title>Get Involved!</title>
     <id>https://haxtheweb.org//get-involved-1</id>
-    <updated>2020-08-17T19:01:17+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-03-21T19:46:24+00:00</published>
     <summary>Join our communityJoin us on the HAXTheWeb Slack channelJoin us for HAXcamp Un-code every Friday 3 pm - 5 pm (EST)Follow / use the #HAXTheWeb hash tagJoin our projectsHAXcms - That which </summary>
     <link href="https://haxtheweb.org//get-involved-1"/>
@@ -661,7 +661,7 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
   <entry>
     <title>Presentations</title>
     <id>https://haxtheweb.org//welcome/presentations</id>
-    <updated>2020-08-17T19:01:17+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-03-18T12:06:57+00:00</published>
     <summary>This is the youtube playlist of all things HAXTheWebThis playlist is updated on a regular basis so make sure to subscribe to the youtube channel for updates. There's also many other playlists relat</summary>
     <link href="https://haxtheweb.org//welcome/presentations"/>
@@ -677,7 +677,7 @@ import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
   <entry>
     <title>Core elements</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming/core-elements</id>
-    <updated>2020-08-17T19:01:18+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-03-13T00:45:37+00:00</published>
     <summary>While you're not required to use them, HAXcms supplies a series of elements that can make theme development effortless. You can see the source of these in greater detail under the theme directory of h</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/theming/core-elements"/>
@@ -778,7 +778,7 @@ the title of the active item wrapped in a h1 tag
   <entry>
     <title>HAXcms</title>
     <id>https://haxtheweb.org//documentation-1/haxcms</id>
-    <updated>2020-08-17T19:01:18+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-02-20T06:10:05+00:00</published>
     <summary>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server"</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms"/>
@@ -796,7 +796,7 @@ the title of the active item wrapped in a h1 tag
   <entry>
     <title>Publishing</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/publishing</id>
-    <updated>2020-08-17T19:01:18+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-02-20T06:10:05+00:00</published>
     <summary>HAXcms requires being published in order to be visible to other people. Working locally or on Desktop or on a server, is akin to you writing a document on your computer. It's not shared with anyone. W</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/publishing"/>
@@ -852,7 +852,7 @@ git push origin master</template>
   <entry>
     <title>Structure</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/structure</id>
-    <updated>2020-08-17T19:01:18+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-02-20T06:10:05+00:00</published>
     <summary>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories / files include:fi</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/structure"/>
@@ -874,7 +874,7 @@ git push origin master</template>
   <entry>
     <title>Theming</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming</id>
-    <updated>2020-08-17T19:01:18+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-02-20T06:10:05+00:00</published>
     <summary>There are multiple ways to "theme" in HAXcms that align with the skillsets of the person doing the theme development. Know web components? Cool. Know basic CSS and HTML? Cool. Want to build something </summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/theming"/>
@@ -1223,7 +1223,7 @@ export { LearnTwoTheme };</template>
   <entry>
     <title>Installation</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/installation</id>
-    <updated>2020-08-17T19:01:18+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-02-20T06:10:05+00:00</published>
     <summary>Generic PHP install directionsHave PHP? well then you can setup HAXcms pretty quick. Just download HAXcms and navigate to its directory in a browser. It'll attempt to automatically install (which is </summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/installation"/>
@@ -1463,7 +1463,7 @@ bash scripts/haxtheweb.sh</template>
   <entry>
     <title>Concepts</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/concepts</id>
-    <updated>2020-08-17T19:01:18+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-02-20T06:10:05+00:00</published>
     <summary>HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/concepts"/>
@@ -1484,7 +1484,7 @@ bash scripts/haxtheweb.sh</template>
   <entry>
     <title>WordPress</title>
     <id>https://haxtheweb.org//integrations-1/wordpress</id>
-    <updated>2020-08-17T19:01:17+00:00</updated>
+    <updated>2020-08-18T15:56:18+00:00</updated>
     <published>2019-02-06T04:48:23+00:00</published>
     <summary>We support WordPress too! In order to use HAX though you'll want to replace the Gutenberg editor. The following steps will help you get it up and running.Get the Classic Editor. This plugin helps re</summary>
     <link href="https://haxtheweb.org//integrations-1/wordpress"/>
