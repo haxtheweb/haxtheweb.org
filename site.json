@@ -1256,7 +1256,21 @@
             "description": "This is a general life cycle that happens when HAXcms \"boots up\". When web components are unpacking the contents of what to do it generally will work this way.page load, should it be no-js or a web c",
             "metadata": {
                 "created": 1554496047,
-                "updated": 1597766178
+                "updated": 1599054168,
+                "readtime": 3,
+                "contentDetails": {
+                    "headings": 3,
+                    "paragraphs": 5,
+                    "schema": [],
+                    "tags": {
+                        "p": 5,
+                        "ul": 3,
+                        "h2": 1,
+                        "code-sample": 1,
+                        "h3": 2
+                    },
+                    "elements": 12
+                }
             }
         },
         {
