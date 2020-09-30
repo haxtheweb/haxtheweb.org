@@ -273,11 +273,11 @@
             "slug": "welcome",
             "order": "0",
             "parent": null,
-            "title": "Welcome",
-            "description": "We're on a mission to empower the next billion creators to share their voice with the world; Regardless of ability, platform, creed, country or income.Will you help us HAX society by HAXTheWeb?Then ",
+            "title": "Our Mission",
+            "description": "We&#39;re on a mission to empower the next billion creators to share their voice with the world; Regardless of ability, platform, creed, country or income.Will you help us HAX society by HAXTheWeb?Then ",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1601471241,
+                "updated": 1601471268,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
@@ -323,7 +323,8 @@
                         "video-player": 1
                     },
                     "elements": 21
-                }
+                },
+                "published": true
             }
         },
         {
