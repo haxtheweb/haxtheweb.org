@@ -3,7 +3,7 @@
   <title>hax-the-web</title>
   <link href="https://haxtheweb.org//atom.xml" rel="self" />
   <subtitle>Project home and documentation for all things HAX</subtitle>
-  <updated>2020-08-18T15:56:18+00:00</updated>
+  <updated>2020-09-30T13:12:35+00:00</updated>
   <author>
       <name>elmsln</name>
   </author>
@@ -29,6 +29,19 @@
     </content>
   </entry>
   <entry>
+    <title>Templates and Layouts</title>
+    <id>https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2</id>
+    <updated>2020-09-30T13:12:35+00:00</updated>
+    <published>2020-08-17T18:41:49+00:00</published>
+    <summary>Templates and layouts allow you to drop in pre-built pieces of content structure. This might be a series of images or an example of content that could be written.</summary>
+    <link href="https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2"/>
+    
+    <content type="html">
+      <![CDATA[ <p>Templates and layouts allow you to drop in pre-built pieces of content structure. This might be a series of images or an example of content that could be written.</p>
+<img src="files/Screenshot from 2020-08-17 14-46-06.png"/> ]]>
+    </content>
+  </entry>
+  <entry>
     <title>Block settings</title>
     <id>https://haxtheweb.org//item-eca7c8a4-393a-4e68-8cb4-440e94683738</id>
     <updated>2020-09-30T13:12:35+00:00</updated>
@@ -42,19 +55,6 @@
 <img src="files/Screenshot from 2020-08-17 14-42-07.png" alt="Showing the form displayed when working with a paragraph tag"/><h2 id="header-b3f65a8c-82f8-2774-8405-e8821a3892a7">Meme Tag</h2>
 <img src="files/Screenshot from 2020-08-17 14-43-47.png" alt="Screenshot of the meme-maker tag and the form exposed when editing one"/><p>Notice with the meme element that it now has additional fields which when changed are reflected in the page instantly!</p>
  ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Templates and Layouts</title>
-    <id>https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
-    <published>2020-08-17T18:41:49+00:00</published>
-    <summary>Templates and layouts allow you to drop in pre-built pieces of content structure. This might be a series of images or an example of content that could be written.</summary>
-    <link href="https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2"/>
-    
-    <content type="html">
-      <![CDATA[ <p>Templates and layouts allow you to drop in pre-built pieces of content structure. This might be a series of images or an example of content that could be written.</p>
-<img src="files/Screenshot from 2020-08-17 14-46-06.png"/> ]]>
     </content>
   </entry>
   <entry>
@@ -822,24 +822,6 @@ the title of the active item wrapped in a h1 tag
     </content>
   </entry>
   <entry>
-    <title>HAXcms</title>
-    <id>https://haxtheweb.org//documentation-1/haxcms</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
-    <published>2019-02-20T06:10:05+00:00</published>
-    <summary>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server"</summary>
-    <link href="https://haxtheweb.org//documentation-1/haxcms"/>
-    
-    <content type="html">
-      <![CDATA[ <p>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server" is only used when needed for a user to securely develop their content.</p>
-<h2>Difference from past static generators</h2>
-<p>Unlike solutions like <a href="https://jekyllrb.com/">Jekyll</a>
-
-, HAXcms is for anyone to publish a website, not just those that understand command line. HAXcms is intended to be installed and then allow users to entirely use a UI to create, publish and manage micro-sites.</p>
-<h2>Visualization</h2>
-<img src="files/HAXCms workflow.jpg" alt="HAXcms visualization of publishing workflow at a data layer. Static sites are published from the files you work with yet whatever you edit via the UI is always saved into a static format that works anywhere." style="width: 75%; margin: 0px auto; display: block;"/> ]]>
-    </content>
-  </entry>
-  <entry>
     <title>Publishing</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/publishing</id>
     <updated>2020-09-30T13:12:35+00:00</updated>
@@ -915,6 +897,45 @@ git push origin master</template>
 </ul>
 <h3><span style="caret-color: rgb(0, 0, 0);">Screen grab of a microsite</span></h3>
 <img src="files/2019-02-25_16-22-25.png" alt="File structure of a typical HAXcms micro-site after being generated." style="width: 25%; margin: 0px auto; display: block;"/> ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>HAXcms</title>
+    <id>https://haxtheweb.org//documentation-1/haxcms</id>
+    <updated>2020-09-30T13:12:35+00:00</updated>
+    <published>2019-02-20T06:10:05+00:00</published>
+    <summary>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server"</summary>
+    <link href="https://haxtheweb.org//documentation-1/haxcms"/>
+    
+    <content type="html">
+      <![CDATA[ <p>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server" is only used when needed for a user to securely develop their content.</p>
+<h2>Difference from past static generators</h2>
+<p>Unlike solutions like <a href="https://jekyllrb.com/">Jekyll</a>
+
+, HAXcms is for anyone to publish a website, not just those that understand command line. HAXcms is intended to be installed and then allow users to entirely use a UI to create, publish and manage micro-sites.</p>
+<h2>Visualization</h2>
+<img src="files/HAXCms workflow.jpg" alt="HAXcms visualization of publishing workflow at a data layer. Static sites are published from the files you work with yet whatever you edit via the UI is always saved into a static format that works anywhere." style="width: 75%; margin: 0px auto; display: block;"/> ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Concepts</title>
+    <id>https://haxtheweb.org//documentation-1/haxcms/concepts</id>
+    <updated>2020-09-30T13:12:35+00:00</updated>
+    <published>2019-02-20T06:10:05+00:00</published>
+    <summary>HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to</summary>
+    <link href="https://haxtheweb.org//documentation-1/haxcms/concepts"/>
+    
+    <content type="html">
+      <![CDATA[ <p>HAXcms seeks to be a microsite generator and manager that <b>doesn't require any command line in order to operate</b>
+. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to eliminate all the barriers to then publishing that content online.</p>
+<h3 class="hax-active">Some words and phrases worth understanding in HAXcms</h3>
+<ul><li>HAXeditor - the HAX editor</li>
+<li>microsite - An individual site that's been created by a user</li>
+<li>Outline - All sites are an outline, we use JSON Outline Schema to manage this</li>
+<li>Theme - A single web component based theme that's agnostic of content</li>
+<li>Elements / web components - design assets that work anywhere</li>
+</ul>
+ ]]>
     </content>
   </entry>
   <entry>
@@ -1263,27 +1284,6 @@ class LearnTwoTheme extends HAXCMSTheme(PolymerElement) {
 window.customElements.define(LearnTwoTheme.tag, LearnTwoTheme);
 export { LearnTwoTheme };</template>
 </code-sample>
- ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Concepts</title>
-    <id>https://haxtheweb.org//documentation-1/haxcms/concepts</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
-    <published>2019-02-20T06:10:05+00:00</published>
-    <summary>HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to</summary>
-    <link href="https://haxtheweb.org//documentation-1/haxcms/concepts"/>
-    
-    <content type="html">
-      <![CDATA[ <p>HAXcms seeks to be a microsite generator and manager that <b>doesn't require any command line in order to operate</b>
-. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to eliminate all the barriers to then publishing that content online.</p>
-<h3 class="hax-active">Some words and phrases worth understanding in HAXcms</h3>
-<ul><li>HAXeditor - the HAX editor</li>
-<li>microsite - An individual site that's been created by a user</li>
-<li>Outline - All sites are an outline, we use JSON Outline Schema to manage this</li>
-<li>Theme - A single web component based theme that's agnostic of content</li>
-<li>Elements / web components - design assets that work anywhere</li>
-</ul>
  ]]>
     </content>
   </entry>

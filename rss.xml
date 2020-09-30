@@ -6,7 +6,7 @@
     <description>Project home and documentation for all things HAX</description>
     <copyright>Copyright (C) 2020 https://haxtheweb.org/</copyright>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Aug 2020 15:56:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2020 13:12:35 +0000</lastBuildDate>
     <atom:link href="https://haxtheweb.org//rss.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>HAX11ty</title>
@@ -27,6 +27,17 @@
       <pubDate>Mon, 17 Aug 2020 19:01:17 +0000</pubDate>
     </item>
     <item>
+      <title>Templates and Layouts</title>
+      <link>https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2</link>
+      <description>
+          <![CDATA[ <p>Templates and layouts allow you to drop in pre-built pieces of content structure. This might be a series of images or an example of content that could be written.</p>
+<img src="files/Screenshot from 2020-08-17 14-46-06.png"/> ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2</guid>
+      <pubDate>Mon, 17 Aug 2020 18:41:49 +0000</pubDate>
+    </item>
+    <item>
       <title>Block settings</title>
       <link>https://haxtheweb.org//item-eca7c8a4-393a-4e68-8cb4-440e94683738</link>
       <description>
@@ -38,17 +49,6 @@
       </description>
       <category></category>
       <guid>https://haxtheweb.org//item-eca7c8a4-393a-4e68-8cb4-440e94683738</guid>
-      <pubDate>Mon, 17 Aug 2020 18:41:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Templates and Layouts</title>
-      <link>https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2</link>
-      <description>
-          <![CDATA[ <p>Templates and layouts allow you to drop in pre-built pieces of content structure. This might be a series of images or an example of content that could be written.</p>
-<img src="files/Screenshot from 2020-08-17 14-46-06.png"/> ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2</guid>
       <pubDate>Mon, 17 Aug 2020 18:41:49 +0000</pubDate>
     </item>
     <item>
@@ -786,22 +786,6 @@ the title of the active item wrapped in a h1 tag
       <pubDate>Wed, 13 Mar 2019 00:45:37 +0000</pubDate>
     </item>
     <item>
-      <title>HAXcms</title>
-      <link>https://haxtheweb.org//documentation-1/haxcms</link>
-      <description>
-          <![CDATA[ <p>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server" is only used when needed for a user to securely develop their content.</p>
-<h2>Difference from past static generators</h2>
-<p>Unlike solutions like <a href="https://jekyllrb.com/">Jekyll</a>
-
-, HAXcms is for anyone to publish a website, not just those that understand command line. HAXcms is intended to be installed and then allow users to entirely use a UI to create, publish and manage micro-sites.</p>
-<h2>Visualization</h2>
-<img src="files/HAXCms workflow.jpg" alt="HAXcms visualization of publishing workflow at a data layer. Static sites are published from the files you work with yet whatever you edit via the UI is always saved into a static format that works anywhere." style="width: 75%; margin: 0px auto; display: block;"/> ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//documentation-1/haxcms</guid>
-      <pubDate>Wed, 20 Feb 2019 06:10:05 +0000</pubDate>
-    </item>
-    <item>
       <title>Publishing</title>
       <link>https://haxtheweb.org//documentation-1/haxcms/publishing</link>
       <description>
@@ -873,6 +857,41 @@ git push origin master</template>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//documentation-1/haxcms/structure</guid>
+      <pubDate>Wed, 20 Feb 2019 06:10:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>HAXcms</title>
+      <link>https://haxtheweb.org//documentation-1/haxcms</link>
+      <description>
+          <![CDATA[ <p>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server" is only used when needed for a user to securely develop their content.</p>
+<h2>Difference from past static generators</h2>
+<p>Unlike solutions like <a href="https://jekyllrb.com/">Jekyll</a>
+
+, HAXcms is for anyone to publish a website, not just those that understand command line. HAXcms is intended to be installed and then allow users to entirely use a UI to create, publish and manage micro-sites.</p>
+<h2>Visualization</h2>
+<img src="files/HAXCms workflow.jpg" alt="HAXcms visualization of publishing workflow at a data layer. Static sites are published from the files you work with yet whatever you edit via the UI is always saved into a static format that works anywhere." style="width: 75%; margin: 0px auto; display: block;"/> ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//documentation-1/haxcms</guid>
+      <pubDate>Wed, 20 Feb 2019 06:10:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Concepts</title>
+      <link>https://haxtheweb.org//documentation-1/haxcms/concepts</link>
+      <description>
+          <![CDATA[ <p>HAXcms seeks to be a microsite generator and manager that <b>doesn't require any command line in order to operate</b>
+. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to eliminate all the barriers to then publishing that content online.</p>
+<h3 class="hax-active">Some words and phrases worth understanding in HAXcms</h3>
+<ul><li>HAXeditor - the HAX editor</li>
+<li>microsite - An individual site that's been created by a user</li>
+<li>Outline - All sites are an outline, we use JSON Outline Schema to manage this</li>
+<li>Theme - A single web component based theme that's agnostic of content</li>
+<li>Elements / web components - design assets that work anywhere</li>
+</ul>
+ ]]>
+      </description>
+      <category></category>
+      <guid>https://haxtheweb.org//documentation-1/haxcms/concepts</guid>
       <pubDate>Wed, 20 Feb 2019 06:10:05 +0000</pubDate>
     </item>
     <item>
@@ -1220,25 +1239,6 @@ export { LearnTwoTheme };</template>
       </description>
       <category></category>
       <guid>https://haxtheweb.org//documentation-1/haxcms/theming</guid>
-      <pubDate>Wed, 20 Feb 2019 06:10:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Concepts</title>
-      <link>https://haxtheweb.org//documentation-1/haxcms/concepts</link>
-      <description>
-          <![CDATA[ <p>HAXcms seeks to be a microsite generator and manager that <b>doesn't require any command line in order to operate</b>
-. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to eliminate all the barriers to then publishing that content online.</p>
-<h3 class="hax-active">Some words and phrases worth understanding in HAXcms</h3>
-<ul><li>HAXeditor - the HAX editor</li>
-<li>microsite - An individual site that's been created by a user</li>
-<li>Outline - All sites are an outline, we use JSON Outline Schema to manage this</li>
-<li>Theme - A single web component based theme that's agnostic of content</li>
-<li>Elements / web components - design assets that work anywhere</li>
-</ul>
- ]]>
-      </description>
-      <category></category>
-      <guid>https://haxtheweb.org//documentation-1/haxcms/concepts</guid>
       <pubDate>Wed, 20 Feb 2019 06:10:05 +0000</pubDate>
     </item>
     <item>
