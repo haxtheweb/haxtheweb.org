@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- generator-class="Icamys\SitemapGenerator\SitemapGenerator" -->
 <!-- generator-version="1.1.0" -->
-<!-- generated-on="2020-09-30T13:14:43+00:00" -->
+<!-- generated-on="2020-09-30T13:15:22+00:00" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//documentation-1/hax-development</loc>
@@ -23,7 +23,7 @@
   </url>
   <url>
     <loc>https://haxtheweb.org/https://haxtheweb.org//item-587de126-437b-4864-a3ea-54078837127c</loc>
-    <lastmod>2020-09-30T13:12:35+00:00</lastmod>
+    <lastmod>2020-09-30T13:15:22+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

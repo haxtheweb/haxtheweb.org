@@ -14,6 +14,8 @@
       <description>
           <![CDATA[ <p>HAX + 11ty = <a href="https://github.com/elmsln/hax11ty">HAX11ty</a>
 ! HAX11ty gives you the best of SEO from 11ty while using the HAX editor and the HAXcms theme engine for presenting material. This gives you the SPA capabilities of fast loading routes in HAXcms but reload the page and it loads a physical file for high SEO ala 11ty!</p>
+<p id="header-8606fbcd-13b8-10f7-ba54-6a6cdeae7bd9"><a href="https://github.com/elmsln/hax11ty/generate">Create a new repository from hax11ty</a>
+</p>
 <p>It even has github actions support built in! Meaning you can check out the <a href="https://elmsln.github.io/hax11ty/">mini-doc site for HAX11ty</a>
  which is self-updated when we update the docs / repo for HAX11ty.</p>
 <p><a href="https://www.youtube.com/watch?v=zS2vENeXogc">This video shows</a>

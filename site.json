@@ -174,11 +174,11 @@
             "description": "HAX + 11ty = HAX11ty! HAX11ty gives you the best of SEO from 11ty while using the HAX editor and the HAXcms theme engine for presenting material. This gives you the SPA capabilities of fast loading r",
             "metadata": {
                 "created": 1597690877,
-                "updated": 1601471555,
+                "updated": 1601471722,
                 "readtime": 1,
                 "contentDetails": {
                     "headings": 0,
-                    "paragraphs": 3,
+                    "paragraphs": 4,
                     "schema": [
                         {
                             "resource": "#d8a4a0fc-7cf5-800c-41cd-cdae27ae49c4",
@@ -186,10 +186,10 @@
                         }
                     ],
                     "tags": {
-                        "p": 3,
+                        "p": 4,
                         "video-player": 1
                     },
-                    "elements": 4
+                    "elements": 5
                 }
             }
         },
