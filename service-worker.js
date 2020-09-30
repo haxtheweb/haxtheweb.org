@@ -43,24 +43,16 @@ var precacheConfig = [
         "21AxbuTjN8wcpfx51zRnA"
     ],
     [
-        "pages\/documentation-1\/hax-development\/hax-app-store\/apps\/index.html",
-        "assMXoMHYMwMhBBFi8ugpQ"
-    ],
-    [
-        "pages\/documentation-1\/haxcms\/theming\/css-vars\/index.html",
-        "XrqKTnxrCsCIUYR7H2g"
-    ],
-    [
         "pages\/documentation-1\/haxcms\/concepts\/index.html",
         "z4I1O6SuABBc1kQwxIHzw"
     ],
     [
         "pages\/welcome\/what-is-hax\/index.html",
-        "s4BOuRsbepU6fsos34AaiQ"
+        "DcxE2t11M6NhTN2KrQACg"
     ],
     [
         "pages\/item-587de126-437b-4864-a3ea-54078837127c\/index.html",
-        "nzo8lodX7pe3q5T5HJDgw"
+        "mk06H7oladBb5rwx9mc7Ag"
     ],
     [
         "pages\/documentation-1\/haxcms\/theming\/core-elements\/query-examples\/index.html",
@@ -72,35 +64,39 @@ var precacheConfig = [
     ],
     [
         "pages\/welcome\/index.html",
-        "nFcotZMSgLt8WHp9F3VyA"
+        "8NWgFO10VLBcjRpV8g"
     ],
     [
         "pages\/documentation-1\/hax-development\/wcfactory-tooling\/index.html",
         "pJGvifIFd9uCxillmeoYVA"
     ],
     [
-        "pages\/integrations-1\/wordpress\/index.html",
-        "2RHDEPqfrcIhokRcg8gdg"
+        "pages\/documentation-1\/hax-development\/hax-app-store\/apps\/index.html",
+        "assMXoMHYMwMhBBFi8ugpQ"
     ],
     [
-        "pages\/documentation-1\/hax-development\/hax-app-store\/blox\/index.html",
-        "zW9NtwyON8L1EmhhuBw"
-    ],
-    [
-        "pages\/welcome\/solutions\/index.html",
-        "ObC0pyRkdR327PpUAZikjQ"
-    ],
-    [
-        "pages\/documentation-1\/haxcms\/installation\/index.html",
-        "uW0I21adGvvNVU7CnpaH0g"
+        "pages\/documentation-1\/haxcms\/theming\/css-vars\/index.html",
+        "XrqKTnxrCsCIUYR7H2g"
     ],
     [
         "pages\/documentation-1\/hax-development\/hello-world-element\/index.html",
         "qtl0dciLeRuWqAz9ugEJ3w"
     ],
     [
-        "pages\/documentation-1\/haxcms\/theming\/skin-a-site\/index.html",
-        "XHjxYL3auHdxcjkbqc70w"
+        "pages\/welcome\/why-haxcms-1\/index.html",
+        "LZNJYTROu6Uw2EqwMOPoDQ"
+    ],
+    [
+        "pages\/documentation-1\/haxcms\/installation\/index.html",
+        "uW0I21adGvvNVU7CnpaH0g"
+    ],
+    [
+        "pages\/get-involved-1\/index.html",
+        "Utz09RNthS38ismk9PjOg"
+    ],
+    [
+        "pages\/documentation-1\/hax-development\/hax-app-store\/blox\/index.html",
+        "zW9NtwyON8L1EmhhuBw"
     ],
     [
         "pages\/documentation-1\/core-concepts\/index.html",
@@ -111,32 +107,32 @@ var precacheConfig = [
         "oyf0GDyr0oZYLczWQ9w"
     ],
     [
-        "pages\/get-involved-1\/index.html",
-        "Utz09RNthS38ismk9PjOg"
+        "pages\/integrations-1\/index.html",
+        "z2egUjGk3t2HhVN5P8dpA"
     ],
     [
-        "pages\/documentation-1\/hax-development\/hax-app-store\/stax\/index.html",
-        "JQaN7C71aosIYkeZ8yL7A"
+        "pages\/documentation-1\/haxcms\/theming\/skin-a-site\/index.html",
+        "XHjxYL3auHdxcjkbqc70w"
     ],
     [
-        "pages\/documentation-1\/ux-concepts\/find\/index.html",
-        "6y04dMru1pok7ewW9pXC5Q"
+        "pages\/documentation-1\/index.html",
+        "DqALsfCYqsu7SrahklWnJg"
     ],
     [
         "pages\/documentation-1\/ux-concepts\/index.html",
         "FJlDjMOAAj4IFohx1TUidg"
     ],
     [
-        "pages\/integrations-1\/index.html",
-        "z2egUjGk3t2HhVN5P8dpA"
+        "pages\/integrations-1\/wordpress\/index.html",
+        "2RHDEPqfrcIhokRcg8gdg"
     ],
     [
-        "pages\/documentation-1\/hax-development\/hax-schema\/index.html",
-        "nnNSFkAU8XSsaFT58TBjg"
+        "pages\/documentation-1\/ux-concepts\/find\/index.html",
+        "6y04dMru1pok7ewW9pXC5Q"
     ],
     [
-        "pages\/welcome\/roadmap-1\/index.html",
-        "7ASlq2i4eihExd5HhfGsA"
+        "pages\/documentation-1\/hax-development\/hax-app-store\/stax\/index.html",
+        "JQaN7C71aosIYkeZ8yL7A"
     ],
     [
         "pages\/documentation-1\/haxcms\/theming\/web-components\/index.html",
@@ -147,52 +143,52 @@ var precacheConfig = [
         "GDXNqZT3IEz2W3FGJaA"
     ],
     [
-        "pages\/integrations-1\/drupal\/index.html",
-        "xBEKR2l4VgUwiwqjT9aSg"
+        "pages\/documentation-1\/hax-development\/hax-schema\/index.html",
+        "nnNSFkAU8XSsaFT58TBjg"
     ],
     [
-        "pages\/documentation-1\/haxcms\/publishing\/index.html",
-        "VW7CiO7Ay2R1MXZtLE33KA"
+        "pages\/welcome\/solutions\/index.html",
+        "ObC0pyRkdR327PpUAZikjQ"
     ],
     [
-        "pages\/welcome\/presentations\/index.html",
-        "ssik6P0CMBwzp23yv5HwEA"
-    ],
-    [
-        "pages\/documentation-1\/related-technologies\/index.html",
-        "7GUIvUTyuOVDIKllAZe6A"
-    ],
-    [
-        "pages\/documentation-1\/haxcms\/theming\/core-elements\/index.html",
-        "RJdXjluG8P1drayyA5qatw"
+        "pages\/f-a-q-1\/index.html",
+        "0NxNL1VIrIDdrQk43JcZA"
     ],
     [
         "pages\/documentation-1\/hax-development\/hax-app-store\/autoloader\/index.html",
         "IE2cJ88vbM6RAlVFFyy1mg"
     ],
     [
-        "pages\/integrations-1\/backdropcms\/index.html",
-        "GS5wg4QVKUTLAj0HGXVaA"
+        "pages\/documentation-1\/hax-development\/hax-element-schema\/index.html",
+        "T3pwS38Un5Gj0OaKDST6yg"
     ],
     [
         "pages\/item-aa589faa-e860-4221-82fa-df6d57328ac2\/index.html",
         "j3ivxcWezc7zLbIwIXf5ag"
     ],
     [
-        "pages\/documentation-1\/hax-development\/hax-element-schema\/index.html",
-        "T3pwS38Un5Gj0OaKDST6yg"
+        "pages\/documentation-1\/haxcms\/theming\/core-elements\/index.html",
+        "RJdXjluG8P1drayyA5qatw"
     ],
     [
-        "pages\/documentation-1\/index.html",
-        "DqALsfCYqsu7SrahklWnJg"
+        "pages\/documentation-1\/related-technologies\/index.html",
+        "7GUIvUTyuOVDIKllAZe6A"
     ],
     [
-        "pages\/integrations-1\/classicpress-1\/index.html",
-        "ParLrbIwU9c8OwP2PQvtw"
+        "pages\/documentation-1\/haxcms\/publishing\/index.html",
+        "VW7CiO7Ay2R1MXZtLE33KA"
     ],
     [
-        "pages\/welcome\/why-haxcms-1\/index.html",
-        "LZNJYTROu6Uw2EqwMOPoDQ"
+        "pages\/integrations-1\/drupal\/index.html",
+        "xBEKR2l4VgUwiwqjT9aSg"
+    ],
+    [
+        "pages\/welcome\/roadmap-1\/index.html",
+        "7ASlq2i4eihExd5HhfGsA"
+    ],
+    [
+        "pages\/scavenger-hunt-1\/index.html",
+        "agzm2ngjYVpLONL4VP7Uw"
     ],
     [
         "pages\/documentation-1\/haxcms\/index.html",
@@ -200,47 +196,59 @@ var precacheConfig = [
     ],
     [
         "pages\/documentation-1\/haxcms\/life-cycle\/index.html",
-        "PlJWKWaaN8FaVEwVAq4DAQ"
-    ],
-    [
-        "pages\/f-a-q-1\/index.html",
-        "0NxNL1VIrIDdrQk43JcZA"
+        "1mFZTBuHt9Ga2B9b08ZTw"
     ],
     [
         "pages\/documentation-1\/haxcms\/theming\/dev-workflows\/index.html",
         "uMa5s9ZNkKwbcqxpRW5b4Q"
     ],
     [
+        "pages\/integrations-1\/backdropcms\/index.html",
+        "GS5wg4QVKUTLAj0HGXVaA"
+    ],
+    [
         "pages\/documentation-1\/hax-development\/hax-app-store\/index.html",
         "fsGSBcIKWzrC559gbMgHw"
     ],
     [
-        "pages\/integrations-1\/gravcms\/index.html",
-        "Ql37Zrrt59RUIJjBM1V6mg"
+        "pages\/welcome\/presentations\/index.html",
+        "ssik6P0CMBwzp23yv5HwEA"
     ],
     [
         "pages\/welcome\/i-have-issues\/index.html",
-        "ghDMBXyfSK5CfRqywIssQ"
+        "2MKtlrsbYX6Z5WhX6ObuQ"
+    ],
+    [
+        "pages\/integrations-1\/classicpress-1\/index.html",
+        "ParLrbIwU9c8OwP2PQvtw"
     ],
     [
         "pages\/documentation-1\/haxcms\/troubleshooting\/index.html",
         "8EIuTdwmwi2DArqZJPjsIA"
     ],
     [
-        "pages\/scavenger-hunt-1\/index.html",
-        "agzm2ngjYVpLONL4VP7Uw"
-    ],
-    [
-        "pages\/integrations-1\/creating-new-ones\/index.html",
-        "9lAPWsnKOXLsjkdelxENA"
+        "pages\/integrations-1\/gravcms\/index.html",
+        "Ql37Zrrt59RUIJjBM1V6mg"
     ],
     [
         "pages\/documentation-1\/haxcms\/theming\/index.html",
         "GIqNP3LJcHIxjKEjICN4Q"
     ],
     [
+        "pages\/integrations-1\/creating-new-ones\/index.html",
+        "9lAPWsnKOXLsjkdelxENA"
+    ],
+    [
         "index.html",
-        "hu8mkOcN44izmd0T3mNhlg"
+        "Dkp0PBqslnscvL652AY0g"
+    ],
+    [
+        "manifest.json",
+        "NQ6UNvs0WLO64hLCcFE39A"
+    ],
+    [
+        "site.json",
+        "7bl2TB7fYOEOpKN8knIQ"
     ],
     [
         "files\/haxcms-managed\/512x512-3450183.png",
@@ -285,14 +293,6 @@ var precacheConfig = [
     [
         "files\/haxcms-managed\/16x16-3450183.png",
         "nBQfdTExKIC19E72heCQ"
-    ],
-    [
-        "manifest.json",
-        "NQ6UNvs0WLO64hLCcFE39A"
-    ],
-    [
-        "site.json",
-        "i81B7v2SdNzj3JI9VVcGlQ"
     ],
     [
         "404.html",
