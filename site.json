@@ -145,10 +145,10 @@
             "order": "0",
             "parent": "item-welcome",
             "title": "What is HAX",
-            "description": "HAX - Headless Authoring eXperienceHAX is a decoupled authoring experience built using  web components. Web components is a standard way of developers creating new HTML tags. It's a layer below trad",
+            "description": "HAX - Headless Authoring eXperienceHAX is a WYSIWYG unlike any other. You extend your world by extending the web through the web component standard. HAX has a simple schema and integrations to allow",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1597766178,
+                "updated": 1601471523,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/sites\/haxtheweb\/files\/\/sourceviewthispage.jpg",
