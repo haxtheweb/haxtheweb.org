@@ -274,10 +274,10 @@
             "order": "0",
             "parent": null,
             "title": "Welcome",
-            "description": "Live demoSeeing is believing! Thanks to Penn State College of Arts & Architecture for sponsoring this demo!HAXcms live demo (admin \/ admin as login info)Developer quick start    # HAX editor st",
+            "description": "We're on a mission to empower the next billion creators to share their voice with the world; Regardless of ability, platform, creed, country or income.Will you help us HAX society by HAXTheWeb?Then ",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1597766178,
+                "updated": 1601471241,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
@@ -306,8 +306,8 @@
                 ],
                 "readtime": 1,
                 "contentDetails": {
-                    "headings": 6,
-                    "paragraphs": 7,
+                    "headings": 7,
+                    "paragraphs": 9,
                     "schema": [
                         {
                             "resource": "#18d556e9-a1d7-3069-81d9",
@@ -315,13 +315,14 @@
                         }
                     ],
                     "tags": {
+                        "p": 9,
+                        "h2": 1,
                         "h3": 6,
-                        "p": 7,
                         "code-sample": 2,
                         "ul": 2,
                         "video-player": 1
                     },
-                    "elements": 18
+                    "elements": 21
                 }
             }
         },
