@@ -1115,6 +1115,14 @@
                         "type": "image\/jpeg",
                         "name": "Roadmap.jpg",
                         "size": 108725
+                    },
+                    {
+                        "path": "\/var\/www\/html\/sites\/haxtheweb\/files\/headshot272229.61999999825.jpg",
+                        "fullUrl": "\/sites\/haxtheweb\/files\/headshot272229.61999999825.jpg",
+                        "url": "files\/headshot272229.61999999825.jpg",
+                        "type": "image\/jpeg",
+                        "name": "headshot272229.61999999825.jpg",
+                        "size": 121898
                     }
                 ],
                 "readtime": 1,
@@ -1433,7 +1441,6 @@
             "title": "Creating new ones!",
             "description": "The main piece to our integrations is wrapped up in something we call \"The magic script\". The magic script is a standard way of dynamically discovering and importing the definitions of web components ",
             "metadata": {
-                "siteName": "haxtheweb",
                 "created": 1548828434,
                 "updated": 1601471555,
                 "files": [
