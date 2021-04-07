@@ -21,8 +21,8 @@
  this may not be an exhaustive list and 
   
   <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/hax-body-behaviors/lib/HAXWiring.js#L154-L181" target="_blank">the internal code documentation on this should be consulted</a>
- (or open an issue to ensure we document a missing hook!)
-</p>
+ (or open an issue to ensure we document a missing hook!). You can search the lrnwebcomponents monorepo for usage of <b>haxHooks</b>
+ in order to discover additional implementations beyond what is pointed to below.</p>
 <h2 id="header-b53559b4-065e-9c2e-1c6c-791e034852c5">
   Blog posts about this topic
 </h2>
@@ -46,7 +46,8 @@ Code example</h2>
        purposes at the time of save / adding new things to the page.
   </p>
 <code-sample copy-clipboard-button type="javascript">
-  <template preserve-content="preserve-content">haxHooks() {
+  
+<template preserve-content="preserve-content">haxHooks() {
   return {
     activeElementChanged: "haxactiveElementChanged",
     editModeChanged : "haxeditModeChanged",
@@ -54,10 +55,10 @@ Code example</h2>
     gizmoRegistration: "haxgizmoRegistration",
     preProcessNodeToContent : "haxpreProcessNodeToContent",
     postProcessNodeToContent : "haxpostProcessNodeToContent",
+    progressiveEnhancement: "haxprogressiveEnhancement",
     preProcessInsertContent : "haxpreProcessInsertContent"
   };
-}</template>
-</code-sample>
+}</template></code-sample>
 <h3 id="header-a76abd90-f808-1082-c4d7-a1a8161f1202">
   gizmoRegistration(store)
 </h3>
@@ -110,24 +111,27 @@ Code example</h2>
   <b>true</b>
 , when we go to save / are no longer editing, it is 
   <b>false</b>
-.
-</p>
+.</p>
 <h3 id="header-1a6d2fcc-34bc-a067-2b9e-87870d854d51">
-  inlineContextMenu
-</h3>
-<p></p>
+  inlineContextMenu(ceMenu)</h3>
+<p>This hook runs after element activation in order to allow elements to supply custom editing buttons and operations to the in-context menu that hovers above active elements. You have access to the instance of the custom elements hax menu element (hax-ce-context) and can add whatever buttons you want at this time with custom callbacks. See <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/multiple-choice/src/multiple-choice.js#L495-L524" target="_blank">multiple-choice</a>
+ for an example of how you can leverage this. <b>multiple-choice</b>
+ uses this to add quick buttons for adding and removing potential answers quickly.</p>
 <h3 id="header-95768a09-96a0-b33e-cef8-8b809ea0b739">
-  preProcessNodeToContent
-</h3>
-<p></p>
+  preProcessNodeToContent(node)</h3>
+<p>This runs right before nodes are converted to content in the entire hax-body. This happens when the user has triggered a save event and we are converting the DOM from real nodes into the HTML text that is to be saved / returned to a backend. This hook allows you to do any known data clean up to the element prior to it being converted to HTML. See <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/multiple-choice/src/multiple-choice.js#L525-L545">multiple-choice</a>
+ for an example of taking a complex data property and converting it to innerHTML children at the time of save for progressive enhancement purposes.</p>
+<h3 id="header-88976517-a574-4aaf-499c-32d840278f7e">progressiveEnhancement(element)</h3>
+<p>This hook runs WHILE the node is being converted to text and should return a string that will be appended into the innerHTML area of the element. This is an alternative to what you could accomplish during preProcessNodeToContent but want to work with a string based response. See <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/meme-maker/src/meme-maker.js#L184-L195" target="_blank">meme-maker</a>
+ for an example of using this to inject innerHTML which only is for SEO purposes.</p>
 <h3 id="header-aad5ed0f-716c-d44b-dc7e-c93aba930723">
-  <span>postProcessNodeToContent</span>
-</h3>
-<p></p>
+  <span>postProcessNodeToContent(content)</span></h3>
+<p>This hook runs after preProcessNodeToContent and progressiveEnhancement and before the element is returned in the hax-save event. This runs AFTER the node has been converted to content. This is useful for forcible content clean up like regex'ing output for specific words to not leak into output. See <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/video-player/src/video-player.js#L376-L383" target="_blank">video-player</a>
+ for ensuring there are no internal empty arrays for data is not a required field.</p>
 <h3 id="header-d137ab09-8e8b-58c6-934a-df7535e329d1">
-  <span>preProcessInsertContent</span>
-</h3>
-<p></p>
+  <span>preProcessInsertContent(detail)</span></h3>
+<p>This is a hax schema element, our virtual dom node, that is about to be inserted into the hax-body. This allows for custom modification to the data that's about to be converted to a DOM node. See <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/multiple-choice/src/multiple-choice.js#L547-L561" target="_blank">multiple-choice</a>
+ for an example of ensuring that answer data doesn't bleed through to the page. This hook runs on duplication as well as inserting a node by the user selecting the block.</p>
  ]]>
       </description>
       <category></category>

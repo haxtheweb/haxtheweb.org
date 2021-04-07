@@ -1136,20 +1136,20 @@
             "description": "Elements can integrate deeply into HAX state management using what we call \"hax hooks\". By supplying a method on your web component like   haxHooks()\u00a0you are magically able to tap into different li",
             "metadata": {
                 "created": 1617802345,
-                "updated": 1617804429,
-                "readtime": 3,
+                "updated": 1617805460,
+                "readtime": 5,
                 "contentDetails": {
-                    "headings": 9,
-                    "paragraphs": 10,
+                    "headings": 10,
+                    "paragraphs": 11,
                     "schema": [],
                     "tags": {
-                        "p": 10,
+                        "p": 11,
                         "h2": 2,
                         "ul": 2,
                         "code-sample": 1,
-                        "h3": 7
+                        "h3": 8
                     },
-                    "elements": 22
+                    "elements": 24
                 }
             }
         },
