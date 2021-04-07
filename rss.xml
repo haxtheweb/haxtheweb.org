@@ -26,7 +26,7 @@
 <li><span><a href="https://dev.to/btopro/haxhooks-again-webcomponents-that-supply-their-own-editing-experience-iig" target="_blank">haxHooks: webcomponents that ship their own editing UX</a>
 <br/></span></li>
 </ul>
-<h2 id="header-d2ddb5bf-cc8e-389b-8e87-700327d8b038"><span>Code example</span><p><span>This is a basic example in which each of the strings you'd then implement as their own </span>async<span> callbacks. </span>async<span> / </span>await<span> allows HAX to safely defer to your element to do whatever it wants to the DOM / internal structure of that callback, without disrupting element activation or conversion of DOM structure to HAX Element Schema, what it uses to virtualize the body for </span><span>sanitation</span><span> purposes at the time of save / adding new things to the page.</span></p>
+<h2 id="header-d2ddb5bf-cc8e-389b-8e87-700327d8b038"><span>Code example</span><p><span><span>This is a basic example in which each of the strings you'd then implement as their own </span>async<span> callbacks. </span>async<span> / </span>await<span> allows HAX to safely defer to your element to do whatever it wants to the DOM / internal structure of that callback, without disrupting element activation or conversion of DOM structure to HAX Element Schema, what it uses to virtualize the body for </span><span>sanitation</span><span> purposes at the time of save / adding new things to the page.</span></span></p>
 </h2>
 <code-sample copy-clipboard-button type="javascript"><template preserve-content="preserve-content">haxHooks() {
   return {
