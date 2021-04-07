@@ -43,6 +43,26 @@ var precacheConfig = [
         "21AxbuTjN8wcpfx51zRnA"
     ],
     [
+        "pages\/item-587de126-437b-4864-a3ea-54078837127c\/index.html",
+        "mk06H7oladBb5rwx9mc7Ag"
+    ],
+    [
+        "pages\/documentation-1\/haxcms\/theming\/core-elements\/query-examples\/index.html",
+        "NjdVdnJSw9mZgPgscq2Lwg"
+    ],
+    [
+        "pages\/welcome\/what-is-hax\/index.html",
+        "DcxE2t11M6NhTN2KrQACg"
+    ],
+    [
+        "pages\/documentation-1\/hax-development\/wcfactory-tooling\/index.html",
+        "pJGvifIFd9uCxillmeoYVA"
+    ],
+    [
+        "pages\/welcome\/index.html",
+        "8NWgFO10VLBcjRpV8g"
+    ],
+    [
         "pages\/documentation-1\/hax-development\/hax-app-store\/apps\/index.html",
         "assMXoMHYMwMhBBFi8ugpQ"
     ],
@@ -55,64 +75,68 @@ var precacheConfig = [
         "z4I1O6SuABBc1kQwxIHzw"
     ],
     [
-        "pages\/welcome\/what-is-hax\/index.html",
-        "s4BOuRsbepU6fsos34AaiQ"
-    ],
-    [
-        "pages\/item-587de126-437b-4864-a3ea-54078837127c\/index.html",
-        "nzo8lodX7pe3q5T5HJDgw"
-    ],
-    [
-        "pages\/documentation-1\/haxcms\/theming\/core-elements\/query-examples\/index.html",
-        "NjdVdnJSw9mZgPgscq2Lwg"
-    ],
-    [
         "pages\/documentation-1\/ux-concepts\/add\/index.html",
         "Qo5DLal3zYH08jeETxpFnA"
-    ],
-    [
-        "pages\/welcome\/index.html",
-        "nFcotZMSgLt8WHp9F3VyA"
-    ],
-    [
-        "pages\/documentation-1\/hax-development\/wcfactory-tooling\/index.html",
-        "pJGvifIFd9uCxillmeoYVA"
-    ],
-    [
-        "pages\/integrations-1\/wordpress\/index.html",
-        "2RHDEPqfrcIhokRcg8gdg"
-    ],
-    [
-        "pages\/documentation-1\/hax-development\/hax-app-store\/blox\/index.html",
-        "zW9NtwyON8L1EmhhuBw"
-    ],
-    [
-        "pages\/welcome\/solutions\/index.html",
-        "ObC0pyRkdR327PpUAZikjQ"
-    ],
-    [
-        "pages\/documentation-1\/haxcms\/installation\/index.html",
-        "uW0I21adGvvNVU7CnpaH0g"
-    ],
-    [
-        "pages\/documentation-1\/hax-development\/hello-world-element\/index.html",
-        "qtl0dciLeRuWqAz9ugEJ3w"
-    ],
-    [
-        "pages\/documentation-1\/haxcms\/theming\/skin-a-site\/index.html",
-        "XHjxYL3auHdxcjkbqc70w"
     ],
     [
         "pages\/documentation-1\/core-concepts\/index.html",
         "ZDTuwJjNoVGV5eEItTppQ"
     ],
     [
-        "pages\/item-eca7c8a4-393a-4e68-8cb4-440e94683738\/index.html",
-        "oyf0GDyr0oZYLczWQ9w"
+        "pages\/documentation-1\/hax-development\/hello-world-element\/index.html",
+        "WmPcKWmkjVC4CCa9xxD7Q"
+    ],
+    [
+        "pages\/welcome\/why-haxcms-1\/index.html",
+        "LZNJYTROu6Uw2EqwMOPoDQ"
+    ],
+    [
+        "pages\/documentation-1\/haxcms\/installation\/index.html",
+        "uW0I21adGvvNVU7CnpaH0g"
+    ],
+    [
+        "pages\/documentation-1\/hax-development\/hax-app-store\/blox\/index.html",
+        "zW9NtwyON8L1EmhhuBw"
     ],
     [
         "pages\/get-involved-1\/index.html",
         "Utz09RNthS38ismk9PjOg"
+    ],
+    [
+        "pages\/integrations-1\/index.html",
+        "z2egUjGk3t2HhVN5P8dpA"
+    ],
+    [
+        "pages\/documentation-1\/haxcms\/theming\/skin-a-site\/index.html",
+        "XHjxYL3auHdxcjkbqc70w"
+    ],
+    [
+        "pages\/item-eca7c8a4-393a-4e68-8cb4-440e94683738\/index.html",
+        "oyf0GDyr0oZYLczWQ9w"
+    ],
+    [
+        "pages\/documentation-1\/haxcms\/structure\/index.html",
+        "GDXNqZT3IEz2W3FGJaA"
+    ],
+    [
+        "pages\/documentation-1\/hax-development\/hax-schema\/index.html",
+        "31RTgHvTxM51KvgAHqnQZg"
+    ],
+    [
+        "pages\/welcome\/solutions\/index.html",
+        "ObC0pyRkdR327PpUAZikjQ"
+    ],
+    [
+        "pages\/documentation-1\/haxcms\/theming\/web-components\/index.html",
+        "PZJFTK19QnrLVkihUttFfw"
+    ],
+    [
+        "pages\/integrations-1\/wordpress\/index.html",
+        "2RHDEPqfrcIhokRcg8gdg"
+    ],
+    [
+        "pages\/documentation-1\/index.html",
+        "DqALsfCYqsu7SrahklWnJg"
     ],
     [
         "pages\/documentation-1\/hax-development\/hax-app-store\/stax\/index.html",
@@ -127,88 +151,84 @@ var precacheConfig = [
         "FJlDjMOAAj4IFohx1TUidg"
     ],
     [
-        "pages\/integrations-1\/index.html",
-        "z2egUjGk3t2HhVN5P8dpA"
-    ],
-    [
-        "pages\/documentation-1\/hax-development\/hax-schema\/index.html",
-        "nnNSFkAU8XSsaFT58TBjg"
-    ],
-    [
-        "pages\/welcome\/roadmap-1\/index.html",
-        "7ASlq2i4eihExd5HhfGsA"
-    ],
-    [
-        "pages\/documentation-1\/haxcms\/theming\/web-components\/index.html",
-        "PZJFTK19QnrLVkihUttFfw"
-    ],
-    [
-        "pages\/documentation-1\/haxcms\/structure\/index.html",
-        "GDXNqZT3IEz2W3FGJaA"
-    ],
-    [
-        "pages\/integrations-1\/drupal\/index.html",
-        "xBEKR2l4VgUwiwqjT9aSg"
-    ],
-    [
-        "pages\/documentation-1\/haxcms\/publishing\/index.html",
-        "VW7CiO7Ay2R1MXZtLE33KA"
-    ],
-    [
-        "pages\/welcome\/presentations\/index.html",
-        "ssik6P0CMBwzp23yv5HwEA"
-    ],
-    [
         "pages\/documentation-1\/related-technologies\/index.html",
         "7GUIvUTyuOVDIKllAZe6A"
-    ],
-    [
-        "pages\/documentation-1\/haxcms\/theming\/core-elements\/index.html",
-        "RJdXjluG8P1drayyA5qatw"
     ],
     [
         "pages\/documentation-1\/hax-development\/hax-app-store\/autoloader\/index.html",
         "IE2cJ88vbM6RAlVFFyy1mg"
     ],
     [
-        "pages\/integrations-1\/backdropcms\/index.html",
-        "GS5wg4QVKUTLAj0HGXVaA"
-    ],
-    [
         "pages\/item-aa589faa-e860-4221-82fa-df6d57328ac2\/index.html",
         "j3ivxcWezc7zLbIwIXf5ag"
     ],
     [
-        "pages\/documentation-1\/hax-development\/hax-element-schema\/index.html",
-        "T3pwS38Un5Gj0OaKDST6yg"
+        "pages\/documentation-1\/haxcms\/theming\/core-elements\/index.html",
+        "RJdXjluG8P1drayyA5qatw"
     ],
     [
-        "pages\/documentation-1\/index.html",
-        "DqALsfCYqsu7SrahklWnJg"
+        "pages\/f-a-q-1\/index.html",
+        "0xf8Mz3wYpEslih5aKEmpQ"
     ],
     [
-        "pages\/integrations-1\/classicpress-1\/index.html",
-        "ParLrbIwU9c8OwP2PQvtw"
+        "pages\/integrations-1\/drupal\/index.html",
+        "xBEKR2l4VgUwiwqjT9aSg"
     ],
     [
-        "pages\/welcome\/why-haxcms-1\/index.html",
-        "LZNJYTROu6Uw2EqwMOPoDQ"
+        "pages\/welcome\/roadmap-1\/index.html",
+        "7ASlq2i4eihExd5HhfGsA"
+    ],
+    [
+        "pages\/documentation-1\/haxcms\/publishing\/index.html",
+        "VW7CiO7Ay2R1MXZtLE33KA"
+    ],
+    [
+        "pages\/item-44cc230b-07db-442a-90cf-687e2d089a5d\/index.html",
+        "d0qMBnt0wHP696fHdFhWA"
+    ],
+    [
+        "pages\/welcome\/presentations\/index.html",
+        "ssik6P0CMBwzp23yv5HwEA"
+    ],
+    [
+        "pages\/integrations-1\/backdropcms\/index.html",
+        "GS5wg4QVKUTLAj0HGXVaA"
+    ],
+    [
+        "pages\/scavenger-hunt-1\/index.html",
+        "agzm2ngjYVpLONL4VP7Uw"
+    ],
+    [
+        "pages\/documentation-1\/haxcms\/theming\/dev-workflows\/index.html",
+        "uMa5s9ZNkKwbcqxpRW5b4Q"
+    ],
+    [
+        "pages\/documentation-1\/haxcms\/life-cycle\/index.html",
+        "1mFZTBuHt9Ga2B9b08ZTw"
     ],
     [
         "pages\/documentation-1\/haxcms\/index.html",
         "VEFONa2ClV3mbPmEShCB4A"
     ],
     [
-        "pages\/documentation-1\/haxcms\/life-cycle\/index.html",
-        "PlJWKWaaN8FaVEwVAq4DAQ"
+        "pages\/item-cdd303d0-4490-4433-94fa-0e78cf849e80\/index.html",
+        "bsh9XWtX3uGbNkpVIiMIg"
     ],
     [
-        "pages\/f-a-q-1\/index.html",
-        "0NxNL1VIrIDdrQk43JcZA"
+        "pages\/documentation-1\/hax-development\/hax-element-schema\/index.html",
+        "T3pwS38Un5Gj0OaKDST6yg"
     ],
     [
-        "pages\/documentation-1\/haxcms\/theming\/dev-workflows\/index.html",
-        "uMa5s9ZNkKwbcqxpRW5b4Q"
+        "pages\/welcome\/i-have-issues\/index.html",
+        "2MKtlrsbYX6Z5WhX6ObuQ"
+    ],
+    [
+        "pages\/integrations-1\/classicpress-1\/index.html",
+        "ParLrbIwU9c8OwP2PQvtw"
+    ],
+    [
+        "pages\/documentation-1\/haxcms\/troubleshooting\/index.html",
+        "8EIuTdwmwi2DArqZJPjsIA"
     ],
     [
         "pages\/documentation-1\/hax-development\/hax-app-store\/index.html",
@@ -219,28 +239,24 @@ var precacheConfig = [
         "Ql37Zrrt59RUIJjBM1V6mg"
     ],
     [
-        "pages\/welcome\/i-have-issues\/index.html",
-        "ghDMBXyfSK5CfRqywIssQ"
-    ],
-    [
-        "pages\/documentation-1\/haxcms\/troubleshooting\/index.html",
-        "8EIuTdwmwi2DArqZJPjsIA"
-    ],
-    [
-        "pages\/scavenger-hunt-1\/index.html",
-        "agzm2ngjYVpLONL4VP7Uw"
+        "pages\/documentation-1\/haxcms\/theming\/index.html",
+        "GIqNP3LJcHIxjKEjICN4Q"
     ],
     [
         "pages\/integrations-1\/creating-new-ones\/index.html",
         "9lAPWsnKOXLsjkdelxENA"
     ],
     [
-        "pages\/documentation-1\/haxcms\/theming\/index.html",
-        "GIqNP3LJcHIxjKEjICN4Q"
+        "index.html",
+        "Dkp0PBqslnscvL652AY0g"
     ],
     [
-        "index.html",
-        "hu8mkOcN44izmd0T3mNhlg"
+        "manifest.json",
+        "NQ6UNvs0WLO64hLCcFE39A"
+    ],
+    [
+        "site.json",
+        "6xnjyrMBmJiB5AqusnrXw"
     ],
     [
         "files\/haxcms-managed\/512x512-3450183.png",
@@ -285,14 +301,6 @@ var precacheConfig = [
     [
         "files\/haxcms-managed\/16x16-3450183.png",
         "nBQfdTExKIC19E72heCQ"
-    ],
-    [
-        "manifest.json",
-        "NQ6UNvs0WLO64hLCcFE39A"
-    ],
-    [
-        "site.json",
-        "i81B7v2SdNzj3JI9VVcGlQ"
     ],
     [
         "404.html",
@@ -465,6 +473,10 @@ var precacheConfig = [
     [
         "files\/Roadmap.jpg",
         "iFFmAFs0MRszoNRpIOTXTQ"
+    ],
+    [
+        "files\/headshot272229.61999999825.jpg",
+        "zMvFZhCgmpmbCyKaTp3bRQ"
     ],
     [
         "files\/Screenshot from 2020-08-17 14-36-15.png",
