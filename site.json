@@ -1321,19 +1321,20 @@
             "description": "We've created a way to internationalize ANY web component you create. Because this is a complex topic, and we seek to empower anyone, anywhere to work with web components; i18n is a critical piece of ",
             "metadata": {
                 "created": 1617805490,
-                "updated": 1617805941,
-                "readtime": 1,
+                "updated": 1617806250,
+                "readtime": 2,
                 "contentDetails": {
                     "headings": 1,
-                    "paragraphs": 1,
+                    "paragraphs": 3,
                     "schema": [],
                     "tags": {
-                        "p": 1,
+                        "p": 3,
                         "a": 1,
                         "h3": 1,
-                        "code-sample": 1
+                        "ul": 1,
+                        "code-sample": 2
                     },
-                    "elements": 4
+                    "elements": 8
                 }
             }
         },
