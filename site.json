@@ -656,10 +656,25 @@
             "order": "2",
             "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
             "title": "HAX schema",
-            "description": "",
+            "description": "Understanding HAXschemaHAXschema, the JSON blob that you see as the first property passed into HAXWiring.setup is a standard way of sending data about the element in question to HAX so that it under",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1617805490
+                "updated": 1617806575,
+                "readtime": 5,
+                "contentDetails": {
+                    "headings": 5,
+                    "paragraphs": 6,
+                    "schema": [],
+                    "tags": {
+                        "h2": 4,
+                        "p": 6,
+                        "code-sample": 5,
+                        "h3": 1,
+                        "grid-plate": 1,
+                        "img": 3
+                    },
+                    "elements": 20
+                }
             }
         },
         {
