@@ -1318,10 +1318,23 @@
             "order": "4",
             "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
             "title": "Internationalization - i18n",
-            "description": "",
+            "description": "We've created a way to internationalize ANY web component you create. Because this is a complex topic, and we seek to empower anyone, anywhere to work with web components; i18n is a critical piece of ",
             "metadata": {
                 "created": 1617805490,
-                "updated": 1617805490
+                "updated": 1617805941,
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 1,
+                    "paragraphs": 1,
+                    "schema": [],
+                    "tags": {
+                        "p": 1,
+                        "a": 1,
+                        "h3": 1,
+                        "code-sample": 1
+                    },
+                    "elements": 4
+                }
             }
         },
         {

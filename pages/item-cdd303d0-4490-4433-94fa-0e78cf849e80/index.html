@@ -1,1 +1,17 @@
-<p></p>
+<p>We've created a way to internationalize ANY web component you create. Because this is a complex topic, and we seek to empower anyone, anywhere to work with web components; i18n is a critical piece of accessibility and improving knowledge access on the web. Doing so without requiring a framework driven approach, or even knowing how our element will be used in production, is a complicated series of decisions.</p>
+<a href="https://dev.to/btopro/i18n-manager-web-component-41a2">This blog series details these decisions</a>
+ and the integration methodology we recommend. You can either choose to integrate using our I18NMixin or by broadcasting an event at the right time internal to your element. Below are basic examples of each:<h3 id="header-ecb29a0d-0858-782b-80ef-34646ea1b56e">I18NMixin<ul><li><span>Install the mixin via yarn or npm: yarn add @lrnwebcomponents/i18n-manager</span></li>
+<li><span>create a folder in your element called /locales</span></li>
+<li>create a file called my-element.es.json for the spanish translation of your element. Japanese would be my-element.ja.json for example.</li>
+</ul>
+</h3>
+<code-sample type="javascript" copy-clipboard-button><template preserve-content="preserve-content">import { I18NMixin } from "@lrnwebcomponents/i18n-manager/lib/I18NMixin.js";
+class MyElement extends I18NMixin(HTMLElement) {
+  constructor() {
+    this.registerLocalization({
+      context: this,
+      basePath: import.meta.url,
+      locales: ["es", "ja"],
+    });
+  }
+}</template></code-sample>
