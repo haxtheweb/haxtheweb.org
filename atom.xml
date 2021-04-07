@@ -9,9 +9,21 @@
   </author>
   <id>https://haxtheweb.org//feed</id>
   <entry>
+    <title>haxHooks</title>
+    <id>https://haxtheweb.org//item-44cc230b-07db-442a-90cf-687e2d089a5d</id>
+    <updated>2021-04-07T13:33:09+00:00</updated>
+    <published>2021-04-07T13:32:25+00:00</published>
+    <summary></summary>
+    <link href="https://haxtheweb.org//item-44cc230b-07db-442a-90cf-687e2d089a5d"/>
+    
+    <content type="html">
+      <![CDATA[ <p></p> ]]>
+    </content>
+  </entry>
+  <entry>
     <title>HAX11ty</title>
     <id>https://haxtheweb.org//item-587de126-437b-4864-a3ea-54078837127c</id>
-    <updated>2020-09-30T13:15:22+00:00</updated>
+    <updated>2021-04-07T13:33:09+00:00</updated>
     <published>2020-08-17T19:01:17+00:00</published>
     <summary>HAX + 11ty = HAX11ty! HAX11ty gives you the best of SEO from 11ty while using the HAX editor and the HAXcms theme engine for presenting material. This gives you the SPA capabilities of fast loading r</summary>
     <link href="https://haxtheweb.org//item-587de126-437b-4864-a3ea-54078837127c"/>
@@ -33,7 +45,7 @@
   <entry>
     <title>Templates and Layouts</title>
     <id>https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
+    <updated>2021-04-07T13:33:09+00:00</updated>
     <published>2020-08-17T18:41:49+00:00</published>
     <summary>Templates and layouts allow you to drop in pre-built pieces of content structure. This might be a series of images or an example of content that could be written.</summary>
     <link href="https://haxtheweb.org//item-aa589faa-e860-4221-82fa-df6d57328ac2"/>
@@ -46,7 +58,7 @@
   <entry>
     <title>Block settings</title>
     <id>https://haxtheweb.org//item-eca7c8a4-393a-4e68-8cb4-440e94683738</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
+    <updated>2021-04-07T13:33:09+00:00</updated>
     <published>2020-08-17T18:41:49+00:00</published>
     <summary>Block settings will change contextually based on which block has been selected in the editable area of the page. In this screenshot, a paragraph has been selected and so the icon associated with it is</summary>
     <link href="https://haxtheweb.org//item-eca7c8a4-393a-4e68-8cb4-440e94683738"/>
@@ -62,7 +74,7 @@
   <entry>
     <title>Roadmap</title>
     <id>https://haxtheweb.org//welcome/roadmap-1</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
+    <updated>2021-04-07T13:33:09+00:00</updated>
     <published>2019-08-08T18:53:07+00:00</published>
     <summary>HAX encompasses many different projectsThis roadmap illustrates all the projects related to HAX and ELMS:LN, which HAX comes from. The little settings gears found throughout illustrate enhancements a</summary>
     <link href="https://haxtheweb.org//welcome/roadmap-1"/>
@@ -82,7 +94,7 @@
   <entry>
     <title>ClassicPress</title>
     <id>https://haxtheweb.org//integrations-1/classicpress-1</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
+    <updated>2021-04-07T13:33:09+00:00</updated>
     <published>2019-08-08T15:43:29+00:00</published>
     <summary>ClassicPress is a popular fork of WordPress that's even easier to get HAX up and running then it is in the original!Get the HAX plugin from the wordpress registryGo to edit / create a page/post </summary>
     <link href="https://haxtheweb.org//integrations-1/classicpress-1"/>
@@ -104,7 +116,7 @@
   <entry>
     <title>HAXcms</title>
     <id>https://haxtheweb.org//welcome/why-haxcms-1</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
+    <updated>2021-04-07T13:33:09+00:00</updated>
     <published>2019-07-24T12:45:22+00:00</published>
     <summary>HAXcms powers this website and is a hybrid static site generator, a new class of CMS. It's hybrid in that everything is written to static like a static site generator and it's 100% decoupled via web </summary>
     <link href="https://haxtheweb.org//welcome/why-haxcms-1"/>
@@ -164,7 +176,7 @@
   <entry>
     <title>Scavenger Hunt</title>
     <id>https://haxtheweb.org//scavenger-hunt-1</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
+    <updated>2021-04-07T13:33:10+00:00</updated>
     <published>2019-07-24T12:15:37+00:00</published>
     <summary>Become part of our dynasty franchise **by wearing a cool jerseyWe're building the greatest roster of people ever to HAX the complacency of our industry. Take the HAX scavenger hunt at the next ev</summary>
     <link href="https://haxtheweb.org//scavenger-hunt-1"/>
@@ -208,7 +220,7 @@
   <entry>
     <title>Life cycle</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/life-cycle</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
+    <updated>2021-04-07T13:33:09+00:00</updated>
     <published>2019-04-05T20:27:27+00:00</published>
     <summary>This is a general life cycle that happens when HAXcms "boots up". When web components are unpacking the contents of what to do it generally will work this way.page load, should it be no-js or a web c</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/life-cycle"/>
@@ -276,7 +288,7 @@ $IAM = new IAM();</template></code-sample>
   <entry>
     <title>I have issues</title>
     <id>https://haxtheweb.org//welcome/i-have-issues</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
+    <updated>2021-04-07T13:33:09+00:00</updated>
     <published>2019-03-25T23:24:55+00:00</published>
     <summary>You have a problem or would like to contribute to anything in our universe? That's awesome! All issues, feature requests and general thumbs up should happen in our issue queue on github: https://gith</summary>
     <link href="https://haxtheweb.org//welcome/i-have-issues"/>
@@ -291,7 +303,7 @@ $IAM = new IAM();</template></code-sample>
   <entry>
     <title>Troubleshooting</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/troubleshooting</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
+    <updated>2021-04-07T13:33:09+00:00</updated>
     <published>2019-03-25T23:16:04+00:00</published>
     <summary>These are some common issues / resolutions in HAXcms related to installation, publishing, etc.I installed HAXcms and forgot my passwordYour username and password can be found in _config/config.php o</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/troubleshooting"/>
@@ -316,7 +328,7 @@ $IAM = new IAM();</template></code-sample>
   <entry>
     <title>Skin a site</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming/skin-a-site</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
+    <updated>2021-04-07T13:33:10+00:00</updated>
     <published>2019-03-23T15:21:47+00:00</published>
     <summary>Theme skinning is the easiest way to build a decent looking theme in HAXcms. This method is geared toward people that know CSS and HTML but can&#39;t get into the weeds of web components or javascript.Wo</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/theming/skin-a-site"/>
@@ -338,143 +350,9 @@ $IAM = new IAM();</template></code-sample>
     </content>
   </entry>
   <entry>
-    <title>Web components</title>
-    <id>https://haxtheweb.org//documentation-1/haxcms/theming/web-components</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
-    <published>2019-03-23T13:58:38+00:00</published>
-    <summary>Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the haxcms-slide-th</summary>
-    <link href="https://haxtheweb.org//documentation-1/haxcms/theming/web-components"/>
-    
-    <content type="html">
-      <![CDATA[ <p>Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/themes/haxcms-slide-theme.js#L1">haxcms-slide-theme</a>
-
-.</p>
-<h2>Import classes / web components</h2>
-<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 100%;">  <template preserve-content="preserve-content">import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
-import { HAXCMSTheme } from "@lrnwebcomponents/haxcms-elements/lib/core/HAXCMSThemeWiring.js";
-import "@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-title.js";
-import "@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-print-button.js";
-import "@lrnwebcomponents/haxcms-elements/lib/ui-components/active-item/site-active-title.js";
-import "@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-dot-indicator";
-import "@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-menu-button.js";
-import "@polymer/paper-icon-button/paper-icon-button.js";
-import "@polymer/iron-icons/iron-icons.js";
-import "@polymer/paper-tooltip/paper-tooltip.js";
-import "@lrnwebcomponents/simple-colors/simple-colors.js";
-import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
-</code-sample>
-<p>As you can see this theme imports a few basic components helpful in the development of most themes. First we import PolymerElement and the HAXCMSTheme mix-in from our theme wiring library. Theme wiring provides a basis for wiring any custom element into the state management of HAXcms, typically without having to deal with any concepts of state!</p>
-<h2>Mix-ins</h2>
-<code-sample copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content">class HAXCMSSlideTheme extends HAXCMSTheme(PolymerElement) {</template>
-</code-sample>
-<p>Next we get the mix-in statement. Note how HAXCMSTheme wraps the PolymerElement class, thereby giving us a mix of the two together.</p>
-<h3 class="hax-active">HAXCMSTheme mix-in class</h3>
-<p>You can learn more about what the mix-in class provides by <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/HAXCMSThemeWiring.js">digging into the HAXCMSThemeWiring.js</a>
-
- class. This class bridges the HAXcms store (written in mobx) with the design layer. This way you can leverage anything in the store by writing the polymer convention for referencing a data bound variable in the template.</p>
-<p><a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/haxcms-site-store.js#L410-L428">Here's the variables you'll commonly see</a>
-
- in our themes, direct from the store with an example of what a dom bind of that would look like in a template</p>
-<code-sample copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content"><h1>[[siteTitle]]</h1>
-<h2>[[ancestorTitle</h2>
-<h3>[[parentTitle]]</h3>
-<h4>[[activeTitle]]</h4>
-<div>
-    [[activeItemFields.images.0.url]]
-</div></template>
-</code-sample>
-<p>That last line with activeItemFields is part of the raw power under the hood of this approach. You can use HAXcms to create field definitions (in <a href="hax-shema">HAXschema</a>
-
-) that then extend the capabilities of your pages.</p>
-<h2>Required CSS</h2>
-<p>There is one small required block of CSS when doing web component / theme development for HAXcms. It is the following:</p>
-<code-sample copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content">/**
- * Hide the slotted content during edit mode. This must be here to work.
- */
-:host([edit-mode]) #slot {
-    display: none;
-}</template>
-</code-sample>
-<p>This helps ensure that when your user clicks the edit button that they see the HAXeditor as opposed to the body of content they are currently working with. Then when they hit save, the HAXeditor sends the content to the backend which then updates the front end and they see the changes. This CSS ensures that it isn't visible during editing.</p>
-<h2 class="hax-active">Required HTML</h2>
-<code-sample copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content"><div id="contentcontainer">
-    <div id="slot"><slot></slot></div>
-</div></template>
-</code-sample>
-<p>Related to the CSS, the following block of HTML must appear in your template somewhere (or in the case of <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/simple-blog/lib/simple-blog-post.js#L125-L127">simple-blog</a>
-, an element leveraged by your theme). You can make this look like whatever you want beyond this but this ensures the HAXeditor can correctly target and be integrated using the HAXCMSTheme mix-in. There are ways to position and reposition the HAXeditor dynamically that will not be covered here but <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/simple-blog/simple-blog.js#L174">can be seen in simple-blog</a>
-.</p>
-<p>From there, design away. Write whatever CSS and HTML and JS you want! The example themes referenced in our docs all provide blue prints for different ways of leveraging our template system.</p>
-<p>Next we'll discuss our Core template elements which you'll want to leverage in order to make theme development even cleaner!</p>
- ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Dev workflows</title>
-    <id>https://haxtheweb.org//documentation-1/haxcms/theming/dev-workflows</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
-    <published>2019-03-23T13:58:38+00:00</published>
-    <summary>Our development workflow is as follows (for themes)All custom theme work happens in your _config directoryMake my-theme.js, pull everything together, either in this directory or in a wcfactory cat</summary>
-    <link href="https://haxtheweb.org//documentation-1/haxcms/theming/dev-workflows"/>
-    
-    <content type="html">
-      <![CDATA[ <p>Our development workflow is as follows (for themes)</p>
-<ol><li>All custom theme work happens in your _config directory</li>
-
-<li>Make my-theme.js, pull everything together, either in this directory or in a <a href="https://github.com/elmsln/wcfactory">wcfactory</a>
- catalog  of elements you've made</li>
-<li>Reference this in you _config/my-custom-elements.js element</li>
-<li>Update the _config/config.json block that says <b>themes</b>
- to include something like...</li>
-</ol>
-<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 100%;">  <template preserve-content="preserve-content">"themes": {
-    "odl-haxtheme": {
-      "element": "odl-haxtheme",
-      "path": "@myorganization/odl-haxtheme/odl-haxtheme.js",
-      "name": "Eberly ODL"
-    }
-  },</template>
-</code-sample>
-<p>This tells HAXcms UI that you can now select the theme (but don't yet, it won't be valid)</p>
-<h2 class="hax-active">Local development workflow during theme development</h2>
-<p>We use polymer cli to serve up and work on web components locally and while you don't have to, it's recommended as part of the WCFactory workflow.</p>
-<ol><li>Make a new site in the HAXcms UI</li>
-
-<li>Go to _sites/mynewsite and run <i><b>polymer serve --npm --open --entrypoint dist/dev.html</b>
-</i>
-</li>
-<li>Adjust the URL that opens to only be the IP address with no path after it</li>
-<li>You'll see your site open up for local development work, which will be leveraging any assets referenced in your node_modules directory at the HAXcms project root.</li>
-<li>To add / install new assets run yarn (or npm) <i style="font-weight: bold;">add @what/ever-you-want --save </i>
-, just like you would any other project you work on in FE dev</li>
-<li>edit your site's site.json manually to update the theme to point to the theme location your actively working on</li>
-<li>Develop away until it is to your liking</li>
-</ol>
-<h2>Shipping the theme</h2>
-<p>To ship the theme, you'll need to do a polymer build routine</p>
-<h3 class="hax-active">important note</h3>
-<p>This currently forks you from the original source of HAXcms core (because it will recompile the assets). If you're ok with this cool, just know <a href="https://github.com/elmsln/HAXcms/issues/145">we're trying to find ways around this involving rollup</a>
-.</p>
-<ol><li>Go to the HAXcms project root</li>
-
-<li>run <b><i>polymer build</i>
-</b>
-</li>
-<li>Copy the build directory and go to your site</li>
-<li>Delete the symlink and replace it with your build directory</li>
-<li>Now you can publish via the UI so long as you do not leverage a CDN</li>
-</ol>
-<h2 class="hax-active">The future</h2>
-<p>Admittedly, the full on custom theme / web component development workflow is rough. It's hard to maintain a built copy in a modular system without tooling. In the future we plan on having tooling workflows built directly into WCFactory that allow you to streamline the development and creation of HAXcms themes.</p>
-<h2 class="hax-active">Current limitations</h2>
-<p>You can't leverage existing CDNs (like webcomponents.psu.edu and whatever else is out there) that are pegged to the HAXcms project's source. You'll be creating a custom theme which then creates a custom build in effect so you'll want to ensure that you have some place that you can host the assets in order to power your site.</p>
- ]]>
-    </content>
-  </entry>
-  <entry>
     <title>Query examples</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming/core-elements/query-examples</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
+    <updated>2021-04-07T13:33:10+00:00</updated>
     <published>2019-03-23T13:58:38+00:00</published>
     <summary>  Hold up there. You didn't cover any of the query tags in that last section!Ok ok, here's the deal. Queries are so important that they needed their own section. Calm down Dwight we'll handle that n</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/theming/core-elements/query-examples"/>
@@ -592,9 +470,81 @@ that are 2 to 4 levels deep.</span>
     </content>
   </entry>
   <entry>
+    <title>Web components</title>
+    <id>https://haxtheweb.org//documentation-1/haxcms/theming/web-components</id>
+    <updated>2021-04-07T13:33:10+00:00</updated>
+    <published>2019-03-23T13:58:38+00:00</published>
+    <summary>Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the haxcms-slide-th</summary>
+    <link href="https://haxtheweb.org//documentation-1/haxcms/theming/web-components"/>
+    
+    <content type="html">
+      <![CDATA[ <p>Do you know full on web component development? Well, you can build a new theme from scratch. The best way to learn is by picking a part some of our examples. For this we'll analyze the <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/themes/haxcms-slide-theme.js#L1">haxcms-slide-theme</a>
+
+.</p>
+<h2>Import classes / web components</h2>
+<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 100%;">  <template preserve-content="preserve-content">import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
+import { HAXCMSTheme } from "@lrnwebcomponents/haxcms-elements/lib/core/HAXCMSThemeWiring.js";
+import "@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-title.js";
+import "@lrnwebcomponents/haxcms-elements/lib/ui-components/site/site-print-button.js";
+import "@lrnwebcomponents/haxcms-elements/lib/ui-components/active-item/site-active-title.js";
+import "@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-dot-indicator";
+import "@lrnwebcomponents/haxcms-elements/lib/ui-components/navigation/site-menu-button.js";
+import "@polymer/paper-icon-button/paper-icon-button.js";
+import "@polymer/iron-icons/iron-icons.js";
+import "@polymer/paper-tooltip/paper-tooltip.js";
+import "@lrnwebcomponents/simple-colors/simple-colors.js";
+import "@lrnwebcomponents/hax-body/lib/hax-shared-styles.js";</template>
+</code-sample>
+<p>As you can see this theme imports a few basic components helpful in the development of most themes. First we import PolymerElement and the HAXCMSTheme mix-in from our theme wiring library. Theme wiring provides a basis for wiring any custom element into the state management of HAXcms, typically without having to deal with any concepts of state!</p>
+<h2>Mix-ins</h2>
+<code-sample copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content">class HAXCMSSlideTheme extends HAXCMSTheme(PolymerElement) {</template>
+</code-sample>
+<p>Next we get the mix-in statement. Note how HAXCMSTheme wraps the PolymerElement class, thereby giving us a mix of the two together.</p>
+<h3 class="hax-active">HAXCMSTheme mix-in class</h3>
+<p>You can learn more about what the mix-in class provides by <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/HAXCMSThemeWiring.js">digging into the HAXCMSThemeWiring.js</a>
+
+ class. This class bridges the HAXcms store (written in mobx) with the design layer. This way you can leverage anything in the store by writing the polymer convention for referencing a data bound variable in the template.</p>
+<p><a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/haxcms-elements/lib/core/haxcms-site-store.js#L410-L428">Here's the variables you'll commonly see</a>
+
+ in our themes, direct from the store with an example of what a dom bind of that would look like in a template</p>
+<code-sample copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content"><h1>[[siteTitle]]</h1>
+<h2>[[ancestorTitle</h2>
+<h3>[[parentTitle]]</h3>
+<h4>[[activeTitle]]</h4>
+<div>
+    [[activeItemFields.images.0.url]]
+</div></template>
+</code-sample>
+<p>That last line with activeItemFields is part of the raw power under the hood of this approach. You can use HAXcms to create field definitions (in <a href="hax-shema">HAXschema</a>
+
+) that then extend the capabilities of your pages.</p>
+<h2>Required CSS</h2>
+<p>There is one small required block of CSS when doing web component / theme development for HAXcms. It is the following:</p>
+<code-sample copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content">/**
+ * Hide the slotted content during edit mode. This must be here to work.
+ */
+:host([edit-mode]) #slot {
+    display: none;
+}</template>
+</code-sample>
+<p>This helps ensure that when your user clicks the edit button that they see the HAXeditor as opposed to the body of content they are currently working with. Then when they hit save, the HAXeditor sends the content to the backend which then updates the front end and they see the changes. This CSS ensures that it isn't visible during editing.</p>
+<h2 class="hax-active">Required HTML</h2>
+<code-sample copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content"><div id="contentcontainer">
+    <div id="slot"><slot></slot></div>
+</div></template>
+</code-sample>
+<p>Related to the CSS, the following block of HTML must appear in your template somewhere (or in the case of <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/simple-blog/lib/simple-blog-post.js#L125-L127">simple-blog</a>
+, an element leveraged by your theme). You can make this look like whatever you want beyond this but this ensures the HAXeditor can correctly target and be integrated using the HAXCMSTheme mix-in. There are ways to position and reposition the HAXeditor dynamically that will not be covered here but <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/simple-blog/simple-blog.js#L174">can be seen in simple-blog</a>
+.</p>
+<p>From there, design away. Write whatever CSS and HTML and JS you want! The example themes referenced in our docs all provide blue prints for different ways of leveraging our template system.</p>
+<p>Next we'll discuss our Core template elements which you'll want to leverage in order to make theme development even cleaner!</p>
+ ]]>
+    </content>
+  </entry>
+  <entry>
     <title>CSS vars</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming/css-vars</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
+    <updated>2021-04-07T13:33:09+00:00</updated>
     <published>2019-03-23T13:58:38+00:00</published>
     <summary>CSS can be modified via CSS variables. CSS variables create a happy middle ground between the constraints of Shadow DOM (namely that styles are fully encapsulated) and designers wanting flexibility a</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/theming/css-vars"/>
@@ -652,9 +602,71 @@ site-active-title {
     </content>
   </entry>
   <entry>
+    <title>Dev workflows</title>
+    <id>https://haxtheweb.org//documentation-1/haxcms/theming/dev-workflows</id>
+    <updated>2021-04-07T13:33:10+00:00</updated>
+    <published>2019-03-23T13:58:38+00:00</published>
+    <summary>Our development workflow is as follows (for themes)All custom theme work happens in your _config directoryMake my-theme.js, pull everything together, either in this directory or in a wcfactory cat</summary>
+    <link href="https://haxtheweb.org//documentation-1/haxcms/theming/dev-workflows"/>
+    
+    <content type="html">
+      <![CDATA[ <p>Our development workflow is as follows (for themes)</p>
+<ol><li>All custom theme work happens in your _config directory</li>
+
+<li>Make my-theme.js, pull everything together, either in this directory or in a <a href="https://github.com/elmsln/wcfactory">wcfactory</a>
+ catalog  of elements you've made</li>
+<li>Reference this in you _config/my-custom-elements.js element</li>
+<li>Update the _config/config.json block that says <b>themes</b>
+ to include something like...</li>
+</ol>
+<code-sample copy-clipboard-button="copy-clipboard-button" style="width: 100%;">  <template preserve-content="preserve-content">"themes": {
+    "odl-haxtheme": {
+      "element": "odl-haxtheme",
+      "path": "@myorganization/odl-haxtheme/odl-haxtheme.js",
+      "name": "Eberly ODL"
+    }
+  },</template>
+</code-sample>
+<p>This tells HAXcms UI that you can now select the theme (but don't yet, it won't be valid)</p>
+<h2 class="hax-active">Local development workflow during theme development</h2>
+<p>We use polymer cli to serve up and work on web components locally and while you don't have to, it's recommended as part of the WCFactory workflow.</p>
+<ol><li>Make a new site in the HAXcms UI</li>
+
+<li>Go to _sites/mynewsite and run <i><b>polymer serve --npm --open --entrypoint dist/dev.html</b>
+</i>
+</li>
+<li>Adjust the URL that opens to only be the IP address with no path after it</li>
+<li>You'll see your site open up for local development work, which will be leveraging any assets referenced in your node_modules directory at the HAXcms project root.</li>
+<li>To add / install new assets run yarn (or npm) <i style="font-weight: bold;">add @what/ever-you-want --save </i>
+, just like you would any other project you work on in FE dev</li>
+<li>edit your site's site.json manually to update the theme to point to the theme location your actively working on</li>
+<li>Develop away until it is to your liking</li>
+</ol>
+<h2>Shipping the theme</h2>
+<p>To ship the theme, you'll need to do a polymer build routine</p>
+<h3 class="hax-active">important note</h3>
+<p>This currently forks you from the original source of HAXcms core (because it will recompile the assets). If you're ok with this cool, just know <a href="https://github.com/elmsln/HAXcms/issues/145">we're trying to find ways around this involving rollup</a>
+.</p>
+<ol><li>Go to the HAXcms project root</li>
+
+<li>run <b><i>polymer build</i>
+</b>
+</li>
+<li>Copy the build directory and go to your site</li>
+<li>Delete the symlink and replace it with your build directory</li>
+<li>Now you can publish via the UI so long as you do not leverage a CDN</li>
+</ol>
+<h2 class="hax-active">The future</h2>
+<p>Admittedly, the full on custom theme / web component development workflow is rough. It's hard to maintain a built copy in a modular system without tooling. In the future we plan on having tooling workflows built directly into WCFactory that allow you to streamline the development and creation of HAXcms themes.</p>
+<h2 class="hax-active">Current limitations</h2>
+<p>You can't leverage existing CDNs (like webcomponents.psu.edu and whatever else is out there) that are pegged to the HAXcms project's source. You'll be creating a custom theme which then creates a custom build in effect so you'll want to ensure that you have some place that you can host the assets in order to power your site.</p>
+ ]]>
+    </content>
+  </entry>
+  <entry>
     <title>Get Involved!</title>
     <id>https://haxtheweb.org//get-involved-1</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
+    <updated>2021-04-07T13:33:09+00:00</updated>
     <published>2019-03-21T19:46:24+00:00</published>
     <summary>Join our communityJoin us on the HAXTheWeb Slack channelJoin us for HAXcamp Un-code every Friday 3 pm - 5 pm (EST)Follow / use the #HAXTheWeb hash tagJoin our projectsHAXcms - That which </summary>
     <link href="https://haxtheweb.org//get-involved-1"/>
@@ -709,7 +721,7 @@ site-active-title {
   <entry>
     <title>Presentations</title>
     <id>https://haxtheweb.org//welcome/presentations</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
+    <updated>2021-04-07T13:33:09+00:00</updated>
     <published>2019-03-18T12:06:57+00:00</published>
     <summary>This is the youtube playlist of all things HAXTheWebThis playlist is updated on a regular basis so make sure to subscribe to the youtube channel for updates. There's also many other playlists relat</summary>
     <link href="https://haxtheweb.org//welcome/presentations"/>
@@ -725,7 +737,7 @@ site-active-title {
   <entry>
     <title>Core elements</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming/core-elements</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
+    <updated>2021-04-07T13:33:10+00:00</updated>
     <published>2019-03-13T00:45:37+00:00</published>
     <summary>While you're not required to use them, HAXcms supplies a series of elements that can make theme development effortless. You can see the source of these in greater detail under the theme directory of h</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/theming/core-elements"/>
@@ -824,9 +836,289 @@ the title of the active item wrapped in a h1 tag
     </content>
   </entry>
   <entry>
+    <title>Structure</title>
+    <id>https://haxtheweb.org//documentation-1/haxcms/structure</id>
+    <updated>2021-04-07T13:33:09+00:00</updated>
+    <published>2019-02-20T06:10:05+00:00</published>
+    <summary>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories / files include:fi</summary>
+    <link href="https://haxtheweb.org//documentation-1/haxcms/structure"/>
+    
+    <content type="html">
+      <![CDATA[ <p>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.</p>
+<p>The key directories / files include:</p>
+<ul><li>files - any files you've uploaded through the HAX interface</li>
+
+<li>pages - folders named by their content uri that have index.html in it, no structure other then what you created when hitting save</li>
+<li>site.json - JSON Outline Schema object that defines the pages in your site and their relationship to each other<br/></li>
+<li>index.html - front page of the PWA that stitch it all together</li>
+<li>service-worker.js - makes it a PWA, no need to edi this</li>
+</ul>
+<h3><span style="caret-color: rgb(0, 0, 0);">Screen grab of a microsite</span></h3>
+<img src="files/2019-02-25_16-22-25.png" alt="File structure of a typical HAXcms micro-site after being generated." style="width: 25%; margin: 0px auto; display: block;"/> ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Installation</title>
+    <id>https://haxtheweb.org//documentation-1/haxcms/installation</id>
+    <updated>2021-04-07T13:33:09+00:00</updated>
+    <published>2019-02-20T06:10:05+00:00</published>
+    <summary>Generic PHP install directionsHave PHP? well then you can setup HAXcms pretty quick. Just download HAXcms and navigate to its directory in a browser. It'll attempt to automatically install (which is </summary>
+    <link href="https://haxtheweb.org//documentation-1/haxcms/installation"/>
+    
+    <content type="html">
+      <![CDATA[ <h2>Generic PHP install directions</h2>
+<p>Have PHP? well then you can setup HAXcms pretty quick. Just download HAXcms and navigate to its directory in a browser. It'll attempt to automatically install (which is to create two basic folders). If all goes well you'll see some ASCii art telling you what your password is. HAXcms seeks to be a 0 config installation so if anything didn't work or make sense, just drop us a line in the issue queues.</p>
+<h2 class="hax-active">Or from Command Line...</h2>
+<p>Just run this one command and you'll be HAXing the web in no time! This will step you through prompts (which can be scripted via arguments) to feed the backend what it needs to create the few configuration files it uses to load.</p>
+<code-sample copy-clipboard-button style="width: 75%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content"># HAX the web and answer the prompts
+bash scripts/haxtheweb.sh</template>
+</code-sample>
+<h3><sub>A note on bash</sub>
+
+
+</h3>
+<p></p>
+<p><sub>If you're having issues installing via the bash script, ensure you are on bash version 4.x. Some OS flavors start at 3.x which won't work.</sub>
+
+
+</p>
+<p></p>
+<h2>MAMP</h2>
+<p><a href="https://www.mamp.info/en/">MAMP</a>
+
+
+
+
+
+
+ allows Mac and PC users to rapidly install a working webdev stack on their machine. Here's the steps you need to take if using this (or on similar site hosting).</p>
+<p><span style="caret-color: rgb(0, 0, 0);">Download the </span><a href="https://github.com/elmsln/HAXcms/archive/master.zip" style="caret-color: rgb(0, 0, 0);">latest copy of HAXcms from github</a>
+
+
+
+ and<span style="caret-color: rgb(0, 0, 0);"> p</span><span style="caret-color: rgb(0, 0, 0);">lace this in </span><i style="caret-color: rgb(0, 0, 0);">MAMP/htdocs </i>
+
+<span style="caret-color: rgb(0, 0, 0);">either at the root level (as in copying the files you download into htdocs as shown in the image below) or by placing the folder in the directory (in the case where you have MAMP already installed / want to keep things tidy).</span></p>
+<media-image source="files/mampstructure.jpg" caption="MAMP file structure under htdocs directory" size="wide" card box resource="#990ebe5c-04c8-58b2-385a" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 25%; margin: 0px auto; display: block;" offset="none" schema-resource-id="#990ebe5c-04c8-58b2-385a"></media-image>
+<p><i>Open MAMP and hit the Start Servers Button</i>
+
+
+
+</p>
+<media-image source="files/mampstart.jpg" caption="MAMP start page when opening the application (image 2)" size="wide" card box resource="#4e5cac2b-786f-596c-b394" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 25%; margin: 0px auto; display: block;" offset="none" schema-resource-id="#4e5cac2b-786f-596c-b394"></media-image>
+<p><i>Click MY WEBSITE in MAMP start page to get started</i>
+
+
+
+</p>
+<img src="files/mamppage.jpg" alt="MAMP starting page top menu bar screenshot." style="width: 50%; margin: 0px auto; display: block;"/><p>Now you can build website organically off of MAMP!</p>
+<h2>DDEV / Docksal / Lando / Vagrant</h2>
+<p>We recommend using HAXcms in a docker container manager like <a href="https://www.drud.com/what-is-ddev/">ddev</a>
+
+
+
+
+
+
+, though based on above you can see basically we're just downloading and running one command to get going. We support all of the above methods so pick the one you work with most often.</p>
+<ul>
+<li>Clone this repo: <code>git clone https://github.com/elmsln/haxcms.git</code>
+
+
+
+
+
+
+
+</li>
+
+
+
+
+
+
+
+
+<li>install <a href="https://store.docker.com/search?type=edition&offering=community" rel="nofollow">docker</a>
+
+
+
+
+
+
+
+</li>
+
+
+
+
+
+
+
+
+<li><a href="https://ddev.readthedocs.io/en/latest/#installation" rel="nofollow">install ddev</a>
+
+
+
+
+
+
+
+ or <a href="https://docksal.io/installation/" rel="nofollow">install docksal</a>
+
+
+
+
+
+
+
+ or <a href="https://docs.devwithlando.io/installation/installing.html" rel="nofollow">install lando</a>
+
+
+
+
+
+
+
+ or <a href="https://www.vagrantup.com/downloads.html" rel="nofollow">install vagrant</a>
+
+
+
+
+
+
+
+ (We support 'em all!)</li>
+
+
+
+
+
+
+
+
+<li>open a terminal window, go to the directory and type <code>ddev start</code>
+
+
+
+
+
+
+
+ (for ddev) or <code>fin init</code>
+
+
+
+
+
+
+
+ (for docksal) or <code>lando start && lando magic</code>
+
+
+
+
+
+
+
+ (for lando) or <code>vagrant up</code>
+
+
+
+
+
+
+
+ (for vagrant)</li>
+
+
+
+
+
+
+
+
+<li>go to the link any of them give you in a browser</li>
+
+
+
+
+
+
+
+
+<li>username/password is <code>admin</code>
+
+
+
+
+
+
+
+/<code>admin</code>
+
+
+
+
+
+
+
+ to get building out static sites locally that you can push up anywhere!</li>
+
+
+
+
+
+
+
+
+<li>Click the icon in the top right and you're off and running!</li>
+
+
+
+
+
+
+
+
+</ul>
+<h3><span style="letter-spacing: -0.48px;" class="hax-active">Apache gotchas</span></h3>
+<p><span style="letter-spacing: -0.48px;">If installing on an existing server it might already have apache configurations that would cause HAXcms to <a href="https://github.com/elmsln/HAXcms/issues/294">have issues out of the gate</a>
+ (or any CMS for that matter). Make sure local overrides are allowed with something like the following:</span></p>
+<p><span style="letter-spacing: -0.48px;"><br/></span></p>
+<code-sample style="" copy-clipboard-button>  <template preserve-content="preserve-content"># /etc/apache2/apache2.conf
+
+&lt;directory var/www/haxlocation&gt;
+	Options Indexes FollowSymLinks
+	AllowOverride All
+	Require all granted
+&lt;/directory&gt;</template>
+</code-sample>
+ ]]>
+    </content>
+  </entry>
+  <entry>
+    <title>HAXcms</title>
+    <id>https://haxtheweb.org//documentation-1/haxcms</id>
+    <updated>2021-04-07T13:33:09+00:00</updated>
+    <published>2019-02-20T06:10:05+00:00</published>
+    <summary>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server"</summary>
+    <link href="https://haxtheweb.org//documentation-1/haxcms"/>
+    
+    <content type="html">
+      <![CDATA[ <p>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server" is only used when needed for a user to securely develop their content.</p>
+<h2>Difference from past static generators</h2>
+<p>Unlike solutions like <a href="https://jekyllrb.com/">Jekyll</a>
+
+, HAXcms is for anyone to publish a website, not just those that understand command line. HAXcms is intended to be installed and then allow users to entirely use a UI to create, publish and manage micro-sites.</p>
+<h2>Visualization</h2>
+<img src="files/HAXCms workflow.jpg" alt="HAXcms visualization of publishing workflow at a data layer. Static sites are published from the files you work with yet whatever you edit via the UI is always saved into a static format that works anywhere." style="width: 75%; margin: 0px auto; display: block;"/> ]]>
+    </content>
+  </entry>
+  <entry>
     <title>Publishing</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/publishing</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
+    <updated>2021-04-07T13:33:09+00:00</updated>
     <published>2019-02-20T06:10:05+00:00</published>
     <summary>HAXcms requires being published in order to be visible to other people. Working locally or on Desktop or on a server, is akin to you writing a document on your computer. It's not shared with anyone. W</summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/publishing"/>
@@ -880,70 +1172,9 @@ git push origin master</template>
     </content>
   </entry>
   <entry>
-    <title>Structure</title>
-    <id>https://haxtheweb.org//documentation-1/haxcms/structure</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
-    <published>2019-02-20T06:10:05+00:00</published>
-    <summary>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.The key directories / files include:fi</summary>
-    <link href="https://haxtheweb.org//documentation-1/haxcms/structure"/>
-    
-    <content type="html">
-      <![CDATA[ <p>By design we've got a very simple structure. The goal of HAXcms isn't to lock you into anything and so we've simplified our file structure over other solutions.</p>
-<p>The key directories / files include:</p>
-<ul><li>files - any files you've uploaded through the HAX interface</li>
-
-<li>pages - folders named by their content uri that have index.html in it, no structure other then what you created when hitting save</li>
-<li>site.json - JSON Outline Schema object that defines the pages in your site and their relationship to each other<br/></li>
-<li>index.html - front page of the PWA that stitch it all together</li>
-<li>service-worker.js - makes it a PWA, no need to edi this</li>
-</ul>
-<h3><span style="caret-color: rgb(0, 0, 0);">Screen grab of a microsite</span></h3>
-<img src="files/2019-02-25_16-22-25.png" alt="File structure of a typical HAXcms micro-site after being generated." style="width: 25%; margin: 0px auto; display: block;"/> ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>HAXcms</title>
-    <id>https://haxtheweb.org//documentation-1/haxcms</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
-    <published>2019-02-20T06:10:05+00:00</published>
-    <summary>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server"</summary>
-    <link href="https://haxtheweb.org//documentation-1/haxcms"/>
-    
-    <content type="html">
-      <![CDATA[ <p>HAXcms, that which powers the site you are currently reading is a powerful "static site generator" paradigm. It leverages server technology in order to orchestrate a static site. That way the "server" is only used when needed for a user to securely develop their content.</p>
-<h2>Difference from past static generators</h2>
-<p>Unlike solutions like <a href="https://jekyllrb.com/">Jekyll</a>
-
-, HAXcms is for anyone to publish a website, not just those that understand command line. HAXcms is intended to be installed and then allow users to entirely use a UI to create, publish and manage micro-sites.</p>
-<h2>Visualization</h2>
-<img src="files/HAXCms workflow.jpg" alt="HAXcms visualization of publishing workflow at a data layer. Static sites are published from the files you work with yet whatever you edit via the UI is always saved into a static format that works anywhere." style="width: 75%; margin: 0px auto; display: block;"/> ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>Concepts</title>
-    <id>https://haxtheweb.org//documentation-1/haxcms/concepts</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
-    <published>2019-02-20T06:10:05+00:00</published>
-    <summary>HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to</summary>
-    <link href="https://haxtheweb.org//documentation-1/haxcms/concepts"/>
-    
-    <content type="html">
-      <![CDATA[ <p>HAXcms seeks to be a microsite generator and manager that <b>doesn't require any command line in order to operate</b>
-. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to eliminate all the barriers to then publishing that content online.</p>
-<h3 class="hax-active">Some words and phrases worth understanding in HAXcms</h3>
-<ul><li>HAXeditor - the HAX editor</li>
-<li>microsite - An individual site that's been created by a user</li>
-<li>Outline - All sites are an outline, we use JSON Outline Schema to manage this</li>
-<li>Theme - A single web component based theme that's agnostic of content</li>
-<li>Elements / web components - design assets that work anywhere</li>
-</ul>
- ]]>
-    </content>
-  </entry>
-  <entry>
     <title>Theming</title>
     <id>https://haxtheweb.org//documentation-1/haxcms/theming</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
+    <updated>2021-04-07T13:33:09+00:00</updated>
     <published>2019-02-20T06:10:05+00:00</published>
     <summary>There are multiple ways to "theme" in HAXcms that align with the skillsets of the person doing the theme development. Know web components? Cool. Know basic CSS and HTML? Cool. Want to build something </summary>
     <link href="https://haxtheweb.org//documentation-1/haxcms/theming"/>
@@ -1290,261 +1521,23 @@ export { LearnTwoTheme };</template>
     </content>
   </entry>
   <entry>
-    <title>Installation</title>
-    <id>https://haxtheweb.org//documentation-1/haxcms/installation</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
+    <title>Concepts</title>
+    <id>https://haxtheweb.org//documentation-1/haxcms/concepts</id>
+    <updated>2021-04-07T13:33:09+00:00</updated>
     <published>2019-02-20T06:10:05+00:00</published>
-    <summary>Generic PHP install directionsHave PHP? well then you can setup HAXcms pretty quick. Just download HAXcms and navigate to its directory in a browser. It'll attempt to automatically install (which is </summary>
-    <link href="https://haxtheweb.org//documentation-1/haxcms/installation"/>
+    <summary>HAXcms seeks to be a microsite generator and manager that doesn't require any command line in order to operate. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to</summary>
+    <link href="https://haxtheweb.org//documentation-1/haxcms/concepts"/>
     
     <content type="html">
-      <![CDATA[ <h2>Generic PHP install directions</h2>
-<p>Have PHP? well then you can setup HAXcms pretty quick. Just download HAXcms and navigate to its directory in a browser. It'll attempt to automatically install (which is to create two basic folders). If all goes well you'll see some ASCii art telling you what your password is. HAXcms seeks to be a 0 config installation so if anything didn't work or make sense, just drop us a line in the issue queues.</p>
-<h2 class="hax-active">Or from Command Line...</h2>
-<p>Just run this one command and you'll be HAXing the web in no time! This will step you through prompts (which can be scripted via arguments) to feed the backend what it needs to create the few configuration files it uses to load.</p>
-<code-sample copy-clipboard-button style="width: 75%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content"># HAX the web and answer the prompts
-bash scripts/haxtheweb.sh</template>
-</code-sample>
-<h3><sub>A note on bash</sub>
-
-
-</h3>
-<p></p>
-<p><sub>If you're having issues installing via the bash script, ensure you are on bash version 4.x. Some OS flavors start at 3.x which won't work.</sub>
-
-
-</p>
-<p></p>
-<h2>MAMP</h2>
-<p><a href="https://www.mamp.info/en/">MAMP</a>
-
-
-
-
-
-
- allows Mac and PC users to rapidly install a working webdev stack on their machine. Here's the steps you need to take if using this (or on similar site hosting).</p>
-<p><span style="caret-color: rgb(0, 0, 0);">Download the </span><a href="https://github.com/elmsln/HAXcms/archive/master.zip" style="caret-color: rgb(0, 0, 0);">latest copy of HAXcms from github</a>
-
-
-
- and<span style="caret-color: rgb(0, 0, 0);"> p</span><span style="caret-color: rgb(0, 0, 0);">lace this in </span><i style="caret-color: rgb(0, 0, 0);">MAMP/htdocs </i>
-
-<span style="caret-color: rgb(0, 0, 0);">either at the root level (as in copying the files you download into htdocs as shown in the image below) or by placing the folder in the directory (in the case where you have MAMP already installed / want to keep things tidy).</span></p>
-<media-image source="files/mampstructure.jpg" caption="MAMP file structure under htdocs directory" size="wide" card box resource="#990ebe5c-04c8-58b2-385a" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 25%; margin: 0px auto; display: block;" offset="none" schema-resource-id="#990ebe5c-04c8-58b2-385a"></media-image>
-<p><i>Open MAMP and hit the Start Servers Button</i>
-
-
-
-</p>
-<media-image source="files/mampstart.jpg" caption="MAMP start page when opening the application (image 2)" size="wide" card box resource="#4e5cac2b-786f-596c-b394" prefix="oer:http://oerschema.org/ schema:http://schema.org/ dc:http://purl.org/dc/terms/ foaf:http://xmlns.com/foaf/0.1/ cc:http://creativecommons.org/ns# bib:http://bib.schema.org " style="width: 25%; margin: 0px auto; display: block;" offset="none" schema-resource-id="#4e5cac2b-786f-596c-b394"></media-image>
-<p><i>Click MY WEBSITE in MAMP start page to get started</i>
-
-
-
-</p>
-<img src="files/mamppage.jpg" alt="MAMP starting page top menu bar screenshot." style="width: 50%; margin: 0px auto; display: block;"/><p>Now you can build website organically off of MAMP!</p>
-<h2>DDEV / Docksal / Lando / Vagrant</h2>
-<p>We recommend using HAXcms in a docker container manager like <a href="https://www.drud.com/what-is-ddev/">ddev</a>
-
-
-
-
-
-
-, though based on above you can see basically we're just downloading and running one command to get going. We support all of the above methods so pick the one you work with most often.</p>
-<ul>
-<li>Clone this repo: <code>git clone https://github.com/elmsln/haxcms.git</code>
-
-
-
-
-
-
-
-</li>
-
-
-
-
-
-
-
-
-<li>install <a href="https://store.docker.com/search?type=edition&offering=community" rel="nofollow">docker</a>
-
-
-
-
-
-
-
-</li>
-
-
-
-
-
-
-
-
-<li><a href="https://ddev.readthedocs.io/en/latest/#installation" rel="nofollow">install ddev</a>
-
-
-
-
-
-
-
- or <a href="https://docksal.io/installation/" rel="nofollow">install docksal</a>
-
-
-
-
-
-
-
- or <a href="https://docs.devwithlando.io/installation/installing.html" rel="nofollow">install lando</a>
-
-
-
-
-
-
-
- or <a href="https://www.vagrantup.com/downloads.html" rel="nofollow">install vagrant</a>
-
-
-
-
-
-
-
- (We support 'em all!)</li>
-
-
-
-
-
-
-
-
-<li>open a terminal window, go to the directory and type <code>ddev start</code>
-
-
-
-
-
-
-
- (for ddev) or <code>fin init</code>
-
-
-
-
-
-
-
- (for docksal) or <code>lando start && lando magic</code>
-
-
-
-
-
-
-
- (for lando) or <code>vagrant up</code>
-
-
-
-
-
-
-
- (for vagrant)</li>
-
-
-
-
-
-
-
-
-<li>go to the link any of them give you in a browser</li>
-
-
-
-
-
-
-
-
-<li>username/password is <code>admin</code>
-
-
-
-
-
-
-
-/<code>admin</code>
-
-
-
-
-
-
-
- to get building out static sites locally that you can push up anywhere!</li>
-
-
-
-
-
-
-
-
-<li>Click the icon in the top right and you're off and running!</li>
-
-
-
-
-
-
-
-
+      <![CDATA[ <p>HAXcms seeks to be a microsite generator and manager that <b>doesn't require any command line in order to operate</b>
+. HAXcms leverages HAX to give a best in class authoring experience while HAXcms seeks to eliminate all the barriers to then publishing that content online.</p>
+<h3 class="hax-active">Some words and phrases worth understanding in HAXcms</h3>
+<ul><li>HAXeditor - the HAX editor</li>
+<li>microsite - An individual site that's been created by a user</li>
+<li>Outline - All sites are an outline, we use JSON Outline Schema to manage this</li>
+<li>Theme - A single web component based theme that's agnostic of content</li>
+<li>Elements / web components - design assets that work anywhere</li>
 </ul>
-<h3><span style="letter-spacing: -0.48px;" class="hax-active">Apache gotchas</span></h3>
-<p><span style="letter-spacing: -0.48px;">If installing on an existing server it might already have apache configurations that would cause HAXcms to <a href="https://github.com/elmsln/HAXcms/issues/294">have issues out of the gate</a>
- (or any CMS for that matter). Make sure local overrides are allowed with something like the following:</span></p>
-<p><span style="letter-spacing: -0.48px;"><br/></span></p>
-<code-sample style="" copy-clipboard-button>  <template preserve-content="preserve-content"># /etc/apache2/apache2.conf
-
-&lt;directory var/www/haxlocation&gt;
-	Options Indexes FollowSymLinks
-	AllowOverride All
-	Require all granted
-&lt;/directory&gt;</template>
-</code-sample>
- ]]>
-    </content>
-  </entry>
-  <entry>
-    <title>WordPress</title>
-    <id>https://haxtheweb.org//integrations-1/wordpress</id>
-    <updated>2020-09-30T13:12:35+00:00</updated>
-    <published>2019-02-06T04:48:23+00:00</published>
-    <summary>We support WordPress too! In order to use HAX though you'll want to replace the Gutenberg editor. The following steps will help you get it up and running.Get the Classic Editor. This plugin helps re</summary>
-    <link href="https://haxtheweb.org//integrations-1/wordpress"/>
-    
-    <content type="html">
-      <![CDATA[ <p>We support WordPress too! In order to use HAX though you'll want to replace the Gutenberg editor. The following steps will help you get it up and running.</p>
-<ol><li>Get the <a href="https://wordpress.org/plugins/classic-editor/">Classic Editor</a>
-. This plugin helps restore WordPress back to what you wanted</li>
-<li>Get the <a href="https://wordpress.org/plugins/haxtheweb/">HAX plugin</a>
-, unzip and rename to hax</li>
-<li>Break free of platform specific assets and content</li>
-</ol>
  ]]>
     </content>
   </entry>
