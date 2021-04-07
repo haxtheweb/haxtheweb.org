@@ -1133,10 +1133,20 @@
             "order": "3",
             "parent": "item-534ed4c7-2468-366f-5410-adc169efcebc",
             "title": "haxHooks",
-            "description": "",
+            "description": "Elements can integrate deeply into HAX state management using what we call \"hax hooks\". By supplying a method on your web component like static get haxHooks()\u00a0you are magically able to tap into diff",
             "metadata": {
                 "created": 1617802345,
-                "updated": 1617802389
+                "updated": 1617802774,
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 0,
+                    "paragraphs": 2,
+                    "schema": [],
+                    "tags": {
+                        "p": 2
+                    },
+                    "elements": 2
+                }
             }
         },
         {
