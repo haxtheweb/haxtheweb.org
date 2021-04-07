@@ -16,6 +16,44 @@
  you are magically able to tap into different life-cycle steps within the HAX editor.</p>
 <p>Because of the simplicity and power of haxHooks this may not be an exhaustive list and <a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/hax-body-behaviors/lib/HAXWiring.js#L154-L181" target="_blank">the internal code documentation on this should be consulted</a>
  (or open an issue to ensure we document a missing hook!)</p>
+<h3 id="header-a76abd90-f808-1082-c4d7-a1a8161f1202">gizmoRegistration</h3>
+<p></p>
+<editable-table-display filter-contains selected="1" sort-mode="none" sort-column="-1"><table>
+	<caption>
+		undefined
+	</caption>
+	<tbody>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+	</tbody>
+</table>
+</editable-table-display>
+<p>The most powerful hook in haxHooks. This fires whenever</p>
+<h3 id="header-61fcd58b-8c7c-e4f1-3925-08b6a6df81fe">activeElementChanged</h3>
+<p></p>
+<h3 id="header-2d80fd1f-94a4-f919-6b9d-e38d793caa88">editModeChanged</h3>
+<p></p>
+<h3 id="header-1a6d2fcc-34bc-a067-2b9e-87870d854d51">inlineContextMenu</h3>
+<p><br/><br/></p>
+<h3 id="header-95768a09-96a0-b33e-cef8-8b809ea0b739">preProcessNodeToContent</h3>
+<p></p>
+<h3 id="header-aad5ed0f-716c-d44b-dc7e-c93aba930723">postProcessNodeToContent</h3>
+<p></p>
+<h3 id="header-d137ab09-8e8b-58c6-934a-df7535e329d1">preProcessInsertContent</h3>
+<p></p>
  ]]>
       </description>
       <category></category>

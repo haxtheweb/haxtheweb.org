@@ -1136,16 +1136,18 @@
             "description": "Elements can integrate deeply into HAX state management using what we call \"hax hooks\". By supplying a method on your web component like static get haxHooks()\u00a0you are magically able to tap into diff",
             "metadata": {
                 "created": 1617802345,
-                "updated": 1617802774,
+                "updated": 1617802926,
                 "readtime": 1,
                 "contentDetails": {
-                    "headings": 0,
-                    "paragraphs": 2,
+                    "headings": 7,
+                    "paragraphs": 10,
                     "schema": [],
                     "tags": {
-                        "p": 2
+                        "p": 10,
+                        "h3": 7,
+                        "editable-table-display": 1
                     },
-                    "elements": 2
+                    "elements": 18
                 }
             }
         },
