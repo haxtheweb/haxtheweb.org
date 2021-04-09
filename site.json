@@ -911,18 +911,20 @@
             "description": "Autoloader is waaayyy easier to implement then the other parts of the appstore spec and is probably the most important as it loads all the elements that will be available to your users. All it is is a",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1617978978,
-                "readtime": 1,
+                "updated": 1617979603,
+                "readtime": 2,
                 "contentDetails": {
-                    "headings": 0,
-                    "paragraphs": 2,
+                    "headings": 4,
+                    "paragraphs": 5,
                     "schema": [],
                     "tags": {
-                        "p": 2,
+                        "p": 5,
                         "ol": 1,
-                        "code-sample": 1
+                        "h3": 1,
+                        "code-sample": 1,
+                        "h4": 3
                     },
-                    "elements": 4
+                    "elements": 11
                 }
             }
         },
