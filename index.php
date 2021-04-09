@@ -1,5 +1,10 @@
 <?php
-  include_once __DIR__ . '/../../system/backend/php/bootstrapHAX.php';
+  $bootstrapPath = "/../..";
+  if (file_exists("/.dockerenv") && __DIR__ == "/var/www/html") {
+    $GLOBALS["HAXcmsInDocker"] = true;
+    $bootstrapPath = "";
+  }
+  include_once __DIR__ . $bootstrapPath . '/system/backend/php/bootstrapHAX.php';
   include_once $HAXCMS->configDirectory . '/config.php';
   $site = $HAXCMS->loadSite(basename(__DIR__));
   $page = $site->loadNodeByLocation();
@@ -139,7 +144,7 @@
 <body no-js <?php print $site->getSitePageAttributes();?>>
   <div id="loading">
     <div class="messaging">
-      <img src="<?php print $site->getLogoSize('300', '300');?>" alt="" loading="lazy" height="300px" width="300px" />
+      <img src="<?php print $site->getLogoSize('310', '310');?>" alt="" loading="lazy" height="310px" width="310px" />
       <div class="progress-line"></div>
       <h1>Loading <?php print $site->name; ?>..</h1>
     </div>
@@ -156,8 +161,8 @@
         view our website correctly. <a href="http://outdatedbrowser.com/">Update my browser now</a></div>
     </div>
   </div>
-  <script>window.HAXCMSContext="php";document.body.removeAttribute('no-js');window.__appCDN="<?php print $HAXCMS->getCDNForDynamic();?>";window.__appForceUpgrade=<?php print $site->getForceUpgrade();?>;</script>
+  <script>window.HAXCMSContext="php";document.body.removeAttribute('no-js');window.__appCDN="<?php print $HAXCMS->getCDNForDynamic($site);?>";window.__appForceUpgrade=<?php print $site->getForceUpgrade();?>;</script>
   <script src="./build-haxcms.js"></script>
-  <script src="<?php print $HAXCMS->getCDNForDynamic();?>build.js"></script>
+  <script src="<?php print $HAXCMS->getCDNForDynamic($site);?>build.js"></script>
 </body>
 </html>

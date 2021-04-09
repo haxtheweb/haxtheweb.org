@@ -1,36 +1,16 @@
-<p>Autoloader is waaayyy easier to implement then the other parts of the appstore spec. All it is is an array or object of references to elements that HAX should forcibly load the definitions of once it's done bootstrapping. Here's a basic example with the steps as to what HAX does with this information</p>
+<p>Autoloader is waaayyy easier to implement then the other parts of the appstore spec and is probably the most important as it loads all the elements that will be available to your users. All it is is an array or object of references to elements that HAX should forcibly load the definitions of once it's done bootstrapping. Here's a basic example with the steps as to what HAX does with this information</p>
 <ol><li>HAX loads the appstore definition</li>
-
-
 <li>HAX finishes its bootstrap and is ready to use</li>
-
-
 <li>It then loops through each autoloader element and does the following:</li>
-
-
 <ul><li>attempts to dynamically import the definition of the element</li>
-
-
-<li>places a copy of the tag it in the slot of a tag called `<b>hax-autoloader</b>
-
-
-`</li>
-
-
-<li>waits till it reads the definition from the element via standard events (see: <a target="_blank" href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/hax-body-behaviors/lib/HAXWiring.js#L159-L176" style="width: 100%;">HAXWiring.js</a>
-
-
-)</li>
-
-
-<li>Deletes the element from the DOM</li>
-
-
+<li>It then creates an instance of the element (virtually) and looks for <b>static get haxProperties</b>
+</li>
+<li>If this exists and is valid haxSchema then you can leverage it in hax!</li>
 </ul>
-
-
 </ol>
-<code-sample style="width: 25%; margin: 0px auto; display: block;" copy-clipboard-button="copy-clipboard-button">  <template preserve-content="preserve-content">
+Implementation methods<br/>Legacy, array based<p></p>
+<code-sample style="width: 25%; margin: 0px auto; display: block;" copy-clipboard-button type="html">  
+<template preserve-content="preserve-content">
 "autoloader": [
     "lrn-aside",
     "grid-plate",
@@ -38,5 +18,4 @@
     "magazine-cover",
     "video-player",
     "license-element"
-]</template>
-</code-sample>
+]</template></code-sample>
