@@ -671,7 +671,7 @@
             "description": "Implementing HAXSchemaIn order for your element to talk to the HAX editor, you need to implement static get haxProperties() on your element. This callback either returns a String based location of ",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1617979969,
+                "updated": 1617979979,
                 "readtime": 5,
                 "contentDetails": {
                     "headings": 6,
