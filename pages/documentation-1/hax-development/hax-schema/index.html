@@ -1,6 +1,17 @@
+<h2 id="header-50ef1ab3-6b09-e479-9801-5baf4976585a">Implementing HAXSchema</h2>
+<p>In order for your element to talk to the HAX editor, you need to implement<b> static get haxProperties()</b>
+ on your element. This callback either returns a <b>String</b>
+ based location of where the HAXSchema lives OR the JSON blob directly. The appstore documentation page also describes how you can integrate without defining this directly on your element.</p>
+<ul><li><a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/meme-maker/src/meme-maker.js#L196" target="_blank">Example definition via file reference</a>
+</li>
+<li><a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/video-player/video-player.js#L118" target="_blank">Example definition directly on the element</a>
+</li>
+<li><a href="https://github.com/elmsln/lrnwebcomponents/blob/master/elements/hax-body/demo/appstore.json#L1566" target="_blank">Example definition via appstore specification</a>
+</li>
+</ul>
 <h2 id="header-50ef1ab3-6b09-e479-9801-5baf4976585a">Understanding HAXschema</h2>
-<p>HAXschema, the JSON blob that you see as the first property passed into <b>HAXWiring.setup </b>
-is a standard way of sending data about the element in question to HAX so that it understands how to communicate with it. This is broken into two major groupings of settings and some basic Booleans.</p>
+<p>HAXschema is the name of our standard for expressing the way HAX can communicate with and implement your web component. This is broken into two major groupings of settings and some basic <b>Boolean</b>
+.</p>
 <code-sample copy-clipboard-button type="json">  
 <template preserve-content="preserve-content">// can this item be scaled in the UI, will it have a slider for % width
 canScale: true,
