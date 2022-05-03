@@ -222,13 +222,13 @@
             "indent": 0,
             "location": "pages\/welcome\/index.html",
             "slug": "welcome",
-            "order": "0",
+            "order": 0,
             "parent": null,
             "title": "Our Mission",
-            "description": "We're on a mission to empower the next billion creators to share their voice with the world and in doing so, create a less toxic web. Regardless of ability,\u00a0platform,tribe\u00a0or income.Will you he",
+            "description": "We're on a mission to empower the next billion creators to share their voice with the world and in doing so, create a less toxic web. Regardless offfff ability,&#160;platform,tribe&#160;or income",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1617805490,
+                "updated": 1651610016,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
@@ -261,20 +261,26 @@
                     "paragraphs": 10,
                     "schema": [
                         {
+                            "resource": "#af2f15a4-4693-840c-effc-0ca529c199dd",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        },
+                        {
                             "resource": "#18d556e9-a1d7-3069-81d9",
                             "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
                         }
                     ],
                     "tags": {
+                        "page-break": 1,
                         "p": 10,
                         "h3": 6,
                         "code-sample": 2,
                         "ul": 2,
                         "video-player": 1
                     },
-                    "elements": 21
+                    "elements": 22
                 },
-                "published": true
+                "published": true,
+                "locked": false
             }
         },
         {
