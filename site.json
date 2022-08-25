@@ -228,7 +228,7 @@
             "description": "We're on a mission to empower the next billion creators to share their voice with the world and in doing so, create a less toxic web. Regardless offfff ability,&#160;platform,tribe&#160;or income",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1651610016,
+                "updated": 1661452015,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/demo.csv",
@@ -257,11 +257,11 @@
                 ],
                 "readtime": 1,
                 "contentDetails": {
-                    "headings": 6,
-                    "paragraphs": 10,
+                    "headings": 2,
+                    "paragraphs": 6,
                     "schema": [
                         {
-                            "resource": "#af2f15a4-4693-840c-effc-0ca529c199dd",
+                            "resource": "#13f8e41a-3150-15b2-162c-327f1132477f",
                             "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
                         },
                         {
@@ -271,13 +271,14 @@
                     ],
                     "tags": {
                         "page-break": 1,
-                        "p": 10,
-                        "h3": 6,
-                        "code-sample": 2,
-                        "ul": 2,
-                        "video-player": 1
+                        "p": 6,
+                        "grid-plate": 1,
+                        "video-player": 1,
+                        "code-sample": 1,
+                        "h3": 2,
+                        "ul": 1
                     },
-                    "elements": 22
+                    "elements": 13
                 },
                 "published": true,
                 "locked": false
