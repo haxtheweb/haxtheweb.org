@@ -780,7 +780,7 @@
             "description": "HAX may seem complex, but it's built on a series of standards that will never break. As a result of the complexity of these standards, there are things you should know prior to digging into HAXedit",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1661451798,
+                "updated": 1661452038,
                 "readtime": 1,
                 "files": [
                     {
@@ -797,7 +797,7 @@
                     "paragraphs": 3,
                     "schema": [
                         {
-                            "resource": "#4217fd76-63a3-6944-addb-d5be79b177c0",
+                            "resource": "#4e04ff57-98de-f227-681f-d3425ba60f04",
                             "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
                         }
                     ],
