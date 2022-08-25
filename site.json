@@ -999,7 +999,7 @@
             "description": "Are web components ready for prime time?Yes. Web components effectively&#160;turn the HTML of a site into a consistent API. HAXeditor leverages this approach and standardizes its usage in order to ",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1661452677,
+                "updated": 1661452751,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/pubwork1.jpg",
@@ -1024,7 +1024,7 @@
                     "paragraphs": 11,
                     "schema": [
                         {
-                            "resource": "#057c0503-93c7-7678-ca68-7f6dc064e790",
+                            "resource": "#ebe74d2a-7539-71c3-eb45-6808a4483ddc",
                             "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
                         }
                     ],
