@@ -993,13 +993,13 @@
             "indent": 0,
             "location": "pages\/f-a-q-1\/index.html",
             "slug": "f-a-q-1",
-            "order": "3",
+            "order": 3,
             "parent": null,
             "title": "F.A.Q.",
-            "description": "Are web components ready for prime time?Yes. Web components effectively\u00a0turn the HTML of a site into a consistent API. HAXeditor leverages this approach and standardizes its usage in order to suppl",
+            "description": "Are web components ready for prime time?Yes. Web components effectively&#160;turn the HTML of a site into a consistent API. HAXeditor leverages this approach and standardizes its usage in order to ",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1617806639,
+                "updated": 1661452677,
                 "files": [
                     {
                         "path": "\/var\/www\/html\/_sites\/haxtheweb\/files\/pubwork1.jpg",
@@ -1022,15 +1022,22 @@
                 "contentDetails": {
                     "headings": 6,
                     "paragraphs": 11,
-                    "schema": [],
+                    "schema": [
+                        {
+                            "resource": "#057c0503-93c7-7678-ca68-7f6dc064e790",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        }
+                    ],
                     "tags": {
+                        "page-break": 1,
                         "h2": 6,
                         "p": 11,
                         "ul": 3
                     },
-                    "elements": 20
+                    "elements": 21
                 },
-                "published": true
+                "published": true,
+                "locked": false
             }
         },
         {
