@@ -773,13 +773,13 @@
             "indent": 0,
             "location": "pages\/documentation-1\/index.html",
             "slug": "documentation-1",
-            "order": "2",
+            "order": 2,
             "parent": null,
             "title": "Documentation",
-            "description": "HAX may seem complex, but it's built on a series of standards that will never break. As a result of the complexity of these standards, there are things you should know prior to digging into HAXedito",
+            "description": "HAX may seem complex, but it's built on a series of standards that will never break. As a result of the complexity of these standards, there are things you should know prior to digging into HAXedit",
             "metadata": {
                 "created": 1548826475,
-                "updated": 1617805490,
+                "updated": 1661451798,
                 "readtime": 1,
                 "files": [
                     {
@@ -796,17 +796,20 @@
                     "paragraphs": 3,
                     "schema": [
                         {
-                            "resource": "#5749cf56-70cf-cf6f-508a-b3bc12320734",
+                            "resource": "#4217fd76-63a3-6944-addb-d5be79b177c0",
                             "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
                         }
                     ],
                     "tags": {
+                        "page-break": 1,
                         "p": 3,
-                        "h2": 1,
-                        "video-player": 1
+                        "h3": 1,
+                        "grid-plate": 1
                     },
-                    "elements": 5
-                }
+                    "elements": 6
+                },
+                "published": true,
+                "locked": false
             }
         },
         {
