@@ -25,7 +25,7 @@
                 "publicRepoUrl": "https:\/\/github.com\/elmsln\/haxtheweb.org\/tree\/master\/"
             },
             "static": {
-                "cdn": "cdn.waxam.io",
+                "cdn": "",
                 "lastPublished": 1617979997,
                 "publishedLocation": "https:\/\/haxtheweb.org\/",
                 "offline": false
