@@ -11,7 +11,7 @@
   $color = 'var(' . $site->manifest->metadata->theme->variables->cssVariable . ', #FF2222)';
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php print $site->getLanguage(); ?>">
 <head>
   <?php print $site->getBaseTag(); ?>
   <?php print $site->getSiteMetadata($page); ?>
@@ -65,25 +65,7 @@
       top: 50%;
       transform: translateY(-50%);
     }
-    #loading div.messaging h1 {
-      color: white;
-      font-family: 'Open Sans', 'arial', 'serif';
-      font-size: 40px;
-      background-color: <?php print $color; ?>;
-      transition: .4s ease-in-out all;
-    }
-    #loading img {
-      transition: .4s all ease-in-out;
-      width: 300px;
-      height: 300px;
-      margin-bottom: 50px;
-      border-radius: 50%;
-      border: 8px solid <?php print $color;?>;
-      box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.45);
-      -moz-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.45);
-	    -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.45);
-      -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
-    }
+
     .progress-line,
     .progress-line:before {
       height: 8px;
@@ -94,7 +76,7 @@
       background-color: rgba(0,0,0, 0.05);
       display: -webkit-flex;
       display: flex;
-      width: 300px;
+      width: 30vw;
     }
     .progress-line:before {
       background-color: <?php print $color;?>;
@@ -126,8 +108,8 @@
         opacity: 0;
       }
     }
-    </style>
-    <script id="loadingscript">
+  </style>
+  <script id="loadingscript">
     window.addEventListener('haxcms-ready', function(e) {
       // give the web components a second to build
       setTimeout(function() {
@@ -137,16 +119,15 @@
           document.querySelector('#loadingstyles').parentNode.removeChild(document.querySelector('#loadingstyles'));
           document.querySelector('#loadingscript').parentNode.removeChild(document.querySelector('#loadingscript'));
         }, 600);
-      }, 1000);
+      }, 300);
     });
   </script>
 </head>
 <body no-js <?php print $site->getSitePageAttributes();?>>
   <div id="loading">
     <div class="messaging">
-      <img src="<?php print $site->getLogoSize('310', '310');?>" alt="" loading="lazy" height="310px" width="310px" />
       <div class="progress-line"></div>
-      <h1>Loading <?php print $site->name; ?>..</h1>
+      <h1 role="alert" aria-busy="true">Loading <?php print $site->name; ?>..</h1>
     </div>
   </div>
   <haxcms-site-builder id="site" file="site.json<?php print $HAXCMS->cacheBusterHash();?>">
@@ -161,8 +142,25 @@
         view our website correctly. <a href="http://outdatedbrowser.com/">Update my browser now</a></div>
     </div>
   </div>
-  <script>window.HAXCMSContext="php";document.body.removeAttribute('no-js');window.__appCDN="<?php print $HAXCMS->getCDNForDynamic($site);?>";window.__appForceUpgrade=<?php print $site->getForceUpgrade();?>;</script>
-  <script src="./build-haxcms.js"></script>
+  <script>
+    <?php 
+      // support for local dev overrides of where microservices / other JS comes from
+      if (file_exists('../../_config/.local.microservice.config.php')) {
+        include_once '../../_config/.local.microservice.config.php';
+      }
+    ?>
+    window.HAXCMSContext="php";document.body.removeAttribute('no-js');window.__appCDN="<?php print $HAXCMS->getCDNForDynamic($site);?>";window.__appForceUpgrade=<?php print $site->getForceUpgrade();?>;</script>
+  <script src="<?php print $HAXCMS->getCDNForDynamic($site);?>build-haxcms.js"></script>
   <script src="<?php print $HAXCMS->getCDNForDynamic($site);?>build.js"></script>
+<?php if ($site->getGaID()) { ?>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=<?php print $site->getGaID();?>"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '<?php print $site->getGaID();?>');
+  </script>
+<?php } ?>
 </body>
 </html>
