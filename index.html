@@ -147,7 +147,7 @@
       }
       100% {
         margin-left: 100%;
-        margin-right: 0;HAXCMS
+        margin-right: 0;
       }
     }
     @keyframes fade-out {
@@ -185,6 +185,13 @@
           document.querySelector('#loadingscript').parentNode.removeChild(document.querySelector('#loadingscript'));
         }, 600);
       }, 100);
+    });
+
+    // hack to get rid of service worker
+    navigator.serviceWorker.getRegistrations().then(registrations => {
+      for (const registration of registrations) {
+          registration.unregister();
+      } 
     });
   </script>
 </head>

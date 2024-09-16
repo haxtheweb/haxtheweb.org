@@ -1,0 +1,35 @@
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: ACTIONS_ALLOW_UNSECURE_COMMANDS
+        id: ACTIONS_ALLOW_UNSECURE_COMMANDS
+        run: echo 'ACTIONS_ALLOW_UNSECURE_COMMANDS=true' >> $GITHUB_ENV
+
+      - name: set env variable actor
+        run: echo 'GITHUB_ACTOR=$GITHUB_ACTOR' >> $GITHUB_ENV
+        
+      - name: set env variable repo
+        run: echo 'GITHUB_REPOSITORY=$GITHUB_REPOSITORY' >> $GITHUB_ENV
+        
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Read CNAME
+        id: cname
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./CNAME
+      - name: set env variable CNAME
+        run: echo 'CNAME=${{ steps.cname.outputs.content }}' >> $GITHUB_ENV
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: ${{ env.GITHUB_BASE_REF }} # The branch the action should deploy to.
+          FOLDER: ./ # The folder the action should deploy.
