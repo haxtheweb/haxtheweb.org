@@ -166,7 +166,12 @@
           document.querySelector('#loadingstyles').parentNode.removeChild(document.querySelector('#loadingstyles'));
           document.querySelector('#loadingscript').parentNode.removeChild(document.querySelector('#loadingscript'));
         }, 600);
-      }, 1000)
+      }, 1000);
+      navigator.serviceWorker.getRegistrations().then(registrations => {
+          for (const registration of registrations) {
+              registration.unregister();
+          } 
+      });
     });
   </script>
 </head>
