@@ -1,0 +1,20 @@
+{
+  "name": "haxtheweb",
+  "version": "9.0.5",
+  "description": "Project home and documentation for all things HAX",
+  "main": "index.html",
+  "author": {
+    "name": "btopro"
+  },
+  "license": "Apache-2.0",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "ghpages:build": "rm dist && rm assets/babel* && rm build && rm node_modules && rm wc-registry.json",
+    "dev": "npx @haxtheweb/haxcms-nodejs",
+    "dev-theme": "cd custom && npm start"
+  }
+}
