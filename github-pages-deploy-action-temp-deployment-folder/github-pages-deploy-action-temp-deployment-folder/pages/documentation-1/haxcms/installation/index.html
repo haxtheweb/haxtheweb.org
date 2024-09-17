@@ -1,5 +1,19 @@
 <h2>Generic PHP install directions</h2>
 <p>Have PHP? well then you can setup HAXcms pretty quick. Just download HAXcms and navigate to its directory in a browser. It'll attempt to automatically install (which is to create two basic folders). If all goes well you'll see some ASCii art telling you what your password is. HAXcms seeks to be a 0 config installation so if anything didn't work or make sense, just drop us a line in the issue queues.</p>
+
+<h2>Quick Start Installation</h2>
+<p>Note: This installs ddev and docker on Linux / Mac users if possible and needed. For Windows users 
+	you will need to install Docker Desktop 
+	(<a target="_blank" rel="noopener noreferrer" href="https://docs.docker.com/docker-for-windows/install/"> 
+		https://docs.docker.com/docker-for-windows/install/
+	</a>) and one of the following ddev, lando, or docksal as well.
+</p>
+<code-sample copy-clipboard-button>
+    <template>
+        curl -fsSL https://raw.githubusercontent.com/elmsln/HAXcms/master/scripts/haxcmsme.sh -o haxcmsme.sh && sh haxcmsme.sh
+    </template>
+</code-sample>
+
 <h2 class="hax-active">Or from Command Line...</h2>
 <p>Just run this one command and you'll be HAXing the web in no time! This will step you through prompts (which can be scripted via arguments) to feed the backend what it needs to create the few configuration files it uses to load.</p>
 <code-sample copy-clipboard-button style="width: 75%; margin: 0px auto; display: block;">  <template preserve-content="preserve-content"># HAX the web and answer the prompts

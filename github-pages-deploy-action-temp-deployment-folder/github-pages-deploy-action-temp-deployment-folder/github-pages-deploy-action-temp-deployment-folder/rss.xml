@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+  <title>hax-the-web</title>
+  <link>https://haxtheweb.org//rss.xml</link>
+  <description>Project home and documentation for all things HAX</description>
+  <copyright>Copyright (C) 2024 https://haxtheweb.org/</copyright>
+  <language>en-us</language>
+  <lastBuildDate>1970-01-20T23:35:16.452Z</lastBuildDate>
+  <atom:link href="https://haxtheweb.org//rss.xml" rel="self" type="application/rss+xml"/>
+  
+</channel>
+</rss>
