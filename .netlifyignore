@@ -1,0 +1,30 @@
+node_modules
+dist
+!custom/build
+!build/es6/node_modules
+!build/es6/node_modules/**
+
+# Local files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Development files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+
+# Version control
+.git/
+
+# HAX development artifacts
+.cache/
+.tmp/

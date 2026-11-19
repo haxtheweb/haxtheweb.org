@@ -1,7 +1,7 @@
 {
   "name": "haxtheweb",
-  "version": "9.0.5",
-  "description": "Project home and documentation for all things HAX",
+  "version": "26.8.0",
+  "description": "",
   "main": "index.html",
   "author": {
     "name": "btopro"
@@ -12,9 +12,9 @@
     "access": "public"
   },
   "scripts": {
-    "start": "npm run dev",
-    "ghpages:build": "rm dist && rm assets/babel* && rm build && rm node_modules && rm wc-registry.json",
-    "dev": "npx @haxtheweb/haxcms-nodejs",
-    "dev-theme": "cd custom && npm start"
+    "start": "npm run serve",
+    "ghpages:build": "rm -f index.html && mv ghpages.html index.html && rm -f assets/babel* && rm -f build && rm -f wc-registry.json",
+    "serve": "npx @haxtheweb/haxcms-nodejs",
+    "dev": "NODE_ENV=development npm run serve"
   }
 }

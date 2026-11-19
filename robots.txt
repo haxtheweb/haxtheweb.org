@@ -1,5 +1,8 @@
 User-agent: *
 Crawl-delay: 10
+Allow: /
+Sitemap: https://localhost/_sites/haxtheweb/sitemap.xml
+LLMS: https://localhost/_sites/haxtheweb/llms.txt
 # CSS, JS, Images
 Allow: /assets/*.css$
 Allow: /assets/*.css?

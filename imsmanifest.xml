@@ -35,7 +35,7 @@ The XSD files for SCORM 1.2 are not strictly valid and may cause errors in some 
   <!-- There is just one organization. The organization contains just one item.-->
 	<organizations default="hax">
 		<organization identifier="hax">
-			<title>hax-the-web</title>
+			<title>haxtheweb</title>
 			<item identifier="item_1" identifierref="resource_1">
 				<title>haxtheweb</title>
 			</item>

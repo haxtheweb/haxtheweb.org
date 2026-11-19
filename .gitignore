@@ -2,8 +2,6 @@
 node_modules
 dist
 yarn.lock
-files/h5p
-build
-wc-registry.json
-assets/babel-bottom.js
-assets/babel-top.js
+!custom/build
+!build/es6/node_modules
+!build/es6/node_modules/**

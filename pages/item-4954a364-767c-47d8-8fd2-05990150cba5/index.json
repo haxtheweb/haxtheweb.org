@@ -1,0 +1,15 @@
+{
+  "id": "item-4954a364-767c-47d8-8fd2-05990150cba5",
+  "indent": 0,
+  "location": "pages/item-4954a364-767c-47d8-8fd2-05990150cba5/index.json",
+  "slug": "welcome",
+  "order": 0,
+  "parent": null,
+  "title": "Welcome to haxtheweb",
+  "description": "",
+  "metadata": {
+    "created": 1795116204,
+    "updated": 1795116204
+  },
+  "content": "<p>Welcome to your new HAX site! Click edit on the top bar to get started</p>\n<h2>What can I do?</h2>\n<p>We've got a ton of blocks that are easy to use and get a lot done with little effort, so much in fact we made a little video exploring some of them!</p>\n<p>Here's a list of just a few things to get started, or if your a pro, delete this content and have fun!</p>\n<grid-plate layout=\"1-1\" responsive-size=\"xs\" breakpoint-sm=\"900\" breakpoint-md=\"1200\" breakpoint-lg=\"1500\" breakpoint-xl=\"1800\" disable-responsive=\"\">            \n    <ol slot=\"col-1\">\n        <li>Edit this content by hitting \"Edit page\" above</li>\n        <li>Hit enter in a paragraph of text to add another one</li>\n        <li>Click \"Merlin\" to see a list of all the things you can do</li>\n        <li>Try to add a video, or edit this one</li>\n        <li>Insert a video</li>\n    </ol>\n    <video-player source=\"https://www.youtube.com/watch?v=zmext_0e4xQ\" slot=\"col-2\"></video-player>\n</grid-plate>\n<h2>This looks fun, let's go!</h2>\n<meme-maker image-url=\"https://e0.pxfuel.com/wallpapers/813/10/desktop-wallpaper-brain-galaxy-brain.jpg\"\ntop-text=\"You, while using HAX\"\nbottom-text=\"...probably\"\n></meme-maker>\n<h2>Get involved with HAX</h2>\n<p>\n    <rpg-character></rpg-character>\n    <rpg-character></rpg-character>\n    <rpg-character seed=\"btopro\"></rpg-character>\n    <rpg-character seed=\"haxtheweb\"></rpg-character>\n    <rpg-character></rpg-character>\n    <rpg-character></rpg-character>\n</p>\n<p>We hope you enjoy working with HAX as much as the team has enjoyed building it! If you want to join our community, hit \"Merlin\" and look for the Discord link among other ways to get involved!</p>\n<ul>\n    <li><a href=\"https://haxtheweb.org/\" target=\"_blank\">Read our HAX Teaching excellence resources</a></li>\n    <li><a href=\"https://discord.gg/EKYJAjqGhf\" target=\"_blank\">Join the HAX community</a></li>\n    <li><a href=\"https://github.com/elmsln/issues/issues/new?assignees=&labels=POP&template=issue-report.md&title=User%20report%20from%20HAX%20welcome%20page\" target=\"_blank\">Post an issue in our issue queue</a></li>\n</ul>"
+}

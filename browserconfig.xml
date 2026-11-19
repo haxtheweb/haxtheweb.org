@@ -2,10 +2,10 @@
 <browserconfig>
 	<msapplication>
 		<tile>
-			<square70x70logo src="files/haxcms-managed/72x72-3450183.png"/>
-			<square150x150logo src="files/haxcms-managed/144x144-3450183.png"/>
-			<square310x310logo src="files/haxcms-managed/256x256-3450183.png"/>
-			<TileColor>#009dc7</TileColor>
+			<square70x70logo src="assets/icon-72x72.png"/>
+			<square150x150logo src="assets/icon-144x144.png"/>
+			<square310x310logo src="assets/icon-256x256.png"/>
+			<TileColor>#3f51b5</TileColor>
 		</tile>
 	</msapplication>
 </browserconfig>

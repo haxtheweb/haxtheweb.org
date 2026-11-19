@@ -1,0 +1,34 @@
+# haxtheweb
+
+> own course
+
+HAXcms is a file-based CMS: authored pages and metadata are stored as portable files, not locked into a database-only workflow.
+The canonical site structure is `site.json`, represented in JSON Outline Schema (`id`, `parent`, `order`, `slug`, `location`, and `metadata`).
+Use HAX CLI and ecosystem tooling to maintain human-authored content while keeping machine-readable outputs synchronized.
+Managed files (feeds, search indexes, manifests, and this `llms.txt`) are generated artifacts and should be rebuilt by tooling.
+
+## Core resources
+- [site.json](https://localhost/haxtheweb/site.json): Canonical site manifest and navigation tree in JSON Outline Schema format.
+- [llms.txt](https://localhost/haxtheweb/llms.txt): LLM-oriented guide to this site and its machine-readable resources.
+
+## Pages
+- [I want a website that…](https://localhost/haxtheweb/pages/item-ddcd13b1-dfd9-4c3a-9312-6bc342aafda4/index.md)
+- [Get started](https://localhost/haxtheweb/pages/item-cceebc34-6253-491d-8136-78ab1ca8862a/index.md)
+- [Hosting](https://localhost/haxtheweb/pages/item-30eec3e8-4325-4261-bcb7-75945aee6f43/index.md)
+- [Migrate](https://localhost/haxtheweb/pages/item-f8e8779a-1804-42b2-a9ae-fc790f417ccd/index.md)
+- [For agents](https://localhost/haxtheweb/pages/item-638f0c65-23fe-465f-ab1b-e1ebd48162d0/index.md)
+- [7 pillars](https://localhost/haxtheweb/pages/item-6e2b20bd-2ecf-43f0-81f8-db61cca30947/index.md)
+- [Who's it for?](https://localhost/haxtheweb/pages/item-a3b807d2-3eb9-4e43-ab5a-44078e04661f/index.md)
+- [Community](https://localhost/haxtheweb/pages/item-bb60a401-1e33-4d0d-a0b2-253ed3490253/index.md)
+- [Showcase](https://localhost/haxtheweb/pages/item-f63061ef-87fe-49f1-b96f-dcd0c1716cf2/index.md)
+- [Trust](https://localhost/haxtheweb/pages/item-59bb4177-d16a-4d28-863d-e07fd0a8b6d7/index.md)
+- [Learn](https://localhost/haxtheweb/pages/item-490bc7e5-16e3-4aa6-aa1c-07e81af6957f/index.md)
+- [The story button](https://localhost/haxtheweb/pages/item-92df4350-54db-4ad3-9767-4a7ed6838a15/index.md)
+- [Compare](https://localhost/haxtheweb/pages/item-d69c820e-933b-4f04-a16c-ce802b0f1097/index.md)
+
+## Optional
+- [Search index](https://localhost/haxtheweb/lunrSearchIndex.json): Lunr corpus for quick full-text retrieval.
+- [RSS feed](https://localhost/haxtheweb/rss.xml): Site updates in RSS format.
+- [Atom feed](https://localhost/haxtheweb/atom.xml): Site updates in Atom format.
+- [Sitemap](https://localhost/haxtheweb/sitemap.xml): URL-level discovery map for the published site.
+- [Agent skills](https://localhost/haxtheweb/.well-known/agent-skills/index.json): Agent Skills discovery index (agentskills.io v0.2.0) listing skills that teach an agent how to read, author, audit, and remix this site.
