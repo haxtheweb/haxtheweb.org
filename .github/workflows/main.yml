@@ -33,9 +33,13 @@ jobs:
       - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
         run: |
           npm run ghpages:build
+      # Deploying the folder the checkout lives in makes the deploy step copy its
+      # own working folder into itself and fail, so the site is staged first.
+      - name: Stage the site
+        run: rsync -a --exclude .git --exclude node_modules --exclude _deploy ./ _deploy/
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.6.3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.base_ref }} # The branch the action should deploy to.
-          folder: ./ # The folder the action should deploy.
+          folder: _deploy # The staged copy of the site.
