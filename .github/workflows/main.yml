@@ -1,5 +1,7 @@
 name: Build and Deploy
-on: [push]
+on:
+  push:
+    branches: [master]
 jobs:
   build-and-deploy:
     permissions:
@@ -17,7 +19,9 @@ jobs:
         run: echo 'GITHUB_REPOSITORY=$GITHUB_REPOSITORY' >> $GITHUB_ENV
         
       - name: Checkout 🛎️
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.1.7
+        with:
+          persist-credentials: false
 
       - name: Read CNAME
         id: cname
@@ -26,10 +30,12 @@ jobs:
           path: ./CNAME
       - name: set env variable CNAME
         run: echo 'CNAME=${{ steps.cname.outputs.content }}' >> $GITHUB_ENV
-
+      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+        run: |
+          npm run ghpages:build
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4.6.3
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: ${{ env.GITHUB_BASE_REF }} # The branch the action should deploy to.
-          FOLDER: ./ # The folder the action should deploy.
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.base_ref }} # The branch the action should deploy to.
+          folder: ./ # The folder the action should deploy.
