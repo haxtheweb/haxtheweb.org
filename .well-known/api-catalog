@@ -1,0 +1,27 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://localhost/_sites/haxtheweb/",
+      "item": [
+        {
+          "href": "https://localhost/_sites/haxtheweb/x/api",
+          "rel": "service"
+        }
+      ],
+      "service-desc": [
+        {
+          "href": "https://localhost/_sites/haxtheweb/x/api/openapi",
+          "type": "application/json"
+        },
+        {
+          "href": "https://localhost/_sites/haxtheweb/x/api/openapi.json",
+          "type": "application/json"
+        },
+        {
+          "href": "https://localhost/_sites/haxtheweb/x/api/openapi.yaml",
+          "type": "application/yaml"
+        }
+      ]
+    }
+  ]
+}
