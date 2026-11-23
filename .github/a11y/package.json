@@ -1,0 +1,11 @@
+{
+  "name": "a11y-scan",
+  "private": true,
+  "description": "Accessibility scan used by .github/workflows/a11y.yml. Test tooling only; nothing here is part of the site.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "playwright": "1.65.1"
+  }
+}

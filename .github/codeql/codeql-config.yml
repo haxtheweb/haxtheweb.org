@@ -1,0 +1,19 @@
+name: "haxtheweb/haxtheweb.org CodeQL config"
+# HAXcms site boilerplate and vendored bundles. These files come from the
+# HAXcms site boilerplate (haxcms-nodejs / haxcms-php) or are build output,
+# are replaced when the site is upgraded, and are scanned where they are
+# made, not here. Everything written for this site (custom/src, pages,
+# theme, .github) is scanned.
+paths-ignore:
+  - index.html
+  - ghpages.html
+  - 404.html
+  - offline.html
+  - service-worker.js
+  - build.js
+  - build-haxcms.js
+  - assets/babel-top.js
+  - assets/babel-bottom.js
+  - custom/build
+  - dist
+  - .github/a11y/node_modules

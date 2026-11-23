@@ -1,0 +1,57 @@
+name: Accessibility
+
+# axe-core scan of every page in site.json, rendered the way the deployed
+# site is: the same static build as "Build and Deploy" (npm run
+# ghpages:build), with HAX elements loaded from the HAX CDN. Checks WCAG 2.0
+# and 2.1 A and AA. .github/a11y/baseline.json records the violations the
+# site had when this check was added; a pull request fails only when a page
+# gets a new kind of violation or more failing elements than the baseline.
+# Fixing things never fails it. After fixing, or when a maintainer accepts a
+# finding, refresh the baseline:
+#   npm ci --prefix .github/a11y && npm run ghpages:build
+#   node .github/a11y/a11y-scan.mjs --root . --site-json site.json \
+#     --baseline .github/a11y/baseline.json --update-baseline
+# The weekly run also catches regressions that arrive through the CDN.
+on:
+  # No branch filter: stacked PRs (base is another feature branch) must run too.
+  pull_request:
+    paths:
+      - "pages/**"
+      - "files/**"
+      - "theme/**"
+      - "custom/**"
+      - "assets/**"
+      - site.json
+      - ghpages.html
+      - ".github/a11y/**"
+      - .github/workflows/a11y.yml
+  schedule:
+    - cron: "17 6 * * 1" # weekly, Monday 06:17 UTC
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: a11y-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  scan:
+    name: axe-core (WCAG 2.0/2.1 A and AA)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Node.js
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+      - name: Install the scanner
+        run: |
+          npm ci --prefix .github/a11y --ignore-scripts --no-audit --no-fund
+          cd .github/a11y && npx playwright install --with-deps chromium
+      - name: Static build (same as deploy)
+        run: npm run ghpages:build
+      - name: Scan every page
+        run: node .github/a11y/a11y-scan.mjs --root . --site-json site.json --baseline .github/a11y/baseline.json

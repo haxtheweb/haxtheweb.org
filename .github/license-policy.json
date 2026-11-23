@@ -1,0 +1,38 @@
+{
+  "//": [
+    "Dependency license policy for .github/scripts/license-check.mjs and .github/workflows/license-check.yml (haxtheweb/issues#3262). Same allow and review lists as haxtheweb/webcomponents.",
+    "allow: SPDX ids compatible with Apache-2.0. review: id prefixes a maintainer must look at (weak copyleft). Anything else fails, as do unknown licenses.",
+    "exceptions: packages a maintainer has accepted, keyed by purl without version, with the exact license expressions accepted. The PR gate skips them; the weekly sweep fails if their license changes.",
+    "axe-core and @axe-core/playwright (MPL-2.0) are the accessibility scanner in .github/a11y: test tooling run in CI, used unmodified, never part of what this repo publishes."
+  ],
+  "allow": [
+    "MIT",
+    "MIT-0",
+    "ISC",
+    "0BSD",
+    "BSD-1-Clause",
+    "BSD-2-Clause",
+    "BSD-2-Clause-Patent",
+    "BSD-2-Clause-Views",
+    "BSD-3-Clause",
+    "BSD-3-Clause-Clear",
+    "BSD-4-Clause",
+    "Apache-2.0",
+    "CC0-1.0",
+    "Unlicense",
+    "Python-2.0",
+    "BlueOak-1.0.0"
+  ],
+  "review": [
+    "LGPL-",
+    "MPL-"
+  ],
+  "exceptions": {
+    "pkg:npm/%40axe-core/playwright": [
+      "MPL-2.0"
+    ],
+    "pkg:npm/axe-core": [
+      "MPL-2.0"
+    ]
+  }
+}
