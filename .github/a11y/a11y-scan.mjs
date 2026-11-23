@@ -6,6 +6,7 @@
  *   node .github/a11y/a11y-scan.mjs --root <dir> [--entry <file>]
  *     [--site-json <file> [--max-indent <n>]] [--pages <file>]
  *     [--baseline <file>] [--update-baseline] [--allow-hosts <a,b>]
+ *     [--concurrency <n>]
  *
  * --root       folder to serve as the site root
  * --entry      page served for any path that is not a file (HAXsite
@@ -23,6 +24,8 @@
  *              load only from the local server and the HAX CDNs by default:
  *              third-party embeds (YouTube, social widgets, ...) are
  *              blocked so results don't change with services we don't run.
+ *
+ * --concurrency  pages scanned at once (default 4)
  *
  * Findings go to stdout and, in GitHub Actions, the job summary.
  * Exit code 1 on any new violation or on a page that fails to load.
@@ -174,7 +177,38 @@ const browser = await chromium.launch();
 const results = {};
 const loadFailures = [];
 const pages = pagesToScan();
-for (const p of pages) {
+
+// Wait until the rendered page stops changing: the number of elements,
+// counted through every open shadow root, is the same for 3 checks in a
+// row (1.5 s), or 30 s pass. A fixed delay scanned slow pages half drawn.
+async function settle(page) {
+  const deadline = Date.now() + 30000;
+  let last = -1;
+  let same = 0;
+  while (Date.now() < deadline) {
+    const count = await page.evaluate(() => {
+      let n = 0;
+      const walk = (root) => {
+        for (const el of root.querySelectorAll("*")) {
+          n++;
+          if (el.shadowRoot) walk(el.shadowRoot);
+        }
+      };
+      walk(document);
+      return n;
+    });
+    if (count === last) {
+      same++;
+      if (same >= 3) return;
+    } else {
+      same = 0;
+      last = count;
+    }
+    await page.waitForTimeout(500);
+  }
+}
+
+async function scanPage(p) {
   const context = await browser.newContext({ reducedMotion: "reduce" });
   await context.route("**/*", (route) => {
     let host = "";
@@ -190,7 +224,7 @@ for (const p of pages) {
     await page.goto(base + p, { waitUntil: "load", timeout: 60000 });
     // HAX renders client side: let the autoloader and theme settle
     await page.waitForLoadState("networkidle", { timeout: 30000 }).catch(() => {});
-    await page.waitForTimeout(1500);
+    await settle(page);
     const axe = await new AxeBuilder({ page }).withTags(TAGS).analyze();
     const rules = {};
     for (const v of axe.violations) {
@@ -208,6 +242,18 @@ for (const p of pages) {
   }
   await context.close();
 }
+
+// a small pool: most of a page's time is waiting for HAX to render
+const concurrency = Math.max(1, Number(args.concurrency) || 4);
+let next = 0;
+await Promise.all(
+  Array.from({ length: Math.min(concurrency, pages.length) }, async () => {
+    while (next < pages.length) {
+      const p = pages[next++];
+      await scanPage(p);
+    }
+  }),
+);
 await browser.close();
 server.close();
 
