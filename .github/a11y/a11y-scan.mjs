@@ -5,7 +5,7 @@
  *
  *   node .github/a11y/a11y-scan.mjs --root <dir> [--entry <file>]
  *     [--site-json <file> [--max-indent <n>]] [--pages <file>]
- *     [--baseline <file>] [--update-baseline]
+ *     [--baseline <file>] [--update-baseline] [--allow-hosts <a,b>]
  *
  * --root       folder to serve as the site root
  * --entry      page served for any path that is not a file (HAXsite
@@ -19,6 +19,10 @@
  *              the baseline for it, or more failing elements for a rule
  *              than the baseline records. Fixing things never fails it.
  * --update-baseline  write the current results to --baseline and pass
+ * --allow-hosts  extra hosts pages may load from, comma separated. Pages
+ *              load only from the local server and the HAX CDNs by default:
+ *              third-party embeds (YouTube, social widgets, ...) are
+ *              blocked so results don't change with services we don't run.
  *
  * Findings go to stdout and, in GitHub Actions, the job summary.
  * Exit code 1 on any new violation or on a page that fails to load.
@@ -30,6 +34,7 @@ import { chromium } from "playwright";
 import { AxeBuilder } from "@axe-core/playwright";
 
 const TAGS = ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"];
+const DEFAULT_HOSTS = ["127.0.0.1", "cdn.hax.cloud", "cdn.webcomponents.psu.edu"];
 const TYPES = {
   ".html": "text/html; charset=utf-8",
   ".js": "text/javascript; charset=utf-8",
@@ -78,6 +83,13 @@ if (!args.root || (!args["site-json"] && !args.pages)) {
   process.exit(2);
 }
 const root = path.resolve(args.root);
+const allowedHosts = new Set(
+  DEFAULT_HOSTS.concat(
+    typeof args["allow-hosts"] === "string"
+      ? args["allow-hosts"].split(",").map((h) => h.trim()).filter(Boolean)
+      : [],
+  ),
+);
 const entry = path.join(root, args.entry || "index.html");
 
 function pagesToScan() {
@@ -164,6 +176,15 @@ const loadFailures = [];
 const pages = pagesToScan();
 for (const p of pages) {
   const context = await browser.newContext({ reducedMotion: "reduce" });
+  await context.route("**/*", (route) => {
+    let host = "";
+    try {
+      host = new URL(route.request().url()).hostname;
+    } catch (e) {
+      // data: and blob: URLs have no host and are always allowed
+    }
+    return !host || allowedHosts.has(host) ? route.continue() : route.abort();
+  });
   const page = await context.newPage();
   try {
     await page.goto(base + p, { waitUntil: "load", timeout: 60000 });
