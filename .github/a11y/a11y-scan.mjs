@@ -209,7 +209,12 @@ async function settle(page) {
 }
 
 async function scanPage(p) {
-  const context = await browser.newContext({ reducedMotion: "reduce" });
+  const started = Date.now();
+  // service workers are blocked: their requests bypass the host filter below
+  const context = await browser.newContext({
+    reducedMotion: "reduce",
+    serviceWorkers: "block",
+  });
   await context.route("**/*", (route) => {
     let host = "";
     try {
@@ -237,10 +242,28 @@ async function scanPage(p) {
       };
     }
     results[p] = rules;
+    const total = Object.values(rules).reduce((a, r) => a + r.count, 0);
+    console.log(`  ${p} (${Date.now() - started} ms, ${total} failing element(s))`);
   } catch (e) {
     loadFailures.push({ page: p, error: String(e.message || e).split("\n")[0] });
+    console.log(`  ${p} (${Date.now() - started} ms, failed to load)`);
   }
   await context.close();
+}
+
+// one page can never hold up the run: after 3 minutes it counts as failed
+const PAGE_CAP = 180000;
+async function scanPageCapped(p) {
+  let timer;
+  const cap = new Promise((resolve) => {
+    timer = setTimeout(() => {
+      loadFailures.push({ page: p, error: `no result after ${PAGE_CAP / 1000} s` });
+      console.log(`  ${p} (gave up after ${PAGE_CAP / 1000} s)`);
+      resolve();
+    }, PAGE_CAP);
+  });
+  await Promise.race([scanPage(p).catch(() => {}), cap]);
+  clearTimeout(timer);
 }
 
 // a small pool: most of a page's time is waiting for HAX to render
@@ -250,7 +273,7 @@ await Promise.all(
   Array.from({ length: Math.min(concurrency, pages.length) }, async () => {
     while (next < pages.length) {
       const p = pages[next++];
-      await scanPage(p);
+      await scanPageCapped(p);
     }
   }),
 );
