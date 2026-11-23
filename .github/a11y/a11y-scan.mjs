@@ -4,13 +4,15 @@
  * headless Chromium and runs axe-core against WCAG 2.0 and 2.1 A and AA.
  *
  *   node .github/a11y/a11y-scan.mjs --root <dir> [--entry <file>]
- *     [--site-json <file>] [--pages <file>] [--baseline <file>]
- *     [--update-baseline]
+ *     [--site-json <file> [--max-indent <n>]] [--pages <file>]
+ *     [--baseline <file>] [--update-baseline]
  *
  * --root       folder to serve as the site root
  * --entry      page served for any path that is not a file (HAXsite
  *              routing); default index.html
  * --site-json  HAXsite outline: scans "/" and every item's slug
+ * --max-indent with --site-json, only items at this outline depth or less
+ *              (0 is the top level), for very large generated sites
  * --pages      text file listing paths to scan, one per line (# comments)
  * --baseline   JSON file of known violations, { "<path>": { "<rule>": n } }.
  *              The scan fails only when a page has a rule that is not in
@@ -83,8 +85,11 @@ function pagesToScan() {
   if (args["site-json"]) {
     const site = JSON.parse(fs.readFileSync(args["site-json"], "utf8"));
     list.push("/");
+    const maxIndent =
+      args["max-indent"] === undefined ? Infinity : Number(args["max-indent"]);
     for (const item of site.items || []) {
-      if (item.slug) list.push("/" + String(item.slug).replace(/^\/+/, ""));
+      if (!item.slug || Number(item.indent || 0) > maxIndent) continue;
+      list.push("/" + String(item.slug).replace(/^\/+/, ""));
     }
   }
   if (args.pages) {
