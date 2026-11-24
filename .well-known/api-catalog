@@ -1,24 +1,29 @@
 {
   "linkset": [
     {
-      "anchor": "https://localhost/_sites/haxtheweb/",
+      "anchor": "https://haxtheweb.org/",
       "item": [
         {
-          "href": "https://localhost/_sites/haxtheweb/x/api",
+          "href": "https://haxtheweb.org/x/api",
           "rel": "service"
         }
       ],
       "service-desc": [
         {
-          "href": "https://localhost/_sites/haxtheweb/x/api/openapi",
+          "href": "https://haxtheweb.org/x/api/openapi.json?profile=public",
+          "type": "application/json",
+          "title": "Public profile: operations that work without logging in"
+        },
+        {
+          "href": "https://haxtheweb.org/x/api/openapi",
           "type": "application/json"
         },
         {
-          "href": "https://localhost/_sites/haxtheweb/x/api/openapi.json",
+          "href": "https://haxtheweb.org/x/api/openapi.json",
           "type": "application/json"
         },
         {
-          "href": "https://localhost/_sites/haxtheweb/x/api/openapi.yaml",
+          "href": "https://haxtheweb.org/x/api/openapi.yaml",
           "type": "application/yaml"
         }
       ]
