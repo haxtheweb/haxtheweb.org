@@ -1,81 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://localhost/haxtheweb/i-want-a-website-that</loc>
+    <loc>https://haxtheweb.org/i-want-a-website-that</loc>
     <lastmod>2026-11-19T19:23:25.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://localhost/haxtheweb/get-started</loc>
+    <loc>https://haxtheweb.org/get-started</loc>
     <lastmod>2026-11-19T19:23:25.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://localhost/haxtheweb/hosting</loc>
+    <loc>https://haxtheweb.org/hosting</loc>
     <lastmod>2026-11-19T19:23:25.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost/haxtheweb/migrate</loc>
+    <loc>https://haxtheweb.org/migrate</loc>
     <lastmod>2026-11-19T19:23:25.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost/haxtheweb/for-agents</loc>
+    <loc>https://haxtheweb.org/for-agents</loc>
     <lastmod>2026-11-19T19:23:25.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost/haxtheweb/pillars</loc>
+    <loc>https://haxtheweb.org/pillars</loc>
     <lastmod>2026-11-19T19:23:26.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://localhost/haxtheweb/who-its-for</loc>
+    <loc>https://haxtheweb.org/who-its-for</loc>
     <lastmod>2026-11-19T19:23:26.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://localhost/haxtheweb/community</loc>
+    <loc>https://haxtheweb.org/community</loc>
     <lastmod>2026-11-19T19:23:26.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://localhost/haxtheweb/showcase</loc>
+    <loc>https://haxtheweb.org/showcase</loc>
     <lastmod>2026-11-19T19:23:26.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost/haxtheweb/trust</loc>
+    <loc>https://haxtheweb.org/trust</loc>
     <lastmod>2026-11-19T19:23:26.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost/haxtheweb/learn</loc>
+    <loc>https://haxtheweb.org/learn</loc>
     <lastmod>2026-11-19T19:23:26.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost/haxtheweb/story-button</loc>
+    <loc>https://haxtheweb.org/story-button</loc>
     <lastmod>2026-11-19T19:23:26.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost/haxtheweb/compare</loc>
+    <loc>https://haxtheweb.org/compare</loc>
     <lastmod>2026-11-19T19:23:26.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/contribute</loc>
+    <lastmod>2026-11-24T17:09:42.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
