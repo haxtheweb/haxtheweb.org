@@ -1,3 +1,6 @@
+# BEGIN HAXcms managed
+# HAXcms rewrites everything between the BEGIN and END markers on rebuild.
+# Put site-specific rules outside the markers; they are kept.
 # Protect files and directories from prying eyes.
 <FilesMatch "\.(make|test|po|sh|.*sql|theme|tpl(\.php)?|xtmpl)(~|\.sw[op]|\.bak|\.orig|\.save)?$|^(\.(?!well-known).*|Entries.*|Repository|Root|Tag|Template|composer\.(json|lock))$|^#.*#$|\.php(~|\.sw[op]|\.bak|\.orig\.save)$">
   <IfModule mod_authz_core.c>
@@ -28,19 +31,16 @@ DirectoryIndex index.php index.html
     ForceType application/linkset+json
   </Files>
 </IfModule>
-# Requires mod_expires to be enabled.
-<IfModule mod_expires.c>
-  # Enable expirations.
-  ExpiresActive On
-  # Cache all files for 2 weeks after access (A).
-  ExpiresDefault A1209600
-  <FilesMatch \.php$>
-    ExpiresActive Off
-  </FilesMatch>
-</IfModule>
 # Various rewrite rules.
 <IfModule mod_rewrite.c>
   RewriteEngine on
+  # Security (SEC-DEPLOY): never serve anything inside a dot-directory or dotfile
+  # over HTTP (this site's .git history, .github, ...). Repeated here because
+  # "RewriteEngine on" in this file stops the HAXcms root .htaccess rewrite
+  # rules from applying inside the site directory, and the site may also be
+  # served from its own vhost/docroot. .git stays readable on the server for
+  # HAXcms tooling and site zip downloads. /.well-known/ stays reachable.
+  RewriteRule "(^|/)\.(?!well-known(/|$))" - [F]
   # Set "protossl" to "s" if we were accessed via https://.  This is used later
   # if you enable "www." stripping or enforcement, in order to ensure that
   # you don't bounce between http and https.
@@ -84,4 +84,36 @@ DirectoryIndex index.php index.html
   <Files "api-catalog">
     Header set Content-Type "application/linkset+json; profile=\"https://www.rfc-editor.org/info/rfc9727\""
   </Files>
+</IfModule>
+# Tag machine-readable managed/generated files as UTF-8 so clients don't
+# guess an encoding (fixes mojibake in llms.txt, robots.txt, site.json,
+# page .md/.yaml/.xml sidecars, etc). All of these are written by
+# HAXcms tooling, which always emits UTF-8.
+<IfModule mod_mime.c>
+  AddCharset UTF-8 .txt .md .json .yaml .yml .xml
+</IfModule>
+# Page bodies (pages/<id>/index.html) are fragments the site shell loads.
+# Crawlers may fetch them to render a page, but they stay out of search
+# results; robots.txt no longer blocks them, so this header does that job.
+<IfModule mod_headers.c>
+  <If "%{REQUEST_URI} =~ m#(^|/)pages/[^/]+/index\.html$#">
+    Header set X-Robots-Tag "noindex"
+  </If>
+</IfModule>
+# END HAXcms managed
+# Browser cache policy, the same as haxcms-nodejs. Build modules
+# (build/es6/...) are only replaced by a HAXcms upgrade, but their paths
+# carry no version, so they are reused for at most an hour: anything longer
+# lets a page mix old and new modules after an upgrade. Everything else
+# (site.json, page content, the component registry, theme and custom build
+# files, uploads) is revalidated on every use, so an edit or upgrade shows at
+# once; ETag/Last-Modified make that a 304. setifempty: responses that PHP
+# answers keep their own Cache-Control (no-store on the system API).
+<IfModule mod_headers.c>
+  <If "%{REQUEST_URI} =~ m#(^|/)build/# && %{REQUEST_URI} !~ m#(^|/)(files|custom/build)/# && %{REQUEST_URI} !~ m#wc-registry(-graph)?\.json$#">
+    Header setifempty Cache-Control "public, max-age=3600"
+  </If>
+  <Else>
+    Header setifempty Cache-Control "public, max-age=0"
+  </Else>
 </IfModule>

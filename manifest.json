@@ -1,65 +1,58 @@
 {
-    "name": "haxtheweb",
+    "id": "/",
+    "name": "HAX",
     "short_name": "haxtheweb",
-    "description": "",
+    "description": "HAX: free, open web publishing you keep. Why it is for you, and every way to get it.",
     "icons": [
         {
-            "src": "assets/icon-48x48.png",
+            "src": "files/haxcms-managed/48x48-traveler-logo.svg",
             "sizes": "48x48",
             "type": "image\/png",
-            "density": "1.0"
-        },
-        {
-            "src": "assets/icon-72x72.png",
-            "sizes": "72x72",
-            "type": "image\/png",
-            "density": "1.5"
-        },
-        {
-            "src": "assets/icon-96x96.png",
-            "sizes": "96x96",
-            "type": "image\/png",
-            "density": "2.0"
-        },
-        {
-            "src": "assets/icon-144x144.png",
-            "sizes": "144x144",
-            "type": "image\/png",
-            "density": "3.0"
-        },
-        {
-            "src": "assets/icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image\/png",
-            "density": "4.0"
-        },
-        {
-            "src": "assets/icon-256x256.png",
-            "sizes": "256x256",
-            "type": "image\/png",
-            "density": "4.0",
             "purpose": "any"
         },
         {
-            "src": "assets/icon-512x512.png",
+            "src": "files/haxcms-managed/72x72-traveler-logo.svg",
+            "sizes": "72x72",
+            "type": "image\/png",
+            "purpose": "any"
+        },
+        {
+            "src": "files/haxcms-managed/96x96-traveler-logo.svg",
+            "sizes": "96x96",
+            "type": "image\/png",
+            "purpose": "any"
+        },
+        {
+            "src": "files/haxcms-managed/144x144-traveler-logo.svg",
+            "sizes": "144x144",
+            "type": "image\/png",
+            "purpose": "any"
+        },
+        {
+            "src": "files/haxcms-managed/192x192-traveler-logo.svg",
+            "sizes": "192x192",
+            "type": "image\/png",
+            "purpose": "any"
+        },
+        {
+            "src": "files/haxcms-managed/256x256-traveler-logo.svg",
+            "sizes": "256x256",
+            "type": "image\/png",
+            "purpose": "any"
+        },
+        {
+            "src": "files/haxcms-managed/512x512-traveler-logo.svg",
             "sizes": "512x512",
             "type": "image\/png",
-            "density": "4.0",
-            "purpose": "maskable"
+            "purpose": "any"
         }
     ],
-    "scope": "/_sites/haxtheweb/",
-    "start_url": "/_sites/haxtheweb/",
+    "scope": "/",
+    "start_url": "/",
     "display": "standalone",
     "theme_color": "#3f51b5",
     "background_color": "#3f51b5",
     "dir": "auto",
-    "lang": "",
-    "orientation": "any",
-    "display_override": [
-      "window-controls-overlay"
-    ],
-    "categories": [
-      "education"
-    ]
+    "lang": "en-US",
+    "orientation": "any"
 }
