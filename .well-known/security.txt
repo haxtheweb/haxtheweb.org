@@ -2,6 +2,6 @@
 Contact: https://github.com/haxtheweb/issues/security/advisories
 Contact: mailto:hax@psu.edu
 Expires: 2027-05-18T19:23:24.184Z
-Canonical: https://localhost/_sites/haxtheweb/.well-known/security.txt
+Canonical: https://haxtheweb.org/.well-known/security.txt
 Policy: https://github.com/haxtheweb/issues/blob/master/SECURITY.md
 Preferred-Languages: en
