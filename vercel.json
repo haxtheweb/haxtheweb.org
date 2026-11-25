@@ -3,5 +3,16 @@
   "framework": null,
   "installCommand": "echo no dependencies to install",
   "buildCommand": "npx --yes @haxtheweb/create site site:build-static --root . --out-dir _static --domain https://haxtheweb.org/ --y --no-i",
-  "outputDirectory": "_static"
+  "outputDirectory": "_static",
+  "headers": [
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "</llms.txt>; rel=\"describedby\"; type=\"text/markdown\", </index.md>; rel=\"alternate\"; type=\"text/markdown\", </sitemap.xml>; rel=\"sitemap\""
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+<id>item-cf1af9fe-7e88-480d-acf4-6beb68c4c9a0</id>
+<indent>0</indent>
+<location>pages/item-cf1af9fe-7e88-480d-acf4-6beb68c4c9a0/index.xml</location>
+<slug>privacy</slug>
+<order>8</order>
+<parent></parent>
+<title>Privacy</title>
+<description>What this site keeps about you, in plain words.</description>
+<metadata>
+<created>1795618283</created>
+<updated>1795618283</updated>
+<images>
+</images>
+<videos>
+</videos>
+</metadata>
+<content><![CDATA[<p>What this site keeps about you, in plain words.</p><h2>Your choices</h2><privacy-choices></privacy-choices><h2>What this site keeps</h2><p>Your choices are kept in this browser only. This site sets no other cookies, runs no analytics and has no trackers of its own.</p><h2>Hosting</h2><p>The service that hosts this site keeps ordinary request logs, such as the address a request came from, as every web host does.</p><h2>Videos and other embeds</h2><p>Videos from YouTube or Vimeo and content from other companies wait until you allow that company. Each one asks where it appears, and you can change your answer above.</p><h2>What you send us</h2><p>When you email us, post in the HAX Discord or open a GitHub issue, we use what you send only to answer you and to improve HAX. Discord and GitHub keep what you post under their own privacy policies.</p><h2>Questions</h2><p>Ask us through the <a href="contact">Contact</a> page.</p>]]></content>
+</item>
