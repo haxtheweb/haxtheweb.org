@@ -22,6 +22,7 @@ concurrency:
 # Actions are pinned to a full commit SHA (version in the trailing comment)
 # so a moved tag can't change what runs here.
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
@@ -86,6 +87,21 @@ jobs:
           retention-days: 1
           compression-level: 0
           if-no-files-found: error
+
+      # The run's artifact list catches up a moment after the upload
+      # finishes. deploy-pages looks only once, so in the same job it can
+      # report "No artifacts named github-pages" for one that is there.
+      # Wait (up to a minute) until the list shows it.
+      - name: Wait for the artifact to be listed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for i in $(seq 1 30); do
+            count=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts?name=github-pages" --jq '.total_count')
+            if [ "$count" -gt 0 ]; then exit 0; fi
+            sleep 2
+          done
+          echo "::warning::github-pages artifact not listed after 60s; trying the deploy anyway"
 
       - name: Deploy to GitHub Pages
         id: deployment
