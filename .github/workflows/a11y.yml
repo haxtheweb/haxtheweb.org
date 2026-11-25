@@ -1,15 +1,17 @@
 name: Accessibility
 
 # axe-core scan of every page in site.json, rendered the way the deployed
-# site is: the same static build as "Build and Deploy" (npm run
-# ghpages:build), with HAX elements loaded from the HAX CDN. Checks WCAG 2.0
-# and 2.1 A and AA. .github/a11y/baseline.json records the violations the
-# site had when this check was added; a pull request fails only when a page
-# gets a new kind of violation or more failing elements than the baseline.
-# Fixing things never fails it. After fixing, or when a maintainer accepts a
-# finding, refresh the baseline:
-#   npm ci --prefix .github/a11y && npm run ghpages:build
-#   node .github/a11y/a11y-scan.mjs --root . --site-json site.json \
+# site is: the build command from vercel.json (the HAX CLI's site:build-static
+# into _static/), with HAX elements loaded from the HAX CDN. Running the
+# command from vercel.json keeps the scan on the same build Vercel ships.
+# Checks WCAG 2.0 and 2.1 A and AA. .github/a11y/baseline.json records the
+# violations the site had when this check was added; a pull request fails
+# only when a page gets a new kind of violation or more failing elements than
+# the baseline. Fixing things never fails it. After fixing, or when a
+# maintainer accepts a finding, refresh the baseline:
+#   npm ci --prefix .github/a11y
+#   sh -c "$(node -p "require('./vercel.json').buildCommand")"
+#   node .github/a11y/a11y-scan.mjs --root _static --site-json site.json \
 #     --baseline .github/a11y/baseline.json --update-baseline
 # The weekly run also catches regressions that arrive through the CDN.
 on:
@@ -23,6 +25,7 @@ on:
       - "assets/**"
       - site.json
       - ghpages.html
+      - vercel.json
       - ".github/a11y/**"
       - .github/workflows/a11y.yml
   schedule:
@@ -51,7 +54,7 @@ jobs:
         run: |
           npm ci --prefix .github/a11y --ignore-scripts --no-audit --no-fund
           cd .github/a11y && npx playwright install --with-deps chromium
-      - name: Static build (same as deploy)
-        run: npm run ghpages:build
+      - name: Static build (the vercel.json build command)
+        run: sh -c "$(node -p "require('./vercel.json').buildCommand")"
       - name: Scan every page
-        run: node .github/a11y/a11y-scan.mjs --root . --site-json site.json --baseline .github/a11y/baseline.json
+        run: node .github/a11y/a11y-scan.mjs --root _static --site-json site.json --baseline .github/a11y/baseline.json
