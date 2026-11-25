@@ -253,7 +253,6 @@
       "allowedBlocks": []
     },
     "build": {
-      "version": "26.8.0",
       "structure": "course",
       "type": "own"
     }
