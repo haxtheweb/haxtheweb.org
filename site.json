@@ -1,534 +1,535 @@
 {
-  "id": "3a5cbfcd-ce1e-43e0-8eb5-f6ee2502de7a",
-  "title": "HAX",
-  "author": "",
-  "description": "HAX: free, open web publishing you keep. Why it is for you, and every way to get it.",
-  "license": "by-sa",
-  "metadata": {
-    "author": {},
-    "site": {
-      "name": "haxtheweb",
-      "logo": "files/traveler-logo.svg",
-      "settings": {
-        "lang": "en-US",
-        "publishPagesOn": true,
-        "canonical": true,
-        "pathauto": true
-      },
-      "created": 1795116204,
-      "updated": 1795618283,
-      "git": {
-        "vendor": "github",
-        "branch": "master",
-        "staticBranch": "gh-pages",
-        "url": "git@github.com:haxtheweb/haxtheweb.org.git",
-        "autoPush": false,
-        "publicRepoUrl": "https://github.com/haxtheweb/haxtheweb.org/tree/master/"
-      },
-      "domain": "https://haxtheweb.org/",
-      "sameAs": [
-        "https://github.com/haxtheweb",
-        "https://github.com/haxtheweb/haxtheweb.org"
-      ]
-    },
-    "theme": {
-      "element": "hax-marketing-theme",
-      "path": "@haxtheweb/hax-marketing-theme/hax-marketing-theme.js",
-      "name": "HAX marketing",
-      "designSystem": "future-traveler",
-      "variables": {
-        "network": "hax",
-        "cta": "Start building",
-        "eyebrow": "Free. Open. Yours to keep. Forever.",
-        "heroAction": "Pick a starter",
-        "payoff": "Every era had its tools. This one's yours.",
-        "legal": "HAX is free and open source under the Apache-2.0 license, the whole stack. Founded at and backed by Penn State.",
-        "art": [
-          {
-            "src": "files/traveler-burst.webp",
-            "alt": "The baseline look: red helmet with HAX band, cyan goggles, green backpack with lightbulb, chin on arms, white starburst in a red circle."
-          },
-          {
-            "character": "educators",
-            "alt": "An RPG character: HAX is for educators"
-          },
-          {
-            "src": "files/traveler-24.webp",
-            "alt": "Flat-vector starburst badge: helmet, goggles and backpack with the face hidden behind folded arms."
-          },
-          {
-            "callout": "Try it now",
-            "site": "try",
-            "alt": "Try it now, at browser.hax.cloud"
-          },
-          {
-            "src": "files/traveler-27.webp",
-            "alt": "Layered cut-paper version of the traveler with soft shadows under a white and red burst."
-          },
-          {
-            "character": "students",
-            "alt": "An RPG character: HAX is for students"
-          },
-          {
-            "src": "files/traveler-12.webp",
-            "alt": "Torn-paper collage of the traveler resting his chin on his arm, red and white paper burst behind, yellow lightbulb."
-          },
-          {
-            "callout": "640+ blocks",
-            "site": "elements",
-            "alt": "640+ blocks, at webcomponents.hax.cloud"
-          },
-          {
-            "src": "files/traveler-13.webp",
-            "alt": "Traveler in a red HAX hoodie with goggles and green backpack, hands on a desk, tan and orange starburst."
-          },
-          {
-            "character": "agents",
-            "alt": "An RPG character: HAX is for agents"
-          },
-          {
-            "src": "files/traveler-02.webp",
-            "alt": "Starburst badge with the traveler duplicated and glitching, several HAX visors overlapping."
-          },
-          {
-            "callout": "Learn HAX",
-            "site": "learn",
-            "alt": "Learn HAX, at learn.hax.cloud"
-          }
-        ],
-        "logos": [
-          {
-            "src": "files/traveler-logo.svg",
-            "alt": "The Future Traveler logo"
-          },
-          {
-            "src": "files/sticker-beaver-blue.svg",
-            "alt": "Future Traveler as a sticker"
-          },
-          {
-            "src": "files/paper-cut-hax-red.svg",
-            "alt": "Future Traveler cut from paper, no sticker edge"
-          },
-          {
-            "src": "files/sticker-round-beaver-blue.svg",
-            "alt": "Future Traveler as a round sticker"
-          },
-          {
-            "src": "files/traveler-app-tile.svg",
-            "alt": "Future Traveler as an app tile"
-          },
-          {
-            "src": "files/paper-sticker-creek-teal.svg",
-            "alt": "Future Traveler as a paper sticker"
-          }
-        ],
-        "screens": [
-          {
-            "src": "files/theme-clean-one.jpg",
-            "alt": "The Clean One theme",
-            "name": "Clean One",
-            "tags": [
-              "Course"
+    "id": "3a5cbfcd-ce1e-43e0-8eb5-f6ee2502de7a",
+    "title": "HAX",
+    "author": "",
+    "description": "HAX: free, open web publishing you keep. Why it is for you, and every way to get it.",
+    "license": "by-sa",
+    "metadata": {
+        "author": {},
+        "site": {
+            "name": "haxtheweb",
+            "logo": "files/traveler-logo.svg",
+            "settings": {
+                "lang": "en-US",
+                "publishPagesOn": true,
+                "canonical": true,
+                "pathauto": true
+            },
+            "created": 1795116204,
+            "updated": 1795618283,
+            "git": {
+                "vendor": "github",
+                "branch": "master",
+                "staticBranch": "gh-pages",
+                "url": "git@github.com:haxtheweb/haxtheweb.org.git",
+                "autoPush": false,
+                "publicRepoUrl": "https://github.com/haxtheweb/haxtheweb.org/tree/master/"
+            },
+            "domain": "https://haxtheweb.org/",
+            "sameAs": [
+                "https://github.com/haxtheweb",
+                "https://github.com/haxtheweb/haxtheweb.org"
             ]
-          },
-          {
-            "src": "files/theme-writing-theme.jpg",
-            "alt": "The Writing theme",
-            "name": "Writing",
-            "tags": [
-              "Website"
-            ]
-          },
-          {
-            "src": "files/theme-vhs-blog-theme.jpg",
-            "alt": "The VHS Blog theme",
-            "name": "VHS Blog",
-            "tags": [
-              "Blog",
-              "Website"
-            ]
-          },
-          {
-            "src": "files/theme-glossy-portfolio-theme.jpg",
-            "alt": "The Glossy Portfolio theme",
-            "name": "Glossy Portfolio",
-            "tags": [
-              "Website"
-            ]
-          },
-          {
-            "src": "files/theme-polaris-flex-theme.jpg",
-            "alt": "The Polaris Flex theme",
-            "name": "Polaris Flex",
-            "tags": [
-              "Website"
-            ]
-          },
-          {
-            "src": "files/theme-haxma-theme.jpg",
-            "alt": "The Design docs theme",
-            "name": "Design docs",
-            "tags": [
-              "Website"
-            ]
-          },
-          {
-            "src": "files/theme-journey-theme.jpg",
-            "alt": "The Journey theme",
-            "name": "Journey",
-            "tags": [
-              "Website"
-            ]
-          },
-          {
-            "src": "files/theme-book-theme.jpg",
-            "alt": "The Book theme",
-            "name": "Book",
-            "tags": [
-              "Documentation",
-              "Course",
-              "Website"
-            ]
-          }
-        ],
-        "stickers": [
-          {
-            "src": "files/sticker-round-beaver-blue.svg",
-            "alt": "Future Traveler round sticker, beaver blue"
-          },
-          {
-            "src": "files/sticker-creek-teal.svg",
-            "alt": "Future Traveler sticker, creek teal"
-          },
-          {
-            "src": "files/sticker-invent-orange.svg",
-            "alt": "Future Traveler sticker, invent orange"
-          },
-          {
-            "src": "files/sticker-wonder-purple.svg",
-            "alt": "Future Traveler sticker, wonder purple"
-          },
-          {
-            "src": "files/sticker-opportunity-green.svg",
-            "alt": "Future Traveler sticker, opportunity green"
-          },
-          {
-            "src": "files/paper-cut-hax-red.svg",
-            "alt": "Future Traveler cut from paper"
-          },
-          {
-            "src": "files/paper-sticker-creek-teal.svg",
-            "alt": "Future Traveler paper sticker"
-          }
-        ],
-        "copyright": "Copyright © 2026 The Pennsylvania State University.",
-        "footerLinks": [
-          {
-            "label": "HAX at Penn State: hax.psu.edu",
-            "url": "https://hax.psu.edu"
-          },
-          {
-            "label": "HAX on GitHub",
-            "url": "https://github.com/haxtheweb"
-          },
-          {
-            "label": "Report an issue",
-            "url": "https://github.com/haxtheweb/issues/issues"
-          }
-        ],
-        "remixStories": [
-          {
-            "story": "data-contracts/json-outline-schema",
-            "about": "JSON Outline Schema"
-          },
-          {
-            "story": "web-component-stack",
-            "about": "the web component standard"
-          }
-        ]
-      }
+        },
+        "theme": {
+            "element": "hax-marketing-theme",
+            "path": "@haxtheweb/hax-marketing-theme/hax-marketing-theme.js",
+            "name": "HAX marketing",
+            "designSystem": "future-traveler",
+            "variables": {
+                "network": "hax",
+                "cta": "Start building",
+                "eyebrow": "Free. Open. Yours to keep. Forever.",
+                "heroAction": "Pick a starter",
+                "payoff": "Every era had its tools. This one's yours.",
+                "legal": "HAX is free and open source under the Apache-2.0 license, the whole stack. Founded at and backed by Penn State.",
+                "art": [
+                    {
+                        "src": "files/traveler-burst.webp",
+                        "alt": "The baseline look: red helmet with HAX band, cyan goggles, green backpack with lightbulb, chin on arms, white starburst in a red circle."
+                    },
+                    {
+                        "character": "educators",
+                        "alt": "An RPG character: HAX is for educators"
+                    },
+                    {
+                        "src": "files/traveler-24.webp",
+                        "alt": "Flat-vector starburst badge: helmet, goggles and backpack with the face hidden behind folded arms."
+                    },
+                    {
+                        "callout": "Try it now",
+                        "site": "try",
+                        "alt": "Try it now, at browser.hax.cloud"
+                    },
+                    {
+                        "src": "files/traveler-27.webp",
+                        "alt": "Layered cut-paper version of the traveler with soft shadows under a white and red burst."
+                    },
+                    {
+                        "character": "students",
+                        "alt": "An RPG character: HAX is for students"
+                    },
+                    {
+                        "src": "files/traveler-12.webp",
+                        "alt": "Torn-paper collage of the traveler resting his chin on his arm, red and white paper burst behind, yellow lightbulb."
+                    },
+                    {
+                        "callout": "640+ blocks",
+                        "site": "elements",
+                        "alt": "640+ blocks, at webcomponents.hax.cloud"
+                    },
+                    {
+                        "src": "files/traveler-13.webp",
+                        "alt": "Traveler in a red HAX hoodie with goggles and green backpack, hands on a desk, tan and orange starburst."
+                    },
+                    {
+                        "character": "agents",
+                        "alt": "An RPG character: HAX is for agents"
+                    },
+                    {
+                        "src": "files/traveler-02.webp",
+                        "alt": "Starburst badge with the traveler duplicated and glitching, several HAX visors overlapping."
+                    },
+                    {
+                        "callout": "Learn HAX",
+                        "site": "learn",
+                        "alt": "Learn HAX, at learn.hax.cloud"
+                    }
+                ],
+                "logos": [
+                    {
+                        "src": "files/traveler-logo.svg",
+                        "alt": "The Future Traveler logo"
+                    },
+                    {
+                        "src": "files/sticker-beaver-blue.svg",
+                        "alt": "Future Traveler as a sticker"
+                    },
+                    {
+                        "src": "files/paper-cut-hax-red.svg",
+                        "alt": "Future Traveler cut from paper, no sticker edge"
+                    },
+                    {
+                        "src": "files/sticker-round-beaver-blue.svg",
+                        "alt": "Future Traveler as a round sticker"
+                    },
+                    {
+                        "src": "files/traveler-app-tile.svg",
+                        "alt": "Future Traveler as an app tile"
+                    },
+                    {
+                        "src": "files/paper-sticker-creek-teal.svg",
+                        "alt": "Future Traveler as a paper sticker"
+                    }
+                ],
+                "screens": [
+                    {
+                        "src": "files/theme-clean-one.jpg",
+                        "alt": "The Clean One theme",
+                        "name": "Clean One",
+                        "tags": [
+                            "Course"
+                        ]
+                    },
+                    {
+                        "src": "files/theme-writing-theme.jpg",
+                        "alt": "The Writing theme",
+                        "name": "Writing",
+                        "tags": [
+                            "Website"
+                        ]
+                    },
+                    {
+                        "src": "files/theme-vhs-blog-theme.jpg",
+                        "alt": "The VHS Blog theme",
+                        "name": "VHS Blog",
+                        "tags": [
+                            "Blog",
+                            "Website"
+                        ]
+                    },
+                    {
+                        "src": "files/theme-glossy-portfolio-theme.jpg",
+                        "alt": "The Glossy Portfolio theme",
+                        "name": "Glossy Portfolio",
+                        "tags": [
+                            "Website"
+                        ]
+                    },
+                    {
+                        "src": "files/theme-polaris-flex-theme.jpg",
+                        "alt": "The Polaris Flex theme",
+                        "name": "Polaris Flex",
+                        "tags": [
+                            "Website"
+                        ]
+                    },
+                    {
+                        "src": "files/theme-haxma-theme.jpg",
+                        "alt": "The Design docs theme",
+                        "name": "Design docs",
+                        "tags": [
+                            "Website"
+                        ]
+                    },
+                    {
+                        "src": "files/theme-journey-theme.jpg",
+                        "alt": "The Journey theme",
+                        "name": "Journey",
+                        "tags": [
+                            "Website"
+                        ]
+                    },
+                    {
+                        "src": "files/theme-book-theme.jpg",
+                        "alt": "The Book theme",
+                        "name": "Book",
+                        "tags": [
+                            "Documentation",
+                            "Course",
+                            "Website"
+                        ]
+                    }
+                ],
+                "stickers": [
+                    {
+                        "src": "files/sticker-round-beaver-blue.svg",
+                        "alt": "Future Traveler round sticker, beaver blue"
+                    },
+                    {
+                        "src": "files/sticker-creek-teal.svg",
+                        "alt": "Future Traveler sticker, creek teal"
+                    },
+                    {
+                        "src": "files/sticker-invent-orange.svg",
+                        "alt": "Future Traveler sticker, invent orange"
+                    },
+                    {
+                        "src": "files/sticker-wonder-purple.svg",
+                        "alt": "Future Traveler sticker, wonder purple"
+                    },
+                    {
+                        "src": "files/sticker-opportunity-green.svg",
+                        "alt": "Future Traveler sticker, opportunity green"
+                    },
+                    {
+                        "src": "files/paper-cut-hax-red.svg",
+                        "alt": "Future Traveler cut from paper"
+                    },
+                    {
+                        "src": "files/paper-sticker-creek-teal.svg",
+                        "alt": "Future Traveler paper sticker"
+                    }
+                ],
+                "copyright": "Copyright © 2026 The Pennsylvania State University.",
+                "footerLinks": [
+                    {
+                        "label": "HAX at Penn State: hax.psu.edu",
+                        "url": "https://hax.psu.edu"
+                    },
+                    {
+                        "label": "HAX on GitHub",
+                        "url": "https://github.com/haxtheweb"
+                    },
+                    {
+                        "label": "Report an issue",
+                        "url": "https://github.com/haxtheweb/issues/issues"
+                    }
+                ],
+                "remixStories": [
+                    {
+                        "story": "data-contracts/json-outline-schema",
+                        "about": "JSON Outline Schema"
+                    },
+                    {
+                        "story": "web-component-stack",
+                        "about": "the web component standard"
+                    }
+                ]
+            }
+        },
+        "node": {
+            "fields": {}
+        },
+        "platform": {
+            "audience": "expert",
+            "features": {},
+            "allowedBlocks": []
+        },
+        "build": {
+            "structure": "course",
+            "type": "own"
+        }
     },
-    "node": {
-      "fields": {}
-    },
-    "platform": {
-      "audience": "expert",
-      "features": {},
-      "allowedBlocks": []
-    },
-    "build": {
-      "structure": "course",
-      "type": "own"
-    }
-  },
-  "items": [
-    {
-      "id": "item-ddcd13b1-dfd9-4c3a-9312-6bc342aafda4",
-      "indent": 0,
-      "location": "pages/item-ddcd13b1-dfd9-4c3a-9312-6bc342aafda4/index.html",
-      "slug": "i-want-a-website-that",
-      "order": 0,
-      "parent": null,
-      "title": "I want a website that…",
-      "description": "",
-      "metadata": {
-        "published": true,
-        "created": 1795116205,
-        "updated": 1795116205
-      }
-    },
-    {
-      "id": "item-cceebc34-6253-491d-8136-78ab1ca8862a",
-      "indent": 0,
-      "location": "pages/item-cceebc34-6253-491d-8136-78ab1ca8862a/index.html",
-      "slug": "get-started",
-      "order": 1,
-      "parent": null,
-      "title": "Get started",
-      "description": "",
-      "metadata": {
-        "published": true,
-        "created": 1795116205,
-        "updated": 1795116205
-      }
-    },
-    {
-      "id": "item-30eec3e8-4325-4261-bcb7-75945aee6f43",
-      "indent": 1,
-      "location": "pages/item-30eec3e8-4325-4261-bcb7-75945aee6f43/index.html",
-      "slug": "hosting",
-      "order": 2,
-      "parent": "item-cceebc34-6253-491d-8136-78ab1ca8862a",
-      "title": "Hosting",
-      "description": "",
-      "metadata": {
-        "published": true,
-        "created": 1795116205,
-        "updated": 1795116205
-      }
-    },
-    {
-      "id": "item-f8e8779a-1804-42b2-a9ae-fc790f417ccd",
-      "indent": 1,
-      "location": "pages/item-f8e8779a-1804-42b2-a9ae-fc790f417ccd/index.html",
-      "slug": "migrate",
-      "order": 3,
-      "parent": "item-cceebc34-6253-491d-8136-78ab1ca8862a",
-      "title": "Migrate",
-      "description": "",
-      "metadata": {
-        "published": true,
-        "created": 1795116205,
-        "updated": 1795116205
-      }
-    },
-    {
-      "id": "item-638f0c65-23fe-465f-ab1b-e1ebd48162d0",
-      "indent": 1,
-      "location": "pages/item-638f0c65-23fe-465f-ab1b-e1ebd48162d0/index.html",
-      "slug": "for-agents",
-      "order": 4,
-      "parent": "item-cceebc34-6253-491d-8136-78ab1ca8862a",
-      "title": "For agents",
-      "description": "",
-      "metadata": {
-        "published": true,
-        "created": 1795116205,
-        "updated": 1795116205
-      }
-    },
-    {
-      "id": "item-6e2b20bd-2ecf-43f0-81f8-db61cca30947",
-      "indent": 0,
-      "location": "pages/item-6e2b20bd-2ecf-43f0-81f8-db61cca30947/index.html",
-      "slug": "pillars",
-      "order": 5,
-      "parent": null,
-      "title": "7 pillars",
-      "description": "",
-      "metadata": {
-        "published": true,
-        "created": 1795116206,
-        "updated": 1795116206
-      }
-    },
-    {
-      "id": "item-a3b807d2-3eb9-4e43-ab5a-44078e04661f",
-      "indent": 0,
-      "location": "pages/item-a3b807d2-3eb9-4e43-ab5a-44078e04661f/index.html",
-      "slug": "who-its-for",
-      "order": 6,
-      "parent": null,
-      "title": "Who's it for?",
-      "description": "",
-      "metadata": {
-        "published": true,
-        "created": 1795116206,
-        "updated": 1795116206
-      }
-    },
-    {
-      "id": "item-bb60a401-1e33-4d0d-a0b2-253ed3490253",
-      "indent": 0,
-      "location": "pages/item-bb60a401-1e33-4d0d-a0b2-253ed3490253/index.html",
-      "slug": "community",
-      "order": 7,
-      "parent": null,
-      "title": "Community",
-      "description": "",
-      "metadata": {
-        "published": true,
-        "created": 1795116206,
-        "updated": 1795116206
-      }
-    },
-    {
-      "id": "item-773d8cdc-c146-4271-a2bb-02b8591584f0",
-      "indent": 1,
-      "location": "pages/item-773d8cdc-c146-4271-a2bb-02b8591584f0/index.html",
-      "slug": "contribute",
-      "order": 8,
-      "parent": "item-bb60a401-1e33-4d0d-a0b2-253ed3490253",
-      "title": "Contribute",
-      "description": "",
-      "metadata": {
-        "created": 1795540182,
-        "updated": 1795540182,
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "id": "item-f63061ef-87fe-49f1-b96f-dcd0c1716cf2",
-      "indent": 1,
-      "location": "pages/item-f63061ef-87fe-49f1-b96f-dcd0c1716cf2/index.html",
-      "slug": "showcase",
-      "order": 9,
-      "parent": "item-bb60a401-1e33-4d0d-a0b2-253ed3490253",
-      "title": "Showcase",
-      "description": "",
-      "metadata": {
-        "published": true,
-        "created": 1795116206,
-        "updated": 1795116206
-      }
-    },
-    {
-      "id": "item-59bb4177-d16a-4d28-863d-e07fd0a8b6d7",
-      "indent": 1,
-      "location": "pages/item-59bb4177-d16a-4d28-863d-e07fd0a8b6d7/index.html",
-      "slug": "trust",
-      "order": 10,
-      "parent": "item-bb60a401-1e33-4d0d-a0b2-253ed3490253",
-      "title": "Trust",
-      "description": "",
-      "metadata": {
-        "published": true,
-        "created": 1795116206,
-        "updated": 1795116206
-      }
-    },
-    {
-      "id": "item-490bc7e5-16e3-4aa6-aa1c-07e81af6957f",
-      "indent": 1,
-      "location": "pages/item-490bc7e5-16e3-4aa6-aa1c-07e81af6957f/index.html",
-      "slug": "learn",
-      "order": 11,
-      "parent": "item-bb60a401-1e33-4d0d-a0b2-253ed3490253",
-      "title": "Learn",
-      "description": "",
-      "metadata": {
-        "published": true,
-        "created": 1795116206,
-        "updated": 1795116206
-      }
-    },
-    {
-      "id": "item-92df4350-54db-4ad3-9767-4a7ed6838a15",
-      "indent": 1,
-      "location": "pages/item-92df4350-54db-4ad3-9767-4a7ed6838a15/index.html",
-      "slug": "story-button",
-      "order": 12,
-      "parent": "item-bb60a401-1e33-4d0d-a0b2-253ed3490253",
-      "title": "The story button",
-      "description": "",
-      "metadata": {
-        "published": true,
-        "created": 1795116206,
-        "updated": 1795116206
-      }
-    },
-    {
-      "id": "item-d69c820e-933b-4f04-a16c-ce802b0f1097",
-      "indent": 0,
-      "location": "pages/item-d69c820e-933b-4f04-a16c-ce802b0f1097/index.html",
-      "slug": "compare",
-      "order": 13,
-      "parent": null,
-      "title": "Compare",
-      "description": "",
-      "metadata": {
-        "published": true,
-        "created": 1795116206,
-        "updated": 1795116206
-      }
-    },
-    {
-      "id": "item-acd9dc27-4920-4ecd-8c7e-47c964f1359f",
-      "indent": 0,
-      "location": "pages/item-acd9dc27-4920-4ecd-8c7e-47c964f1359f/index.html",
-      "slug": "about",
-      "order": 6,
-      "parent": null,
-      "title": "About",
-      "description": "What this site is and who makes it.",
-      "metadata": {
-        "created": 1795618279,
-        "updated": 1795618279,
-        "images": [],
-        "videos": [],
-        "published": true,
-        "files": [],
-        "hideInMenu": false
-      }
-    },
-    {
-      "id": "item-af079745-e59f-450c-abab-6535727c1ab2",
-      "indent": 0,
-      "location": "pages/item-af079745-e59f-450c-abab-6535727c1ab2/index.html",
-      "slug": "contact",
-      "order": 7,
-      "parent": null,
-      "title": "Contact",
-      "description": "How to reach the people who make HAX.",
-      "metadata": {
-        "created": 1795618281,
-        "updated": 1795618281,
-        "images": [],
-        "videos": [],
-        "published": true,
-        "files": [],
-        "hideInMenu": false
-      }
-    },
-    {
-      "id": "item-cf1af9fe-7e88-480d-acf4-6beb68c4c9a0",
-      "indent": 0,
-      "location": "pages/item-cf1af9fe-7e88-480d-acf4-6beb68c4c9a0/index.html",
-      "slug": "privacy",
-      "order": 8,
-      "parent": null,
-      "title": "Privacy",
-      "description": "What this site keeps about you, in plain words.",
-      "metadata": {
-        "created": 1795618283,
-        "updated": 1795618283,
-        "images": [],
-        "videos": [],
-        "published": true,
-        "files": [],
-        "hideInMenu": true
-      }
-    }
-  ]
+    "items": [
+        {
+            "id": "item-ddcd13b1-dfd9-4c3a-9312-6bc342aafda4",
+            "indent": 0,
+            "location": "pages/item-ddcd13b1-dfd9-4c3a-9312-6bc342aafda4/index.html",
+            "slug": "i-want-a-website-that",
+            "order": 0,
+            "parent": null,
+            "title": "I want a website that…",
+            "description": "",
+            "metadata": {
+                "published": true,
+                "created": 1795116205,
+                "updated": 1795116205
+            }
+        },
+        {
+            "id": "item-30eec3e8-4325-4261-bcb7-75945aee6f43",
+            "indent": 1,
+            "location": "pages/item-30eec3e8-4325-4261-bcb7-75945aee6f43/index.html",
+            "slug": "hosting",
+            "order": 0,
+            "parent": "item-cceebc34-6253-491d-8136-78ab1ca8862a",
+            "title": "Hosting",
+            "description": "",
+            "metadata": {
+                "published": true,
+                "created": 1795116205,
+                "updated": 1795116205
+            }
+        },
+        {
+            "id": "item-773d8cdc-c146-4271-a2bb-02b8591584f0",
+            "indent": 1,
+            "location": "pages/item-773d8cdc-c146-4271-a2bb-02b8591584f0/index.html",
+            "slug": "contribute",
+            "order": 0,
+            "parent": "item-bb60a401-1e33-4d0d-a0b2-253ed3490253",
+            "title": "Contribute",
+            "description": "",
+            "metadata": {
+                "created": 1795540182,
+                "updated": 1795540182,
+                "images": [],
+                "videos": []
+            }
+        },
+        {
+            "id": "item-cceebc34-6253-491d-8136-78ab1ca8862a",
+            "indent": 0,
+            "location": "pages/item-cceebc34-6253-491d-8136-78ab1ca8862a/index.html",
+            "slug": "get-started",
+            "order": 1,
+            "parent": null,
+            "title": "Get started",
+            "description": "",
+            "metadata": {
+                "published": true,
+                "created": 1795116205,
+                "updated": 1795116205
+            }
+        },
+        {
+            "id": "item-f8e8779a-1804-42b2-a9ae-fc790f417ccd",
+            "indent": 1,
+            "location": "pages/item-f8e8779a-1804-42b2-a9ae-fc790f417ccd/index.html",
+            "slug": "migrate",
+            "order": 1,
+            "parent": "item-cceebc34-6253-491d-8136-78ab1ca8862a",
+            "title": "Migrate",
+            "description": "",
+            "metadata": {
+                "published": true,
+                "created": 1795116205,
+                "updated": 1795116205
+            }
+        },
+        {
+            "id": "item-638f0c65-23fe-465f-ab1b-e1ebd48162d0",
+            "indent": 1,
+            "location": "pages/item-638f0c65-23fe-465f-ab1b-e1ebd48162d0/index.html",
+            "slug": "for-agents",
+            "order": 2,
+            "parent": "item-cceebc34-6253-491d-8136-78ab1ca8862a",
+            "title": "For agents",
+            "description": "",
+            "metadata": {
+                "published": true,
+                "created": 1795116205,
+                "updated": 1795116205
+            }
+        },
+        {
+            "id": "item-f63061ef-87fe-49f1-b96f-dcd0c1716cf2",
+            "indent": 1,
+            "location": "pages/item-f63061ef-87fe-49f1-b96f-dcd0c1716cf2/index.html",
+            "slug": "showcase",
+            "order": 1,
+            "parent": "item-bb60a401-1e33-4d0d-a0b2-253ed3490253",
+            "title": "Showcase",
+            "description": "",
+            "metadata": {
+                "published": true,
+                "created": 1795116206,
+                "updated": 1795116206
+            }
+        },
+        {
+            "id": "item-6e2b20bd-2ecf-43f0-81f8-db61cca30947",
+            "indent": 0,
+            "location": "pages/item-6e2b20bd-2ecf-43f0-81f8-db61cca30947/index.html",
+            "slug": "pillars",
+            "order": 2,
+            "parent": null,
+            "title": "7 pillars",
+            "description": "",
+            "metadata": {
+                "published": true,
+                "created": 1795116206,
+                "updated": 1795116206
+            }
+        },
+        {
+            "id": "item-59bb4177-d16a-4d28-863d-e07fd0a8b6d7",
+            "indent": 1,
+            "location": "pages/item-59bb4177-d16a-4d28-863d-e07fd0a8b6d7/index.html",
+            "slug": "trust",
+            "order": 2,
+            "parent": "item-bb60a401-1e33-4d0d-a0b2-253ed3490253",
+            "title": "Trust",
+            "description": "",
+            "metadata": {
+                "published": true,
+                "created": 1795116206,
+                "updated": 1795116206
+            }
+        },
+        {
+            "id": "item-a3b807d2-3eb9-4e43-ab5a-44078e04661f",
+            "indent": 0,
+            "location": "pages/item-a3b807d2-3eb9-4e43-ab5a-44078e04661f/index.html",
+            "slug": "who-its-for",
+            "order": 3,
+            "parent": null,
+            "title": "Who's it for?",
+            "description": "",
+            "metadata": {
+                "published": true,
+                "created": 1795116206,
+                "updated": 1795116206
+            }
+        },
+        {
+            "id": "item-490bc7e5-16e3-4aa6-aa1c-07e81af6957f",
+            "indent": 1,
+            "location": "pages/item-490bc7e5-16e3-4aa6-aa1c-07e81af6957f/index.html",
+            "slug": "learn",
+            "order": 3,
+            "parent": "item-bb60a401-1e33-4d0d-a0b2-253ed3490253",
+            "title": "Learn",
+            "description": "",
+            "metadata": {
+                "published": true,
+                "created": 1795116206,
+                "updated": 1795116206
+            }
+        },
+        {
+            "id": "item-92df4350-54db-4ad3-9767-4a7ed6838a15",
+            "indent": 1,
+            "location": "pages/item-92df4350-54db-4ad3-9767-4a7ed6838a15/index.html",
+            "slug": "story-button",
+            "order": 4,
+            "parent": "item-bb60a401-1e33-4d0d-a0b2-253ed3490253",
+            "title": "The story button",
+            "description": "",
+            "metadata": {
+                "published": true,
+                "created": 1795116206,
+                "updated": 1795116206
+            }
+        },
+        {
+            "id": "item-acd9dc27-4920-4ecd-8c7e-47c964f1359f",
+            "indent": 0,
+            "location": "pages/item-acd9dc27-4920-4ecd-8c7e-47c964f1359f/index.html",
+            "slug": "about",
+            "order": 4,
+            "parent": null,
+            "title": "About",
+            "description": "What this site is and who makes it.",
+            "metadata": {
+                "created": 1795618279,
+                "updated": 1795618279,
+                "images": [],
+                "videos": [],
+                "published": true,
+                "files": [],
+                "hideInMenu": false
+            }
+        },
+        {
+            "id": "item-bb60a401-1e33-4d0d-a0b2-253ed3490253",
+            "indent": 0,
+            "location": "pages/item-bb60a401-1e33-4d0d-a0b2-253ed3490253/index.html",
+            "slug": "community",
+            "order": 5,
+            "parent": null,
+            "title": "Community",
+            "description": "",
+            "metadata": {
+                "published": true,
+                "created": 1795116206,
+                "updated": 1795116206
+            }
+        },
+        {
+            "id": "item-af079745-e59f-450c-abab-6535727c1ab2",
+            "indent": 0,
+            "location": "pages/item-af079745-e59f-450c-abab-6535727c1ab2/index.html",
+            "slug": "contact",
+            "order": 6,
+            "parent": null,
+            "title": "Contact",
+            "description": "How to reach the people who make HAX.",
+            "metadata": {
+                "created": 1795618281,
+                "updated": 1795618281,
+                "images": [],
+                "videos": [],
+                "published": true,
+                "files": [],
+                "hideInMenu": false
+            }
+        },
+        {
+            "id": "item-cf1af9fe-7e88-480d-acf4-6beb68c4c9a0",
+            "indent": 0,
+            "location": "pages/item-cf1af9fe-7e88-480d-acf4-6beb68c4c9a0/index.html",
+            "slug": "privacy",
+            "order": 7,
+            "parent": null,
+            "title": "Privacy",
+            "description": "What this site keeps about you, in plain words.",
+            "metadata": {
+                "created": 1795618283,
+                "updated": 1795618283,
+                "images": [],
+                "videos": [],
+                "published": true,
+                "files": [],
+                "hideInMenu": true
+            }
+        },
+        {
+            "id": "item-d69c820e-933b-4f04-a16c-ce802b0f1097",
+            "indent": 0,
+            "location": "pages/item-d69c820e-933b-4f04-a16c-ce802b0f1097/index.html",
+            "slug": "compare",
+            "order": 8,
+            "parent": null,
+            "title": "Compare",
+            "description": "",
+            "metadata": {
+                "published": true,
+                "created": 1795116206,
+                "updated": 1795116206
+            }
+        }
+    ],
+    "location": null
 }

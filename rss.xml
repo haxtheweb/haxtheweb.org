@@ -17,17 +17,17 @@
       <pubDate>Thu, 19 Nov 2026 19:23:25 GMT</pubDate>
     </item>
     <item>
-      <title>Get started</title>
-      <link>https://haxtheweb.org/get-started</link>
-      <description>1. In your browser, right now Nothing to install. HAX runs in the page and saves to a folder on your computer. 2. On your computer, in one line You need Node.js. Then install the HAX command line tool: npm install --global @haxtheweb/create Make a site and open it: hax site my-site cd my-site hax serve Or start from one of the starters on the home page: hax site my-course --skeleton-machine-name online-course --y 3. Hand it to an agent Open a fresh agent in an empty folder and paste this. The...</description>
-      <guid>https://haxtheweb.org/get-started</guid>
-      <pubDate>Thu, 19 Nov 2026 19:23:25 GMT</pubDate>
-    </item>
-    <item>
       <title>Hosting</title>
       <link>https://haxtheweb.org/hosting</link>
       <description>Free. browser.hax.cloud runs HAX in the browser and saves to a folder on your computer. Free. Publish to GitHub Pages, Netlify, Vercel or Surge and you are done. Free. Run it on PHP or Node. No database. The same site moves between them. For institutions. Many sites from one deploy, as Penn State runs at hax.psu.edu. Static publish A HAX site is plain files, so any static host can serve it. These are free to start and work with one command from the site&apos;s folder. Where to publish a HAX site f...</description>
       <guid>https://haxtheweb.org/hosting</guid>
+      <pubDate>Thu, 19 Nov 2026 19:23:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>Get started</title>
+      <link>https://haxtheweb.org/get-started</link>
+      <description>1. In your browser, right now Nothing to install. HAX runs in the page and saves to a folder on your computer. 2. On your computer, in one line You need Node.js. Then install the HAX command line tool: npm install --global @haxtheweb/create Make a site and open it: hax site my-site cd my-site hax serve Or start from one of the starters on the home page: hax site my-course --skeleton-machine-name online-course --y 3. Hand it to an agent Open a fresh agent in an empty folder and paste this. The...</description>
+      <guid>https://haxtheweb.org/get-started</guid>
       <pubDate>Thu, 19 Nov 2026 19:23:25 GMT</pubDate>
     </item>
     <item>
@@ -45,27 +45,6 @@
       <pubDate>Thu, 19 Nov 2026 19:23:25 GMT</pubDate>
     </item>
     <item>
-      <title>7 pillars</title>
-      <link>https://haxtheweb.org/pillars</link>
-      <description>HAX is the open web, built from plain text and blocks that anyone can edit. Each block is a web component. Same blocks, same editor, which reads each component&apos;s schema. Run it as a single site, multisite or multi-tenant, or publish plain static files. The magic script loads each element once. Later pages only fetch what is new, so every follow-up request is faster. Seven community pillars hold it up for students, designers, educators, developers and AI agents: accessible, extensible, free an...</description>
-      <guid>https://haxtheweb.org/pillars</guid>
-      <pubDate>Thu, 19 Nov 2026 19:23:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Who&apos;s it for?</title>
-      <link>https://haxtheweb.org/who-its-for</link>
-      <description>Build course sites and open textbooks that outlive the LMS. Import a Canvas export, get accessible, print-friendly pages people can find, and keep the content when the contract changes. A portfolio you take with you after graduation, and a real project to build your skills on. HAX Lab students ship work that every HAX site uses. A portfolio, club, band or shop-front site that looks good from the first minute and costs nothing to keep online. On-page editing like the big builders, with files y...</description>
-      <guid>https://haxtheweb.org/who-its-for</guid>
-      <pubDate>Thu, 19 Nov 2026 19:23:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Community</title>
-      <link>https://haxtheweb.org/community</link>
-      <description>Where HAX Lab people landed Former HAX Lab students and contributors now work at Red Hat, Adobe, IBM, Ford and PennDOT, using these skills every day. Past contributors from Penn State colleges, libraries and student organizations, and the wider open source community. College of Arts and Architecture, home of HAX Lab College of Information Sciences and Technology College of Health and Human Development Eberly College of Science Penn State University Libraries CCSO, the cyber security club UXDC...</description>
-      <guid>https://haxtheweb.org/community</guid>
-      <pubDate>Thu, 19 Nov 2026 19:23:26 GMT</pubDate>
-    </item>
-    <item>
       <title>Showcase</title>
       <link>https://haxtheweb.org/showcase</link>
       <description>Sites people have built Courses, open educational resources and digital editions from across Penn State. Every site in the HAX network is made with HAX The sites that tell you about HAX are built with it too, from this one to the brain behind it.</description>
@@ -73,10 +52,24 @@
       <pubDate>Thu, 19 Nov 2026 19:23:26 GMT</pubDate>
     </item>
     <item>
+      <title>7 pillars</title>
+      <link>https://haxtheweb.org/pillars</link>
+      <description>HAX is the open web, built from plain text and blocks that anyone can edit. Each block is a web component. Same blocks, same editor, which reads each component&apos;s schema. Run it as a single site, multisite or multi-tenant, or publish plain static files. The magic script loads each element once. Later pages only fetch what is new, so every follow-up request is faster. Seven community pillars hold it up for students, designers, educators, developers and AI agents: accessible, extensible, free an...</description>
+      <guid>https://haxtheweb.org/pillars</guid>
+      <pubDate>Thu, 19 Nov 2026 19:23:26 GMT</pubDate>
+    </item>
+    <item>
       <title>Trust</title>
       <link>https://haxtheweb.org/trust</link>
       <description>Apache-2.0, the whole stack No copyleft. Embed, fork or ship HAX inside your own product without relicensing your code. An explicit patent grant from every contributor. One license for the editor, elements, design system, both backends, CLI, MCP and skills. Agent-safe. An agent can install, modify and redistribute HAX for you without creating an obligation you never agreed to. The policies Governance Sustainability Security Incident response Trademark Code of conduct HEOSAT The Higher Educati...</description>
       <guid>https://haxtheweb.org/trust</guid>
+      <pubDate>Thu, 19 Nov 2026 19:23:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Who&apos;s it for?</title>
+      <link>https://haxtheweb.org/who-its-for</link>
+      <description>Build course sites and open textbooks that outlive the LMS. Import a Canvas export, get accessible, print-friendly pages people can find, and keep the content when the contract changes. A portfolio you take with you after graduation, and a real project to build your skills on. HAX Lab students ship work that every HAX site uses. A portfolio, club, band or shop-front site that looks good from the first minute and costs nothing to keep online. On-page editing like the big builders, with files y...</description>
+      <guid>https://haxtheweb.org/who-its-for</guid>
       <pubDate>Thu, 19 Nov 2026 19:23:26 GMT</pubDate>
     </item>
     <item>
@@ -91,6 +84,13 @@
       <link>https://haxtheweb.org/story-button</link>
       <description>What it is A claim is easier to believe when you can see where it came from. This button sits beside a number, a pillar, a person or a block, and takes you straight to that story on hax.cloud. Same mark, same words, on every site. On any HAX site It is a block. Give it the story&apos;s address on hax.cloud. The address never changes, even when the story is renamed. &amp;lt;hax-story-link story=&quot;stories/ee450a19&quot; about=&quot;Jimmy Kane&quot;&amp;gt;&amp;lt;/hax-story-link&amp;gt; Use the small one inside a sentence or a lis...</description>
       <guid>https://haxtheweb.org/story-button</guid>
+      <pubDate>Thu, 19 Nov 2026 19:23:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Community</title>
+      <link>https://haxtheweb.org/community</link>
+      <description>Where HAX Lab people landed Former HAX Lab students and contributors now work at Red Hat, Adobe, IBM, Ford and PennDOT, using these skills every day. Past contributors from Penn State colleges, libraries and student organizations, and the wider open source community. College of Arts and Architecture, home of HAX Lab College of Information Sciences and Technology College of Health and Human Development Eberly College of Science Penn State University Libraries CCSO, the cyber security club UXDC...</description>
+      <guid>https://haxtheweb.org/community</guid>
       <pubDate>Thu, 19 Nov 2026 19:23:26 GMT</pubDate>
     </item>
     <item>

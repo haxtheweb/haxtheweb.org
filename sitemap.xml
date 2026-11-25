@@ -7,16 +7,16 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/get-started</loc>
-    <lastmod>2026-11-19T19:23:25.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://haxtheweb.org/hosting</loc>
     <lastmod>2026-11-19T19:23:25.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/get-started</loc>
+    <lastmod>2026-11-19T19:23:25.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://haxtheweb.org/migrate</loc>
@@ -31,34 +31,28 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://haxtheweb.org/pillars</loc>
-    <lastmod>2026-11-19T19:23:26.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/who-its-for</loc>
-    <lastmod>2026-11-19T19:23:26.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://haxtheweb.org/community</loc>
-    <lastmod>2026-11-19T19:23:26.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://haxtheweb.org/showcase</loc>
     <lastmod>2026-11-19T19:23:26.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://haxtheweb.org/pillars</loc>
+    <lastmod>2026-11-19T19:23:26.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://haxtheweb.org/trust</loc>
     <lastmod>2026-11-19T19:23:26.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/who-its-for</loc>
+    <lastmod>2026-11-19T19:23:26.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://haxtheweb.org/learn</loc>
@@ -71,6 +65,12 @@
     <lastmod>2026-11-19T19:23:26.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://haxtheweb.org/community</loc>
+    <lastmod>2026-11-19T19:23:26.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://haxtheweb.org/compare</loc>
