@@ -1,0 +1,14 @@
+id: item-af079745-e59f-450c-abab-6535727c1ab2
+indent: 0
+location: pages/item-af079745-e59f-450c-abab-6535727c1ab2/index.yaml
+slug: contact
+order: 7
+parent: null
+title: Contact
+description: How to reach the people who make HAX.
+metadata:
+  created: 1795618281
+  updated: 1795618281
+  images: []
+  videos: []
+content: "<p>Questions about HAX, or want to use it where you work? Here is how to reach the people who make it.</p><ul><li><strong>Chat:</strong> the <a href=\"https://discord.gg/aCGxmRHEJP\">HAX Discord</a> is the quickest way to reach us.</li><li><strong>Bugs and ideas:</strong> open an issue in <a href=\"https://github.com/haxtheweb/issues\">haxtheweb/issues</a>, the one queue for every part of HAX.</li><li><strong>Email:</strong> <a href=\"mailto:hax@psu.edu\">hax@psu.edu</a></li><li><strong>Security:</strong> report a vulnerability privately through <a href=\"https://github.com/haxtheweb/issues/security/advisories\">GitHub security advisories</a>.</li></ul><p><a href=\"privacy\">How we handle what you send us</a></p>"

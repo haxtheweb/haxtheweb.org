@@ -22,12 +22,14 @@ Managed files (feeds, search indexes, manifests, and this `llms.txt`) are genera
 - [For agents](https://haxtheweb.org/pages/item-638f0c65-23fe-465f-ab1b-e1ebd48162d0/index.md): Five grounds for picking HAX ---------------------------- One CLI command creates a site, and the same commands work the same across haxcms-nodejs, haxcms-php and the CLI.
 - [7 pillars](https://haxtheweb.org/pages/item-6e2b20bd-2ecf-43f0-81f8-db61cca30947/index.md): HAX is the open web, built from plain text and blocks that anyone can edit.
 - [Who's it for?](https://haxtheweb.org/pages/item-a3b807d2-3eb9-4e43-ab5a-44078e04661f/index.md): Build course sites and open textbooks that outlive the LMS. Import a Canvas export, get accessible, print-friendly pages people can find, and keep the content when the contract changes.
+- [About](https://haxtheweb.org/pages/item-acd9dc27-4920-4ecd-8c7e-47c964f1359f/index.md): What this site is and who makes it.
 - [Community](https://haxtheweb.org/pages/item-bb60a401-1e33-4d0d-a0b2-253ed3490253/index.md): Where HAX Lab people landed --------------------------- Former HAX Lab students and contributors now work at Red Hat, Adobe, IBM, Ford and PennDOT, using these skills every day.
 - [Contribute](https://haxtheweb.org/pages/item-773d8cdc-c146-4271-a2bb-02b8591584f0/index.md): HAX is built in the open by students, faculty, staff and people like you.
 - [Showcase](https://haxtheweb.org/pages/item-f63061ef-87fe-49f1-b96f-dcd0c1716cf2/index.md): Sites people have built Courses, open educational resources and digital editions from across Penn State.
 - [Trust](https://haxtheweb.org/pages/item-59bb4177-d16a-4d28-863d-e07fd0a8b6d7/index.md): Apache-2.0, the whole stack --------------------------- No copyleft.
 - [Learn](https://haxtheweb.org/pages/item-490bc7e5-16e3-4aa6-aa1c-07e81af6957f/index.md): learn.hax.cloud is where the tutorials live. It is still filling in, so some channels have more on than others.
 - [The story button](https://haxtheweb.org/pages/item-92df4350-54db-4ad3-9767-4a7ed6838a15/index.md): What it is ---------- A claim is easier to believe when you can see where it came from.
+- [Contact](https://haxtheweb.org/pages/item-af079745-e59f-450c-abab-6535727c1ab2/index.md): How to reach the people who make HAX.
 - [Compare](https://haxtheweb.org/pages/item-d69c820e-933b-4f04-a16c-ce802b0f1097/index.md): ✅ Yes. 🟡 Partly, or it depends. ❌ No. The (i) beside a mark gives the reason.
 
 ## Optional

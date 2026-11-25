@@ -6,7 +6,7 @@
     <description>HAX: free, open web publishing you keep. Why it is for you, and every way to get it.</description>
     <copyright>Copyright (C) 2026 https://haxtheweb.org</copyright>
     <language>en-US</language>
-    <lastBuildDate>Thu, 19 Nov 2026 19:23:26 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 14:51:23 GMT</lastBuildDate>
     <generator>HAXcms</generator>
     <atom:link href="https://haxtheweb.org/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -106,6 +106,27 @@
       <description>HAX is built in the open by students, faculty, staff and people like you. Pick the way in that fits you today. Join the community Ask questions, show what you made and meet the people building HAX. Every bug, idea and plan for all of HAX lives in one queue. Every part of HAX is open source under Apache-2.0. Fork it, fix it, send a pull request. HAX Lab is where students and junior developers learn by shipping real HAX work. Put on the goggles Contributing used to start with hunting through re...</description>
       <guid>https://haxtheweb.org/contribute</guid>
       <pubDate>Tue, 24 Nov 2026 17:09:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://haxtheweb.org/about</link>
+      <description>haxtheweb.org is the home of HAX: free, open web publishing you keep. It explains why HAX might be for you and every way to get it. The HAX code is free and open source under the Apache 2.0 license, built in the open at github.com/haxtheweb . HAX grew out of work at Penn State, where it runs at hax.psu.edu . It is made by the HAX project (HAXTheWeb), an open-source effort to let anyone author, remix and publish on the web without needing to learn how the web works. This site is itself a HAX s...</description>
+      <guid>https://haxtheweb.org/about</guid>
+      <pubDate>Wed, 25 Nov 2026 14:51:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://haxtheweb.org/contact</link>
+      <description>Questions about HAX, or want to use it where you work? Here is how to reach the people who make it. Chat: the HAX Discord is the quickest way to reach us. Bugs and ideas: open an issue in haxtheweb/issues , the one queue for every part of HAX. Email: hax@psu.edu Security: report a vulnerability privately through GitHub security advisories . How we handle what you send us</description>
+      <guid>https://haxtheweb.org/contact</guid>
+      <pubDate>Wed, 25 Nov 2026 14:51:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>https://haxtheweb.org/privacy</link>
+      <description>What this site keeps about you, in plain words. Your choices What this site keeps Your choices are kept in this browser only. This site sets no other cookies, runs no analytics and has no trackers of its own. Hosting The service that hosts this site keeps ordinary request logs, such as the address a request came from, as every web host does. Videos and other embeds Videos from YouTube or Vimeo and content from other companies wait until you allow that company. Each one asks where it appears, ...</description>
+      <guid>https://haxtheweb.org/privacy</guid>
+      <pubDate>Wed, 25 Nov 2026 14:51:23 GMT</pubDate>
     </item>
   </channel>
 </rss>

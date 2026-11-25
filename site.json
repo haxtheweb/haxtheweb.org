@@ -16,7 +16,7 @@
         "pathauto": true
       },
       "created": 1795116204,
-      "updated": 1795116206,
+      "updated": 1795618283,
       "git": {
         "vendor": "github",
         "branch": "master",
@@ -25,7 +25,11 @@
         "autoPush": false,
         "publicRepoUrl": "https://github.com/haxtheweb/haxtheweb.org/tree/master/"
       },
-      "domain": "https://haxtheweb.org/"
+      "domain": "https://haxtheweb.org/",
+      "sameAs": [
+        "https://github.com/haxtheweb",
+        "https://github.com/haxtheweb/haxtheweb.org"
+      ]
     },
     "theme": {
       "element": "hax-marketing-theme",
@@ -467,6 +471,63 @@
         "published": true,
         "created": 1795116206,
         "updated": 1795116206
+      }
+    },
+    {
+      "id": "item-acd9dc27-4920-4ecd-8c7e-47c964f1359f",
+      "indent": 0,
+      "location": "pages/item-acd9dc27-4920-4ecd-8c7e-47c964f1359f/index.html",
+      "slug": "about",
+      "order": 6,
+      "parent": null,
+      "title": "About",
+      "description": "What this site is and who makes it.",
+      "metadata": {
+        "created": 1795618279,
+        "updated": 1795618279,
+        "images": [],
+        "videos": [],
+        "published": true,
+        "files": [],
+        "hideInMenu": false
+      }
+    },
+    {
+      "id": "item-af079745-e59f-450c-abab-6535727c1ab2",
+      "indent": 0,
+      "location": "pages/item-af079745-e59f-450c-abab-6535727c1ab2/index.html",
+      "slug": "contact",
+      "order": 7,
+      "parent": null,
+      "title": "Contact",
+      "description": "How to reach the people who make HAX.",
+      "metadata": {
+        "created": 1795618281,
+        "updated": 1795618281,
+        "images": [],
+        "videos": [],
+        "published": true,
+        "files": [],
+        "hideInMenu": false
+      }
+    },
+    {
+      "id": "item-cf1af9fe-7e88-480d-acf4-6beb68c4c9a0",
+      "indent": 0,
+      "location": "pages/item-cf1af9fe-7e88-480d-acf4-6beb68c4c9a0/index.html",
+      "slug": "privacy",
+      "order": 8,
+      "parent": null,
+      "title": "Privacy",
+      "description": "What this site keeps about you, in plain words.",
+      "metadata": {
+        "created": 1795618283,
+        "updated": 1795618283,
+        "images": [],
+        "videos": [],
+        "published": true,
+        "files": [],
+        "hideInMenu": true
       }
     }
   ]
